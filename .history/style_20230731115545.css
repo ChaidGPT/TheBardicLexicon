@@ -24,10 +24,7 @@ body {
 footer {
   background-color: #343a40;
   color: #fff; 
-  padding: 10px; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 10px auto; 
 }
 
 .jumbotron {

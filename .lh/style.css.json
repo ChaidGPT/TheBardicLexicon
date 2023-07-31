@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 42,
+            "activePatchIndex": 44,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -176,6 +176,14 @@
                 {
                     "date": 1690829671859,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,12 +7,20 @@\n .navbar .navbar-brand {\r\n   color: #fff; \r\n }\r\n \r\n+.navbar .navbar-brand:hover {\r\n+  color: #fff; \r\n+}\r\n+\r\n .navbar .nav-link {\r\n   color: #fff; \r\n }\r\n \r\n+body {\r\n+  background-color: #e9ecef;\r\n+}\r\n+\r\n /* CSS for footer */\r\n footer {\r\n   background-color: #343a40;\r\n   color: #fff; \r\n"
+                },
+                {
+                    "date": 1690829745152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n /* CSS for footer */\r\n footer {\r\n   background-color: #343a40;\r\n   color: #fff; \r\n-  padding: 10px; \r\n+  padding: 10px auto; \r\n }\r\n \r\n .jumbotron {\r\n     text-align: center;\r\n"
+                },
+                {
+                    "date": 1690829857799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,12 @@\n /* CSS for footer */\r\n footer {\r\n   background-color: #343a40;\r\n   color: #fff; \r\n-  padding: 10px auto; \r\n+  padding: 10px; \r\n+  display: flex;\r\n+  justify-content: center;\r\n+  align-items: center;\r\n }\r\n \r\n .jumbotron {\r\n     text-align: center;\r\n"
                 }
             ],
             "date": 1690811923410,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 36,
+            "activePatchIndex": 42,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -152,6 +152,30 @@
                 {
                     "date": 1690819185665,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,9 @@\n     vertical-align:top\r\n }\r\n \r\n .traitContainer {\r\n-    padding: 5px 10px;\r\n+    padding: 5px 15px;\r\n }\r\n \r\n .traitContainer p {\r\n     text-align: left;\r\n"
+                },
+                {
+                    "date": 1690829130660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,17 @@\n+/* CSS for header */\r\n+header {\r\n+  background-color: #343a40; \r\n+  color: #fff; \r\n+}\r\n+\r\n+/* CSS for footer */\r\n+footer {\r\n+  background-color: #343a40;\r\n+  color: #fff; \r\n+  padding: 10px; \r\n+}\r\n+\r\n .jumbotron {\r\n     text-align: center;\r\n \r\n     h1, p {\r\n"
+                },
+                {
+                    "date": 1690829222759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n /* CSS for header */\r\n-header {\r\n+.navbar {\r\n   background-color: #343a40; \r\n   color: #fff; \r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1690829328850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,12 @@\n   background-color: #343a40; \r\n   color: #fff; \r\n }\r\n \r\n+.navbar .navbar-brand {\r\n+  color: #fff; \r\n+}\r\n+\r\n /* CSS for footer */\r\n footer {\r\n   background-color: #343a40;\r\n   color: #fff; \r\n"
+                },
+                {
+                    "date": 1690829364125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   background-color: #343a40; \r\n   color: #fff; \r\n }\r\n \r\n-.navbar .navbar-brand {\r\n+.navbar .navbar-brand .nav-link {\r\n   color: #fff; \r\n }\r\n \r\n /* CSS for footer */\r\n"
+                },
+                {
+                    "date": 1690829402151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,12 +3,16 @@\n   background-color: #343a40; \r\n   color: #fff; \r\n }\r\n \r\n-.navbar .navbar-brand .nav-link {\r\n+.navbar .navbar-brand {\r\n   color: #fff; \r\n }\r\n \r\n+.navbar .nav-link {\r\n+  color: #fff; \r\n+}\r\n+\r\n /* CSS for footer */\r\n footer {\r\n   background-color: #343a40;\r\n   color: #fff; \r\n"
+                },
+                {
+                    "date": 1690829671859,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,12 +7,20 @@\n .navbar .navbar-brand {\r\n   color: #fff; \r\n }\r\n \r\n+.navbar .navbar-brand:hover {\r\n+  color: #fff; \r\n+}\r\n+\r\n .navbar .nav-link {\r\n   color: #fff; \r\n }\r\n \r\n+body {\r\n+  background-color: #e9ecef;\r\n+}\r\n+\r\n /* CSS for footer */\r\n footer {\r\n   background-color: #343a40;\r\n   color: #fff; \r\n"
                 }
             ],
             "date": 1690811923410,

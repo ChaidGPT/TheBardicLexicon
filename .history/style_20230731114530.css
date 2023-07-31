@@ -1,23 +1,7 @@
 /* CSS for header */
-.navbar {
+header {
   background-color: #343a40; 
   color: #fff; 
-}
-
-.navbar .navbar-brand {
-  color: #fff; 
-}
-
-.navbar .navbar-brand:hover {
-  color: #fff; 
-}
-
-.navbar .nav-link {
-  color: #fff; 
-}
-
-body {
-  background-color: #e9ecef;
 }
 
 /* CSS for footer */

@@ -4,20 +4,8 @@
   color: #fff; 
 }
 
-.navbar .navbar-brand {
+.navbar .navbar-brand .nav-link {
   color: #fff; 
-}
-
-.navbar .navbar-brand:hover {
-  color: #fff; 
-}
-
-.navbar .nav-link {
-  color: #fff; 
-}
-
-body {
-  background-color: #e9ecef;
 }
 
 /* CSS for footer */

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 61,
+            "activePatchIndex": 64,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -252,6 +252,18 @@
                 {
                     "date": 1690842262099,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     }\r\n }\r\n \r\n #monsterPage {\r\n-  margin: 30;\r\n+  padding: 50px 0px 0px 0px;\r\n }\r\n \r\n .monsterImageContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690844050532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,17 +59,17 @@\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n   }  \r\n \r\n-  #collapseA {\r\n+  #collapseStats {\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n     margin: 30px auto;\r\n     padding: 5px 15px;\r\n     background-color: white;\r\n   }\r\n \r\n-  #collapseB {\r\n+  #collapseLore {\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n     margin: 30px auto;\r\n     padding: 5px 15px;\r\n"
+                },
+                {
+                    "date": 1690844082268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     }\r\n }\r\n \r\n #monsterPage {\r\n-  padding: 50px 0px 0px 0px;\r\n+  padding: 50px 0px 50px 0px;\r\n }\r\n \r\n .monsterImageContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690844104573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     }\r\n }\r\n \r\n #monsterPage {\r\n-  padding: 50px 0px 50px 0px;\r\n+  padding: 50px 0px 150px 0px;\r\n }\r\n \r\n .monsterImageContainer {\r\n     display: flex;\r\n"
                 }
             ],
             "date": 1690811923410,

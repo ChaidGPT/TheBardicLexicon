@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 16,
+            "activePatchIndex": 36,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -72,6 +72,86 @@
                 {
                     "date": 1690813855806,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,17 +27,56 @@\n     border-collapse: collapse;\r\n     width: 300px;\r\n }\r\n \r\n-.tg  {border-collapse:collapse;border-spacing:0;}\r\n-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\r\n-  overflow:hidden;padding:10px 5px;word-break:normal;}\r\n-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\r\n-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\r\n-.tg .tg-uqo3{background-color:#efefef;text-align:center;vertical-align:top}\r\n-.tg .tg-yj5y{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:top}\r\n-.tg .tg-34fe{background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}\r\n+.tg {\r\n+    border-collapse:collapse;\r\n+    border-spacing:0;\r\n+}\r\n \r\n+.tg td {\r\n+    border-color:black;\r\n+    border-style:solid;\r\n+    border-width:1px;\r\n+    font-family:Arial, sans-serif;\r\n+    font-size:14px;\r\n+    overflow:hidden;\r\n+    padding:10px 5px;\r\n+    word-break:normal;\r\n+}\r\n+\r\n+.tg th {\r\n+    border-color:black;\r\n+    border-style:solid;\r\n+    border-width:1px;\r\n+    font-family:Arial, sans-serif;\r\n+    font-size:14px;\r\n+    font-weight:normal;\r\n+    overflow:hidden;\r\n+    padding:10px 5px;\r\n+    word-break:normal;\r\n+}\r\n+\r\n+.tg .tg-uqo3 {\r\n+    background-color:#efefef;\r\n+    text-align:center;\r\n+    vertical-align:top\r\n+}\r\n+\r\n+.tg .tg-yj5y {\r\n+    background-color:#efefef;\r\n+    border-color:inherit;\r\n+    text-align:center;\r\n+    vertical-align:top\r\n+}\r\n+\r\n+.tg .tg-34fe {\r\n+    background-color:#c0c0c0;\r\n+    border-color:inherit;\r\n+    text-align:center;\r\n+    vertical-align:top\r\n+}\r\n+\r\n .horizontal-line {\r\n     border-top: 2px solid black;\r\n     width: 50%; \r\n     margin: 12px auto;\r\n"
+                },
+                {
+                    "date": 1690814039127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,8 +75,12 @@\n     text-align:center;\r\n     vertical-align:top\r\n }\r\n \r\n+.bold-text {\r\n+    font-weight: bold;\r\n+  }\r\n+\r\n .horizontal-line {\r\n     border-top: 2px solid black;\r\n     width: 50%; \r\n     margin: 12px auto;\r\n"
+                },
+                {
+                    "date": 1690815010361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,13 @@\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n   }  \r\n \r\n+  #collapseA {\r\n+    border: 2px lightgray solid;\r\n+    border-radius: 5%;\r\n+  }\r\n+\r\n   .tableContainer {\r\n     display: flex;\r\n     justify-content: center;\r\n   }\r\n"
+                },
+                {
+                    "date": 1690815043038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n \r\n   #collapseA {\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n+    width: 200px;\r\n   }\r\n \r\n   .tableContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690815067903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n \r\n   #collapseA {\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n-    width: 200px;\r\n+    width: 80%;\r\n   }\r\n \r\n   .tableContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690815096364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,10 @@\n   #collapseA {\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n     width: 80%;\r\n+    display: flex;\r\n+    justify-content: center;\r\n   }\r\n \r\n   .tableContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690815110428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,8 @@\n   #collapseA {\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n     width: 80%;\r\n-    display: flex;\r\n     justify-content: center;\r\n   }\r\n \r\n   .tableContainer {\r\n"
+                },
+                {
+                    "date": 1690815187054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,8 @@\n   #collapseA {\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n     width: 80%;\r\n-    justify-content: center;\r\n   }\r\n \r\n   .tableContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690815201208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,8 @@\n     margin: 0 0 10px 0;\r\n   }\r\n   \r\n   .monsterImageContainer img {\r\n-    width: 200px;\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n   }  \r\n \r\n"
+                },
+                {
+                    "date": 1690815215446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,16 +12,16 @@\n     margin: 0 0 10px 0;\r\n   }\r\n   \r\n   .monsterImageContainer img {\r\n+    width: 200px;\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n   }  \r\n \r\n   #collapseA {\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n-    width: 80%;\r\n   }\r\n \r\n   .tableContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690815247639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n \r\n   #collapseA {\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n+    margin: 20px auto;\r\n   }\r\n \r\n   .tableContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690815265792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n \r\n   #collapseA {\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n-    margin: 20px auto;\r\n+    margin: 30px auto;\r\n   }\r\n \r\n   .tableContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690815586520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n   #collapseA {\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n     margin: 30px auto;\r\n+    padding: 5px;\r\n   }\r\n \r\n   .tableContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690815611376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n   #collapseA {\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n     margin: 30px auto;\r\n-    padding: 5px;\r\n+    padding: 0px 15px;\r\n   }\r\n \r\n   .tableContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690815625757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n   #collapseA {\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n     margin: 30px auto;\r\n-    padding: 0px 15px;\r\n+    padding: 5px 15px;\r\n   }\r\n \r\n   .tableContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690816358154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,15 @@\n     margin: 30px auto;\r\n     padding: 5px 15px;\r\n   }\r\n \r\n+  #collapseB {\r\n+    border: 2px lightgray solid;\r\n+    border-radius: 5%;\r\n+    margin: 30px auto;\r\n+    padding: 5px 15px;\r\n+  }\r\n+\r\n   .tableContainer {\r\n     display: flex;\r\n     justify-content: center;\r\n   }\r\n"
+                },
+                {
+                    "date": 1690818514473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,15 +22,17 @@\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n     margin: 30px auto;\r\n     padding: 5px 15px;\r\n+    background-color: white;\r\n   }\r\n \r\n   #collapseB {\r\n     border: 2px lightgray solid;\r\n     border-radius: 5%;\r\n     margin: 30px auto;\r\n     padding: 5px 15px;\r\n+    background-color: white;\r\n   }\r\n \r\n   .tableContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690819078938,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,8 +91,16 @@\n     text-align:center;\r\n     vertical-align:top\r\n }\r\n \r\n+.traitContainer p {\r\n+    text-align: left;\r\n+}\r\n+\r\n+.traitContainer h5 {\r\n+    text-align: left;\r\n+}\r\n+\r\n .bold-text {\r\n     font-weight: bold;\r\n   }\r\n \r\n"
+                },
+                {
+                    "date": 1690819110518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,8 +91,12 @@\n     text-align:center;\r\n     vertical-align:top\r\n }\r\n \r\n+.traitContainer {\r\n+    padding: 10px;\r\n+}\r\n+\r\n .traitContainer p {\r\n     text-align: left;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1690819159555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,9 @@\n     vertical-align:top\r\n }\r\n \r\n .traitContainer {\r\n-    padding: 10px;\r\n+    padding: 5px 10px;\r\n }\r\n \r\n .traitContainer p {\r\n     text-align: left;\r\n"
+                },
+                {
+                    "date": 1690819185665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,9 @@\n     vertical-align:top\r\n }\r\n \r\n .traitContainer {\r\n-    padding: 5px 10px;\r\n+    padding: 5px 15px;\r\n }\r\n \r\n .traitContainer p {\r\n     text-align: left;\r\n"
                 }
             ],
             "date": 1690811923410,

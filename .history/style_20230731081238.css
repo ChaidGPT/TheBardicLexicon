@@ -23,7 +23,6 @@
     border-radius: 5%;
     margin: 30px auto;
     padding: 5px 15px;
-    background-color: white;
   }
 
   #collapseB {
@@ -31,7 +30,6 @@
     border-radius: 5%;
     margin: 30px auto;
     padding: 5px 15px;
-    background-color: white;
   }
 
   .tableContainer {
@@ -90,18 +88,6 @@ table {
     border-color:inherit;
     text-align:center;
     vertical-align:top
-}
-
-.traitContainer {
-    padding: 5px 15px;
-}
-
-.traitContainer p {
-    text-align: left;
-}
-
-.traitContainer h5 {
-    text-align: left;
 }
 
 .bold-text {

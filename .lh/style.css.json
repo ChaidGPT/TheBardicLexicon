@@ -1,0 +1,82 @@
+{
+    "sourceFile": "style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 16,
+            "patches": [
+                {
+                    "date": 1690811923410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1690811944734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     }\r\n }\r\n \r\n .monsterPortrait {\r\n-    width: 80%;\r\n+    max-width: 80%;\r\n }\r\n \r\n table {\r\n     border-collapse: collapse;\r\n"
+                },
+                {
+                    "date": 1690811956616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     }\r\n }\r\n \r\n .monsterPortrait {\r\n-    max-width: 80%;\r\n+    max-width: 60%;\r\n }\r\n \r\n table {\r\n     border-collapse: collapse;\r\n"
+                },
+                {
+                    "date": 1690812153519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,11 +5,16 @@\n         text-align: left;\r\n     }\r\n }\r\n \r\n-.monsterPortrait {\r\n-    max-width: 60%;\r\n-}\r\n+.monsterImageContainer {\r\n+    display: flex;\r\n+    justify-content: center; /* Optional: to center the image horizontally */\r\n+  }\r\n+  \r\n+  .monsterImageContainer img {\r\n+    width: 200px;\r\n+  }  \r\n \r\n table {\r\n     border-collapse: collapse;\r\n     width: 300px;\r\n"
+                },
+                {
+                    "date": 1690812267903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,15 +7,20 @@\n }\r\n \r\n .monsterImageContainer {\r\n     display: flex;\r\n-    justify-content: center; /* Optional: to center the image horizontally */\r\n+    justify-content: center;\r\n   }\r\n   \r\n   .monsterImageContainer img {\r\n     width: 200px;\r\n   }  \r\n \r\n+  .tableContainer {\r\n+    display: flex;\r\n+    justify-content: center;\r\n+  }\r\n+\r\n table {\r\n     border-collapse: collapse;\r\n     width: 300px;\r\n }\r\n"
+                },
+                {
+                    "date": 1690812331822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,13 @@\n   .monsterImageContainer img {\r\n     width: 200px;\r\n   }  \r\n \r\n+  .horizontal-line {\r\n+    display: flex;\r\n+    justify-content: center;\r\n+  }\r\n+\r\n   .tableContainer {\r\n     display: flex;\r\n     justify-content: center;\r\n   }\r\n"
+                },
+                {
+                    "date": 1690812373048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,13 +14,8 @@\n   .monsterImageContainer img {\r\n     width: 200px;\r\n   }  \r\n \r\n-  .horizontal-line {\r\n-    display: flex;\r\n-    justify-content: center;\r\n-  }\r\n-\r\n   .tableContainer {\r\n     display: flex;\r\n     justify-content: center;\r\n   }\r\n@@ -39,8 +34,10 @@\n .horizontal-line {\r\n     border-top: 2px solid black;\r\n     width: 50%; \r\n     margin: 12px 5px;\r\n+    display: flex;\r\n+    justify-content: center;\r\n \r\n     @media screen and (max-width: 768px) {\r\n         width: 80%; \r\n         margin: 10px auto;\r\n"
+                },
+                {
+                    "date": 1690812388259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n \r\n .horizontal-line {\r\n     border-top: 2px solid black;\r\n     width: 50%; \r\n-    margin: 12px 5px;\r\n+    /* margin: 12px 5px; */\r\n     display: flex;\r\n     justify-content: center;\r\n \r\n     @media screen and (max-width: 768px) {\r\n"
+                },
+                {
+                    "date": 1690812454269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,18 +33,19 @@\n \r\n .horizontal-line {\r\n     border-top: 2px solid black;\r\n     width: 50%; \r\n-    /* margin: 12px 5px; */\r\n+    margin: 12px 5px;\r\n     display: flex;\r\n     justify-content: center;\r\n-\r\n+    align-items: center; \r\n+  \r\n     @media screen and (max-width: 768px) {\r\n-        width: 80%; \r\n-        margin: 10px auto;\r\n-      }\r\n+      width: 80%; \r\n+      margin: 10px auto;\r\n+    }\r\n\\ No newline at end of file\n     \r\n-      @media screen and (max-width: 480px) {\r\n-        width: 80%;\r\n-        margin: 10px auto;\r\n-      }\r\n-  } \n+    @media screen and (max-width: 480px) {\r\n+      width: 80%;\r\n+      margin: 10px auto;\r\n+    }\r\n+  }  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1690812563618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n \r\n .horizontal-line {\r\n     border-top: 2px solid black;\r\n     width: 50%; \r\n-    margin: 12px 5px;\r\n+    margin: 12px auto;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center; \r\n   \r\n"
+                },
+                {
+                    "date": 1690812600798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n   }\r\n   \r\n   .monsterImageContainer img {\r\n     width: 200px;\r\n+    border: 2px black solid;\r\n   }  \r\n \r\n   .tableContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690812627622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n \r\n .monsterImageContainer {\r\n     display: flex;\r\n     justify-content: center;\r\n+    margin: 0 0 10px 0;\r\n   }\r\n   \r\n   .monsterImageContainer img {\r\n     width: 200px;\r\n"
+                },
+                {
+                    "date": 1690812652126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   }\r\n   \r\n   .monsterImageContainer img {\r\n     width: 200px;\r\n-    border: 2px black solid;\r\n+    border: 2px lightgray solid;\r\n   }  \r\n \r\n   .tableContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690812674839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n   \r\n   .monsterImageContainer img {\r\n     width: 200px;\r\n     border: 2px lightgray solid;\r\n+    border-radius: 5%;\r\n   }  \r\n \r\n   .tableContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690813485764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,13 +27,18 @@\n     border-collapse: collapse;\r\n     width: 300px;\r\n }\r\n \r\n-th, td {\r\n-    border: 1px solid black;\r\n-    padding: 8px;\r\n-    text-align: center;\r\n-}\r\n+.tg  {border-collapse:collapse;border-spacing:0;}\r\n+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\r\n+  overflow:hidden;padding:10px 5px;word-break:normal;}\r\n+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\r\n+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\r\n+.tg .tg-kftd{background-color:#efefef;text-align:left;vertical-align:top}\r\n+.tg .tg-llyw{background-color:#c0c0c0;border-color:inherit;text-align:left;vertical-align:top}\r\n+.tg .tg-y698{background-color:#efefef;border-color:inherit;text-align:left;vertical-align:top}\r\n+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\r\n+.tg .tg-0lax{text-align:left;vertical-align:top}\r\n \r\n .horizontal-line {\r\n     border-top: 2px solid black;\r\n     width: 50%; \r\n"
+                },
+                {
+                    "date": 1690813679423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,13 +32,11 @@\n .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\r\n   overflow:hidden;padding:10px 5px;word-break:normal;}\r\n .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\r\n   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\r\n-.tg .tg-kftd{background-color:#efefef;text-align:left;vertical-align:top}\r\n-.tg .tg-llyw{background-color:#c0c0c0;border-color:inherit;text-align:left;vertical-align:top}\r\n-.tg .tg-y698{background-color:#efefef;border-color:inherit;text-align:left;vertical-align:top}\r\n-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\r\n-.tg .tg-0lax{text-align:left;vertical-align:top}\r\n+.tg .tg-uqo3{background-color:#efefef;text-align:center;vertical-align:top}\r\n+.tg .tg-yj5y{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:top}\r\n+.tg .tg-34fe{background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}\r\n \r\n .horizontal-line {\r\n     border-top: 2px solid black;\r\n     width: 50%; \r\n"
+                },
+                {
+                    "date": 1690813855806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,17 +27,56 @@\n     border-collapse: collapse;\r\n     width: 300px;\r\n }\r\n \r\n-.tg  {border-collapse:collapse;border-spacing:0;}\r\n-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\r\n-  overflow:hidden;padding:10px 5px;word-break:normal;}\r\n-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\r\n-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\r\n-.tg .tg-uqo3{background-color:#efefef;text-align:center;vertical-align:top}\r\n-.tg .tg-yj5y{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:top}\r\n-.tg .tg-34fe{background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}\r\n+.tg {\r\n+    border-collapse:collapse;\r\n+    border-spacing:0;\r\n+}\r\n \r\n+.tg td {\r\n+    border-color:black;\r\n+    border-style:solid;\r\n+    border-width:1px;\r\n+    font-family:Arial, sans-serif;\r\n+    font-size:14px;\r\n+    overflow:hidden;\r\n+    padding:10px 5px;\r\n+    word-break:normal;\r\n+}\r\n+\r\n+.tg th {\r\n+    border-color:black;\r\n+    border-style:solid;\r\n+    border-width:1px;\r\n+    font-family:Arial, sans-serif;\r\n+    font-size:14px;\r\n+    font-weight:normal;\r\n+    overflow:hidden;\r\n+    padding:10px 5px;\r\n+    word-break:normal;\r\n+}\r\n+\r\n+.tg .tg-uqo3 {\r\n+    background-color:#efefef;\r\n+    text-align:center;\r\n+    vertical-align:top\r\n+}\r\n+\r\n+.tg .tg-yj5y {\r\n+    background-color:#efefef;\r\n+    border-color:inherit;\r\n+    text-align:center;\r\n+    vertical-align:top\r\n+}\r\n+\r\n+.tg .tg-34fe {\r\n+    background-color:#c0c0c0;\r\n+    border-color:inherit;\r\n+    text-align:center;\r\n+    vertical-align:top\r\n+}\r\n+\r\n .horizontal-line {\r\n     border-top: 2px solid black;\r\n     width: 50%; \r\n     margin: 12px auto;\r\n"
+                }
+            ],
+            "date": 1690811923410,
+            "name": "Commit-0",
+            "content": ".jumbotron {\r\n    text-align: center;\r\n\r\n    h1, p {\r\n        text-align: left;\r\n    }\r\n}\r\n\r\n.monsterPortrait {\r\n    width: 80%;\r\n}\r\n\r\ntable {\r\n    border-collapse: collapse;\r\n    width: 300px;\r\n}\r\n\r\nth, td {\r\n    border: 1px solid black;\r\n    padding: 8px;\r\n    text-align: center;\r\n}\r\n\r\n.horizontal-line {\r\n    border-top: 2px solid black;\r\n    width: 50%; \r\n    margin: 12px 5px;\r\n\r\n    @media screen and (max-width: 768px) {\r\n        width: 80%; \r\n        margin: 10px auto;\r\n      }\r\n    \r\n      @media screen and (max-width: 480px) {\r\n        width: 80%;\r\n        margin: 10px auto;\r\n      }\r\n  } "
+        }
+    ]
+}

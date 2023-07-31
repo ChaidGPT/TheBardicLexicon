@@ -44,10 +44,6 @@ footer {
     }
 }
 
-#monsterPage {
-  padding: 50px 0px 0px 0px;
-}
-
 .monsterImageContainer {
     display: flex;
     justify-content: center;

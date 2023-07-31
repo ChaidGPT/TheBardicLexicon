@@ -44,8 +44,8 @@ footer {
     }
 }
 
-#monsterPage {
-  padding: 50px 0px 0px 0px;
+.monsterPage {
+  margin: 30;
 }
 
 .monsterImageContainer {

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 14,
+            "activePatchIndex": 16,
             "patches": [
                 {
                     "date": 1690830309588,
@@ -64,6 +64,14 @@
                 {
                     "date": 1690832861886,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,16 +12,16 @@\n <body>\r\n   <header>\r\n     <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n       <div class=\"container\">\r\n-        <a class=\"navbar-brand\" href=\"../../index.html\">D&D Monster Resource</a>\r\n+        <a class=\"navbar-brand\" href=\"index.html\">D&D Monster Resource</a>\r\n         <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n           <span class=\"navbar-toggler-icon\"></span>\r\n         </button>\r\n         <div class=\"collapse navbar-collapse\" id=\"navbarNavDropdown\">\r\n           <ul class=\"navbar-nav\">\r\n             <li class=\"nav-item\">\r\n-              <a class=\"nav-link\" href=\"../../monsters.html\">Monsters</a>\r\n+              <a class=\"nav-link\" href=\"monsters.html\">Monsters</a>\r\n             </li>\r\n           </ul>\r\n         </div>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1690841760456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n       <div class=\"container\">\r\n         <a class=\"navbar-brand\" href=\"index.html\">D&D Monster Resource</a>\r\n         <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n-          <span class=\"navbar-toggler-icon\"></span>\r\n+          <span class=\"navbar-toggler-icon\" style=\"color: #fff;\"></span>\r\n         </button>\r\n         <div class=\"collapse navbar-collapse\" id=\"navbarNavDropdown\">\r\n           <ul class=\"navbar-nav\">\r\n             <li class=\"nav-item\">\r\n"
+                },
+                {
+                    "date": 1690841896196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,10 +13,10 @@\n   <header>\r\n     <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n       <div class=\"container\">\r\n         <a class=\"navbar-brand\" href=\"index.html\">D&D Monster Resource</a>\r\n-        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n-          <span class=\"navbar-toggler-icon\" style=\"color: #fff;\"></span>\r\n+        <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n+          <span class=\"navbar-toggler-icon\"></span>\r\n         </button>\r\n         <div class=\"collapse navbar-collapse\" id=\"navbarNavDropdown\">\r\n           <ul class=\"navbar-nav\">\r\n             <li class=\"nav-item\">\r\n"
                 }
             ],
             "date": 1690830309588,

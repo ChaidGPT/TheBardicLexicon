@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1690830309589,
@@ -28,6 +28,22 @@
                 {
                     "date": 1690832861891,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,16 +10,16 @@\n <body>\r\n   <header>\r\n     <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n       <div class=\"container\">\r\n-        <a class=\"navbar-brand\" href=\"../../index.html\">D&D Monster Resource</a>\r\n+        <a class=\"navbar-brand\" href=\"index.html\">D&D Monster Resource</a>\r\n         <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n           <span class=\"navbar-toggler-icon\"></span>\r\n         </button>\r\n         <div class=\"collapse navbar-collapse\" id=\"navbarNavDropdown\">\r\n           <ul class=\"navbar-nav\">\r\n             <li class=\"nav-item\">\r\n-              <a class=\"nav-link\" href=\"../../monsters.html\">Monsters</a>\r\n+              <a class=\"nav-link\" href=\"monsters.html\">Monsters</a>\r\n             </li>\r\n           </ul>\r\n         </div>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1690841936709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   <header>\r\n     <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n       <div class=\"container\">\r\n         <a class=\"navbar-brand\" href=\"index.html\">D&D Monster Resource</a>\r\n-        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n+        <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n           <span class=\"navbar-toggler-icon\"></span>\r\n         </button>\r\n         <div class=\"collapse navbar-collapse\" id=\"navbarNavDropdown\">\r\n           <ul class=\"navbar-nav\">\r\n"
+                },
+                {
+                    "date": 1690842017086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n         </div>\r\n       </div>\r\n       </nav>\r\n   </header>\r\n-  \r\n+  <div class=\"monsterPage\">\r\n     <h1>Monsters</h1>\r\n     <a class=\"btn btn-primary\" data-toggle=\"collapse\" href=\"#collapseA\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapseA\">\r\n         A\r\n     </a>\r\n@@ -35,8 +35,9 @@\n         <div class=\"card card-body\">\r\n             <a href=\"monsterPages/a/Aarakocra.html\">Aarakocra</a>\r\n         </div>\r\n       </div>\r\n+    </div>\r\n \r\n       <footer class=\"page-footer font-small blue fixed-bottom\">\r\n         <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a></p>\r\n       </footer>\r\n"
+                },
+                {
+                    "date": 1690842193533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n         </div>\r\n       </div>\r\n       </nav>\r\n   </header>\r\n-  <div class=\"monsterPage\">\r\n+  <div class=\"container\">\r\n     <h1>Monsters</h1>\r\n     <a class=\"btn btn-primary\" data-toggle=\"collapse\" href=\"#collapseA\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapseA\">\r\n         A\r\n     </a>\r\n"
+                },
+                {
+                    "date": 1690842226195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n         </div>\r\n       </div>\r\n       </nav>\r\n   </header>\r\n-  <div class=\"container\">\r\n+  <div class=\"container\" id=\"monsterPage\">\r\n     <h1>Monsters</h1>\r\n     <a class=\"btn btn-primary\" data-toggle=\"collapse\" href=\"#collapseA\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapseA\">\r\n         A\r\n     </a>\r\n"
                 }
             ],
             "date": 1690830309589,

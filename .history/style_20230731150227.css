@@ -16,8 +16,8 @@
   color: #fff; 
 }
 
-nav .navbar-toggler-icon {
-  color: #fff;
+.navbar-toggler {
+  color:#fff;
 }
 
 body {
@@ -42,10 +42,6 @@ footer {
     h1, p {
         text-align: left;
     }
-}
-
-#monsterPage {
-  padding: 50px 0px 0px 0px;
 }
 
 .monsterImageContainer {

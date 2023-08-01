@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 64,
+            "activePatchIndex": 67,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -264,6 +264,18 @@
                 {
                     "date": 1690844104573,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     }\r\n }\r\n \r\n #monsterPage {\r\n-  padding: 50px 0px 50px 0px;\r\n+  padding: 50px 0px 150px 0px;\r\n }\r\n \r\n .monsterImageContainer {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1690911356343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -166,5 +166,11 @@\n     @media screen and (max-width: 480px) {\r\n       width: 80%;\r\n       margin: 10px auto;\r\n     }\r\n-  }  \n\\ No newline at end of file\n+  }  \r\n+\r\n+  /* Monster Page Specific */\r\n+\r\n+  .monsterPage {\r\n+    margin: 10px;\r\n+  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1690911385540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -170,7 +170,7 @@\n   }  \r\n \r\n   /* Monster Page Specific */\r\n \r\n-  .monsterPage {\r\n+  .monsterBtn {\r\n     margin: 10px;\r\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1690911401678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -171,6 +171,6 @@\n \r\n   /* Monster Page Specific */\r\n \r\n   .monsterBtn {\r\n-    margin: 10px;\r\n+    margin: 5px;\r\n   }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1690811923410,

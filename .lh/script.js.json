@@ -3,11 +3,27 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1690828708265,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1690911986152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,10 @@\n function goToTop() {\r\n     window.scrollTo({ top: 0, behavior: 'smooth' });\r\n+  }\r\n+\r\n+  function scrollToElement(selector) {\r\n+    const element = document.querySelector(selector);\r\n+    if (element) {\r\n+      element.scrollIntoView({ behavior: 'smooth' });\r\n+    }\r\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1690912190757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n     window.scrollTo({ top: 0, behavior: 'smooth' });\r\n   }\r\n \r\n   function scrollToElement(selector) {\r\n-    const element = document.querySelector(selector);\r\n-    if (element) {\r\n-      element.scrollIntoView({ behavior: 'smooth' });\r\n-    }\r\n-  }\n\\ No newline at end of file\n+    setTimeout(() => {\r\n+      const element = document.querySelector(selector);\r\n+      if (element) {\r\n+        element.scrollIntoView({ behavior: 'smooth' });\r\n+      }\r\n+    }, 100);\r\n+  }  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1690912310619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+function goToTop() {\r\n+    window.scrollTo({ top: 0, behavior: 'smooth' });\r\n+  }\r\n+\r\n+  function scrollToElement(selector) {\r\n+    setTimeout(() => {\r\n+      const element = document.querySelector(selector);\r\n+      if (element && element.classList.contains('show')) {\r\n+        element.scrollIntoView({ behavior: 'smooth' });\r\n+      }\r\n+    }, 100);\r\n+  }  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1690912372202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+function goToTop() {\r\n+    window.scrollTo({ top: 0, behavior: 'smooth' });\r\n+  }\r\n+\r\n+  function scrollToElement(selector) {\r\n+    // Add a short delay (e.g., 100ms) to allow the collapsed element to expand\r\n+    setTimeout(() => {\r\n+      const element = document.querySelector(selector);\r\n+      if (element && !element.classList.contains('collapse')) {\r\n+        element.scrollIntoView({ behavior: 'smooth' });\r\n+      }\r\n+    }, 100);\r\n+  }  \n\\ No newline at end of file\n"
                 }
             ],
             "date": 1690828708265,

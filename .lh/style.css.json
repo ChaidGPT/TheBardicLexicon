@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 67,
+            "activePatchIndex": 72,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -276,6 +276,26 @@
                 {
                     "date": 1690911401678,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -171,6 +171,6 @@\n \r\n   /* Monster Page Specific */\r\n \r\n   .monsterBtn {\r\n-    margin: 10px;\r\n+    margin: 5px;\r\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1690914832913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n footer {\r\n   background-color: #343a40;\r\n   color: #fff; \r\n   padding: 10px; \r\n-  margin: 15px 0 0 0;\r\n+  margin: 30px 0 0 0;\r\n   display: flex;\r\n   justify-content: center;\r\n   align-items: center;\r\n }\r\n"
+                },
+                {
+                    "date": 1690914927033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,8 +37,9 @@\n }\r\n \r\n .jumbotron {\r\n     text-align: center;\r\n+    margin-bottom: 20px;\r\n \r\n     h1, p {\r\n         text-align: left;\r\n     }\r\n"
+                },
+                {
+                    "date": 1690914975621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n }\r\n \r\n .jumbotron {\r\n     text-align: center;\r\n-    margin-bottom: 20px;\r\n+    margin-bottom: 50px;\r\n \r\n     h1, p {\r\n         text-align: left;\r\n     }\r\n"
+                },
+                {
+                    "date": 1690914996977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n }\r\n \r\n .jumbotron {\r\n     text-align: center;\r\n-    margin-bottom: 50px;\r\n+    margin-bottom: 70px;\r\n \r\n     h1, p {\r\n         text-align: left;\r\n     }\r\n"
+                },
+                {
+                    "date": 1690915017269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n }\r\n \r\n .jumbotron {\r\n     text-align: center;\r\n-    margin-bottom: 70px;\r\n+    margin-bottom: 100px;\r\n \r\n     h1, p {\r\n         text-align: left;\r\n     }\r\n"
                 }
             ],
             "date": 1690811923410,

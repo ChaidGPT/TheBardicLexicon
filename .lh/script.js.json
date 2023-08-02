@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 13,
+            "activePatchIndex": 16,
             "patches": [
                 {
                     "date": 1690828708265,
@@ -60,6 +60,18 @@
                 {
                     "date": 1690914607301,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+function goToTop() {\r\n+    window.scrollTo({ top: 0, behavior: 'smooth' });\r\n+  }\r\n+\r\n+  function scrollToStats() {\r\n+    setTimeout(() => {\r\n+      const collapseStats = document.querySelector('#collapseStats');\r\n+      const isStatsExpanded = collapseStats.getAttribute('aria-expanded') === 'true';\r\n+      if (!isStatsExpanded) {\r\n+        collapseStats.scrollIntoView({ behavior: 'smooth' });\r\n+      }\r\n+    }, 100);\r\n+  }\r\n+\r\n+  function scrollToLore() {\r\n+    setTimeout(() => {\r\n+      const collapseLore = document.querySelector('#collapseLore');\r\n+      const isLoreExpanded = collapseLore.getAttribute('aria-expanded') === 'true';\r\n+      if (!isLoreExpanded) {\r\n+        collapseLore.scrollIntoView({ behavior: 'smooth' });\r\n+      }\r\n+    }, 100);\r\n+  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1690995580399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,8 @@\n+function goBack() {\r\n+  window.history.go.apply(-1);\r\n+}\r\n+\r\n function goToTop() {\r\n     window.scrollTo({ top: 0, behavior: 'smooth' });\r\n   }\r\n \r\n@@ -19,43 +23,5 @@\n       if (!isLoreExpanded) {\r\n         collapseLore.scrollIntoView({ behavior: 'smooth' });\r\n       }\r\n     }, 100);\r\n-  }\n-function goToTop() {\r\n-  window.scrollTo({ top: 0, behavior: 'smooth' });\r\n-}\r\n-\r\n-function scrollToStats() {\r\n-  const collapseStats = document.querySelector('#collapseStats');\r\n-  const isStatsExpanded = collapseStats.getAttribute('aria-expanded') === 'true';\r\n-  if (!isStatsExpanded) {\r\n-    collapseStats.scrollIntoView({ behavior: 'smooth' });\r\n-  }\r\n-}\r\n-\r\n-function scrollToLore() {\r\n-  const collapseLore = document.querySelector('#collapseLore');\r\n-  const isLoreExpanded = collapseLore.getAttribute('aria-expanded') === 'true';\r\n-  if (!isLoreExpanded) {\r\n-    collapseLore.scrollIntoView({ behavior: 'smooth' });\r\n-  }\r\n-}\n-function goToTop() {\r\n-  window.scrollTo({ top: 0, behavior: 'smooth' });\r\n-}\r\n-\r\n-function scrollToStats() {\r\n-  const collapseStats = document.querySelector('#collapseStats');\r\n-  const isStatsExpanded = collapseStats.getAttribute('aria-expanded') === 'false';\r\n-  if (!isStatsExpanded) {\r\n-    collapseStats.scrollIntoView({ behavior: 'smooth' });\r\n-  }\r\n-}\r\n-\r\n-function scrollToLore() {\r\n-  const collapseLore = document.querySelector('#collapseLore');\r\n-  const isLoreExpanded = collapseLore.getAttribute('aria-expanded') === 'false';\r\n-  if (!isLoreExpanded) {\r\n-    collapseLore.scrollIntoView({ behavior: 'smooth' });\r\n-  }\r\n-}\n\\ No newline at end of file\n+  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1690995594643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function goBack() {\r\n-  window.history.go.apply(-1);\r\n+  window.history.go.(-1);\r\n }\r\n \r\n function goToTop() {\r\n     window.scrollTo({ top: 0, behavior: 'smooth' });\r\n"
+                },
+                {
+                    "date": 1690995646800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function goBack() {\r\n-  window.history.go.(-1);\r\n+  window.history.go(-1);\r\n }\r\n \r\n function goToTop() {\r\n     window.scrollTo({ top: 0, behavior: 'smooth' });\r\n"
                 }
             ],
             "date": 1690828708265,

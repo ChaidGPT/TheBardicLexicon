@@ -45,13 +45,8 @@ footer {
 
 .goBackBtn {
   position: absolute;
-  top: 60px;
-  left: 10px;
-
-  padding: .25rem .4rem;
-  font-size: .875rem;
-  line-height: .5;
-  border-radius: .2rem;
+  top: 70px;
+  left: 20px;
 }
 
 .jumbotron {

@@ -1,5 +1,5 @@
 function goBack() {
-  window.history.go(-1);
+  window.history.go.(-1);
 }
 
 function goToTop() {

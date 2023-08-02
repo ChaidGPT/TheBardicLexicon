@@ -28,7 +28,8 @@ nav .navbar-toggler-icon {
 body {
   background-color: #e9ecef;
   padding: 25px 0 0 0;
-  
+  border-left: 5px solid #343a40;
+  border-right: 5px solid #343a40;
 }
 
 /* CSS for footer */
@@ -54,7 +55,6 @@ footer {
 
 #monsterPage {
   padding: 50px 0px 150px 0px;
-  min-height: 100vh;
 }
 
 .monsterImageContainer {

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1690828837274,
@@ -24,6 +24,10 @@
                 {
                     "date": 1690828868748,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+{\r\n+    \"cSpell.words\": [\r\n+        \"Aaqa\",\r\n+        \"Aaracokra\",\r\n+        \"aarakocra\",\r\n+        \"Auran\",\r\n+        \"interplanar\",\r\n+        \"Mishka\",\r\n+        \"vaati\"\r\n+    ]\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691080667691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,16 +5,8 @@\n         \"aarakocra\",\r\n         \"Auran\",\r\n         \"interplanar\",\r\n         \"Mishka\",\r\n+        \"Planetar\",\r\n         \"vaati\"\r\n     ]\r\n-}\n-{\r\n-    \"cSpell.words\": [\r\n-        \"Aaracokra\",\r\n-        \"aarakocra\",\r\n-        \"interplanar\",\r\n-        \"Mishka\",\r\n-        \"vaati\"\r\n-    ]\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1690828837274,

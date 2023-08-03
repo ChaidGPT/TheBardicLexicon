@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 107,
+            "activePatchIndex": 113,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -436,6 +436,30 @@
                 {
                     "date": 1690996881687,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n \r\n .goBackBtn {\r\n   position: absolute;\r\n   top: 60px;\r\n-  left: 10px;\r\n+  left: 13px;\r\n \r\n   padding: .25rem .4rem;\r\n   font-size: .875rem;\r\n   line-height: .5;\r\n"
+                },
+                {
+                    "date": 1691034469200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,8 +56,9 @@\n \r\n .jumbotron {\r\n     text-align: center;\r\n     margin-bottom: 100px;\r\n+    min-height: max-content;\r\n \r\n     h1, p {\r\n         text-align: left;\r\n     }\r\n"
+                },
+                {
+                    "date": 1691034492300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n \r\n .jumbotron {\r\n     text-align: center;\r\n     margin-bottom: 100px;\r\n-    min-height: max-content;\r\n+    min-height: 125%;\r\n \r\n     h1, p {\r\n         text-align: left;\r\n     }\r\n"
+                },
+                {
+                    "date": 1691034510539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n \r\n .jumbotron {\r\n     text-align: center;\r\n     margin-bottom: 100px;\r\n-    min-height: 125%;\r\n+    min-height: 500px;\r\n \r\n     h1, p {\r\n         text-align: left;\r\n     }\r\n"
+                },
+                {
+                    "date": 1691034671579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,8 +63,12 @@\n         text-align: left;\r\n     }\r\n }\r\n \r\n+.dropdown-menu {\r\n+  z-index: 1;\r\n+}\r\n+\r\n #monsterPage {\r\n   padding: 50px 0px 150px 0px;\r\n   min-height: 100vh;\r\n }\r\n"
+                },
+                {
+                    "date": 1691034769943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,8 +65,9 @@\n }\r\n \r\n .dropdown-menu {\r\n   z-index: 1;\r\n+  bottom: 100%;\r\n }\r\n \r\n #monsterPage {\r\n   padding: 50px 0px 150px 0px;\r\n"
+                },
+                {
+                    "date": 1691034852358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,13 +63,8 @@\n         text-align: left;\r\n     }\r\n }\r\n \r\n-.dropdown-menu {\r\n-  z-index: 1;\r\n-  bottom: 100%;\r\n-}\r\n-\r\n #monsterPage {\r\n   padding: 50px 0px 150px 0px;\r\n   min-height: 100vh;\r\n }\r\n"
                 }
             ],
             "date": 1690811923410,

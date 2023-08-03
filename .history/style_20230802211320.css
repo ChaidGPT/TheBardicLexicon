@@ -1,7 +1,6 @@
 html {
   border-left: 8px solid #343a40;
   border-right: 8px solid #343a40;
-  min-height: 100%;
 }
 
 /* CSS for header */
@@ -29,6 +28,8 @@ nav .navbar-toggler-icon {
 body {
   background-color: #e9ecef;
   padding: 25px 0 0 0;
+  border-left: 8px solid #343a40;
+  border-right: 8px solid #343a40;
 }
 
 /* CSS for footer */

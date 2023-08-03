@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Deva</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="../../style.css">
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+               <a class="navbar-brand" href="../../index.html">D&D Resource</a>
+               <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a class="nav-link" href="../../bestiary.html">Bestiary</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">Go Back</button>
+
+      <div class="jumbotron">
+         <h1 class="display-4">Deva</h1>
+         <p class="lead">Medium celestial, lawful good</p>
+         <p>For basic lore see <a href="angels.html">Angels</a></p>
+         <hr class="my-4">
+         <div class="monsterImageContainer">
+            <img class="monsterPortrait" src="../../images/deva.png" alt="Aarakocra image">
+         </div>
+         <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseStats" role="button" aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToStats()">Basic Info</button>
+         </div>
+         
+         <!-- Start collapseStats -->
+         <div class="collapse" id="collapseStats">
+            <h4>Basic Character Attributes</h4>
+            <div class="horizontal-line"></div>
+            <div class="tableContainer">
+               <table class="tg">
+                  <thead>
+                     <tr>
+                        <th class="tg-34fe"><span class="bold-text">Attribute</span></th>
+                        <th class="tg-yj5y">STR</th>
+                        <th class="tg-yj5y">DEX</th>
+                        <th class="tg-yj5y">CON</th>
+                        <th class="tg-yj5y">INT</th>
+                        <th class="tg-uqo3">WIS</th>
+                        <th class="tg-uqo3">CHA</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td class="tg-34fe"><span class="bold-text">Value</span></td>
+                        <td class="tg-yj5y">10</td>
+                        <td class="tg-yj5y">14</td>
+                        <td class="tg-yj5y">10</td>
+                        <td class="tg-yj5y">11</td>
+                        <td class="tg-uqo3">12</td>
+                        <td class="tg-uqo3">11</td>
+                     </tr>
+                     <tr>
+                        <td class="tg-34fe"><span class="bold-text">Modifier</span></td>
+                        <td class="tg-yj5y">+0</td>
+                        <td class="tg-yj5y">+2</td>
+                        <td class="tg-yj5y">+0</td>
+                        <td class="tg-yj5y">+0</td>
+                        <td class="tg-uqo3">+1</td>
+                        <td class="tg-uqo3">+0</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text">Skills:</span> Perception +5</p>
+            <p><span class="bold-text">Senses:</span> passive Perception 15</p>
+            <p><span class="bold-text">Languages:</span> Auran, Aarakocra</p>
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text">Dive Attack:</span> If the aarakocra is flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 3 (1d6) damage to the target.</p>
+            <div class="horizontal-line"></div>
+            <h5>Actions</h5>
+            <p><span class="bold-text">Talon:</span> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</p>
+            <p><span class="bold-text">Javelin:</span> Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</p>
+         </div>
+         <!-- End collapseStats -->
+
+      <footer class="page-footer font-small blue fixed-bottom">
+         <p>&copy; Chad Oswald | <a href="mailto:chadloswald@gmail.com">chadloswald@gmail.com</a></p>
+      </footer>
+   
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="../../script.js"></script>
+   </body>
+</html>

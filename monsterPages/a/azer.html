@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Azer</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+   <header>
+      <nav class="navbar navbar-expand-lg fixed-top">
+         <div class="container">
+            <a class="navbar-brand" href="../../index.html">D&D Resource</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+               data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+               aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link" href="../../bestiary.html">Bestiary</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">Go Back</button>
+
+   <div class="jumbotron">
+      <h1 class="display-4">Azer</h1>
+      <p class="lead">Medium elemental, lawful neutral</p>
+      <p>Natives of the Elemental Plane of Fire, azers are master crafters, expert miners, and sworn foes of the efreet. In appearance and manner, an azer resembles a male dwarf, but this is a facade. Beneath its metallic-looking skin, an azer is a being of fire , which outwardly manifests in its fiery hair and beard.</p>
+      <hr class="my-4">
+      <div class="monsterImageContainer">
+         <img class="monsterPortrait" src="../../images/azer.png" alt="Aarakocra image">
+      </div>
+      <div class="btn-group" role="group" aria-label="Basic example">
+         <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseStats" role="button"
+            aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToStats()">Basic Info</button>
+         <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseLore" role="button"
+            aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToLore()">Lore</button>
+      </div>
+
+      <!-- Start collapseStats -->
+      <div class="collapse" id="collapseStats">
+         <h4>Basic Character Attributes</h4>
+         <div class="horizontal-line"></div>
+         <div class="tableContainer">
+            <table class="tg">
+               <thead>
+                  <tr>
+                     <th class="tg-34fe"><span class="bold-text">Attribute</span></th>
+                     <th class="tg-yj5y">STR</th>
+                     <th class="tg-yj5y">DEX</th>
+                     <th class="tg-yj5y">CON</th>
+                     <th class="tg-yj5y">INT</th>
+                     <th class="tg-uqo3">WIS</th>
+                     <th class="tg-uqo3">CHA</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td class="tg-34fe"><span class="bold-text">Value</span></td>
+                     <td class="tg-yj5y">17</td>
+                     <td class="tg-yj5y">12</td>
+                     <td class="tg-yj5y">15</td>
+                     <td class="tg-yj5y">12</td>
+                     <td class="tg-uqo3">13</td>
+                     <td class="tg-uqo3">10</td>
+                  </tr>
+                  <tr>
+                     <td class="tg-34fe"><span class="bold-text">Modifier</span></td>
+                     <td class="tg-yj5y">+3</td>
+                     <td class="tg-yj5y">+1</td>
+                     <td class="tg-yj5y">+2</td>
+                     <td class="tg-yj5y">+1</td>
+                     <td class="tg-uqo3">+1</td>
+                     <td class="tg-uqo3">+0</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="horizontal-line"></div>
+         <p><span class="bold-text">Armor Class:</span> 17 (natural armor)</p>
+         <p><span class="bold-text">Hit Points:</span> 39 (6d8 + 12)</p>
+         <p><span class="bold-text">Speed:</span> 30 ft.</p>
+
+         <div class="horizontal-line"></div>
+         <p><span class="bold-text">Saving Throws:</span> Con +4</p>
+         <p><span class="bold-text">Damage Immunities:</span> fire, poison</p>
+         <p><span class="bold-text">Condition Immunities:</span> poisoned</p>
+         <p><span class="bold-text">Senses:</span> passive Perception 11</p>
+         <p><span class="bold-text">Languages:</span> Ignan</p>
+         <p><span class="bold-text">Challenge:</span> 2 (450 XP)</p>
+
+         <div class="horizontal-line"></div>
+         <p><span class="bold-text">Heated Body:</span> A creature that touches the azer or hits it with a melee attack while within 5 feet of it takes (1d10) fire damage.</p>
+         <p><span class="bold-text">Heated Weapon:</span> When the azer hits with a metal melee weapon, it deals an extra (1d6) fire damage (included in the attack).</p>
+         <p><span class="bold-text">Illumination:</span> The azer sheds bright light in a 10-foot radius and dim light for an additional 10 feet.</p>
+
+         <div class="horizontal-line"></div>
+         <h5>Actions</h5>
+         <p><span class="bold-text">Warhammer:</span> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.</p>
+      </div>
+      <!-- End collapseStats -->
+      <!-- Start collapseLore -->
+      <div class="collapse" id="collapseLore">
+         <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Lore
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+               <a class="dropdown-item" href="#madeNotBorn">Made, Not Born</a>
+               <a class="dropdown-item" href="#volcanicDwellers">Volcanic Dwellers</a>
+               <a class="dropdown-item" href="#enemiesOfTheEfreet">Enemies of the Efreet</a>
+               <a class="dropdown-item" href="#mastersOfMetalandGems">Masters of Metal and Gems</a>
+               <a class="dropdown-item" href="#livingFire">Living Fire</a>
+
+
+            </div>
+         </div>
+         <div class="horizontal-line"></div>
+         <div id="madeNotBorn">
+            <h5>Made, Not Born</h5>
+            <p>Azers don't reproduce. They are each crafted from bronze by another azer and imbued with a portion of the crafter's inner flame. Each azer is sculpted with unique features. This crafting process limits the growth of the azer population and is the primary reason that these creatures remain rare.</p>
+         </div>
+         <div class="horizontal-line"></div>
+         <div id="volcanicDwellers">
+            <h5>Volcanic Dwellers</h5>
+            <p>Azers dwell in a kingdom on the border between the Elemental Plane of Earth and the Elemental Plane of Fire- a range of mountains and volcanoes whose spires rise as a series of fortresses. Beneath mountain peaks, under volcanic calderas, and amid rivers of magma, azers extract gleaming metals and glittering gems from the earth. Squads of azer patrol the passes and tunnels of their realm, fending off the salamander raiders whose efreet masters order strikes against the azer kingdom.</p>
+         </div>
+         <div class="horizontal-line"></div>
+         <div id="enemiesOfTheEfreet">
+            <h5>Enemies of the Efreet</h5>
+            <p>Long ago, the efreet and the azers were allies. Azers helped create the City of Brass, forging that home of the efreet into one of the most wondrous places in creation. When the azers had finished their work, the efreet betrayed them, making a failed attempt to enslave the azers so as to protect the secrets of the city. Despite occasional raids and skirmishes, however, the two sides have so far refrained from all-out conflict. The azers believe that only the threat of them revealing the hidden ways into the City of Brass keeps the efreet in check.</p>
+         </div>
+         <div class="horizontal-line"></div>
+         <div id="mastersOfMetalandGems">
+            <h5>Masters of Metal and Gems</h5>
+            <p>Azers are masterful artisans, and create beautiful works from the gems and precious metals found in their volcanic habitat. They rate the value of such treasures above all other things, sometimes dispatching parties across the planes to seek out rare metals and gemstones.</p>
+            <p>When azers are called by magic to the Material Plane, it is typically to help forge an elaborate magic item or work of art, for it is said that their skill in such craft knows no equal.</p>
+         </div>
+         <div class="horizontal-line"></div>
+         <div id="livingFire">
+            <h5>Living Fire</h5>
+            <p>An azer doesn't require food, drink, or sleep.</p>
+         </div>
+         <div class="horizontal-line"></div>
+         <button type="button" class="btn btn-secondary" onclick="goToTop()">Back to Top</button>
+      </div>
+   </div>
+
+   <!-- End collapseLore -->
+
+   <footer class="page-footer font-small blue fixed-bottom">
+      <p>&copy; Chad Oswald | <a href="mailto:chadloswald@gmail.com">chadloswald@gmail.com</a></p>
+   </footer>
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+   <script src="../../script.js"></script>
+</body>
+
+</html>

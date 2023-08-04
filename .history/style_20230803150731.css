@@ -82,7 +82,7 @@ a.list-group-flush.border-0 {
   .monsterImageContainer img {
     border: 2px lightgray solid;
     border-radius: 5%;
-    max-width: 300px;
+    max-height: 60vh;
   }  
 
   #collapseStats {

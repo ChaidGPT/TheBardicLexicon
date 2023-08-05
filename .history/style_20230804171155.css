@@ -64,10 +64,6 @@ footer {
   }
 }
 
-/* .display-4 {
-  text-decoration: underline;
-} */
-
 #monsterPage {
   padding: 50px 0px 150px 0px;
   min-height: 100vh;
@@ -118,12 +114,13 @@ a.list-group-flush.border-0 {
 .tableContainer {
   display: flex;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 5%;
 }
 
 table {
   border-collapse: collapse;
   width: 300px;
+  border-radius: 5%;
 }
 
 .tg {
@@ -140,6 +137,7 @@ table {
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;
+  border-radius: 5%;
 }
 
 .tg th {

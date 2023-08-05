@@ -64,10 +64,6 @@ footer {
   }
 }
 
-/* .display-4 {
-  text-decoration: underline;
-} */
-
 #monsterPage {
   padding: 50px 0px 150px 0px;
   min-height: 100vh;
@@ -140,6 +136,7 @@ table {
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;
+  border-radius: 10px;
 }
 
 .tg th {
@@ -152,6 +149,7 @@ table {
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;
+  border-radius: 10px;
 }
 
 .tg .tg-uqo3 {

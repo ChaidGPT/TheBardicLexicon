@@ -87,7 +87,10 @@ a.list-group-flush.border-0 {
   border: 2px lightgray solid;
   border-radius: 5%;
   max-width: 300px;
-  transition: transform 0.3s ease;
+}
+
+.monsterImageContainer img:hover {
+  width: 150%;
 }
 
 #collapseStats {

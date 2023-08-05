@@ -37,8 +37,8 @@ function scaleImageOnHover() {
   const originalHeight = image.naturalHeight;
 
   // Calculate the scaling factors based on the image dimensions
-  const scaleX = originalWidth / (originalWidth * 0.75);
-  const scaleY = originalHeight / (originalHeight * 0.75);
+  const scaleX = originalWidth / (originalWidth * 1.5);
+  const scaleY = originalHeight / (originalHeight * 1.5);
 
   // Apply the scaling transformation on hover
   image.addEventListener('mouseenter', () => {
@@ -53,4 +53,3 @@ function scaleImageOnHover() {
 
 // Call the function to enable the scaling effect
 scaleImageOnHover();
-

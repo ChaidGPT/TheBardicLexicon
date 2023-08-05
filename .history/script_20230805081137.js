@@ -29,7 +29,7 @@ function scrollToLore() {
 }
 
 const imageContainer = document.querySelector('.monsterImageContainer');
-const navbar = document.querySelector('header');
+const navbar = document.querySelector('navbar');
 const footer = document.querySelector('footer');
 
 // Function to scale the image when hovered

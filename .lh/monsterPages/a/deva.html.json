@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 18,
+            "activePatchIndex": 19,
             "patches": [
                 {
                     "date": 1691019759650,
@@ -80,6 +80,10 @@
                 {
                     "date": 1691195001996,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,13 +34,14 @@\n    <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n    <div class=\"jumbotron\">\r\n       <h1 class=\"display-4\">Deva</h1>\r\n+      <div class=\"horizontal-line\"></div>\r\n       <p class=\"lead\">Medium celestial, lawful good</p>\r\n       <p>For basic lore see <a href=\"angels.html\">Angels</a></p>\r\n       <hr class=\"my-4\">\r\n       <div class=\"monsterImageContainer\">\r\n-         <img class=\"monsterPortrait\" src=\"../../images/deva.png\" alt=\"Aarakocra image\">\r\n+         <img class=\"monsterPortrait\" src=\"../../images/deva.png\" alt=\"Deva image\">\r\n       </div>\r\n       <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n          <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n             aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
+                },
+                {
+                    "date": 1691248585243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n    <link rel=\"stylesheet\" href=\"../../style.css\">\r\n </head>\r\n \r\n <body>\r\n-   <header>\r\n+   <header class=\"header-top\">\r\n       <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n          <div class=\"container\">\r\n             <a class=\"navbar-brand\" href=\"../../index.html\">D&D Resource</a>\r\n             <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n"
                 }
             ],
             "date": 1691019759650,

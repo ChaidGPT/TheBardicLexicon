@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 8,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1691170569883,
@@ -40,6 +40,10 @@
                 {
                     "date": 1691195002052,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,16 +34,17 @@\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n         <h1 class=\"display-4\">Azer</h1>\r\n+        <div class=\"horizontal-line\"></div>\r\n         <p class=\"lead\">Medium elemental, lawful neutral</p>\r\n         <p>Natives of the Elemental Plane of Fire, azers are master crafters, expert miners, and sworn foes of the\r\n             efreet. In appearance and manner, an azer resembles a male dwarf, but this is a facade. Beneath its\r\n             metallic-looking skin, an azer is a being of fire , which outwardly manifests in its fiery hair and beard.\r\n         </p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait\" src=\"../../images/azer.png\" alt=\"Aarakocra image\">\r\n+            <img class=\"monsterPortrait\" src=\"../../images/azer.png\" alt=\"Azer image\">\r\n         </div>\r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n                 aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
+                },
+                {
+                    "date": 1691248584960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <link rel=\"stylesheet\" href=\"../../style.css\">\r\n </head>\r\n \r\n <body>\r\n-    <header>\r\n+    <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n                 <a class=\"navbar-brand\" href=\"../../index.html\">D&D Resource</a>\r\n                 <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n"
                 }
             ],
             "date": 1691170569883,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 37,
+            "activePatchIndex": 38,
             "patches": [
                 {
                     "date": 1690944820470,
@@ -156,6 +156,10 @@
                 {
                     "date": 1691195002264,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,14 +34,15 @@\n    <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n    <div class=\"jumbotron\">\r\n       <h1 class=\"display-4\">Angels</h1>\r\n+      <div class=\"horizontal-line\"></div>\r\n       <p>An angel is a celestial agent sent forth into the planes to further its god's agenda for weal or woe. Its\r\n          sublime beauty and presence can drive awestruck onlookers to their knees. Yet angels are destroyers too, and\r\n          their appearance portends doom as often as it signals hope.</p>\r\n       <hr class=\"my-4\">\r\n       <div class=\"monsterImageContainer\">\r\n-         <img class=\"monsterPortrait\" src=\"../../images/angels.webp\" alt=\"Aarakocra image\">\r\n+         <img class=\"monsterPortrait\" src=\"../../images/angels.webp\" alt=\"Angels image\">\r\n       </div>\r\n       <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n          <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseLore\" role=\"button\"\r\n             aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToLore()\">Lore</button>\r\n"
+                },
+                {
+                    "date": 1691248585451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n    <link rel=\"stylesheet\" href=\"../../style.css\">\r\n </head>\r\n \r\n <body>\r\n-   <header>\r\n+   <header class=\"header-top\">\r\n       <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n          <div class=\"container\">\r\n             <a class=\"navbar-brand\" href=\"../../index.html\">D&D Resource</a>\r\n             <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n"
                 }
             ],
             "date": 1690944820470,

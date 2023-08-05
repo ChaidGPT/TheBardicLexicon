@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 23,
+            "activePatchIndex": 24,
             "patches": [
                 {
                     "date": 1690925262716,
@@ -100,6 +100,10 @@
                 {
                     "date": 1691195002607,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,16 +34,17 @@\n    <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n    <div class=\"jumbotron\">\r\n       <h1 class=\"display-4\">Aboleth</h1>\r\n+      <div class=\"horizontal-line\"></div>\r\n       <p class=\"lead\">Large aberration, lawful evil </p>\r\n       <p>Before the coming of the gods, aboleths lurked in primordial oceans and underground lakes. They reached out\r\n          with their minds and seized control of the burgeoning life-forms of the mortal realm, making those creatures\r\n          their slaves. Their dominance made them like gods. Then the true gods appeared, smashing the aboleth’s empire\r\n          and freeing their slaves. Aboleths have never forgotten.</p>\r\n       <hr class=\"my-4\">\r\n       <div class=\"monsterImageContainer\">\r\n-         <img class=\"monsterPortrait\" src=\"../../images/aboleth.jpg\" alt=\"Aarakocra image\">\r\n+         <img class=\"monsterPortrait\" src=\"../../images/aboleth.jpg\" alt=\"Aboleth image\">\r\n       </div>\r\n       <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n          <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n             aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
+                },
+                {
+                    "date": 1691248585564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n    <link rel=\"stylesheet\" href=\"../../style.css\">\r\n </head>\r\n \r\n <body>\r\n-   <header>\r\n+   <header class=\"header-top\">\r\n       <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n          <div class=\"container\">\r\n             <a class=\"navbar-brand\" href=\"../../index.html\">D&D Resource</a>\r\n             <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n"
                 }
             ],
             "date": 1690925262716,

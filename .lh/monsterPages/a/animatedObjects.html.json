@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1691164154302,
@@ -24,6 +24,10 @@
                 {
                     "date": 1691195002134,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,15 +34,16 @@\n    <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n    <div class=\"jumbotron\">\r\n       <h1 class=\"display-4\">Animated Objects</h1>\r\n+      <div class=\"horizontal-line\"></div>\r\n       <p>Animated objects are crafted with potent magic to follow the commands of their creators. When not commanded,\r\n          they follow the last order they received to the best of their ability, and can act independently to fulfill\r\n          simple instructions. Some animated objects (including many of those created in the Feywild) might converse\r\n          fluently or adopt a persona, but most are simple automatons.</p>\r\n       <hr class=\"my-4\">\r\n       <div class=\"monsterImageContainer\">\r\n-         <img class=\"monsterPortrait\" src=\"../../images/animatedObjects.webp\" alt=\"Aarakocra image\">\r\n+         <img class=\"monsterPortrait\" src=\"../../images/animatedObjects.webp\" alt=\"Animated Objects image\">\r\n       </div>\r\n       <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n          <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseLore\" role=\"button\"\r\n             aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToLore()\">Lore</button>\r\n"
+                },
+                {
+                    "date": 1691248585308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n    <link rel=\"stylesheet\" href=\"../../style.css\">\r\n </head>\r\n \r\n <body>\r\n-   <header>\r\n+   <header class=\"header-top\">\r\n       <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n          <div class=\"container\">\r\n             <a class=\"navbar-brand\" href=\"../../index.html\">D&D Resource</a>\r\n             <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n"
                 }
             ],
             "date": 1691164154302,

@@ -28,7 +28,7 @@ function scrollToLore() {
   }, 100);
 }
 
-const imageContainer = document.querySelector('.monsterImageContainer');
+const imageContainer = document.querySelector('.image-container');
 const navbar = document.querySelector('header');
 const footer = document.querySelector('footer');
 

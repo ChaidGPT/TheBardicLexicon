@@ -29,7 +29,6 @@ function scrollToLore() {
 }
 
 const imageContainer = document.querySelector('.monsterImageContainer');
-const navbar = document.querySelector('header');
 const footer = document.querySelector('footer');
 
 // Function to scale the image when hovered
@@ -47,7 +46,6 @@ function scaleImageOnHover() {
     image.style.transform = `scale(${scaleX}, ${scaleY})`;
     // Bring the scaled image above the navbar and footer
     image.style.zIndex = '1';
-    navbar.style.zIndex = '-1';
     footer.style.zIndex = '-1';
   });
 

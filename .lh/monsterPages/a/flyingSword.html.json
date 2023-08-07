@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1691166307000,
@@ -20,6 +20,10 @@
                 {
                     "date": 1691248584835,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n    <link rel=\"stylesheet\" href=\"../../style.css\">\r\n </head>\r\n \r\n <body>\r\n-   <header>\r\n+   <header class=\"header-top\">\r\n       <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n          <div class=\"container\">\r\n             <a class=\"navbar-brand\" href=\"../../index.html\">D&D Resource</a>\r\n             <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n"
+                },
+                {
+                    "date": 1691419891358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -108,9 +108,10 @@\n             from a normal sword.</p>\r\n          <div class=\"horizontal-line\"></div>\r\n          <h5>Actions</h5>\r\n          <p><span class=\"bold-text\">Longsword:</span> <em>Melee Weapon Attack</em> +3 to hit, reach 5 ft., one target.\r\n-            <em>Hit:</em> 5 (1d8 + 1) slashing damage.</p>\r\n+            <em>Hit:</em> 5 (1d8 + 1) slashing damage.\r\n+         </p>\r\n       </div>\r\n       <!-- End collapseStats -->\r\n \r\n       <footer class=\"page-footer font-small blue fixed-bottom\">\r\n"
                 }
             ],
             "date": 1691166307000,

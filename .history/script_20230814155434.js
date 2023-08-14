@@ -112,13 +112,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
   }
   message += ` for a total roll of: ${totalRoll}`;
 
-  var diceSound = new Audio();
-  diceSound.src = 'sounds/dice.mp3';
-
-
   // Display the calculated total roll and modifier message in the "diceAnswer" paragraph
   const diceAnswerElement = document.getElementById('diceAnswer');
   diceAnswerElement.textContent = message;
-  diceSound.play();
-  
 });

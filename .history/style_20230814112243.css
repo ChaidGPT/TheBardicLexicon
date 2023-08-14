@@ -69,14 +69,8 @@ footer {
   }
 }
 
-/* .diceForm {
-  width: 50%;
-} */
-
-.card {
-  padding: 20px;
-  border: 2px lightgray solid;
-  border-radius: 5%;
+.diceForm {
+  width: auto;
 }
 
 #monsterPage {

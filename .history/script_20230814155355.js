@@ -106,19 +106,13 @@ document.querySelector('form').addEventListener('submit', function(event) {
   }
 
   // Construct the message including the modifier information if applicable
-  let message = `Rolling ${numDice} D${dieType}`;
+  let message = `Rolling ${numDice} ${dieType}`;
   if (modifierType !== 'none') {
       message += ` with a ${modifierType} modifier of ${modifierNumber}`;
   }
   message += ` for a total roll of: ${totalRoll}`;
 
-  var diceSound = new Audio();
-  diceSound.src = 'sounds/dice.mp3';
-
-
   // Display the calculated total roll and modifier message in the "diceAnswer" paragraph
   const diceAnswerElement = document.getElementById('diceAnswer');
   diceAnswerElement.textContent = message;
-  diceSound.play();
-  
 });

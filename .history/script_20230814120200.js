@@ -75,27 +75,18 @@ function scaleImageOnHover() {
 // Call the function to enable the scaling effect
 scaleImageOnHover();
 
-
-
-document.querySelector('form').addEventListener('submit', function(event) {
+document.getElementById('diceForm').addEventListener('submit', function(event) {
   event.preventDefault(); // Prevent the form from submitting normally
   
   const numDice = parseInt(document.getElementById('dieNum').value);
-  const dieType = parseInt(document.getElementById('dieType').value);
+  const dieType = document.getElementById('dieType').value;
   const modifierType = document.getElementById('modifierType').value;
-  const modifierNumberInput = document.getElementById('modifierNumber');
-  
-  let modifierNumber = 0; // Default value if no modifier is selected
-
-  // Parse modifierNumber only if a modifier is selected
-  if (modifierType !== 'none') {
-      modifierNumber = parseInt(modifierNumberInput.value);
-  }
+  const modifierNumber = parseInt(document.getElementById('modifierNumber').value);
 
   let totalRoll = 0;
 
   for (let i = 0; i < numDice; i++) {
-      const rollResult = Math.floor(Math.random() * dieType) + 1;
+      const rollResult = Math.floor(Math.random() * parseInt(dieType) + 1);
       totalRoll += rollResult;
   }
 
@@ -105,20 +96,11 @@ document.querySelector('form').addEventListener('submit', function(event) {
       totalRoll -= modifierNumber;
   }
 
-  // Construct the message including the modifier information if applicable
-  let message = `Rolling ${numDice} D${dieType}`;
-  if (modifierType !== 'none') {
-      message += ` with a ${modifierType} modifier of ${modifierNumber}`;
-  }
-  message += ` for a total roll of: ${totalRoll}`;
+  // Update the result section with the calculated totalRoll
+  const resultValueElement = document.getElementById('resultValue');
+  resultValueElement.textContent = totalRoll;
 
-  var diceSound = new Audio();
-  diceSound.src = 'sounds/dice.mp3';
-
-
-  // Display the calculated total roll and modifier message in the "diceAnswer" paragraph
-  const diceAnswerElement = document.getElementById('diceAnswer');
-  diceAnswerElement.textContent = message;
-  diceSound.play();
-  
+  // Show the result section if it was hidden
+  const resultSection = document.getElementById('resultSection');
+  resultSection.classList.add('show');
 });

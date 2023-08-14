@@ -73,12 +73,6 @@ footer {
   width: 50%;
 } */
 
-.card {
-  padding: 20px;
-  border: 2px lightgray solid;
-  border-radius: 5%;
-}
-
 #monsterPage {
   padding: 50px 0px 150px 0px;
   min-height: 100vh;

@@ -84,6 +84,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
   const dieType = parseInt(document.getElementById('dieType').value);
   const modifierType = document.getElementById('modifierType').value;
   const modifierNumberInput = document.getElementById('modifierNumber');
+  var diceSound = new Audio(src='/sounds/dice.mp3');
   
   let modifierNumber = 0; // Default value if no modifier is selected
 
@@ -113,7 +114,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
   message += ` for a total roll of: ${totalRoll}`;
 
   var diceSound = new Audio();
-  diceSound.src = 'sounds/dice.mp3';
+  diceSound.src = '/sounds/dice.mp3';
 
 
   // Display the calculated total roll and modifier message in the "diceAnswer" paragraph

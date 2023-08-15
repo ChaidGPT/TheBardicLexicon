@@ -122,10 +122,6 @@ document.querySelector('form').addEventListener('submit', function(event) {
   // Append the current roll results to the diceResults container
   const diceResultsContainer = document.getElementById('diceResults');
   diceResultsContainer.appendChild(rollResultParagraph);
-
-  // Create an audio element for the dice sound
-  const diceSound = new Audio();
-  diceSound.src = 'sounds/dice.mp3';
   
   // Display individual rolls one by one with a delay, appending to the rollResultParagraph
   let currentDelay = 500;

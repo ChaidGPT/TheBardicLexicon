@@ -110,29 +110,24 @@ document.querySelector('form').addEventListener('submit', function(event) {
   // Construct the message including individual rolls and modifier information if applicable
   let message = `Rolling ${numDice} D${dieType}`;
   if (modifierType !== 'none') {
-      message += ` with a modifier of ${modifierType} ${modifierNumber}`;
+      message += ` with a ${modifierType} modifier of ${modifierNumber}`;
   }
-  
-  // Create a new <p> element to display the current roll results
-  const rollResultParagraph = document.createElement('p');
 
-  // Display the calculated total roll, individual rolls, and modifier message in the "rollResultParagraph"
-  rollResultParagraph.textContent = message;
-
-  // Append the current roll results to the diceResults container
-  const diceResultsContainer = document.getElementById('diceResults');
-  diceResultsContainer.appendChild(rollResultParagraph);
-
-  // Create an audio element for the dice sound
-  const diceSound = new Audio();
+  // Display the calculated total roll, individual rolls, and modifier message in the list group
+  const diceAnswerElement = document.getElementById('diceAnswer');
+  diceAnswerElement.innerHTML = ''; // Clear previous results
+  var diceSound = new Audio();
   diceSound.src = 'sounds/dice.mp3';
-  
-  // Display individual rolls one by one with a delay, appending to the rollResultParagraph
+
+  // Display individual rolls one by one with a delay of 500 milliseconds (half a second)
   let currentDelay = 500;
   rolls.forEach((roll, index) => {
     setTimeout(() => {
       const currentRolls = rolls.slice(0, index + 1).join(', ');
-      rollResultParagraph.textContent = `${message} for individual rolls: ${currentRolls}`;
+      const li = document.createElement('li');
+      li.classList.add('list-group-item');
+      li.textContent = `${message} for individual rolls: ${currentRolls}`;
+      diceAnswerElement.appendChild(li);
       diceSound.play(); // Play sound effect with each roll
     }, currentDelay);
     currentDelay += 500; // Increment the delay for the next roll
@@ -140,7 +135,10 @@ document.querySelector('form').addEventListener('submit', function(event) {
 
   // Display the final total roll after all individual rolls
   setTimeout(() => {
-    rollResultParagraph.textContent = `${message} for individual rolls: ${rolls.join(', ')} (Total: ${totalRoll})`;
+    const li = document.createElement('li');
+    li.classList.add('list-group-item', 'active'); // Apply "active" class for highlighting
+    li.textContent = `${message} for individual rolls: ${rolls.join(', ')} (Total: ${totalRoll})`;
+    diceAnswerElement.appendChild(li);
   }, currentDelay);
   
 });

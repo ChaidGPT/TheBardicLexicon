@@ -92,12 +92,10 @@ document.querySelector('form').addEventListener('submit', function(event) {
       modifierNumber = parseInt(modifierNumberInput.value);
   }
 
-  const rolls = []; // To store individual roll results
   let totalRoll = 0;
 
   for (let i = 0; i < numDice; i++) {
       const rollResult = Math.floor(Math.random() * dieType) + 1;
-      rolls.push(rollResult); // Store individual roll result
       totalRoll += rollResult;
   }
 
@@ -107,40 +105,20 @@ document.querySelector('form').addEventListener('submit', function(event) {
       totalRoll -= modifierNumber;
   }
 
-  // Construct the message including individual rolls and modifier information if applicable
+  // Construct the message including the modifier information if applicable
   let message = `Rolling ${numDice} D${dieType}`;
   if (modifierType !== 'none') {
-      message += ` with a modifier of ${modifierType} ${modifierNumber}`;
+      message += ` with a ${modifierType} ${modifierNumber} modifier`;
   }
-  
-  // Create a new <p> element to display the current roll results
-  const rollResultParagraph = document.createElement('p');
+  message += ` for a total roll of: ${totalRoll}`;
 
-  // Display the calculated total roll, individual rolls, and modifier message in the "rollResultParagraph"
-  rollResultParagraph.textContent = message;
-
-  // Append the current roll results to the diceResults container
-  const diceResultsContainer = document.getElementById('diceResults');
-  diceResultsContainer.appendChild(rollResultParagraph);
-
-  // Create an audio element for the dice sound
-  const diceSound = new Audio();
+  var diceSound = new Audio();
   diceSound.src = 'sounds/dice.mp3';
-  
-  // Display individual rolls one by one with a delay, appending to the rollResultParagraph
-  let currentDelay = 500;
-  rolls.forEach((roll, index) => {
-    setTimeout(() => {
-      const currentRolls = rolls.slice(0, index + 1).join(', ');
-      rollResultParagraph.textContent = `${message} for individual rolls: ${currentRolls}`;
-      diceSound.play(); // Play sound effect with each roll
-    }, currentDelay);
-    currentDelay += 500; // Increment the delay for the next roll
-  });
 
-  // Display the final total roll after all individual rolls
-  setTimeout(() => {
-    rollResultParagraph.textContent = `${message} for individual rolls: ${rolls.join(', ')} (Total: ${totalRoll})`;
-  }, currentDelay);
+
+  // Display the calculated total roll and modifier message in the "diceAnswer" paragraph
+  const diceAnswerElement = document.getElementById('diceAnswer');
+  diceAnswerElement.textContent = message;
+  diceSound.play();
   
 });

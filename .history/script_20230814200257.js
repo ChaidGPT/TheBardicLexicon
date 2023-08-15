@@ -131,8 +131,8 @@ document.querySelector('form').addEventListener('submit', function(event) {
   let currentDelay = 500;
   rolls.forEach((roll, index) => {
     setTimeout(() => {
-      const currentRolls = rolls.slice(0, index + 1).join(', ');
-      rollResultParagraph.textContent = `${message} for individual rolls: ${currentRolls}`;
+      const currentRolls = rolls.map((r, i) => (i === index) ? (r === 1 ? `<span class="red">${r}</span>` : (r === 20 ? `<span class="green">${r}</span>` : r)) : r).join(', ');
+      rollResultParagraph.innerHTML = `${message} for individual rolls: ${currentRolls}`;
       diceSound.play(); // Play sound effect with each roll
     }, currentDelay);
     currentDelay += 500; // Increment the delay for the next roll
@@ -140,7 +140,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
 
   // Display the final total roll after all individual rolls
   setTimeout(() => {
-    rollResultParagraph.textContent = `${message} for individual rolls: ${rolls.join(', ')} (Total: ${totalRoll})`;
+    rollResultParagraph.innerHTML = `${message} for individual rolls: ${rolls.join(', ')} (Total: ${totalRoll})`;
   }, currentDelay);
   
 });

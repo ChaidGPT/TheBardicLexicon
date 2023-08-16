@@ -78,64 +78,48 @@ scaleImageOnHover();
 document.addEventListener('DOMContentLoaded', function() {
   const diceResultsContainer = document.getElementById('diceResults');
   const clearButton = document.querySelector('[aria-label="Clear button"]');
-  const form = document.querySelector('form'); // Reference to the form element
 
   // Function to update Clear button visibility
   function updateClearButtonVisibility() {
-    clearButton.style.display = diceResultsContainer.children.length > 0 ? 'block' : 'none';
+      clearButton.style.display = diceResultsContainer.children.length > 0 ? 'block' : 'none';
   }
 
   // Clear button click event
   clearButton.addEventListener('click', function() {
-    diceResultsContainer.innerHTML = ''; // Clear the displayed results
-    updateClearButtonVisibility(); // Update the Clear button visibility
+      diceResultsContainer.innerHTML = ''; // Clear the displayed results
+      updateClearButtonVisibility(); // Update the Clear button visibility
   });
 
-  // Form submission event
-  form.addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the form from submitting normally
+  // Dice rolling function
+  document.querySelector('form').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the form from submitting normally
 
-    const numDiceInput = document.getElementById('dieNum');
-    const numDice = parseInt(numDiceInput.value);
+      const numDice = parseInt(document.getElementById('dieNum').value);
+      const dieType = parseInt(document.getElementById('dieType').value);
+      const modifierType = document.getElementById('modifierType').value;
+      const modifierNumberInput = document.getElementById('modifierNumber');
 
-    if (isNaN(numDice) || numDice <= 0) {
-      alert('Please enter a valid number of dice.');
-      numDiceInput.focus(); // Set focus on the input
-      return;
-    }
+      let modifierNumber = 0; // Default value if no modifier is selected
 
-    const dieType = parseInt(document.getElementById('dieType').value);
-    const modifierType = document.getElementById('modifierType').value;
-    const modifierNumberInput = document.getElementById('modifierNumber');
-
-    let modifierNumber = 0; // Default value if no modifier is selected
-
-    // Parse modifierNumber only if a modifier is selected
-    if (modifierType !== 'none') {
-      modifierNumber = parseInt(modifierNumberInput.value);
-
-      // Validate modifierNumber
-      if (isNaN(modifierNumber)) {
-        alert('Please enter a valid modifier number.');
-        modifierNumberInput.focus(); // Set focus on the input
-        return;
+      // Parse modifierNumber only if a modifier is selected
+      if (modifierType !== 'none') {
+          modifierNumber = parseInt(modifierNumberInput.value);
       }
-    }
 
-    const rolls = []; // To store individual roll results
-    let totalRoll = 0;
+      const rolls = []; // To store individual roll results
+      let totalRoll = 0;
 
-    for (let i = 0; i < numDice; i++) {
-      const rollResult = Math.floor(Math.random() * dieType) + 1;
-      rolls.push(rollResult); // Store individual roll result
-      totalRoll += rollResult;
-    }
+      for (let i = 0; i < numDice; i++) {
+          const rollResult = Math.floor(Math.random() * dieType) + 1;
+          rolls.push(rollResult); // Store individual roll result
+          totalRoll += rollResult;
+      }
 
-    if (modifierType === 'plus') {
-      totalRoll += modifierNumber;
-    } else if (modifierType === 'minus') {
-      totalRoll -= modifierNumber;
-    }
+      if (modifierType === 'plus') {
+          totalRoll += modifierNumber;
+      } else if (modifierType === 'minus') {
+          totalRoll -= modifierNumber;
+      }
 
       // Construct the message including individual rolls and modifier information if applicable
       let message = `Rolling ${numDice} D${dieType}`;

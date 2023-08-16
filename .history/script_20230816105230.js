@@ -156,10 +156,8 @@ document.addEventListener('DOMContentLoaded', function() {
           if (numDice === 1 && dieType === 20) {
               if (rolls[0] === 1) {
                   finalMessage += '<span class="critical-failure"> - Critical Failure!</span>';
-                  criticalFailureSound.play();
               } else if (rolls[0] === 20) {
                   finalMessage += '<span class="critical-success"> - Critical Success!</span>';
-                  criticalSuccessSound.play();
               }
           }
 

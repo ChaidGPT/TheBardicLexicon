@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 25,
+            "activePatchIndex": 27,
             "patches": [
                 {
                     "date": 1690911654662,
@@ -108,6 +108,14 @@
                 {
                     "date": 1692023215956,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,18 +13,21 @@\n <body>\r\n   <header class=\"header-top\">\r\n     <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n       <div class=\"container\">\r\n-        <a class=\"navbar-brand\" href=\"index.html\">D&D Monster Resource</a>\r\n+        <a class=\"navbar-brand\" href=\"index.html\">D&D Resource</a>\r\n         <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\"\r\n           aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n           <span class=\"navbar-toggler-icon\"></span>\r\n         </button>\r\n         <div class=\"collapse navbar-collapse\" id=\"navbarNavDropdown\">\r\n-          <ul class=\"navbar-nav\">\r\n+          <ul class=\"navbar-nav ml-auto nav justify-content-end\"> \r\n             <li class=\"nav-item\">\r\n               <a class=\"nav-link\" href=\"bestiary.html\">Bestiary</a>\r\n             </li>\r\n+            <li class=\"nav-item\">\r\n+              <a class=\"nav-link\" href=\"dice.html\">Dice</a>\r\n+            </li>\r\n           </ul>\r\n         </div>\r\n       </div>\r\n     </nav>\r\n"
+                },
+                {
+                    "date": 1692388562525,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n             <li class=\"nav-item\">\r\n               <a class=\"nav-link\" href=\"bestiary.html\">Bestiary</a>\r\n             </li>\r\n             <li class=\"nav-item\">\r\n-              <a class=\"nav-link\" href=\"dice.html\">Dice</a>\r\n+              <a class=\"nav-link\" href=\"dice.html\">Dice Roll Generator</a>\r\n             </li>\r\n           </ul>\r\n         </div>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1692388834243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,8 +82,9 @@\n           <a href=\"monsterPages/b/needleBlight.html\" class=\"list-group-flush border-0\"> -Needle Blight</a>\r\n           <a href=\"monsterPages/b/twigBlight.html\" class=\"list-group-flush border-0\"> -Twig Blight</a>\r\n           <a href=\"monsterPages/b/vineBlight.html\" class=\"list-group-flush border-0\"> -Vine Blight</a>\r\n         </div>\r\n+        <a href=\"monsterPages/b/bugbear.html\">Bugbear</a>\r\n       </div>\r\n     </div>\r\n \r\n     <a class=\"btn btn-primary monsterBtn\" data-toggle=\"collapse\" href=\"#collapseC\" role=\"button\" aria-expanded=\"false\"\r\n"
                 }
             ],
             "date": 1690911654662,

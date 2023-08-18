@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 51,
+            "activePatchIndex": 52,
             "patches": [
                 {
                     "date": 1690830309588,
@@ -212,6 +212,10 @@
                 {
                     "date": 1692022721087,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,11 +21,13 @@\n           aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n           <span class=\"navbar-toggler-icon\"></span>\r\n         </button>\r\n         <div class=\"collapse navbar-collapse\" id=\"navbarNavDropdown\">\r\n-          <ul class=\"navbar-nav ml-auto\">\r\n+          <ul class=\"navbar-nav ml-auto nav justify-content-end\">\r\n             <li class=\"nav-item\">\r\n               <a class=\"nav-link\" href=\"bestiary.html\">Bestiary</a>\r\n+            </li>\r\n+            <li class=\"nav-item\">\r\n               <a class=\"nav-link\" href=\"dice.html\">Dice</a>\r\n             </li>\r\n           </ul>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1692388562420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n             <li class=\"nav-item\">\r\n               <a class=\"nav-link\" href=\"bestiary.html\">Bestiary</a>\r\n             </li>\r\n             <li class=\"nav-item\">\r\n-              <a class=\"nav-link\" href=\"dice.html\">Dice</a>\r\n+              <a class=\"nav-link\" href=\"dice.html\">Dice Roll Generator</a>\r\n             </li>\r\n           </ul>\r\n         </div>\r\n       </div>\r\n"
                 }
             ],
             "date": 1690830309588,

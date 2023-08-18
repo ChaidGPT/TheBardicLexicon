@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 180,
+            "activePatchIndex": 185,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -728,6 +728,26 @@
                 {
                     "date": 1692207010702,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -227,5 +227,15 @@\n /* Monster Page Specific */\r\n \r\n .monsterBtn {\r\n   margin: 5px;\r\n+}\r\n+\r\n+.critical-failure {\r\n+  color: red;\r\n+  font-weight: bold;\r\n+}\r\n+\r\n+.critical-success {\r\n+  color: green;\r\n+  font-weight: bold;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1692394370752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,12 +96,19 @@\n   margin: 0 0 10px 0;\r\n }\r\n \r\n .monsterImageContainer img {\r\n-  border: 2px lightgray solid;\r\n+  /* border: 2px lightgray solid;\r\n   border-radius: 5%;\r\n   max-width: 300px;\r\n-  transition: transform 0.3s ease;\r\n+  transition: transform 0.3s ease; */\r\n+\r\n+  --s: 10px; /* control the size */\r\n+  padding: var(--s);\r\n+  border: calc(2*var(--s)) solid #0000;\r\n+  outline: 1px solid #000;\r\n+  outline-offset: calc(-1*var(--s));\r\n+  background: conic-gradient(from 90deg at 1px 1px,#0000 25%,#000 0);\r\n }\r\n \r\n #collapseStats {\r\n   border: 2px lightgray solid;\r\n"
+                },
+                {
+                    "date": 1692394410157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -101,8 +101,9 @@\n   border-radius: 5%;\r\n   max-width: 300px;\r\n   transition: transform 0.3s ease; */\r\n \r\n+  max-width: 300px;\r\n   --s: 10px; /* control the size */\r\n   padding: var(--s);\r\n   border: calc(2*var(--s)) solid #0000;\r\n   outline: 1px solid #000;\r\n"
+                },
+                {
+                    "date": 1692394506868,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,20 +96,12 @@\n   margin: 0 0 10px 0;\r\n }\r\n \r\n .monsterImageContainer img {\r\n-  /* border: 2px lightgray solid;\r\n+  border: 2px lightgray solid;\r\n   border-radius: 5%;\r\n   max-width: 300px;\r\n-  transition: transform 0.3s ease; */\r\n-\r\n-  max-width: 300px;\r\n-  --s: 10px; /* control the size */\r\n-  padding: var(--s);\r\n-  border: calc(2*var(--s)) solid #0000;\r\n-  outline: 1px solid #000;\r\n-  outline-offset: calc(-1*var(--s));\r\n-  background: conic-gradient(from 90deg at 1px 1px,#0000 25%,#000 0);\r\n+  transition: transform 0.3s ease;\r\n }\r\n \r\n #collapseStats {\r\n   border: 2px lightgray solid;\r\n"
+                },
+                {
+                    "date": 1692394531828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,8 +98,9 @@\n \r\n .monsterImageContainer img {\r\n   border: 2px lightgray solid;\r\n   border-radius: 5%;\r\n+  background-color: #D0C6B1;\r\n   max-width: 300px;\r\n   transition: transform 0.3s ease;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1692394580908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,9 +96,9 @@\n   margin: 0 0 10px 0;\r\n }\r\n \r\n .monsterImageContainer img {\r\n-  border: 2px lightgray solid;\r\n+  border: 2px black solid;\r\n   border-radius: 5%;\r\n   background-color: #D0C6B1;\r\n   max-width: 300px;\r\n   transition: transform 0.3s ease;\r\n"
                 }
             ],
             "date": 1690811923410,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 185,
+            "activePatchIndex": 187,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -748,6 +748,14 @@
                 {
                     "date": 1692394580908,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,9 +96,9 @@\n   margin: 0 0 10px 0;\r\n }\r\n \r\n .monsterImageContainer img {\r\n-  border: 2px lightgray solid;\r\n+  border: 2px black solid;\r\n   border-radius: 5%;\r\n   background-color: #D0C6B1;\r\n   max-width: 300px;\r\n   transition: transform 0.3s ease;\r\n"
+                },
+                {
+                    "date": 1692396227747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,8 +76,9 @@\n .card {\r\n   padding: 20px;\r\n   border: 2px lightgray solid;\r\n   border-radius: 5%;\r\n+  max-width: 85%;\r\n }\r\n \r\n #monsterPage {\r\n   padding: 50px 0px 150px 0px;\r\n"
+                },
+                {
+                    "date": 1692396308039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,8 +77,9 @@\n   padding: 20px;\r\n   border: 2px lightgray solid;\r\n   border-radius: 5%;\r\n   max-width: 85%;\r\n+  margin: 30px auto;\r\n }\r\n \r\n #monsterPage {\r\n   padding: 50px 0px 150px 0px;\r\n"
                 }
             ],
             "date": 1690811923410,

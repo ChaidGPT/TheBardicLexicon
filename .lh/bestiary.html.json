@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 28,
+            "activePatchIndex": 29,
             "patches": [
                 {
                     "date": 1690911654662,
@@ -120,6 +120,10 @@
                 {
                     "date": 1692389930505,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,8 +83,9 @@\n           <a href=\"monsterPages/b/twigBlight.html\" class=\"list-group-flush border-0\"> -Twig Blight</a>\r\n           <a href=\"monsterPages/b/vineBlight.html\" class=\"list-group-flush border-0\"> -Vine Blight</a>\r\n         </div>\r\n         <a href=\"monsterPages/b/bugbear.html\">Bugbear</a>\r\n+        <a href=\"monsterPages/b/bulette.html\">Bulette</a>\r\n       </div>\r\n     </div>\r\n \r\n     <a class=\"btn btn-primary monsterBtn\" data-toggle=\"collapse\" href=\"#collapseC\" role=\"button\" aria-expanded=\"false\"\r\n"
+                },
+                {
+                    "date": 1692396118059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,8 +84,9 @@\n           <a href=\"monsterPages/b/vineBlight.html\" class=\"list-group-flush border-0\"> -Vine Blight</a>\r\n         </div>\r\n         <a href=\"monsterPages/b/bugbear.html\">Bugbear</a>\r\n         <a href=\"monsterPages/b/bulette.html\">Bulette</a>\r\n+        <a href=\"monsterPages/b/bullywug.html\">Bullywug</a>\r\n       </div>\r\n     </div>\r\n \r\n     <a class=\"btn btn-primary monsterBtn\" data-toggle=\"collapse\" href=\"#collapseC\" role=\"button\" aria-expanded=\"false\"\r\n"
                 }
             ],
             "date": 1690911654662,

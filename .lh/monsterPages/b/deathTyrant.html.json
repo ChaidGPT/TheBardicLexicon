@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 10,
+            "activePatchIndex": 11,
             "patches": [
                 {
                     "date": 1691331708564,
@@ -48,6 +48,10 @@
                 {
                     "date": 1692388561295,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n                 <li class=\"nav-item\">\r\n                  <a class=\"nav-link\" href=\"../../bestiary.html\">Bestiary</a>\r\n                 </li>\r\n                 <li class=\"nav-item\">\r\n-                 <a class=\"nav-link\" href=\"../../dice.html\">Dice</a>\r\n+                 <a class=\"nav-link\" href=\"../../dice.html\">Dice Roll Generator</a>\r\n                 </li>\r\n               </ul>\r\n             </div>\r\n           </div>\r\n"
+                },
+                {
+                    "date": 1692403210961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n           <div class=\"container\">\r\n-            <a class=\"navbar-brand\" href=\"index.html\">D&D Resource</a>\r\n+            <a class=\"navbar-brand\" href=\"../../index.html\">D&D Resource</a>\r\n             <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\"\r\n               aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n               <span class=\"navbar-toggler-icon\"></span>\r\n             </button>\r\n"
                 }
             ],
             "date": 1691331708564,

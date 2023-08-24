@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chull</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <header class="header-top">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="../../index.html">D&D Resource</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../bestiary.html">Bestiary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../dice.html">Dice Roll Generator</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">Go Back</button>
+
+    <div class="jumbotron">
+        <h1 class="display-4">Chull</h1>
+        <div class="horizontal-line"></div>
+        <p class="lead">Large aberration, chaotic evil</p>
+        <p>Survivors of the ancient aboleth empire, chuuls are crustaceans the aboleths modified and endowed with sentience. They follow the ingrained directives of their creators, as they have done since the dawn of time.</p>
+        <hr class="my-4">
+        <div class="monsterImageContainer">
+            <img class="monsterPortrait" src="../../images/placeholder.png" alt="Chull image">
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseStats" role="button"
+                aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToStats()">Basic Info</button>
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseLore" role="button"
+                aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToLore()">Lore</button>
+        </div>
+
+        <!-- Start collapseStats -->
+        <div class="collapse" id="collapseStats">
+            <h4>Basic Character Attributes</h4>
+            <div class="horizontal-line"></div>
+            <div class="tableContainer">
+                <table class="tg">
+                    <thead>
+                        <tr>
+                            <th class="tg-34fe"><span class="bold-text">Attribute</span></th>
+                            <th class="tg-yj5y">STR</th>
+                            <th class="tg-yj5y">DEX</th>
+                            <th class="tg-yj5y">CON</th>
+                            <th class="tg-yj5y">INT</th>
+                            <th class="tg-uqo3">WIS</th>
+                            <th class="tg-uqo3">CHA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tg-34fe"><span class="bold-text">Value</span></td>
+                            <td class="tg-yj5y">19</td>
+                            <td class="tg-yj5y">10</td>
+                            <td class="tg-yj5y">16</td>
+                            <td class="tg-yj5y">5</td>
+                            <td class="tg-uqo3">11</td>
+                            <td class="tg-uqo3">5</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-34fe"><span class="bold-text">Modifier</span></td>
+                            <td class="tg-yj5y">+4</td>
+                            <td class="tg-yj5y">+0</td>
+                            <td class="tg-yj5y">+3</td>
+                            <td class="tg-yj5y">-3</td>
+                            <td class="tg-uqo3">+0</td>
+                            <td class="tg-uqo3">-3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text">Armor Class:</span> 16 (natural armor)</p>
+            <p><span class="bold-text">Hit Points:</span> 93 (11d10 + 33)</p>
+            <p><span class="bold-text">Speed:</span> 30 ft., swim 30 ft.</p>
+
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text">Skills:</span> Perception +4</p>
+            <p><span class="bold-text">Damage Immunities:</span> poison</p>
+            <p><span class="bold-text">Condition Immunities:</span> poisoned</p>
+            <p><span class="bold-text">Senses:</span> darkvision 60 ft., passive Perception 14</p>
+            <p><span class="bold-text">Languages:</span> understand Deep Speech but can't speak</p>
+            <p><span class="bold-text">Challenge:</span> 4 (1,100 XP)</p>
+
+            <p><span class="bold-text">Amphibious:</span> The chuul can breathe air and water.</p>
+                <p><span class="bold-text">Sense Magic:</span> The chuul senses magic within 120 feet of it at will. This trait otherwise works like the Detect Magic spell but isn't itself magical.</p>
+
+            <div class="horizontal-line"></div>
+            <h5>Actions</h5>
+            <p><span class="bold-text">Multiattack:</span> The cuuul makes two pincer attacks. If the chuul is grappling a creature, the chuul can also use its tentacles once.</p>
+            <p><span class="bold-text">Pincer:</span> Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. The target is grappled (escape DC 14) if it is a Large or smaller creature and the chuul doesn't have two other creatures grappled.</p>
+            <p><span class="bold-text">Tentacles:</span> One creature grappled by the chuul must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+
+        </div>
+        <!-- End collapseStats -->
+        <!-- Start collapseLore -->
+        <div class="collapse" id="collapseLore">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Lore
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#conflictedCreature">Conflicted Creature</a>
+                    <a class="dropdown-item" href="#servantOfEvil">Servant of Evil</a>
+                </div>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="conflictedCreature">
+                <h5>Conflicted Creature</h5>
+                <p>A chimera combines the worst aspects of its three parts. Its dragon head drives it to raid, plunder, and accumulate a great hoard. Its leonine nature compels it to hunt and kill powerful creatures that threaten its territory. Its goat head grants it a vicious, stubborn streak that compels it to fight to the death.</p>
+                <p>These three aspects drive a chimera to stake out a territory that is as large as 10 miles wide. It preys on wild game, viewing more powerful creatures as rivals to be humiliated and defeated. Its greatest rivals are dragons, griffons, manticores, perytons, and wyverns.</p>
+                <p>When it hunts, the chimera looks for easy ways to amuse itself. It enjoys the fear and suffering of weaker creatures. The monster often toys with its prey, breaking off an attack prematurely and leaving a creature wounded and terrified before returning to finish it off.</p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="servantOfEvil">
+                <h5>Servant of Evil</h5>
+                <p>Though chimeras are far from cunning, their draconic ego makes them susceptible to flattery and gifts. If offered food and treasure, a chimera might spare a traveler. A villain can lure a chimera into service by keeping it well fed and its treasure hoard well stocked.</p>
+            </div>
+            <div class="horizontal-line"></div>
+            <button type="button" class="btn btn-secondary" onclick="goToTop()">Back to Top</button>
+        </div>
+    </div>
+
+    <!-- End collapseLore -->
+
+    <footer class="page-footer font-small blue fixed-bottom">
+        <p>&copy; Chad Oswald | <a href="mailto:chadloswald@gmail.com">chadloswald@gmail.com</a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../../script.js"></script>
+</body>
+
+</html>

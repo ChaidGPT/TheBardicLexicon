@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1692721690600,
@@ -20,6 +20,10 @@
                 {
                     "date": 1692722410985,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,9 +110,9 @@\n             <div class=\"horizontal-line\"></div>\r\n             <h5>Actions</h5>\r\n             <p><span class=\"bold-text\">Multiattack:</span> The cuuul makes two pincer attacks. If the chuul is grappling a creature, the chuul can also use its tentacles once.</p>\r\n             <p><span class=\"bold-text\">Pincer:</span> Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. The target is grappled (escape DC 14) if it is a Large or smaller creature and the chuul doesn't have two other creatures grappled.</p>\r\n-            <p><span class=\"bold-text\">Horns:</span> Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) bludgeoning damage.</p>\r\n+            <p><span class=\"bold-text\">Tentacles:</span> One creature grappled by the chuul must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\r\n \r\n         </div>\r\n         <!-- End collapseStats -->\r\n         <!-- Start collapseLore -->\r\n"
+                },
+                {
+                    "date": 1692912436670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n         <p class=\"lead\">Large aberration, chaotic evil</p>\r\n         <p>Survivors of the ancient aboleth empire, chuuls are crustaceans the aboleths modified and endowed with sentience. They follow the ingrained directives of their creators, as they have done since the dawn of time.</p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait\" src=\"../../images/placeholder.png\" alt=\"Chull image\">\r\n+            <img class=\"monsterPortrait\" src=\"../../images/chuul.png\" alt=\"Chull image\">\r\n         </div>\r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n                 aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
                 }
             ],
             "date": 1692721690600,

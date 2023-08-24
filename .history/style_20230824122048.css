@@ -20,7 +20,7 @@ html {
 }
 
 .navbar .navbar-brand:hover {
-  color: lightgrey;
+  color: #fff;
 }
 
 .navbar .nav-link {
@@ -72,6 +72,10 @@ footer {
     text-align: left;
   }
 }
+
+/* .diceForm {
+  width: 50%;
+} */
 
 .card {
   padding: 20px;
@@ -241,20 +245,4 @@ table {
 .critical-success {
   color: green;
   font-weight: bold;
-}
-
-.attributeForm {
-  max-width: 50px;
-}
-
-#characterPage {
-  padding: 50px 15px 150px 15px;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
-
-.attributes {
-  border: 2px solid black;
-  padding: 5px;
 }

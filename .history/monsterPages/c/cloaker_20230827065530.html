@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Chull</title>
+    <title>Cloaker</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../../style.css">
@@ -37,15 +37,13 @@
     <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">Go Back</button>
 
     <div class="jumbotron">
-        <h1 class="display-4">Chull</h1>
+        <h1 class="display-4">Cloaker</h1>
         <div class="horizontal-line"></div>
-        <p class="lead">Large aberration, chaotic evil</p>
-        <p>Survivors of the ancient aboleth empire, chuuls are crustaceans the aboleths modified and endowed with
-            sentience. They follow the ingrained directives of their creators, as they have done since the dawn of time.
-        </p>
+        <p class="lead">Large aberration, chaotic neutral</p>
+        <p>Cloakers earned their names for the resemblance they bear to dark leathery cloaks. Lurking in remote dungeons and caves, these stealthy predators wait to slay lone or injured prey stumbling through the darkness.</p>
         <hr class="my-4">
         <div class="monsterImageContainer">
-            <img class="monsterPortrait" src="../../images/chuul.png" alt="Chull image">
+            <img class="monsterPortrait" src="../../images/cloaker.png" alt="Cloaker image">
         </div>
         <div class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseStats" role="button"
@@ -74,53 +72,47 @@
                     <tbody>
                         <tr>
                             <td class="tg-34fe"><span class="bold-text">Value</span></td>
-                            <td class="tg-yj5y">19</td>
-                            <td class="tg-yj5y">10</td>
-                            <td class="tg-yj5y">16</td>
-                            <td class="tg-yj5y">5</td>
-                            <td class="tg-uqo3">11</td>
-                            <td class="tg-uqo3">5</td>
+                            <td class="tg-yj5y">17</td>
+                            <td class="tg-yj5y">15</td>
+                            <td class="tg-yj5y">12</td>
+                            <td class="tg-yj5y">13</td>
+                            <td class="tg-uqo3">12</td>
+                            <td class="tg-uqo3">14</td>
                         </tr>
                         <tr>
                             <td class="tg-34fe"><span class="bold-text">Modifier</span></td>
-                            <td class="tg-yj5y">+4</td>
-                            <td class="tg-yj5y">+0</td>
                             <td class="tg-yj5y">+3</td>
-                            <td class="tg-yj5y">-3</td>
-                            <td class="tg-uqo3">+0</td>
-                            <td class="tg-uqo3">-3</td>
+                            <td class="tg-yj5y">+2</td>
+                            <td class="tg-yj5y">+1</td>
+                            <td class="tg-yj5y">+1</td>
+                            <td class="tg-uqo3">+1</td>
+                            <td class="tg-uqo3">+2</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <div class="horizontal-line"></div>
-            <p><span class="bold-text">Armor Class:</span> 16 (natural armor)</p>
-            <p><span class="bold-text">Hit Points:</span> 93 (11d10 + 33)</p>
-            <p><span class="bold-text">Speed:</span> 30 ft., swim 30 ft.</p>
+            <p><span class="bold-text">Armor Class:</span> 14 (natural armor)</p>
+            <p><span class="bold-text">Hit Points:</span> 78 (12d10 + 12)</p>
+            <p><span class="bold-text">Speed:</span> 10 ft., fly 40 ft.</p>
 
             <div class="horizontal-line"></div>
-            <p><span class="bold-text">Skills:</span> Perception +4</p>
-            <p><span class="bold-text">Damage Immunities:</span> poison</p>
-            <p><span class="bold-text">Condition Immunities:</span> poisoned</p>
-            <p><span class="bold-text">Senses:</span> darkvision 60 ft., passive Perception 14</p>
-            <p><span class="bold-text">Languages:</span> understand Deep Speech but can't speak</p>
-            <p><span class="bold-text">Challenge:</span> 4 (1,100 XP)</p>
+            <p><span class="bold-text">Skills:</span> Stealth +5</p>
+            <p><span class="bold-text">Senses:</span> darkvision 60 ft., passive Perception 11</p>
+            <p><span class="bold-text">Languages:</span> Deep Speech, Undercommon</p>
+            <p><span class="bold-text">Challenge:</span> 8 (3,900 XP)</p>
 
-            <p><span class="bold-text">Amphibious:</span> The chuul can breathe air and water.</p>
-            <p><span class="bold-text">Sense Magic:</span> The chuul senses magic within 120 feet of it at will. This
-                trait otherwise works like the Detect Magic spell but isn't itself magical.</p>
+            <p><span class="bold-text">Damage Transfer:</span> While attached to a creature, the cloaker takes only half the damage dealt to it (rounded down), and that creature takes the other half.</p>
+            <p><span class="bold-text">False Appearance:</span> While the cloaker remains motionless without its underside exposed, it is indistinguishable from a dark leather cloak.</p>
+            <p><span class="bold-text">Light Sensitivity:</span> While in bright light, the cloaker has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight.</p>
 
             <div class="horizontal-line"></div>
             <h5>Actions</h5>
-            <p><span class="bold-text">Multiattack:</span> The cuuul makes two pincer attacks. If the chuul is grappling
-                a creature, the chuul can also use its tentacles once.</p>
-            <p><span class="bold-text">Pincer:</span> Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11
-                (2d6 + 4) bludgeoning damage. The target is grappled (escape DC 14) if it is a Large or smaller creature
-                and the chuul doesn't have two other creatures grappled.</p>
-            <p><span class="bold-text">Tentacles:</span> One creature grappled by the chuul must succeed on a DC 13
-                Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed.
-                The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a
-                success.</p>
+            <p><span class="bold-text">Multiattack:</span> The cloaker makes two attacks: one with its bite and one with its tail.</p>
+            <p><span class="bold-text">Bite:</span> Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. The target is grappled (escape DC 14) if it is a Large or smaller creature and the chuul doesn't have two other creatures grappled.</p>
+            <p><span class="bold-text">Tail:</span> Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit: 7 (1d8 + 3) slashing damage.</p>
+            <p><span class="bold-text">Moan:</span> </p>
+            <p><span class="bold-text">Phantasms:</span> </p>
 
         </div>
         <!-- End collapseStats -->
@@ -132,40 +124,33 @@
                     Lore
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#primevalRelics">Primeval Relics</a>
-                    <a class="dropdown-item" href="#tirelessGuardians">Tireless Guardians</a>
-                    <a class="dropdown-item" href="#waitingServants">Waiting Servants</a>
+                    <a class="dropdown-item" href="#camouflagedLurkers">Camouflaged Lurkers</a>
+                    <a class="dropdown-item" href="#opportunisticPredators">Opportunistic Predators</a>
+                    <a class="dropdown-item" href="#hauntingMoan">Haunting Moan</a>
+                    <a class="dropdown-item" href="#cloakerConclaves">Cloaker Conclaves</a>
                 </div>
             </div>
             <div class="horizontal-line"></div>
-            <div id="primevalRelics">
-                <h5>Primeval Relics</h5>
-                <p>In the primeval ages, aboleths ruled a vast empire that spanned the oceans of the world. In those
-                    days, the aboleths used mighty magic and bent the minds of the nascent creatures of the mortal
-                    realm. However, they were bound to the water and could not enforce their will beyond it without
-                    servants. Therefore, they created chuuls.</p>
-                <p>Perfectly obedient, the chuuls collected sentient creatures and magic at the aboleths' command.
-                    Chuuls were designed to endure the ages of the world, growing in size and strength as the eons
-                    passed. When the aboleths' empire crumbled with the rise of the gods, the chuuls were cast adrift.
-                    However, these creatures continue to do what they did for the aboleths, slowly collecting humanoids,
-                    gathering treasure, amassing magic, and consolidating power.</p>
+            <div id="camouflagedLurkers">
+                <h5>Camouflaged Lurkers</h5>
+                <p></p>
+                <p></p>
             </div>
             <div class="horizontal-line"></div>
-            <div id="tirelessGuardians">
-                <h5>Tireless Guardians</h5>
-                <p>Chuul still guard the ruins of the ancient aboleth empire. They linger in silent observance of
-                    eons-old commands. Rumors and ancient maps sometimes lure treasure seekers to these ruins, but the
-                    reward for their boldness is death.</p>
-                <p>Whatever riches that the explorers bring with them adds to the hoard guarded by the chuuls. Chuuls
-                    can sense magic at a distance. This sense couples with an innate drive that leads them to slay
-                    explorers, take their gear, and bury it in secret locales aboleths dictated eons ago.</p>
+            <div id="opportunisticPredators">
+                <h5>Opportunistic Predators</h5>
+                <p></p>
+                <p></p>
             </div>
             <div class="horizontal-line"></div>
-            <div id="waitingServants">
-                <h5>Waiting Servants</h5>
-                <p>Although the aboleths' ancient empire fell long ago, the psychic bonds between them and their created
-                    servants remain intact. Chuuls that come into contact with aboleths immediately assume their old
-                    roles. Such chuuls redirect their compulsions to the service of the aboleths' sinister purposes.</p>
+            <div id="hauntingMoan">
+                <h5>Haunting Moan</h5>
+                <p></p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="cloakerConclaves">
+                <h5>Cloaker Conclaves</h5>
+                <p></p>
             </div>
             <div class="horizontal-line"></div>
             <button type="button" class="btn btn-secondary" onclick="goToTop()">Back to Top</button>

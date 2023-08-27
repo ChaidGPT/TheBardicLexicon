@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 35,
+            "activePatchIndex": 36,
             "patches": [
                 {
                     "date": 1690911654662,
@@ -148,6 +148,10 @@
                 {
                     "date": 1692721712552,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,8 +98,10 @@\n         <a href=\"monsterPages/c/cambion.html\">Cambion</a>\r\n         <a href=\"monsterPages/c/carrionCrawler\">Carrion Crawler</a>\r\n         <a href=\"monsterPages/c/centaur.html\">Centaur</a>\r\n         <a href=\"monsterPages/c/chimera.html\">Chimera</a>\r\n+        <a href=\"monsterPages/c/chuul.html\">Chull</a>\r\n+\r\n       </div>\r\n     </div>\r\n \r\n     <a class=\"btn btn-primary monsterBtn\" data-toggle=\"collapse\" href=\"#collapseD\" role=\"button\" aria-expanded=\"false\"\r\n"
+                },
+                {
+                    "date": 1693143194584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,9 +99,9 @@\n         <a href=\"monsterPages/c/carrionCrawler\">Carrion Crawler</a>\r\n         <a href=\"monsterPages/c/centaur.html\">Centaur</a>\r\n         <a href=\"monsterPages/c/chimera.html\">Chimera</a>\r\n         <a href=\"monsterPages/c/chuul.html\">Chull</a>\r\n-\r\n+        <a href=\"monsterPages/c/cloaker.html\">Cloaker</a>\r\n       </div>\r\n     </div>\r\n \r\n     <a class=\"btn btn-primary monsterBtn\" data-toggle=\"collapse\" href=\"#collapseD\" role=\"button\" aria-expanded=\"false\"\r\n"
                 }
             ],
             "date": 1690911654662,

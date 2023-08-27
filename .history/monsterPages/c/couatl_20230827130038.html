@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Couatl</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <header class="header-top">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="../../index.html">D&D Resource</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../bestiary.html">Bestiary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../dice.html">Dice Roll Generator</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">Go Back</button>
+
+    <div class="jumbotron">
+        <h1 class="display-4">Couatl</h1>
+        <div class="horizontal-line"></div>
+        <p class="lead">Medium celestial, lawful good</p>
+        <p>Couatls are benevolent serpentine beings of great intellect and insight. Their brilliantly colored wings and gentle manner speak to their celestial origins.</p>
+        <hr class="my-4">
+        <div class="monsterImageContainer">
+            <img class="monsterPortrait" src="../../images/couatl.png" alt="Placeholder image">
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseStats" role="button"
+                aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToStats()">Basic Info</button>
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseLore" role="button"
+                aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToLore()">Lore</button>
+        </div>
+
+        <!-- Start collapseStats -->
+        <div class="collapse" id="collapseStats">
+            <h4>Basic Character Attributes</h4>
+            <div class="horizontal-line"></div>
+            <div class="tableContainer">
+                <table class="tg">
+                    <thead>
+                        <tr>
+                            <th class="tg-34fe"><span class="bold-text">Attribute</span></th>
+                            <th class="tg-yj5y">STR</th>
+                            <th class="tg-yj5y">DEX</th>
+                            <th class="tg-yj5y">CON</th>
+                            <th class="tg-yj5y">INT</th>
+                            <th class="tg-uqo3">WIS</th>
+                            <th class="tg-uqo3">CHA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tg-34fe"><span class="bold-text">Value</span></td>
+                            <td class="tg-yj5y">16</td>
+                            <td class="tg-yj5y">20</td>
+                            <td class="tg-yj5y">17</td>
+                            <td class="tg-yj5y">18</td>
+                            <td class="tg-uqo3">20</td>
+                            <td class="tg-uqo3">18</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-34fe"><span class="bold-text">Modifier</span></td>
+                            <td class="tg-yj5y">+3</td>
+                            <td class="tg-yj5y">+5</td>
+                            <td class="tg-yj5y">+3</td>
+                            <td class="tg-yj5y">+4</td>
+                            <td class="tg-uqo3">+5</td>
+                            <td class="tg-uqo3">+4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text">Armor Class:</span> 19 (natural armor)</p>
+            <p><span class="bold-text">Hit Points:</span> 97 (13d8 + 39)</p>
+            <p><span class="bold-text">Speed:</span> 30 ft., fly 90 ft.</p>
+
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text">Saving Throws:</span> Con +5, Wis +7, Cha +6</p>
+            <p><span class="bold-text">Damage Resistances:</span> radiant</p>
+            <p><span class="bold-text">Damage Immunities:</span> psychic; bludgeoning, piercing, and slashing from nonmagical weapons</p>
+            <p><span class="bold-text">Senses:</span> truesight 120 ft., passive Perception 15</p>
+            <p><span class="bold-text">Languages:</span> all, telepathy 120 ft.</p>
+            <p><span class="bold-text">Challenge:</span> 4 (1,100 XP)</p>
+
+            <p><span class="bold-text">Innate Spellcasting:</span> The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components:</p>
+            <p>At will: detect evil and good, detect magic, detect thoughts 3/day each: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield</p>
+            <p>1/day each: dream, greater restoration, scrying</p>
+            <p><span class="bold-text">Magic Weapons:</span> The couatl's weapon attacks are magical.</p>
+            <p><span class="bold-text">Shielded Mind:</span> The couatl is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location.</p>
+
+            <div class="horizontal-line"></div>
+            <h5>Actions</h5>
+            <p><span class="bold-text">Bite:</span> Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 24 hours. Until this poison ends, the target is unconscious. Another creature can use an action to shake the target awake.</p>
+            <p><span class="bold-text">Constrict:</span> Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</p>
+            <p><span class="bold-text">Change Shape:</span> </p>
+
+        </div>
+        <!-- End collapseStats -->
+        <!-- Start collapseLore -->
+        <div class="collapse" id="collapseLore">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Lore
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#divineCaretakers">Divine Caretakers</a>
+                    <a class="dropdown-item" href="#truthTellers">Truth Tellers</a>
+                    <a class="dropdown-item" href="#ancientAndFew">Ancient and Few</a>
+                </div>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="divineCaretakers">
+                <h5>Divine Caretakers</h5>
+                <p></p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="truthTellers">
+                <h5>Truth Tellers</h5>
+                <p></p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="ancientAndFew">
+                <h5>Ancient and Few</h5>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="horizontal-line"></div>
+            <button type="button" class="btn btn-secondary" onclick="goToTop()">Back to Top</button>
+        </div>
+    </div>
+
+    <!-- End collapseLore -->
+
+    <footer class="page-footer font-small blue fixed-bottom">
+        <p>&copy; Chad Oswald | <a href="mailto:chadloswald@gmail.com">chadloswald@gmail.com</a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../../script.js"></script>
+</body>
+
+</html>

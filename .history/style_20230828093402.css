@@ -9,11 +9,9 @@ html {
   z-index: 10;
 }
 
-/* .indexPanel {
+.indexPanel {
   background-image: url(images/dnd.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-} */
+}
 
 /* CSS for header */
 .navbar {

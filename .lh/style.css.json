@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 197,
+            "activePatchIndex": 200,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -796,6 +796,18 @@
                 {
                     "date": 1692912098009,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -255,5 +255,6 @@\n }\r\n \r\n .attributes {\r\n   border: 2px solid black;\r\n+  padding: 5px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693240442500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,12 @@\n   position: relative;\r\n   z-index: 10;\r\n }\r\n \r\n+.indexPanel {\r\n+  background-image: url(images/dnd.jpg);\r\n+}\r\n+\r\n /* CSS for header */\r\n .navbar {\r\n   background-color: #343a40;\r\n   color: #fff;\r\n"
+                },
+                {
+                    "date": 1693240560328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,10 @@\n }\r\n \r\n .indexPanel {\r\n   background-image: url(images/dnd.jpg);\r\n+  background-repeat: no-repeat;\r\n+  background-position: center center;\r\n }\r\n \r\n /* CSS for header */\r\n .navbar {\r\n"
+                },
+                {
+                    "date": 1693240659893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,13 +8,13 @@\n   position: relative;\r\n   z-index: 10;\r\n }\r\n \r\n-.indexPanel {\r\n+/* .indexPanel {\r\n   background-image: url(images/dnd.jpg);\r\n   background-repeat: no-repeat;\r\n   background-position: center center;\r\n-}\r\n+} */\r\n \r\n /* CSS for header */\r\n .navbar {\r\n   background-color: #343a40;\r\n"
                 }
             ],
             "date": 1690811923410,

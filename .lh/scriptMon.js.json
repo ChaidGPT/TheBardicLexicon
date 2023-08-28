@@ -1,0 +1,18 @@
+{
+    "sourceFile": "scriptMon.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1693231223884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1693231223884,
+            "name": "Commit-0",
+            "content": "function goBack() {\r\n    window.history.go(-1);\r\n  }\r\n  \r\n  function goToTop() {\r\n    window.scrollTo({ top: 0, behavior: \"smooth\" });\r\n  }\r\n  \r\n  function scrollToStats() {\r\n    setTimeout(() => {\r\n      const collapseStats = document.querySelector(\"#collapseStats\");\r\n      const isStatsExpanded =\r\n        collapseStats.getAttribute(\"aria-expanded\") === \"true\";\r\n      if (!isStatsExpanded) {\r\n        collapseStats.scrollIntoView({ behavior: \"smooth\" });\r\n      }\r\n    }, 100);\r\n  }\r\n  \r\n  function scrollToStats2() {\r\n    setTimeout(() => {\r\n      const collapseStats = document.querySelector(\"#collapseStats2\");\r\n      const isStatsExpanded =\r\n        collapseStats.getAttribute(\"aria-expanded\") === \"true\";\r\n      if (!isStatsExpanded) {\r\n        collapseStats.scrollIntoView({ behavior: \"smooth\" });\r\n      }\r\n    }, 100);\r\n  }\r\n  \r\n  function scrollToLore() {\r\n    setTimeout(() => {\r\n      const collapseLore = document.querySelector(\"#collapseLore\");\r\n      const isLoreExpanded =\r\n        collapseLore.getAttribute(\"aria-expanded\") === \"true\";\r\n      if (!isLoreExpanded) {\r\n        collapseLore.scrollIntoView({ behavior: \"smooth\" });\r\n      }\r\n    }, 100);\r\n  }\r\n  \r\n  const imageContainer = document.querySelector(\".monsterImageContainer\");\r\n  const navbar = document.querySelector(\"header\");\r\n  const footer = document.querySelector(\"footer\");\r\n  \r\n  // Function to scale the image when hovered\r\n  function scaleImageOnHover() {\r\n    const image = imageContainer.querySelector(\"img\");\r\n    const originalWidth = image.naturalWidth;\r\n    const originalHeight = image.naturalHeight;\r\n  \r\n    // Calculate the scaling factors based on the image dimensions\r\n    const scaleX = originalWidth / (originalWidth * 0.75);\r\n    const scaleY = originalHeight / (originalHeight * 0.75);\r\n  \r\n    // Apply the scaling transformation on hover\r\n    image.addEventListener(\"mouseenter\", () => {\r\n      image.style.transform = `scale(${scaleX}, ${scaleY})`;\r\n      // Bring the scaled image above the navbar and footer\r\n      image.style.zIndex = \"1\";\r\n      navbar.style.zIndex = \"-1\";\r\n      footer.style.zIndex = \"-1\";\r\n    });\r\n  \r\n    // Reset the scaling transformation when the mouse leaves\r\n    image.addEventListener(\"mouseleave\", () => {\r\n      image.style.transform = \"scale(1)\";\r\n      // Reset the z-index back to default\r\n      image.style.zIndex = \"unset\";\r\n      navbar.style.zIndex = \"unset\";\r\n      footer.style.zIndex = \"unset\";\r\n    });\r\n  }\r\n  \r\n  scaleImageOnHover();"
+        }
+    ]
+}

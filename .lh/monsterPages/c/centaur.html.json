@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1692715784271,
@@ -28,6 +28,10 @@
                 {
                     "date": 1692912436687,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n         <p>Reclusive wanderers and omen-readers of the wild, centaurs avoid conflict but fight fiercely when pressed.\r\n             They roam the vast wilderness, keeping far from borders, laws, and the company of other creatures.</p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait\" src=\"../../images/placeholder.png\" alt=\"Centaur image\">\r\n+            <img class=\"monsterPortrait\" src=\"../../images/centaur.avif\" alt=\"Centaur image\">\r\n         </div>\r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n                 aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
+                },
+                {
+                    "date": 1693233463736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -174,8 +174,8 @@\n         crossorigin=\"anonymous\"></script>\r\n     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js\"\r\n         integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\"\r\n         crossorigin=\"anonymous\"></script>\r\n-    <script src=\"../../script.js\"></script>\r\n+    <script src=\"../../scriptMon.js\"></script>\r\n </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1692715784271,

@@ -3,11 +3,23 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1693231223885,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1693243325724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -78,8 +78,12 @@\n   \r\n       // Create an audio element for the dice sound\r\n       const diceSound = new Audio();\r\n       diceSound.src = \"sounds/dice.mp3\";\r\n+      const criticalSuccessSound = new Audio();\r\n+      criticalSuccessSound.src = \"sounds/yay.mp3\";\r\n+      const criticalFailureSound = new Audio();\r\n+      criticalFailureSound.src = \"sounds/boo.mp3\";\r\n   \r\n       // Display individual rolls one by one with a delay\r\n       let currentDelay = 500;\r\n       rolls.forEach((roll, index) => {\r\n"
+                },
+                {
+                    "date": 1693243474387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,13 +77,13 @@\n       diceResultsContainer.appendChild(rollResultParagraph);\r\n   \r\n       // Create an audio element for the dice sound\r\n       const diceSound = new Audio();\r\n-      diceSound.src = \"sounds/dice.mp3\";\r\n+      diceSound.src = \"/sounds/dice.mp3\";\r\n       const criticalSuccessSound = new Audio();\r\n-      criticalSuccessSound.src = \"sounds/yay.mp3\";\r\n+      criticalSuccessSound.src = \"/sounds/yay.mp3\";\r\n       const criticalFailureSound = new Audio();\r\n-      criticalFailureSound.src = \"sounds/boo.mp3\";\r\n+      criticalFailureSound.src = \"/sounds/boo.mp3\";\r\n   \r\n       // Display individual rolls one by one with a delay\r\n       let currentDelay = 500;\r\n       rolls.forEach((roll, index) => {\r\n"
+                },
+                {
+                    "date": 1693243637907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,13 +77,13 @@\n       diceResultsContainer.appendChild(rollResultParagraph);\r\n   \r\n       // Create an audio element for the dice sound\r\n       const diceSound = new Audio();\r\n-      diceSound.src = \"/sounds/dice.mp3\";\r\n+      diceSound.src = \"sounds/dice.mp3\";\r\n       const criticalSuccessSound = new Audio();\r\n-      criticalSuccessSound.src = \"/sounds/yay.mp3\";\r\n+      criticalSuccessSound.src = \"sounds/yay.mp3\";\r\n       const criticalFailureSound = new Audio();\r\n-      criticalFailureSound.src = \"/sounds/boo.mp3\";\r\n+      criticalFailureSound.src = \"sounds/boo.mp3\";\r\n   \r\n       // Display individual rolls one by one with a delay\r\n       let currentDelay = 500;\r\n       rolls.forEach((roll, index) => {\r\n"
                 }
             ],
             "date": 1693231223885,

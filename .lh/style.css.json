@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 200,
+            "activePatchIndex": 225,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -808,6 +808,106 @@
                 {
                     "date": 1693240659893,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,13 +8,13 @@\n   position: relative;\r\n   z-index: 10;\r\n }\r\n \r\n-.indexPanel {\r\n+/* .indexPanel {\r\n   background-image: url(images/dnd.jpg);\r\n   background-repeat: no-repeat;\r\n   background-position: center center;\r\n-}\r\n+} */\r\n \r\n /* CSS for header */\r\n .navbar {\r\n   background-color: #343a40;\r\n"
+                },
+                {
+                    "date": 1693247367323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -262,5 +262,11 @@\n \r\n .attributes {\r\n   border: 2px solid black;\r\n   padding: 5px;\r\n+}\r\n+\r\n+/* Character Sheet Specific */\r\n+\r\n+.statNum {\r\n+  width: 20px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693247378732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -267,6 +267,6 @@\n \r\n /* Character Sheet Specific */\r\n \r\n .statNum {\r\n-  width: 20px;\r\n+  width: 30px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693247403499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -267,6 +267,6 @@\n \r\n /* Character Sheet Specific */\r\n \r\n .statNum {\r\n-  width: 30px;\r\n+  width:40px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693247414854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -267,6 +267,6 @@\n \r\n /* Character Sheet Specific */\r\n \r\n .statNum {\r\n-  width:40px;\r\n+  width:50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693247763160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -268,5 +268,25 @@\n /* Character Sheet Specific */\r\n \r\n .statNum {\r\n   width:50px;\r\n+}\r\n+\r\n+/* Your existing CSS */\r\n+\r\n+/* Additional CSS for mobile responsiveness */\r\n+@media (max-width: 600px) {\r\n+  .attributes {\r\n+    display: flex; /* Use flexbox to keep the inputs in a row */\r\n+    flex-wrap: wrap; /* Allow wrapping on smaller screens */\r\n+    justify-content: center; /* Center-align the inputs horizontally */\r\n+  }\r\n+\r\n+  .form-group.col {\r\n+    flex: 0 0 calc(16.666% - 10px); /* Distribute columns evenly with spacing */\r\n+    margin: 5px; /* Add some spacing between columns */\r\n+  }\r\n+  \r\n+  .statNum {\r\n+    width: 50px; /* Keep the width for smaller screens */\r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693247798313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -268,25 +268,5 @@\n /* Character Sheet Specific */\r\n \r\n .statNum {\r\n   width:50px;\r\n-}\r\n-\r\n-/* Your existing CSS */\r\n-\r\n-/* Additional CSS for mobile responsiveness */\r\n-@media (max-width: 600px) {\r\n-  .attributes {\r\n-    display: flex; /* Use flexbox to keep the inputs in a row */\r\n-    flex-wrap: wrap; /* Allow wrapping on smaller screens */\r\n-    justify-content: center; /* Center-align the inputs horizontally */\r\n-  }\r\n-\r\n-  .form-group.col {\r\n-    flex: 0 0 calc(16.666% - 10px); /* Distribute columns evenly with spacing */\r\n-    margin: 5px; /* Add some spacing between columns */\r\n-  }\r\n-  \r\n-  .statNum {\r\n-    width: 50px; /* Keep the width for smaller screens */\r\n-  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693248994938,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -267,6 +267,6 @@\n \r\n /* Character Sheet Specific */\r\n \r\n .statNum {\r\n-  width:50px;\r\n+  width:45px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693249041240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -266,7 +266,11 @@\n }\r\n \r\n /* Character Sheet Specific */\r\n \r\n+.attributes {\r\n+  max-width: 75%;\r\n+}\r\n+\r\n .statNum {\r\n   width:45px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693249075914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -267,9 +267,9 @@\n \r\n /* Character Sheet Specific */\r\n \r\n .attributes {\r\n-  max-width: 75%;\r\n+  max-width: auto;\r\n }\r\n \r\n .statNum {\r\n   width:45px;\r\n"
+                },
+                {
+                    "date": 1693249176203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -272,5 +272,6 @@\n }\r\n \r\n .statNum {\r\n   width:45px;\r\n+  padding: 0, 10px\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693249216288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -272,6 +272,6 @@\n }\r\n \r\n .statNum {\r\n   width:45px;\r\n-  padding: 0, 10px\r\n+  /* padding: 0, 10px */\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693249509666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -268,8 +268,9 @@\n /* Character Sheet Specific */\r\n \r\n .attributes {\r\n   max-width: auto;\r\n+  display: inline-block;\r\n }\r\n \r\n .statNum {\r\n   width:45px;\r\n"
+                },
+                {
+                    "date": 1693249534010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -268,9 +268,9 @@\n /* Character Sheet Specific */\r\n \r\n .attributes {\r\n   max-width: auto;\r\n-  display: inline-block;\r\n+  display: inline;\r\n }\r\n \r\n .statNum {\r\n   width:45px;\r\n"
+                },
+                {
+                    "date": 1693249551521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -268,9 +268,9 @@\n /* Character Sheet Specific */\r\n \r\n .attributes {\r\n   max-width: auto;\r\n-  display: inline;\r\n+  display:flexbox;\r\n }\r\n \r\n .statNum {\r\n   width:45px;\r\n"
+                },
+                {
+                    "date": 1693249575088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -268,9 +268,9 @@\n /* Character Sheet Specific */\r\n \r\n .attributes {\r\n   max-width: auto;\r\n-  display:flexbox;\r\n+  display:inline-flex;\r\n }\r\n \r\n .statNum {\r\n   width:45px;\r\n"
+                },
+                {
+                    "date": 1693249599558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -268,9 +268,9 @@\n /* Character Sheet Specific */\r\n \r\n .attributes {\r\n   max-width: auto;\r\n-  display:inline-flex;\r\n+  display:inline;\r\n }\r\n \r\n .statNum {\r\n   width:45px;\r\n"
+                },
+                {
+                    "date": 1693249665546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -268,9 +268,9 @@\n /* Character Sheet Specific */\r\n \r\n .attributes {\r\n   max-width: auto;\r\n-  display:inline;\r\n+  display:inline-flexbox;\r\n }\r\n \r\n .statNum {\r\n   width:45px;\r\n"
+                },
+                {
+                    "date": 1693249692421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,6 +273,6 @@\n }\r\n \r\n .statNum {\r\n   width:45px;\r\n-  /* padding: 0, 10px */\r\n+  padding: 0, 10px\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693249741854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,6 +273,6 @@\n }\r\n \r\n .statNum {\r\n   width:45px;\r\n-  padding: 0, 10px\r\n+  margin: -15px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693249757809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,6 +273,6 @@\n }\r\n \r\n .statNum {\r\n   width:45px;\r\n-  margin: -15px;\r\n+  margin: 0, -15px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693249784515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,6 +273,6 @@\n }\r\n \r\n .statNum {\r\n   width:45px;\r\n-  margin: 0, -15px;\r\n+  margin: 0, -15px, 0, -15px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693249883758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,6 +273,9 @@\n }\r\n \r\n .statNum {\r\n   width:45px;\r\n+}\r\n+\r\n+.statBox {\r\n   margin: 0, -15px, 0, -15px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693250076346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -268,14 +268,9 @@\n /* Character Sheet Specific */\r\n \r\n .attributes {\r\n   max-width: auto;\r\n-  display:inline-flexbox;\r\n }\r\n \r\n .statNum {\r\n   width:45px;\r\n-}\r\n-\r\n-.statBox {\r\n-  margin: 0, -15px, 0, -15px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693250105775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -259,16 +259,13 @@\n   justify-content: center;\r\n   align-items: center;\r\n }\r\n \r\n+/* Character Sheet Specific */\r\n+\r\n .attributes {\r\n   border: 2px solid black;\r\n   padding: 5px;\r\n-}\r\n-\r\n-/* Character Sheet Specific */\r\n-\r\n-.attributes {\r\n   max-width: auto;\r\n }\r\n \r\n .statNum {\r\n"
+                },
+                {
+                    "date": 1693250168443,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -267,7 +267,7 @@\n   padding: 5px;\r\n   max-width: auto;\r\n }\r\n \r\n-.statNum {\r\n+/* .statNum {\r\n   width:45px;\r\n\\ No newline at end of file\n-}\n+} */\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1690811923410,

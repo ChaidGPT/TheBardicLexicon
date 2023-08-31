@@ -3,11 +3,19 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1693242915830,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1693443616977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n             Missing parts appear to have been bitten off. Seasoned explorers regard such relics as warnings, knowing\r\n             that the basilisk that created them is likely to be nearby.</p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait\" src=\"../../images/basilisk.png\" alt=\"Basilisk image\">\r\n+            <img class=\"monsterPortrait\" src=\"../../../images/basilisk.png\" alt=\"Basilisk image\">\r\n         </div>\r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n                 aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
+                },
+                {
+                    "date": 1693496042016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,8 +181,8 @@\n         crossorigin=\"anonymous\"></script>\r\n     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js\"\r\n         integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\"\r\n         crossorigin=\"anonymous\"></script>\r\n-    <script src=\"../../scriptMon.js\"></script>\r\n+    <script src=\"../../../scriptMon.js\"></script>\r\n </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1693242915830,

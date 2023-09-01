@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 7,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1693239574363,
@@ -36,6 +36,10 @@
                 {
                     "date": 1693501172685,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,9 @@\n       D\r\n     </a>\r\n     <div class=\"collapse\" id=\"collapseD\">\r\n       <div class=\"card card-body\">\r\n-        <a href=\"monsterPages/a/Aarakocra.html\">Aarakocra</a>\r\n+        <a href=\"monsterPages/d/darkmantle.html\">Darkmantle</a>\r\n       </div>\r\n     </div>\r\n \r\n     <a class=\"btn btn-primary monsterBtn\" data-toggle=\"collapse\" href=\"#collapseE\" role=\"button\" aria-expanded=\"false\"\r\n"
+                },
+                {
+                    "date": 1693529819082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,8 +132,9 @@\n     </a>\r\n     <div class=\"collapse\" id=\"collapseD\">\r\n       <div class=\"card card-body\">\r\n         <a href=\"monsterPages/d/darkmantle.html\">Darkmantle</a>\r\n+        <a href=\"monsterPages/d/deathKnight.html\">Death Knight</a>\r\n       </div>\r\n     </div>\r\n \r\n     <a class=\"btn btn-primary monsterBtn\" data-toggle=\"collapse\" href=\"#collapseE\" role=\"button\" aria-expanded=\"false\"\r\n"
                 }
             ],
             "date": 1693239574363,

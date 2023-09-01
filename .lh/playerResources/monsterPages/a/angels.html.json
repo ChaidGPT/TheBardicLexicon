@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1693242915833,
@@ -12,6 +12,10 @@
                 {
                     "date": 1693443713455,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n          sublime beauty and presence can drive awestruck onlookers to their knees. Yet angels are destroyers too, and\r\n          their appearance portends doom as often as it signals hope.</p>\r\n       <hr class=\"my-4\">\r\n       <div class=\"monsterImageContainer\">\r\n-         <img class=\"monsterPortrait\" src=\"../../images/angels.webp\" alt=\"Angels image\">\r\n+         <img class=\"monsterPortrait\" src=\"../../../images/angels.webp\" alt=\"Angels image\">\r\n       </div>\r\n       <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n          <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseLore\" role=\"button\"\r\n             aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToLore()\">Lore</button>\r\n"
+                },
+                {
+                    "date": 1693539376133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,8 +132,8 @@\n       crossorigin=\"anonymous\"></script>\r\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js\"\r\n       integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\"\r\n       crossorigin=\"anonymous\"></script>\r\n-   <script src=\"../../scriptMon.js\"></script>\r\n+   <script src=\"../../../scriptMon.js\"></script>\r\n </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1693242915833,

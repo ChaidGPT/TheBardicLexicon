@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 73,
+            "activePatchIndex": 74,
             "patches": [
                 {
                     "date": 1690830309588,
@@ -300,6 +300,10 @@
                 {
                     "date": 1693240651021,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,13 +59,13 @@\n       <h1 class=\"display-4\">D&D Reference</h1>\r\n       <p class=\"lead\">A handy place to find your D&D info on the go!</p>\r\n       <hr class=\"my-4\">\r\n       <p>Quick navigation</p>\r\n+\r\n+      <a class=\"btn btn-primary btn-sm\" href=\"bestiary.html\" role=\"button\">Find Beasts</a>\r\n+      <a class=\"btn btn-primary btn-sm\" href=\"playerResources/classes.html\" role=\"button\">Find Classes</a>\r\n     </div>\r\n \r\n-    <a class=\"btn btn-primary btn-sm\" href=\"bestiary.html\" role=\"button\">Find Beasts</a>\r\n-    <a class=\"btn btn-primary btn-sm\" href=\"playerResources/classes.html\" role=\"button\">Find Classes</a>\r\n-\r\n     <footer class=\"page-footer font-small blue fixed-bottom\">\r\n       <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a></p>\r\n     </footer>\r\n     <script src=\"script.js\"></script>\r\n"
+                },
+                {
+                    "date": 1693749890055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n       <p class=\"lead\">A handy place to find your D&D info on the go!</p>\r\n       <hr class=\"my-4\">\r\n       <p>Quick navigation</p>\r\n \r\n-      <a class=\"btn btn-primary btn-sm\" href=\"bestiary.html\" role=\"button\">Find Beasts</a>\r\n+      <a class=\"btn btn-primary btn-sm\" href=\"playerResources/bestiary.html\" role=\"button\">Find Beasts</a>\r\n       <a class=\"btn btn-primary btn-sm\" href=\"playerResources/classes.html\" role=\"button\">Find Classes</a>\r\n     </div>\r\n \r\n     <footer class=\"page-footer font-small blue fixed-bottom\">\r\n"
                 }
             ],
             "date": 1690830309588,

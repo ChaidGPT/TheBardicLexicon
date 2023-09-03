@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1693231223884,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1693751219794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,8 +37,19 @@\n         collapseLore.scrollIntoView({ behavior: \"smooth\" });\r\n       }\r\n     }, 100);\r\n   }\r\n+\r\n+  function scrollToLords() {\r\n+    setTimeout(() => {\r\n+      const collapseLord = document.querySelector(\"#collapseLords\");\r\n+      const isLordExpanded =\r\n+        collapseLord.getAttribute(\"aria-expanded\") === \"true\";\r\n+      if (!isLordExpanded) {\r\n+        collapseLord.scrollIntoView({ behavior: \"smooth\" });\r\n+      }\r\n+    }, 100);\r\n+  }\r\n   \r\n   const imageContainer = document.querySelector(\".monsterImageContainer\");\r\n   const navbar = document.querySelector(\"header\");\r\n   const footer = document.querySelector(\"footer\");\r\n"
                 }
             ],
             "date": 1693231223884,

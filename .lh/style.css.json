@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 229,
+            "activePatchIndex": 232,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -924,6 +924,18 @@
                 {
                     "date": 1693752517305,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -144,21 +144,8 @@\n #collapseLore p {\r\n   text-align: left;\r\n }\r\n \r\n-#collapseLords {\r\n-  border: 2px lightgray solid;\r\n-  border-radius: 5%;\r\n-  margin: 30px auto;\r\n-  padding: 5px 15px;\r\n-  background-color: white;\r\n-  max-width: 500px;\r\n-}\r\n-\r\n-#collapseLords p {\r\n-  text-align: left;\r\n-}\r\n-\r\n li {\r\n   text-align: left;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1693781408886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,8 +39,12 @@\n   background-color: #e9ecef;\r\n   padding: 25px 0 0 0;\r\n }\r\n \r\n+.bestiaryDropDown {\r\n+  width: 20px;\r\n+}\r\n+\r\n /* CSS for footer */\r\n footer {\r\n   background-color: #343a40;\r\n   color: #fff;\r\n"
+                },
+                {
+                    "date": 1693781671395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,10 +39,10 @@\n   background-color: #e9ecef;\r\n   padding: 25px 0 0 0;\r\n }\r\n \r\n-.bestiaryDropDown {\r\n-  width: 20px;\r\n+.custom-width {\r\n+  width: 20px; /* Set the desired width in pixels */\r\n }\r\n \r\n /* CSS for footer */\r\n footer {\r\n"
+                },
+                {
+                    "date": 1693782153534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,12 +39,8 @@\n   background-color: #e9ecef;\r\n   padding: 25px 0 0 0;\r\n }\r\n \r\n-.custom-width {\r\n-  width: 20px; /* Set the desired width in pixels */\r\n-}\r\n-\r\n /* CSS for footer */\r\n footer {\r\n   background-color: #343a40;\r\n   color: #fff;\r\n"
                 }
             ],
             "date": 1690811923410,

@@ -4,6 +4,11 @@ html {
   min-height: 100%;
 }
 
+.header-top {
+  position: relative;
+  z-index: 10;
+}
+
 /* CSS for header */
 .navbar {
   background-color: #343a40;
@@ -15,11 +20,15 @@ html {
 }
 
 .navbar .navbar-brand:hover {
-  color: #fff;
+  color: lightgrey;
 }
 
 .navbar .nav-link {
   color: #fff;
+}
+
+.navbar .nav-link:hover {
+  color: lightgrey;
 }
 
 nav .navbar-toggler-icon {
@@ -29,6 +38,10 @@ nav .navbar-toggler-icon {
 body {
   background-color: #e9ecef;
   padding: 25px 0 0 0;
+}
+
+.custom-width {
+  width: 20px; /* Set the desired width in pixels */
 }
 
 /* CSS for footer */
@@ -64,9 +77,19 @@ footer {
   }
 }
 
+.card {
+  padding: 20px;
+  border: 2px lightgray solid;
+  border-radius: 5%;
+  max-width: 85%;
+  margin: 30px auto;
+}
+
 #monsterPage {
   padding: 50px 0px 150px 0px;
   min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 a.list-group-flush.border-0 {
@@ -80,9 +103,11 @@ a.list-group-flush.border-0 {
 }
 
 .monsterImageContainer img {
-  border: 2px lightgray solid;
+  border: 2px black solid;
   border-radius: 5%;
+  background-color: #D0C6B1;
   max-width: 300px;
+  transition: transform 0.3s ease;
 }
 
 #collapseStats {
@@ -95,6 +120,19 @@ a.list-group-flush.border-0 {
 }
 
 #collapseStats p {
+  text-align: left;
+}
+
+#collapseStats2 {
+  border: 2px lightgray solid;
+  border-radius: 5%;
+  margin: 30px auto;
+  padding: 5px 15px;
+  background-color: white;
+  max-width: 500px;
+}
+
+#collapseStats2 p {
   text-align: left;
 }
 
@@ -111,9 +149,14 @@ a.list-group-flush.border-0 {
   text-align: left;
 }
 
+li {
+  text-align: left;
+}
+
 .tableContainer {
   display: flex;
   justify-content: center;
+  border-radius: 10px;
 }
 
 table {
@@ -196,4 +239,33 @@ table {
 
 .monsterBtn {
   margin: 5px;
+}
+
+.critical-failure {
+  color: red;
+  font-weight: bold;
+}
+
+.critical-success {
+  color: green;
+  font-weight: bold;
+}
+
+.attributeForm {
+  max-width: 50px;
+}
+
+#characterPage {
+  padding: 50px 15px 150px 15px;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Character Sheet Specific */
+
+.attributes {
+  border: 2px solid black;
+  padding: 5px;
+  max-width: auto;
 }

@@ -40,9 +40,8 @@ body {
   padding: 25px 0 0 0;
 }
 
-.card-img-top {
-  height: auto;
-  max-width: 150px;
+.bestiary-max-height {
+  max-height: 50px;
 }
 
 /* CSS for footer */

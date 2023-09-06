@@ -45,6 +45,10 @@ body {
   max-width: 150px;
 }
 
+.bestiary-card {
+  max-width: 50px;
+}
+
 /* CSS for footer */
 footer {
   background-color: #343a40;

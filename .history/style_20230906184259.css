@@ -50,8 +50,7 @@ body {
 }
 
 .bestiary-figure {
-  border: 2px transparent solid;
-  background-color: #fff;
+  border: 2px clear solid;
 }
 
 .bestiary-figure:hover {

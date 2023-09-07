@@ -44,24 +44,10 @@ body {
   /* background-color: #343a40; */
 }
 
-.beast-thumbnail {
-  width: auto;
-  max-height: 150px;
-}
-
-.bestiary-figure {
-  border: 2px transparent solid;
-  background-color: #fff;
-}
-
-.bestiary-figure:hover {
-  border: 2px black solid;
-}
-
-/* .card-img-top {
+.card-img-top {
   height: auto;
   max-width: 150px;
-} */
+}
 
 /* CSS for footer */
 footer {

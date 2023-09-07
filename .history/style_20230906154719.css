@@ -45,17 +45,8 @@ body {
 }
 
 .beast-thumbnail {
-  width: auto;
-  max-height: 150px;
-}
-
-.bestiary-figure {
-  border: 2px transparent solid;
-  background-color: #fff;
-}
-
-.bestiary-figure:hover {
-  border: 2px black solid;
+  max-width: 150px;
+  
 }
 
 /* .card-img-top {

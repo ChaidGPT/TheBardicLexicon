@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 136,
+            "activePatchIndex": 142,
             "patches": [
                 {
                     "date": 1693239574363,
@@ -552,6 +552,30 @@
                 {
                     "date": 1694059065895,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -304,11 +304,8 @@\n \r\n         </div>\r\n       </div>\r\n \r\n-      <div class=\"card card-body\">\r\n-        <a href=\"monsterPages/c/cyclops.html\">Cyclops</a>\r\n-      </div>\r\n     </div>\r\n \r\n     <a class=\"btn btn-primary monsterBtn\" data-toggle=\"collapse\" href=\"#collapseD\" role=\"button\" aria-expanded=\"false\"\r\n       aria-controls=\"collapseD\">\r\n"
+                },
+                {
+                    "date": 1694059268410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -311,8 +311,24 @@\n       aria-controls=\"collapseD\">\r\n       D\r\n     </a>\r\n     <div class=\"collapse\" id=\"collapseD\">\r\n+\r\n+      <div class=\"container\">\r\n+        <div class=\"row\">\r\n+\r\n+          <a href=\"monsterPages/c/cambion.html\">\r\n+            <figure class=\"bestiary-figure\">\r\n+              <img src=\"../images/cambion.webp\" href=\"monsterPages/c/cambion.html\"\r\n+                class=\"rounded mx-auto d-block beast-thumbnail\" alt=\"Cambion image\">\r\n+              <figcaption class=\"figure-caption text-center\">Cambion</figcaption>\r\n+            </figure>\r\n+          </a>\r\n+\r\n+        </div>\r\n+      </div>\r\n+\r\n+\r\n       <div class=\"card card-body\">\r\n         <a href=\"monsterPages/d/darkmantle.html\">Darkmantle</a>\r\n         <a href=\"monsterPages/d/deathKnight.html\">Death Knight</a>\r\n         <a href=\"monsterPages/b/deathTyrant.html\">Death Tyrant</a>\r\n"
+                },
+                {
+                    "date": 1694059306997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -315,13 +315,13 @@\n \r\n       <div class=\"container\">\r\n         <div class=\"row\">\r\n \r\n-          <a href=\"monsterPages/c/cambion.html\">\r\n+          <a href=\"monsterPages/d/darkmantle.html\">\r\n             <figure class=\"bestiary-figure\">\r\n-              <img src=\"../images/cambion.webp\" href=\"monsterPages/c/cambion.html\"\r\n-                class=\"rounded mx-auto d-block beast-thumbnail\" alt=\"Cambion image\">\r\n-              <figcaption class=\"figure-caption text-center\">Cambion</figcaption>\r\n+              <img src=\"../images/darkmantle.png\" href=\"monsterPages/d/darkmantle.html\"\r\n+                class=\"rounded mx-auto d-block beast-thumbnail\" alt=\"Darkmantle image\">\r\n+              <figcaption class=\"figure-caption text-center\">Darkmantle</figcaption>\r\n             </figure>\r\n           </a>\r\n \r\n         </div>\r\n"
+                },
+                {
+                    "date": 1694059368167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -323,14 +323,21 @@\n               <figcaption class=\"figure-caption text-center\">Darkmantle</figcaption>\r\n             </figure>\r\n           </a>\r\n \r\n+          <a href=\"monsterPages/d/deathKnight.html\">\r\n+            <figure class=\"bestiary-figure\">\r\n+              <img src=\"../images/deathKnight.webp\" href=\"monsterPages/d/deathKnight.html\"\r\n+                class=\"rounded mx-auto d-block beast-thumbnail\" alt=\"Death Knight image\">\r\n+              <figcaption class=\"figure-caption text-center\">Death Knight</figcaption>\r\n+            </figure>\r\n+          </a>\r\n+\r\n         </div>\r\n       </div>\r\n \r\n \r\n       <div class=\"card card-body\">\r\n-        <a href=\"monsterPages/d/darkmantle.html\">Darkmantle</a>\r\n         <a href=\"monsterPages/d/deathKnight.html\">Death Knight</a>\r\n         <a href=\"monsterPages/b/deathTyrant.html\">Death Tyrant</a>\r\n         <a href=\"monsterPages/d/demilich.html\">Demilich</a>\r\n         <a href=\"monsterPages/d/demons.html\">Demons</a>\r\n"
+                },
+                {
+                    "date": 1694059463019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -331,14 +331,21 @@\n               <figcaption class=\"figure-caption text-center\">Death Knight</figcaption>\r\n             </figure>\r\n           </a>\r\n \r\n+          <a href=\"monsterPages/d/deathKnight.html\">\r\n+            <figure class=\"bestiary-figure\">\r\n+              <img src=\"../images/deathTyrant.webp\" href=\"monsterPages/d/deathKnight.html\"\r\n+                class=\"rounded mx-auto d-block beast-thumbnail\" alt=\"Death Tyrant image\">\r\n+              <figcaption class=\"figure-caption text-center\">Death Tyrant</figcaption>\r\n+            </figure>\r\n+          </a>\r\n+\r\n         </div>\r\n       </div>\r\n \r\n \r\n       <div class=\"card card-body\">\r\n-        <a href=\"monsterPages/d/deathKnight.html\">Death Knight</a>\r\n         <a href=\"monsterPages/b/deathTyrant.html\">Death Tyrant</a>\r\n         <a href=\"monsterPages/d/demilich.html\">Demilich</a>\r\n         <a href=\"monsterPages/d/demons.html\">Demons</a>\r\n         <div class=\"list-group\">\r\n"
+                },
+                {
+                    "date": 1694059513504,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -339,14 +339,21 @@\n               <figcaption class=\"figure-caption text-center\">Death Tyrant</figcaption>\r\n             </figure>\r\n           </a>\r\n \r\n+          <a href=\"monsterPages/d/demilich.html\">\r\n+            <figure class=\"bestiary-figure\">\r\n+              <img src=\"../images/demiLich.webp\" href=\"monsterPages/d/demilich.html\"\r\n+                class=\"rounded mx-auto d-block beast-thumbnail\" alt=\"Demilich image\">\r\n+              <figcaption class=\"figure-caption text-center\">Demilich</figcaption>\r\n+            </figure>\r\n+          </a>\r\n+\r\n         </div>\r\n       </div>\r\n \r\n \r\n       <div class=\"card card-body\">\r\n-        <a href=\"monsterPages/b/deathTyrant.html\">Death Tyrant</a>\r\n         <a href=\"monsterPages/d/demilich.html\">Demilich</a>\r\n         <a href=\"monsterPages/d/demons.html\">Demons</a>\r\n         <div class=\"list-group\">\r\n           <a href=\"monsterPages/d/balor.html\" class=\"list-group-flush border-0\"> -Balor</a>\r\n"
+                },
+                {
+                    "date": 1694059878378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -352,9 +352,8 @@\n       </div>\r\n \r\n \r\n       <div class=\"card card-body\">\r\n-        <a href=\"monsterPages/d/demilich.html\">Demilich</a>\r\n         <a href=\"monsterPages/d/demons.html\">Demons</a>\r\n         <div class=\"list-group\">\r\n           <a href=\"monsterPages/d/balor.html\" class=\"list-group-flush border-0\"> -Balor</a>\r\n           <a href=\"monsterPages/d/barlgura.html\" class=\"list-group-flush border-0\"> -Barlgura</a>\r\n"
                 }
             ],
             "date": 1693239574363,

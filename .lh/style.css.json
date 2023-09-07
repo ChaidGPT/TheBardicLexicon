@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 254,
+            "activePatchIndex": 255,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -1024,6 +1024,10 @@
                 {
                     "date": 1694051519639,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,8 +50,9 @@\n }\r\n \r\n .bestiary-figure {\r\n   border: 2px transparent solid;\r\n+  background-color: #fff;\r\n }\r\n \r\n .bestiary-figure:hover {\r\n   border: 2px black solid;\r\n"
+                },
+                {
+                    "date": 1694066698130,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,11 +39,11 @@\n   background-color: #e9ecef;\r\n   padding: 25px 0 0 0;\r\n }\r\n \r\n-.bestiary-card {\r\n-  /* background-color: #343a40; */\r\n-}\r\n+/* .bestiary-card {\r\n+  background-color: #343a40;\r\n+} */\r\n \r\n .beast-thumbnail {\r\n   width: auto;\r\n   max-height: 150px;\r\n"
                 }
             ],
             "date": 1690811923410,

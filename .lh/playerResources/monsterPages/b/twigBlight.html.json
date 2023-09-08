@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1693242915825,
@@ -28,6 +28,10 @@
                 {
                     "date": 1693785835020,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,12 +59,12 @@\n       <p class=\"lead\">Small plant, neutral evil</p>\r\n       <p>Twig blights can root in soil, which they do when living prey are scarce. While rooted, they resemble woody shrubs. When it pulls its roots free of the ground to move, a twig blight's branches twist together to form a humanoid-looking body with a head and limbs.</p>\r\n       <p>Twig blights seek out campsites and watering holes, rooting there to set up ambushes for potential victims coming to drink or rest. Huddled together in groups, twig blights blend in with an area's natural vegetation or with piles of debris or firewood.</p>\r\n       <p>Given how dry they are, twig blights are particularly susceptible to fire.</p>\r\n-      <p>For basic lore see <a href=\"animatedObjects.html\">Animated Objects</a></p>\r\n+      <p>For basic lore see <a href=\"blights.html\">Blights</a></p>\r\n       <hr class=\"my-4\">\r\n       <div class=\"monsterImageContainer\">\r\n-         <img class=\"monsterPortrait\" src=\"../../../images/twigBlight.jpg\" alt=\"Flying Sword image\">\r\n+         <img class=\"monsterPortrait\" src=\"../../../images/twigBlight.jpg\" alt=\"Twig Blight image\">\r\n       </div>\r\n       <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n          <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n             aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
+                },
+                {
+                    "date": 1694188786778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n \r\n    <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n    <div class=\"jumbotron\">\r\n-      <h1 class=\"display-4\">Twig Blight</h1>\r\n+      <h1 class=\"display-4 monsterName\">Twig Blight</h1>\r\n       <div class=\"horizontal-line\"></div>\r\n       <p class=\"lead\">Small plant, neutral evil</p>\r\n       <p>Twig blights can root in soil, which they do when living prey are scarce. While rooted, they resemble woody shrubs. When it pulls its roots free of the ground to move, a twig blight's branches twist together to form a humanoid-looking body with a head and limbs.</p>\r\n       <p>Twig blights seek out campsites and watering holes, rooting there to set up ambushes for potential victims coming to drink or rest. Huddled together in groups, twig blights blend in with an area's natural vegetation or with piles of debris or firewood.</p>\r\n"
                 }
             ],
             "date": 1693242915825,

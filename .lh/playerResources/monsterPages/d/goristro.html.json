@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1693798315605,
@@ -20,6 +20,10 @@
                 {
                     "date": 1693798959302,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,9 +134,9 @@\n             <h5>Actions</h5>\r\n             <p><span class=\"bold-text\">Multiattack:</span> The goristro makes three attacks: two with its fists and one with its hoof.</p>\r\n             <p><span class=\"bold-text\">Fist:</span> Melee Weapon Attack: +13 to hit, reach 10ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage.</p>\r\n             <p><span class=\"bold-text\">Hoof:</span> Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 23 (3d10 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone. </p>\r\n-            <p><span class=\"bold-text\">Gore:</span> </p>\r\n+            <p><span class=\"bold-text\">Gore:</span> Melee Weapon Attack: +13 to hit, reach 10ft., one target. Hit: 45 (7dl0 + 7) piercing damage.</p>\r\n \r\n         </div>\r\n         <!-- End collapseStats -->\r\n \r\n"
+                },
+                {
+                    "date": 1694188786150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4\">Goristro</h1>\r\n+        <h1 class=\"display-4 monsterName\">Goristro</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n         <p class=\"lead\">Huge fiend (demon), chaotic evil</p>\r\n         <p>The goristro resembles a fiendish minotaur towering more than twenty feet tall. When controlled by a demon lord, goristros make formidable living siege engines and prized pets. Goristros possess preternatural cunning when navigating labyrinthine passages and shifting corridors, pursuing foes in a terrifying hunt.</p>\r\n         <p>A hulking goristro sometimes bears a palanquin, carrying smaller demons on its broad shoulders, much like an elephant carries riders on its back.</p>\r\n"
                 }
             ],
             "date": 1693798315605,

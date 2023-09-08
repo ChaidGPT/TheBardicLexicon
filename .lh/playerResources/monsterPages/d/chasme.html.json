@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1693774478250,
@@ -16,6 +16,10 @@
                 {
                     "date": 1693782153568,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,8 +59,9 @@\n         <div class=\"horizontal-line\"></div>\r\n         <p class=\"lead\">Large fiend (demon), chaotic evil</p>\r\n         <p>This loathsome demon resembles an unspeakable crossing of humanoid and fly. A chasme shuffles about on four spindly legs that can find purchase on walls and ceilings. A droning sound precedes the approach of a chasme, inflicting foes with a terrible lethargy that leaves them open to attack.</p>\r\n         <p>The lowly chasmes serve more powerful masters as interrogators or taskmasters. A chasme lives to dole out torture as punishment, and has a knack for spotting demons that have deserted their lords. Capturing and returning such traitors allows a chasme to torment the victim without fear of reprisal.</p>\r\n+        <p>For basic lore see <a href=\"demons.html\">Demons</a></p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n             <img class=\"monsterPortrait\" src=\"../../../images/chasme.webp\" alt=\"Placeholder image\">\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1694188786203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4\">Chasme</h1>\r\n+        <h1 class=\"display-4 monsterName\">Chasme</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n         <p class=\"lead\">Large fiend (demon), chaotic evil</p>\r\n         <p>This loathsome demon resembles an unspeakable crossing of humanoid and fly. A chasme shuffles about on four spindly legs that can find purchase on walls and ceilings. A droning sound precedes the approach of a chasme, inflicting foes with a terrible lethargy that leaves them open to attack.</p>\r\n         <p>The lowly chasmes serve more powerful masters as interrogators or taskmasters. A chasme lives to dole out torture as punishment, and has a knack for spotting demons that have deserted their lords. Capturing and returning such traitors allows a chasme to torment the victim without fear of reprisal.</p>\r\n"
                 }
             ],
             "date": 1693774478250,

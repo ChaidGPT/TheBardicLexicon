@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1693758717851,
@@ -28,6 +28,10 @@
                 {
                     "date": 1693838940974,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n             while destroying any creatures that oppose them.</p>\r\n         <p>Wielding a flaming whip and a longsword that channels the power of the storm, a balor's battle prowess is\r\n             fueled by hatred and rage. It channels this demonic fury in its death throes, falling within a blast of fire\r\n             that can destroy even the hardiest foes.</p>\r\n-            <p>For basic lore see <a href=\"demons.html\">Demons</a></p>\r\n+        <p>For basic lore see <a href=\"demons.html\">Demons</a></p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n             <img class=\"monsterPortrait\" src=\"../../../images/balor.png\" alt=\"Balor image\">\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1694188786623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4\">Balor</h1>\r\n+        <h1 class=\"display-4 monsterName\">Balor</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n         <p class=\"lead\">Huge fiend (demon), chaotic evil</p>\r\n         <p>Figures of ancient and terrible evil, balors rule as generals over demonic armies, yearning to seize power\r\n             while destroying any creatures that oppose them.</p>\r\n"
                 }
             ],
             "date": 1693758717851,

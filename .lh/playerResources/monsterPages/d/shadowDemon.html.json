@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 7,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1693947113211,
@@ -36,6 +36,10 @@
                 {
                     "date": 1693958529468,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -144,9 +144,9 @@\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <h5>Actions</h5>\r\n             <p><span class=\"bold-text\">Claws:</span> Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 10\r\n-                (2d6 + 3) psychic damage or, if the demon had advantage on the attack roll , 17 (4d6 + 3) psychic\r\n+                (2d6 + 3) psychic damage or, if the demon had advantage on the attack roll, 17 (4d6 + 3) psychic\r\n                 damage.</p>\r\n \r\n         </div>\r\n         <!-- End collapseStats -->\r\n"
+                },
+                {
+                    "date": 1694188786021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4\">Shadow Demon</h1>\r\n+        <h1 class=\"display-4 monsterName\">Shadow Demon</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n         <p class=\"lead\">Medium fiend (demon), chaotic evil</p>\r\n         <p>When a demon's body is destroyed but the fiend is prevented from reforming in the Abyss, its essence\r\n             sometimes takes on a vague physical form. These shadow demons exist outside the normal abyssal hierarchy,\r\n"
                 }
             ],
             "date": 1693947113211,

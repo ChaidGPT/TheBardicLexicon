@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1693959072091,
@@ -16,6 +16,10 @@
                 {
                     "date": 1693959910276,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,11 +126,13 @@\n \r\n             <p><span class=\"bold-text\">Magic Resistance:</span> The vrock has advantage on saving throws again st spells and other magical effects.</p>\r\n             <div class=\"horizontal-line\"></div>\r\n             <h5>Actions</h5>\r\n-            <p><span class=\"bold-text\">Claws:</span> Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 10\r\n-                (2d6 + 3) psychic damage or, if the demon had advantage on the attack roll, 17 (4d6 + 3) psychic\r\n-                damage.</p>\r\n+            <p><span class=\"bold-text\">Multiattack:</span> The vrock makes two attacks: one with its beak and one with its talons.</p>\r\n+            <p><span class=\"bold-text\">Beak:</span> Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.</p>\r\n+            <p><span class=\"bold-text\">Talons:</span> Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) slashing damage.</p>\r\n+            <p><span class=\"bold-text\">Spores (Recharge 6):</span> A 15-foot-radius cloud of toxic spores extends out from the vrock. The spores spread around corners. Each creature in that area must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned in this way, a target takes 5 (1d10) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the target also ends the effect on it.</p>\r\n+            <p><span class=\"bold-text\">Stunning Screech (1/Day):</span> The vrock emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn't a demon must succeed on a DC 14 Constitution saving throw or be stunned until the end of the vrock's next turn.</p>\r\n \r\n         </div>\r\n         <!-- End collapseStats -->\r\n \r\n"
+                },
+                {
+                    "date": 1694188786213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4\">Vrock</h1>\r\n+        <h1 class=\"display-4 monsterName\">Vrock</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n         <p class=\"lead\">Large fiend (demon), chaotic evil</p>\r\n         <p>Vrocks are dull-witted, capricious fiends that live only to create pain and carnage. A vrock resembles a giant hybrid of humanoid and vulture, its gnarled, bestial body and broad wings stinking of offal.</p>\r\n         <p>Vrocks gobble humanoid flesh whenever they can, stunning potential prey with an ear-splitting shriek, then swooplng down to attack with beak and claw. Vrocks can shake their wings, releasing clouds of toxic spores.</p>\r\n"
                 }
             ],
             "date": 1693959072091,

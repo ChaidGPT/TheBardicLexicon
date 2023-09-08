@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1693838211463,
@@ -12,6 +12,10 @@
                 {
                     "date": 1693838940904,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,10 +57,14 @@\n     <div class=\"jumbotron\">\r\n         <h1 class=\"display-4\">Manes</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n         <p class=\"lead\">Small fiend (demon), chaotic evil</p>\r\n-        <p>Souls of evil creatures that descend to the Lower Planes are transformed into manes-the lowest form of demonkind. These wretched fiends attack any non-demon they see, and they are called to the Material Plane by those seeking to sow death and chaos.</p>\r\n-        <p>Orcus, the Prince of Undeath, has the power to transform manes into undead monsters, most often ghouls and shadows. Other demon lords feed on manes, destroying them utterly. Otherwise, killing a manes causes it to dissipate into a cloud of reeking vapor that reforms into another manes after one day.</p>\r\n+        <p>Souls of evil creatures that descend to the Lower Planes are transformed into manes-the lowest form of\r\n+            demonkind. These wretched fiends attack any non-demon they see, and they are called to the Material Plane by\r\n+            those seeking to sow death and chaos.</p>\r\n+        <p>Orcus, the Prince of Undeath, has the power to transform manes into undead monsters, most often ghouls and\r\n+            shadows. Other demon lords feed on manes, destroying them utterly. Otherwise, killing a manes causes it to\r\n+            dissipate into a cloud of reeking vapor that reforms into another manes after one day.</p>\r\n         <p>For basic lore see <a href=\"demons.html\">Demons</a></p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n             <img class=\"monsterPortrait\" src=\"../../../images/manes.webp\" alt=\"Manes image\">\r\n@@ -123,9 +127,10 @@\n             <p><span class=\"bold-text\">Challenge:</span> 1/8 (25 XP)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <h5>Actions</h5>\r\n-            <p><span class=\"bold-text\">Claw:</span> Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) slashing damage.</p>\r\n+            <p><span class=\"bold-text\">Claw:</span> Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5\r\n+                (2d4) slashing damage.</p>\r\n \r\n         </div>\r\n         <!-- End collapseStats -->\r\n \r\n"
+                },
+                {
+                    "date": 1694188786193,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4\">Manes</h1>\r\n+        <h1 class=\"display-4 monsterName\">Manes</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n         <p class=\"lead\">Small fiend (demon), chaotic evil</p>\r\n         <p>Souls of evil creatures that descend to the Lower Planes are transformed into manes-the lowest form of\r\n             demonkind. These wretched fiends attack any non-demon they see, and they are called to the Material Plane by\r\n"
                 }
             ],
             "date": 1693838211463,

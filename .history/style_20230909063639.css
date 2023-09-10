@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'endor';
+  font-family: 'spindles';
   src: url('endor.ttf') format('truetype');
 }
 
@@ -117,7 +117,7 @@ footer {
 }
 
 .monsterName {
-  font-family: 'endor';
+  font-family: 'spindles';
 }
 
 a.list-group-flush.border-0 {

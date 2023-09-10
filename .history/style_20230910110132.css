@@ -123,6 +123,7 @@ footer {
 
 .contentsPageName {
   font-family: 'endor';
+  padding-top: 5px;
 }
 
 a.list-group-flush.border-0 {

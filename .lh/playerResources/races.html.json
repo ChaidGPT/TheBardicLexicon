@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 16,
+            "activePatchIndex": 17,
             "patches": [
                 {
                     "date": 1694268625502,
@@ -72,6 +72,10 @@
                 {
                     "date": 1694443566181,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,8 +91,16 @@\n                         <figcaption class=\"figure-caption text-center\">Dragonborn</figcaption>\r\n                     </figure>\r\n                 </a>\r\n \r\n+                <a href=\"racePages/gnome.html\">\r\n+                    <figure class=\"bestiary-figure\">\r\n+                        <img src=\"../images/gnome.png\" class=\"rounded mx-auto d-block beast-thumbnail\"\r\n+                            alt=\"Gnome image\">\r\n+                        <figcaption class=\"figure-caption text-center\">Gnome</figcaption>\r\n+                    </figure>\r\n+                </a>\r\n+\r\n             </div>\r\n         </div>\r\n \r\n     </div>\r\n"
+                },
+                {
+                    "date": 1694446333224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,8 +99,16 @@\n                         <figcaption class=\"figure-caption text-center\">Gnome</figcaption>\r\n                     </figure>\r\n                 </a>\r\n \r\n+                <a href=\"racePages/halfElf.html\">\r\n+                    <figure class=\"bestiary-figure\">\r\n+                        <img src=\"../images/halfelf.png\" class=\"rounded mx-auto d-block beast-thumbnail\"\r\n+                            alt=\"Half-Elf image\">\r\n+                        <figcaption class=\"figure-caption text-center\">Half-Elf</figcaption>\r\n+                    </figure>\r\n+                </a>\r\n+\r\n             </div>\r\n         </div>\r\n \r\n     </div>\r\n"
                 }
             ],
             "date": 1694268625502,

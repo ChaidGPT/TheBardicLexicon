@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1694462947638,
@@ -24,6 +24,18 @@
                 {
                     "date": 1694463875203,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,20 +82,8 @@\n             <p><span class=\"bold-text\">Darkvision:</span> Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>\r\n             <p><span class=\"bold-text\">Hellish Resilience:</span> You have resistance to fire damage.</p>\r\n             <p><span class=\"bold-text\">Infernal Legacy:</span> You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell once per day as a 2nd-level spell. Once you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.</p>\r\n             <p><span class=\"bold-text\">Languages:</span> You can speak, read, and write Common and Infernal.</p>\r\n-\r\n-            <div class=\"horizontal-line\"></div>\r\n-            <h6>Subrace</h6>\r\n-            <p>Info</p>\r\n-            <p><span class=\"bold-text\">Ability Score Increase:</span> </p>\r\n-            <p><span class=\"bold-text\">Dwarven Toughness:</span> </p>\r\n-\r\n-            <div class=\"horizontal-line\"></div>\r\n-            <h6>Subrace</h6>\r\n-            <p>Info</p>\r\n-            <p><span class=\"bold-text\">Ability Score Increase:</span> </p>\r\n-            <p><span class=\"bold-text\">Dwarven Armor Training:</span> </p>\r\n         </div>\r\n         <!-- End collapseStats -->\r\n         <!-- Start collapseLore -->\r\n         <div class=\"collapse\" id=\"collapseLore\">\r\n"
+                },
+                {
+                    "date": 1694544039993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n-                <a class=\"navbar-brand\" href=\"../../index.html\">D&D Resource</a>\r\n+                <a class=\"navbar-brand monsterName\" href=\"../../index.html\">D&D Resource</a>\r\n                 <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n                     data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\"\r\n                     aria-label=\"Toggle navigation\">\r\n                     <span class=\"navbar-toggler-icon\"></span>\r\n"
+                },
+                {
+                    "date": 1694544229254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n-                <a class=\"navbar-brand monsterName\" href=\"../../index.html\">D&D Resource</a>\r\n+                <a class=\"navbar-brand monsterName\" href=\"../../index.html\">The Bardic Lexicon</a>\r\n                 <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n                     data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\"\r\n                     aria-label=\"Toggle navigation\">\r\n                     <span class=\"navbar-toggler-icon\"></span>\r\n"
+                },
+                {
+                    "date": 1694545428451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n-                <a class=\"navbar-brand monsterName\" href=\"../../index.html\">The Bardic Lexicon</a>\r\n+                <a class=\"navbar-brand navMonsterName\" href=\"../../index.html\">The Bardic Lexicon</a>\r\n                 <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n                     data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\"\r\n                     aria-label=\"Toggle navigation\">\r\n                     <span class=\"navbar-toggler-icon\"></span>\r\n"
                 }
             ],
             "date": 1694462947638,

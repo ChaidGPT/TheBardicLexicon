@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blights</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+
+<body>
+    <header class="header-top">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand monsterName" href="../../../index.html">The Bardic Lexicon</a>
+              <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto nav justify-content-end">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarResources" role="button" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      Player Resources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarResources">
+                      <a class="dropdown-item" href="../../races.html">Races</a>
+                      <a class="dropdown-item" href="../../classes.html">Classes</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../../bestiary.html">Bestiary</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      Player Tools
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="../../../playerTools/charSheet.html">Character Sheet</a>
+                      <a class="dropdown-item" href="../../../playerTools/dice.html">Dice Roll Generator</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">More</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </header>
+
+    <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">Go Back</button>
+
+    <div class="jumbotron">
+        <h1 class="display-4 monsterName">Blights</h1>
+        <div class="horizontal-line"></div>
+        <p>Awakened plants gifted with the powers of intelligence and mobility, blights plague lands contaminated by
+            darkness. Drinking that darkness from the soil, a blight carries out the will of ancient evil and attempts
+            to spread that evil wherever it can.</p>
+        <hr class="my-4">
+        <div class="monsterImageContainer">
+            <img class="monsterPortrait" src="../../../images/blights.webp" alt="Angels image">
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseLore" role="button"
+                aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToLore()">Lore</button>
+            <div class="btn-group" role="group">
+                <div class="btn-group dropup">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Blight Types
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="needleBlight.html">Needle Blight</a>
+                        <a class="dropdown-item" href="twigBlight.html">Twig Blight</a>
+                        <a class="dropdown-item" href="vineBlight.html">Vine Blight</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start collapseLore -->
+        <div class="collapse" id="collapseLore">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Lore
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#rootsOfTheGulthiasTree">Roots of the Gulthias Tree</a>
+                    <a class="dropdown-item" href="#darkConquest">Dark Conquest</a>
+                    <a class="dropdown-item" href="#controlledByEvil">Controlled by Evil</a>
+                </div>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="rootsOfTheGulthiasTree">
+                <h5>Roots of the Gulthias Tree</h5>
+                <p>Legends tell of a vampire named Gulthias who worked terrible magic and raised up an abominable tower
+                    called Nightfang Spire. Gulthias was undone when a hero plunged a wooden stake through his heart,
+                    but as the vampire was destroyed, his blood infused the stake with a dreadful power. In time,
+                    tendrils of new growth sprouted from the wood, growing into a sapling infused with the vampire's
+                    evil essence. It is said that a mad druid discovered the sapling, transplanting it to an underground
+                    grotto where it could grow. From this Gulthias tree came the seeds from which the first blights were
+                    sown.</p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="darkConquest">
+                <h5>Dark Conquest</h5>
+                <p>Wherever a tree or plant is contaminated by a fragment of an evil mind or power, a Gulthias tree can
+                    rise to infest and corrupt the surrounding forest. Its evil spreads through root and soil to other
+                    plants, which perish or transform into blights. As those blights spread, they poison and uproot
+                    healthy plants, replacing them with brambles, toxic weeds, and others of their kind. In time, an
+                    infestation of blights can turn any land or forest into a place of corruption.</p>
+                <p>In forests infested with blights, trees and plants grow with supernatural speed. Vines and
+                    undergrowth rapidly spread through buildings and overrun trails and roads. After blights have killed
+                    or driven off their inhabitants, whole villages can disappear in the space of days.</p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="controlledByEvil">
+                <h5>Controlled by Evil</h5>
+                <p>Blights are independent creatures, but most act under a Gulthias tree's control, often displaying the
+                    habits and traits of the life force or spirit that spawned them. By attacking their progenitor's old
+                    foes or seeking out treasures valuable to it, they carry on the legacy of long-lost evil.</p>
+            </div>
+            <div class="horizontal-line"></div>
+            <button type="button" class="btn btn-secondary" onclick="goToTop()">Back to Top</button>
+        </div>
+    </div>
+    <!-- End collapseLore -->
+
+
+
+    <footer class="page-footer font-small blue fixed-bottom">
+        <p>&copy; Chad Oswald | <a href="mailto:chadloswald@gmail.com">chadloswald@gmail.com</a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../../../scriptMon.js"></script>
+</body>
+
+</html>

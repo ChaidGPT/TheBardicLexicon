@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 8,
+            "activePatchIndex": 10,
             "patches": [
                 {
                     "date": 1693947113211,
@@ -40,6 +40,14 @@
                 {
                     "date": 1694188786021,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4\">Shadow Demon</h1>\r\n+        <h1 class=\"display-4 monsterName\">Shadow Demon</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n         <p class=\"lead\">Medium fiend (demon), chaotic evil</p>\r\n         <p>When a demon's body is destroyed but the fiend is prevented from reforming in the Abyss, its essence\r\n             sometimes takes on a vague physical form. These shadow demons exist outside the normal abyssal hierarchy,\r\n"
+                },
+                {
+                    "date": 1694544040029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n-                <a class=\"navbar-brand\" href=\"../../../index.html\">D&D Resource</a>\r\n+                <a class=\"navbar-brand monsterName\" href=\"../../../index.html\">D&D Resource</a>\r\n                 <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n                     data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\"\r\n                     aria-label=\"Toggle navigation\">\r\n                     <span class=\"navbar-toggler-icon\"></span>\r\n"
+                },
+                {
+                    "date": 1694545428499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n-                <a class=\"navbar-brand monsterName\" href=\"../../../index.html\">D&D Resource</a>\r\n+                <a class=\"navbar-brand navMonsterName\" href=\"../../../index.html\">D&D Resource</a>\r\n                 <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n                     data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\"\r\n                     aria-label=\"Toggle navigation\">\r\n                     <span class=\"navbar-toggler-icon\"></span>\r\n"
                 }
             ],
             "date": 1693947113211,

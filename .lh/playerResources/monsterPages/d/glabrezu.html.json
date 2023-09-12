@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1693797317407,
@@ -32,6 +32,14 @@
                 {
                     "date": 1694534549741,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n-                <a class=\"navbar-brand\" href=\"../../../index.html\">D&D Resource</a>\r\n+                <a class=\"navbar-brand\" href=\"../../../index.html\">The Bardic Lexicon</a>\r\n                 <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n                     data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\"\r\n                     aria-label=\"Toggle navigation\">\r\n                     <span class=\"navbar-toggler-icon\"></span>\r\n"
+                },
+                {
+                    "date": 1694544040037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n-                <a class=\"navbar-brand\" href=\"../../../index.html\">The Bardic Lexicon</a>\r\n+                <a class=\"navbar-brand monsterName\" href=\"../../../index.html\">The Bardic Lexicon</a>\r\n                 <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n                     data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\"\r\n                     aria-label=\"Toggle navigation\">\r\n                     <span class=\"navbar-toggler-icon\"></span>\r\n"
+                },
+                {
+                    "date": 1694545428510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n-                <a class=\"navbar-brand monsterName\" href=\"../../../index.html\">The Bardic Lexicon</a>\r\n+                <a class=\"navbar-brand navMonsterName\" href=\"../../../index.html\">The Bardic Lexicon</a>\r\n                 <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n                     data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\"\r\n                     aria-label=\"Toggle navigation\">\r\n                     <span class=\"navbar-toggler-icon\"></span>\r\n"
                 }
             ],
             "date": 1693797317407,

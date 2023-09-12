@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1693959072091,
@@ -20,6 +20,14 @@
                 {
                     "date": 1694188786213,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4\">Vrock</h1>\r\n+        <h1 class=\"display-4 monsterName\">Vrock</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n         <p class=\"lead\">Large fiend (demon), chaotic evil</p>\r\n         <p>Vrocks are dull-witted, capricious fiends that live only to create pain and carnage. A vrock resembles a giant hybrid of humanoid and vulture, its gnarled, bestial body and broad wings stinking of offal.</p>\r\n         <p>Vrocks gobble humanoid flesh whenever they can, stunning potential prey with an ear-splitting shriek, then swooplng down to attack with beak and claw. Vrocks can shake their wings, releasing clouds of toxic spores.</p>\r\n"
+                },
+                {
+                    "date": 1694544040028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n-                <a class=\"navbar-brand\" href=\"../../../index.html\">D&D Resource</a>\r\n+                <a class=\"navbar-brand monsterName\" href=\"../../../index.html\">D&D Resource</a>\r\n                 <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n                     data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\"\r\n                     aria-label=\"Toggle navigation\">\r\n                     <span class=\"navbar-toggler-icon\"></span>\r\n"
+                },
+                {
+                    "date": 1694545428501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n-                <a class=\"navbar-brand monsterName\" href=\"../../../index.html\">D&D Resource</a>\r\n+                <a class=\"navbar-brand navMonsterName\" href=\"../../../index.html\">D&D Resource</a>\r\n                 <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n                     data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\"\r\n                     aria-label=\"Toggle navigation\">\r\n                     <span class=\"navbar-toggler-icon\"></span>\r\n"
                 }
             ],
             "date": 1693959072091,

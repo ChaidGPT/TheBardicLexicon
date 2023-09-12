@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 11,
+            "activePatchIndex": 12,
             "patches": [
                 {
                     "date": 1693529819007,
@@ -52,6 +52,10 @@
                 {
                     "date": 1694188786492,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4\">Death Knight</h1>\r\n+        <h1 class=\"display-4 monsterName\">Death Knight</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n         <p class=\"lead\">Medium undead, chaotic evil</p>\r\n         <p>When a paladin that falls from gFace dies without seeking atonement, dark powers can transform the once-mortal knight into a hateful undead creature. A death knight is a skeletal warrior clad in fearsome plate armor. Beneath its helmet, one can see the knight's skull with malevolent pinpoints of light burning in its eye sockets.</p>\r\n         <hr class=\"my-4\">\r\n"
+                },
+                {
+                    "date": 1694534549778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n-              <a class=\"navbar-brand\" href=\"../../../index.html\">D&D Resource</a>\r\n+              <a class=\"navbar-brand\" href=\"../../../index.html\">The Bardic Lexicon</a>\r\n               <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\"\r\n                 aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n                 <span class=\"navbar-toggler-icon\"></span>\r\n               </button>\r\n"
                 }
             ],
             "date": 1693529819007,

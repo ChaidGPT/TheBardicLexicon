@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1693242915826,
@@ -24,6 +24,10 @@
                 {
                     "date": 1694188786739,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n \r\n    <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n    <div class=\"jumbotron\">\r\n-      <h1 class=\"display-4\">Bulette</h1>\r\n+      <h1 class=\"display-4 monsterName\">Bulette</h1>\r\n       <div class=\"horizontal-line\"></div>\r\n       <p class=\"lead\">Large monstrosity, unaligned</p>\r\n       <p>A bulette is a massive predator that terrorizes any lands it inhabits. Also called a \"land shark,\" it lives only to feed. Irascible and rapacious, bulettes fear no other creature, and they attack with no regard for superior numbers or strength.</p>\r\n       <hr class=\"my-4\">\r\n"
+                },
+                {
+                    "date": 1694534549800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n    <header class=\"header-top\">\r\n       <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n          <div class=\"container\">\r\n-           <a class=\"navbar-brand\" href=\"../../../index.html\">D&D Resource</a>\r\n+           <a class=\"navbar-brand\" href=\"../../../index.html\">The Bardic Lexicon</a>\r\n            <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\"\r\n              aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n              <span class=\"navbar-toggler-icon\"></span>\r\n            </button>\r\n"
                 }
             ],
             "date": 1693242915826,

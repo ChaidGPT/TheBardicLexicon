@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 9,
+            "activePatchIndex": 10,
             "patches": [
                 {
                     "date": 1693501172599,
@@ -44,6 +44,10 @@
                 {
                     "date": 1694188786235,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4\">Darkmantle</h1>\r\n+        <h1 class=\"display-4 monsterName\">Darkmantle</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n         <p class=\"lead\">Small monstrosity, unaligned</p>\r\n         <p>A darkmantle clings to cavern ceilings, remaining perfectly still as it waits for creatures to pass beneath\r\n             it. From a distance, it can pass itself off as a stalactite or a lump of stone. Then it drops from the\r\n"
+                },
+                {
+                    "date": 1694534549758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n-              <a class=\"navbar-brand\" href=\"../../../index.html\">D&D Resource</a>\r\n+              <a class=\"navbar-brand\" href=\"../../../index.html\">The Bardic Lexicon</a>\r\n               <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\"\r\n                 aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n                 <span class=\"navbar-toggler-icon\"></span>\r\n               </button>\r\n"
                 }
             ],
             "date": 1693501172599,

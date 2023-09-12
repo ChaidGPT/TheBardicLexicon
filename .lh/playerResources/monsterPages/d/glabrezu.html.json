@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1693797317407,
@@ -28,6 +28,10 @@
                 {
                     "date": 1694188785970,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4\">Glabrezu</h1>\r\n+        <h1 class=\"display-4 monsterName\">Glabrezu</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n         <p class=\"lead\">Large fiend (demon), chaotic evil</p>\r\n         <p>A glabrezu takes great pleasure in destroying mortals through temptation, and these creatures are among the\r\n             few demons to offer their service to creatures foolish enough to summon them.</p>\r\n"
+                },
+                {
+                    "date": 1694534549741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n-                <a class=\"navbar-brand\" href=\"../../../index.html\">D&D Resource</a>\r\n+                <a class=\"navbar-brand\" href=\"../../../index.html\">The Bardic Lexicon</a>\r\n                 <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n                     data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\"\r\n                     aria-label=\"Toggle navigation\">\r\n                     <span class=\"navbar-toggler-icon\"></span>\r\n"
                 }
             ],
             "date": 1693797317407,

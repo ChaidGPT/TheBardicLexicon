@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1693677295003,
@@ -20,6 +20,10 @@
                 {
                     "date": 1694659996376,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -108,8 +108,12 @@\n             finalMessage +=\r\n               '<span class=\"critical-success\"> - Critical Success!</span>';\r\n             criticalSuccessSound.play();\r\n             startConfetti(); //Confetti animation!\r\n+            setTimeout(function() {\r\n+              stopConfetti(); // Stop the confetti after 2 seconds\r\n+            }, 2000);\r\n+            \r\n           }\r\n         }\r\n   \r\n         finalMessage += ` (Total: ${totalRoll})`;\r\n"
+                },
+                {
+                    "date": 1694660187730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,9 +110,9 @@\n             criticalSuccessSound.play();\r\n             startConfetti(); //Confetti animation!\r\n             setTimeout(function() {\r\n               stopConfetti(); // Stop the confetti after 2 seconds\r\n-            }, 2000);\r\n+            }, 1500);\r\n             \r\n           }\r\n         }\r\n   \r\n"
                 }
             ],
             "date": 1693677295002,

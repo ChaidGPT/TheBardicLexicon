@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1693677295003,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1694652057213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,9 +73,9 @@\n       const rollResultParagraph = document.createElement(\"p\");\r\n   \r\n       // Append the current roll results to the diceResults container\r\n       const diceResultsContainer = document.getElementById(\"diceResults\");\r\n-      diceResultsContainer.appendChild(rollResultParagraph);\r\n+      diceResultsContainer.prepend(rollResultParagraph);\r\n   \r\n       // Create an audio element for the dice sound\r\n       const diceSound = new Audio();\r\n       diceSound.src = \"sounds/dice.mp3\";\r\n"
                 }
             ],
             "date": 1693677295002,

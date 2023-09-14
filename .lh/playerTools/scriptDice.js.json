@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1693677295003,
@@ -12,6 +12,14 @@
                 {
                     "date": 1694652057213,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,9 +73,9 @@\n       const rollResultParagraph = document.createElement(\"p\");\r\n   \r\n       // Append the current roll results to the diceResults container\r\n       const diceResultsContainer = document.getElementById(\"diceResults\");\r\n-      diceResultsContainer.appendChild(rollResultParagraph);\r\n+      diceResultsContainer.prepend(rollResultParagraph);\r\n   \r\n       // Create an audio element for the dice sound\r\n       const diceSound = new Audio();\r\n       diceSound.src = \"sounds/dice.mp3\";\r\n"
+                },
+                {
+                    "date": 1694658371890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,8 +107,9 @@\n           } else if (rolls[0] === 20) {\r\n             finalMessage +=\r\n               '<span class=\"critical-success\"> - Critical Success!</span>';\r\n             criticalSuccessSound.play();\r\n+            startConfetti(); //Confetti animation!\r\n           }\r\n         }\r\n   \r\n         finalMessage += ` (Total: ${totalRoll})`;\r\n"
+                },
+                {
+                    "date": 1694659996376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -108,8 +108,12 @@\n             finalMessage +=\r\n               '<span class=\"critical-success\"> - Critical Success!</span>';\r\n             criticalSuccessSound.play();\r\n             startConfetti(); //Confetti animation!\r\n+            setTimeout(function() {\r\n+              stopConfetti(); // Stop the confetti after 2 seconds\r\n+            }, 2000);\r\n+            \r\n           }\r\n         }\r\n   \r\n         finalMessage += ` (Total: ${totalRoll})`;\r\n"
                 }
             ],
             "date": 1693677295002,

@@ -323,3 +323,9 @@ table {
   padding: 5px;
   max-width: auto;
 }
+
+/* Dice page stuff */
+
+.diceBtn {
+  margin: 5px;
+}

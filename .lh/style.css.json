@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 290,
+            "activePatchIndex": 297,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -1168,6 +1168,34 @@
                 {
                     "date": 1694545506164,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n }\r\n \r\n .goBackBtn {\r\n   position: absolute;\r\n-  top: 70px;\r\n+  top: 65px;\r\n   left: 13px;\r\n \r\n   padding: .25rem .4rem;\r\n   font-size: .875rem;\r\n"
+                },
+                {
+                    "date": 1694656287004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -321,5 +321,11 @@\n .attributes {\r\n   border: 2px solid black;\r\n   padding: 5px;\r\n   max-width: auto;\r\n+}\r\n+\r\n+/* Dice page stuff */\r\n+\r\n+.diceBtn {\r\n+  padding: 5px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694656303544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -326,6 +326,6 @@\n \r\n /* Dice page stuff */\r\n \r\n .diceBtn {\r\n-  padding: 5px;\r\n+  padding: 0, 5px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694656468273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -326,6 +326,6 @@\n \r\n /* Dice page stuff */\r\n \r\n .diceBtn {\r\n-  padding: 0, 5px;\r\n+  padding: 10px, 0px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694656538937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -327,5 +327,6 @@\n /* Dice page stuff */\r\n \r\n .diceBtn {\r\n   padding: 10px, 0px;\r\n+  margin: 20px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694656566707,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -326,7 +326,6 @@\n \r\n /* Dice page stuff */\r\n \r\n .diceBtn {\r\n-  padding: 10px, 0px;\r\n-  margin: 20px;\r\n+  margin: 0, 5px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694656591100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -326,6 +326,6 @@\n \r\n /* Dice page stuff */\r\n \r\n .diceBtn {\r\n-  margin: 0, 5px;\r\n+  margin: 5px, 0px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694656612002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -326,6 +326,6 @@\n \r\n /* Dice page stuff */\r\n \r\n .diceBtn {\r\n-  margin: 5px, 0px;\r\n+  margin: 5px;\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1690811923410,

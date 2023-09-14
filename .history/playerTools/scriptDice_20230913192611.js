@@ -109,10 +109,6 @@ document.addEventListener("DOMContentLoaded", function () {
               '<span class="critical-success"> - Critical Success!</span>';
             criticalSuccessSound.play();
             startConfetti(); //Confetti animation!
-            setTimeout(function() {
-              stopConfetti(); // Stop the confetti after 2 seconds
-            }, 2000);
-            
           }
         }
   

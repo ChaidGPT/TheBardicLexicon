@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'endor';
+  src: url('endor.ttf') format('truetype');
+}
+
 html {
   border-left: 8px solid #343a40;
   border-right: 8px solid #343a40;
@@ -20,11 +25,15 @@ html {
 }
 
 .navbar .navbar-brand:hover {
-  color: #fff;
+  color: lightgrey;
 }
 
 .navbar .nav-link {
   color: #fff;
+}
+
+.navbar .nav-link:hover {
+  color: lightgrey;
 }
 
 nav .navbar-toggler-icon {
@@ -35,6 +44,29 @@ body {
   background-color: #e9ecef;
   padding: 25px 0 0 0;
 }
+
+/* .bestiary-card {
+  background-color: #343a40;
+} */
+
+.beast-thumbnail {
+  width: auto;
+  max-height: 150px;
+}
+
+.bestiary-figure {
+  border: 2px transparent solid;
+  background-color: #fff;
+}
+
+.bestiary-figure:hover {
+  border: 2px black solid;
+}
+
+/* .card-img-top {
+  height: auto;
+  max-width: 150px;
+} */
 
 /* CSS for footer */
 footer {
@@ -50,7 +82,7 @@ footer {
 
 .goBackBtn {
   position: absolute;
-  top: 60px;
+  top: 65px;
   left: 13px;
 
   padding: .25rem .4rem;
@@ -69,21 +101,35 @@ footer {
   }
 }
 
-/* .diceForm {
-  width: 50%;
-} */
-
 .card {
   padding: 20px;
   border: 2px lightgray solid;
-  border-radius: 15%;
+  border-radius: 5%;
+  max-width: 85%;
+  margin: 30px auto;
 }
 
 #monsterPage {
-  padding: 50px 0px 150px 0px;
+  padding: 20px 0px 150px 0px;
   min-height: 100vh;
   justify-content: center;
   align-items: center;
+}
+
+.monsterName {
+  font-family: 'endor';
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.navMonsterName {
+  font-family: 'endor';
+  /* padding-top: 20px; */
+  padding-bottom: 10px;
+}
+
+.contentsPageName {
+  font-family: 'endor';
 }
 
 a.list-group-flush.border-0 {
@@ -97,8 +143,9 @@ a.list-group-flush.border-0 {
 }
 
 .monsterImageContainer img {
-  border: 2px lightgray solid;
+  border: 2px black solid;
   border-radius: 5%;
+  background-color: #D0C6B1;
   max-width: 300px;
   transition: transform 0.3s ease;
 }
@@ -139,6 +186,10 @@ a.list-group-flush.border-0 {
 }
 
 #collapseLore p {
+  text-align: left;
+}
+
+li {
   text-align: left;
 }
 
@@ -201,6 +252,19 @@ table {
   vertical-align: top
 }
 
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-f5e1{background-color:#efefef;border-color:#000000;color:#c0c0c0;text-align:center;vertical-align:top}
+.tg .tg-yj5y{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-34fe{background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-kftd{background-color:#efefef;text-align:left;vertical-align:top}
+
+
+
 .bold-text {
   font-weight: bold;
 }
@@ -228,4 +292,40 @@ table {
 
 .monsterBtn {
   margin: 5px;
+  font-family: 'spindles';
+}
+
+.critical-failure {
+  color: red;
+  font-weight: bold;
+}
+
+.critical-success {
+  color: green;
+  font-weight: bold;
+}
+
+.attributeForm {
+  max-width: 50px;
+}
+
+#characterPage {
+  padding: 50px 15px 150px 15px;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Character Sheet Specific */
+
+.attributes {
+  border: 2px solid black;
+  padding: 5px;
+  max-width: auto;
+}
+
+/* Dice page stuff */
+
+.diceBtn {
+  padding: 0, 5px;
 }

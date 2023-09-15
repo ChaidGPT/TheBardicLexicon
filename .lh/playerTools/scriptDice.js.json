@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1693677295003,
@@ -24,6 +24,10 @@
                 {
                     "date": 1694660187730,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,9 +110,9 @@\n             criticalSuccessSound.play();\r\n             startConfetti(); //Confetti animation!\r\n             setTimeout(function() {\r\n               stopConfetti(); // Stop the confetti after 2 seconds\r\n-            }, 2000);\r\n+            }, 1500);\r\n             \r\n           }\r\n         }\r\n   \r\n"
+                },
+                {
+                    "date": 1694720476817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,9 +109,9 @@\n               '<span class=\"critical-success\"> - Critical Success!</span>';\r\n             criticalSuccessSound.play();\r\n             startConfetti(); //Confetti animation!\r\n             setTimeout(function() {\r\n-              stopConfetti(); // Stop the confetti after 2 seconds\r\n+              stopConfetti(); // Stop the confetti\r\n             }, 1500);\r\n             \r\n           }\r\n         }\r\n"
                 }
             ],
             "date": 1693677295002,

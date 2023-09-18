@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 297,
+            "activePatchIndex": 307,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -1196,6 +1196,46 @@
                 {
                     "date": 1694656612002,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -326,6 +326,6 @@\n \r\n /* Dice page stuff */\r\n \r\n .diceBtn {\r\n-  margin: 5px, 0px;\r\n+  margin: 5px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695044201628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -327,5 +327,9 @@\n /* Dice page stuff */\r\n \r\n .diceBtn {\r\n   margin: 5px;\r\n+}\r\n+\r\n+.racesBox {\r\n+  background-color: white;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695044239103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -331,5 +331,6 @@\n }\r\n \r\n .racesBox {\r\n   background-color: white;\r\n+  align-items: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695044524554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,10 +111,10 @@\n \r\n #monsterPage {\r\n   padding: 20px 0px 150px 0px;\r\n   min-height: 100vh;\r\n-  justify-content: center;\r\n-  align-items: center;\r\n+  /* justify-content: center;\r\n+  align-items: center; */\r\n }\r\n \r\n .monsterName {\r\n   font-family: 'endor';\r\n@@ -331,6 +331,5 @@\n }\r\n \r\n .racesBox {\r\n   background-color: white;\r\n-  align-items: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695045120533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,10 +111,10 @@\n \r\n #monsterPage {\r\n   padding: 20px 0px 150px 0px;\r\n   min-height: 100vh;\r\n-  /* justify-content: center;\r\n-  align-items: center; */\r\n+  justify-content: center;\r\n+  align-items: center;\r\n }\r\n \r\n .monsterName {\r\n   font-family: 'endor';\r\n@@ -329,7 +329,7 @@\n .diceBtn {\r\n   margin: 5px;\r\n }\r\n \r\n-.racesBox {\r\n+.menuBox {\r\n   background-color: white;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695045478409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -331,5 +331,6 @@\n }\r\n \r\n .menuBox {\r\n   background-color: white;\r\n+  border-radius: 10%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695045490644,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -331,6 +331,6 @@\n }\r\n \r\n .menuBox {\r\n   background-color: white;\r\n-  border-radius: 10%;\r\n+  border-radius: 5%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695045500897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -331,6 +331,6 @@\n }\r\n \r\n .menuBox {\r\n   background-color: white;\r\n-  border-radius: 5%;\r\n+  border-radius: 3%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695046254327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -331,6 +331,6 @@\n }\r\n \r\n .menuBox {\r\n   background-color: white;\r\n-  border-radius: 3%;\r\n+  border-radius: 2%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695046328300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -331,6 +331,6 @@\n }\r\n \r\n .menuBox {\r\n   background-color: white;\r\n-  border-radius: 2%;\r\n+  /* border-radius: 2%; */\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695046436691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -331,6 +331,5 @@\n }\r\n \r\n .menuBox {\r\n   background-color: white;\r\n-  /* border-radius: 2%; */\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1690811923410,

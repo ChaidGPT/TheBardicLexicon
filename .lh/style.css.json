@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 313,
+            "activePatchIndex": 315,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -1260,6 +1260,14 @@
                 {
                     "date": 1695249509770,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -336,9 +336,5 @@\n \r\n \r\n #logo {\r\n   max-width: 900px;\r\n-}\r\n-\r\n-#navLogo {\r\n-  max-height: 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695249686640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -333,8 +333,8 @@\n .menuBox {\r\n   background-color: white;\r\n }\r\n \r\n-\r\n+/* \r\n #logo {\r\n   max-width: 900px;\r\n\\ No newline at end of file\n-}\n+} */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695249726432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -331,10 +331,5 @@\n }\r\n \r\n .menuBox {\r\n   background-color: white;\r\n-}\r\n-\r\n-/* \r\n-#logo {\r\n-  max-width: 900px;\r\n-} */\n\\ No newline at end of file\n+}\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1690811923410,

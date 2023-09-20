@@ -338,3 +338,7 @@ table {
 #logo {
   max-width: 900px;
 }
+
+#navLogo {
+  max-height: 50px;
+}

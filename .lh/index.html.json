@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 85,
+            "activePatchIndex": 90,
             "patches": [
                 {
                     "date": 1690830309588,
@@ -348,6 +348,26 @@
                 {
                     "date": 1694545428447,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n <body>\r\n   <header class=\"header-top\">\r\n     <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n       <div class=\"container\">\r\n-        <a class=\"navbar-brand monsterName\" href=\"index.html\">The Bardic Lexicon</a>\r\n+        <a class=\"navbar-brand navMonsterName\" href=\"index.html\">The Bardic Lexicon</a>\r\n         <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\"\r\n           aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n           <span class=\"navbar-toggler-icon\"></span>\r\n         </button>\r\n"
+                },
+                {
+                    "date": 1695249161859,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,8 +56,9 @@\n   <div class=\"container\" id=\"monsterPage\">\r\n \r\n     <div class=\"jumbotron indexPanel\">\r\n       <h1 class=\"display-4 monsterName\">The Bardic Lexicon</h1>\r\n+      <img src=\"images/logo.png\" alt=\"The Bardic Lexicon logo\">\r\n       <p class=\"lead\">A handy place to find your D&D info on the go!</p>\r\n       <hr class=\"my-4\">\r\n       <p>Quick navigation</p>\r\n \r\n"
+                },
+                {
+                    "date": 1695249199883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,10 +55,10 @@\n \r\n   <div class=\"container\" id=\"monsterPage\">\r\n \r\n     <div class=\"jumbotron indexPanel\">\r\n-      <h1 class=\"display-4 monsterName\">The Bardic Lexicon</h1>\r\n-      <img src=\"images/logo.png\" alt=\"The Bardic Lexicon logo\">\r\n+      <!-- <h1 class=\"display-4 monsterName\">The Bardic Lexicon</h1> -->\r\n+      <img id=\"logo\" src=\"images/logo.png\" alt=\"The Bardic Lexicon logo\">\r\n       <p class=\"lead\">A handy place to find your D&D info on the go!</p>\r\n       <hr class=\"my-4\">\r\n       <p>Quick navigation</p>\r\n \r\n"
+                },
+                {
+                    "date": 1695249451230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,9 @@\n   <header class=\"header-top\">\r\n     <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n       <div class=\"container\">\r\n         <a class=\"navbar-brand navMonsterName\" href=\"index.html\">The Bardic Lexicon</a>\r\n+        <img id=\"navLogo\" src=\"images/logo.png\" alt=\"The Bardic Lexicon logo\">\r\n         <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\"\r\n           aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n           <span class=\"navbar-toggler-icon\"></span>\r\n         </button>\r\n"
+                },
+                {
+                    "date": 1695249464597,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n <body>\r\n   <header class=\"header-top\">\r\n     <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n       <div class=\"container\">\r\n-        <a class=\"navbar-brand navMonsterName\" href=\"index.html\">The Bardic Lexicon</a>\r\n+        <!-- <a class=\"navbar-brand navMonsterName\" href=\"index.html\">The Bardic Lexicon</a> -->\r\n         <img id=\"navLogo\" src=\"images/logo.png\" alt=\"The Bardic Lexicon logo\">\r\n         <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\"\r\n           aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n           <span class=\"navbar-toggler-icon\"></span>\r\n"
+                },
+                {
+                    "date": 1695249509781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,9 @@\n <body>\r\n   <header class=\"header-top\">\r\n     <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n       <div class=\"container\">\r\n-        <!-- <a class=\"navbar-brand navMonsterName\" href=\"index.html\">The Bardic Lexicon</a> -->\r\n-        <img id=\"navLogo\" src=\"images/logo.png\" alt=\"The Bardic Lexicon logo\">\r\n+        <a class=\"navbar-brand navMonsterName\" href=\"index.html\">The Bardic Lexicon</a>\r\n         <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\"\r\n           aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n           <span class=\"navbar-toggler-icon\"></span>\r\n         </button>\r\n"
                 }
             ],
             "date": 1690830309588,

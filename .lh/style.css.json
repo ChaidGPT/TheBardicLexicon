@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 307,
+            "activePatchIndex": 313,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -1236,6 +1236,30 @@
                 {
                     "date": 1695046436691,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -331,6 +331,5 @@\n }\r\n \r\n .menuBox {\r\n   background-color: white;\r\n-  /* border-radius: 2%; */\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695249232532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -331,5 +331,10 @@\n }\r\n \r\n .menuBox {\r\n   background-color: white;\r\n+}\r\n+\r\n+\r\n+#logo {\r\n+  max-width: 200px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695249245029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -335,6 +335,6 @@\n }\r\n \r\n \r\n #logo {\r\n-  max-width: 200px;\r\n+  max-width: 500px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695249257194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -335,6 +335,6 @@\n }\r\n \r\n \r\n #logo {\r\n-  max-width: 500px;\r\n+  max-width: 900px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695249451221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -336,5 +336,9 @@\n \r\n \r\n #logo {\r\n   max-width: 900px;\r\n+}\r\n+\r\n+#navLogo {\r\n+  max-height: 20px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695249475918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -339,6 +339,6 @@\n   max-width: 900px;\r\n }\r\n \r\n #navLogo {\r\n-  max-height: 20px;\r\n+  max-height: 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695249509770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -336,9 +336,5 @@\n \r\n \r\n #logo {\r\n   max-width: 900px;\r\n-}\r\n-\r\n-#navLogo {\r\n-  max-height: 50px;\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1690811923410,

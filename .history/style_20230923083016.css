@@ -112,8 +112,8 @@ footer {
 #monsterPage {
   padding: 20px 0px 150px 0px;
   min-height: 100vh;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .monsterName {
@@ -328,10 +328,6 @@ table {
 
 .diceBtn {
   margin: 5px;
-}
-
-.diceP {
-  margin: 0;
 }
 
 .menuBox {

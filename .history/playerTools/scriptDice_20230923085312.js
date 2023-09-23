@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
   
       // Construct the message including individual rolls and modifier information if applicable
-      let message = `${numDice} D${dieType}`;
+      let message = `Rolling ${numDice} D${dieType}`;
       if (modifierType !== "none") {
         message += ` with a modifier of ${modifierType} ${modifierNumber}`;
       }

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1693677295003,
@@ -28,6 +28,14 @@
                 {
                     "date": 1694720476817,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,9 +109,9 @@\n               '<span class=\"critical-success\"> - Critical Success!</span>';\r\n             criticalSuccessSound.play();\r\n             startConfetti(); //Confetti animation!\r\n             setTimeout(function() {\r\n-              stopConfetti(); // Stop the confetti after 2 seconds\r\n+              stopConfetti(); // Stop the confetti\r\n             }, 1500);\r\n             \r\n           }\r\n         }\r\n"
+                },
+                {
+                    "date": 1695484392781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,8 +70,9 @@\n       }\r\n   \r\n       // Create a new <p> element to display the current roll results\r\n       const rollResultParagraph = document.createElement(\"p\");\r\n+      rollResultParagraph.classList.add(\"diceP\");\r\n   \r\n       // Append the current roll results to the diceResults container\r\n       const diceResultsContainer = document.getElementById(\"diceResults\");\r\n       diceResultsContainer.prepend(rollResultParagraph);\r\n"
+                },
+                {
+                    "date": 1695484459274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n         totalRoll -= modifierNumber;\r\n       }\r\n   \r\n       // Construct the message including individual rolls and modifier information if applicable\r\n-      let message = `Rolling ${numDice} D${dieType}`;\r\n+      let message = `${numDice} D${dieType}`;\r\n       if (modifierType !== \"none\") {\r\n         message += ` with a modifier of ${modifierType} ${modifierNumber}`;\r\n       }\r\n   \r\n"
                 }
             ],
             "date": 1693677295002,

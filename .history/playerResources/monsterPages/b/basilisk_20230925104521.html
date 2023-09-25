@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basilisk</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+
+<body>
+    <header class="header-top">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand navMonsterName" href="../../../index.html">The Bardic Lexicon</a>
+              <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto nav justify-content-end">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarResources" role="button" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      Player Resources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarResources">
+                      <a class="dropdown-item" href="../../races.html">Races</a>
+                      <a class="dropdown-item" href="../../classes.html">Classes</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../../bestiary.html">Bestiary</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      Player Tools
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="../../../playerTools/charSheet.html">Character Sheet</a>
+                      <a class="dropdown-item" href="../../../playerTools/dice.html">Dice Roll Generator</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">More</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </header>
+
+    <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">Go Back</button>
+
+    <div class="jumbotron">
+        <h1 class="display-4 monsterName">Basilisk</h1>
+        <div class="horizontal-line"></div>
+        <p class="lead">Medium monstrosity, unaligned</p>
+        <p>Travelers sometimes find objects that look like pieces of remarkably lifelike stone carvings of wildlife.
+            Missing parts appear to have been bitten off. Seasoned explorers regard such relics as warnings, knowing
+            that the basilisk that created them is likely to be nearby.</p>
+        <hr class="my-4">
+        <div class="monsterImageContainer">
+            <img class="monsterPortrait rounded" src="../../../images/basilisk.png" alt="Basilisk image">
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseStats" role="button"
+                aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToStats()">Basic Info</button>
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseLore" role="button"
+                aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToLore()">Lore</button>
+        </div>
+
+        <!-- Start collapseStats -->
+        <div class="collapse rounded" id="collapseStats">
+            <h4>Basic Character Attributes</h4>
+            <div class="horizontal-line"></div>
+            <div class="tableContainer">
+                <table class="tg">
+                    <thead>
+                        <tr>
+                            <th class="tg-34fe"><span class="bold-text">Attribute</span></th>
+                            <th class="tg-yj5y">STR</th>
+                            <th class="tg-yj5y">DEX</th>
+                            <th class="tg-yj5y">CON</th>
+                            <th class="tg-yj5y">INT</th>
+                            <th class="tg-uqo3">WIS</th>
+                            <th class="tg-uqo3">CHA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tg-34fe"><span class="bold-text">Value</span></td>
+                            <td class="tg-yj5y">16</td>
+                            <td class="tg-yj5y">8</td>
+                            <td class="tg-yj5y">15</td>
+                            <td class="tg-yj5y">2</td>
+                            <td class="tg-uqo3">8</td>
+                            <td class="tg-uqo3">7</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-34fe"><span class="bold-text">Modifier</span></td>
+                            <td class="tg-yj5y">+3</td>
+                            <td class="tg-yj5y">-1</td>
+                            <td class="tg-yj5y">+2</td>
+                            <td class="tg-yj5y">-4</td>
+                            <td class="tg-uqo3">-1</td>
+                            <td class="tg-uqo3">-2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text">Armor Class:</span> 15 (natural armor)</p>
+            <p><span class="bold-text">Hit Points:</span> 52 (8d8 + 16)</p>
+            <p><span class="bold-text">Speed:</span> 20 ft.</p>
+
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text">Senses:</span> darkvision 60 ft., passive Perception 9</p>
+            <p><span class="bold-text">Languages:</span> -</p>
+            <p><span class="bold-text">Challenge:</span> 3 (700 XP)</p>
+
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text">Petrifying Gaze:</span> If a creature starts its turn within 30 feet of the
+                basilisk and the two of them can see each other, the basilisk can force the creature to make a DC 12
+                Constitution saving throw if the basilisk isn't incapacitated. On a failed save, the creature magically
+                begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn.
+                On a success, the effect ends. On a failure, the creature is petrified until freed by the greater
+                restoration spell or other magic.If a creature starts its turn within 30 feet of the basilisk and the
+                two of them can see each other, the basilisk can force the creature to make a DC 12 Constitution saving
+                throw if the basilisk isn't incapacitated. On a failed save, the creature magically begins to turn to
+                stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the
+                effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or
+                other magic.</p>
+            <p>A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If
+                it does so, it can't see the basilisk until the start of its next turn, when it can avert its eyes
+                again.</p>
+            <p>If it looks at the basilisk in the meantime, it must immediately make the save. If the basilisk sees its
+                reflection within 30 feet of it in bright light, it mistakes itself for a rival and targets itself with
+                its gaze.</p>
+
+            <div class="horizontal-line"></div>
+            <h5>Actions</h5>
+            <p><span class="bold-text">Bite:</span> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10
+                (2d6 + 3) piercing damage plus 7 (2d6) poison damage.</p>
+
+        </div>
+        <!-- End collapseStats -->
+        <!-- Start collapseLore -->
+        <div class="collapse" id="collapseLore">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Lore
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#adaptablePredators">Adaptable Predators</a>
+                    <a class="dropdown-item" href="#gazeOfStone">Gaze of Stone</a>
+                </div>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="adaptablePredators">
+                <h5>Adaptable Predators</h5>
+                <p>Basilisks thrive in arid, temperate, or tropical climates. They lair in caves or other sheltered
+                    sites. Most often, basilisks are encountered underground.</p>
+                <p>A basilisk born and raised in captivity can be domesticated and trained. Such a trained basilisk
+                    knows how to avoid meeting the eyes of those its master wishes to protect from its gaze, but it
+                    makes a daunting guardian beast. Because of this use, basilisk eggs are highly prized.</p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="gazeOfStone">
+                <h5>Gaze of Stone</h5>
+                <p>Basilisks are ponderous for hunting creatures, but they needn't chase prey. Meeting a basilisk's
+                    supernatural gaze can be enough to affect a rapid transformation, transforming a victim into porous
+                    stone. Basilisks, with their strong jaws, are able to consume the stone. The stone returns to
+                    organic form in the basilisk's gullet.</p>
+                <p>Some alchemists are said to know how to process the basilisk's gullet and the fluids contained
+                    within. Properly handled, the gullet produces an oil that can return petrified creatures to flesh
+                    and life. Unfortunately for such a victim, any parts lost in stone form remain absent if the
+                    creature revives. Revivification using the oil is impossible if a vital part of the petrified
+                    creature, such as its head, is detached.</p>
+            </div>
+            <div class="horizontal-line"></div>
+            <button type="button" class="btn btn-secondary" onclick="goToTop()">Back to Top</button>
+        </div>
+    </div>
+
+    <!-- End collapseLore -->
+
+    <footer class="page-footer font-small blue fixed-bottom">
+        <p>&copy; Chad Oswald | <a href="mailto:chadloswald@gmail.com">chadloswald@gmail.com</a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../../../scriptMon.js"></script>
+</body>
+
+</html>

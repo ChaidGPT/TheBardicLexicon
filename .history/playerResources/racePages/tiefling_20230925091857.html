@@ -13,44 +13,60 @@
 <body>
     <header class="header-top">
         <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container">
-                <a class="navbar-brand navMonsterName" href="../../index.html">The Bardic Lexicon</a>
-                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
-                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto nav justify-content-end">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarResources" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Player Resources
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarResources">
-                                <a class="dropdown-item" href="../races.html">Races</a>
-                                <a class="dropdown-item" href="../classes.html">Classes</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../bestiary.html">Bestiary</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Player Tools
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="../../../playerTools/charSheet.html">Character Sheet</a>
-                                <a class="dropdown-item" href="../../../playerTools/dice.html">Dice Roll Generator</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">More</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+          <div class="container">
+            <a class="navbar-brand navMonsterName" href="../../index.html">The Bardic Lexicon</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto nav justify-content-end">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarCharacter" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Character Creation
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarCharacter">
+                    <a class="dropdown-item" href="../races.html">Races</a>
+                    <a class="dropdown-item" href="../classes.html">Classes</a>
+                    <a class="dropdown-item" href="../personality.html">Personality & Inspiration</a>
+                    <a class="dropdown-item" href="../background.html">Character Backgrounds</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarResources" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Player Resources
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarResources">
+                    <h6 class="dropdown-header">Items</h6>
+                    <a class="dropdown-item" href="../gear.html">Adventuring Gear</a>
+                    <a class="dropdown-item" href="../gear.html">Equipment</a>
+                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">Magic</h6>
+                    <a class="dropdown-item" href="../spells.html">Spells</a>
+                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">Enemies</h6>
+                    <a class="dropdown-item" href="../bestiary.html">Bestiary</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Player Tools
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../../playerTools/charSheet.html">Character Sheet</a>
+                    <a class="dropdown-item" href="../../playerTools/dice.html">Dice Roll Generator</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">More</a>
+                  </div>
+                </li>
+              </ul>
             </div>
+          </div>
         </nav>
-    </header>
+      </header>
 
     <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">Go Back</button>
 
@@ -60,7 +76,7 @@
         <p>To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. And to twist the knife, tieflings know that this is because a pact struck generations ago infused the essence of Asmodeus—overlord of the Nine Hells—into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children’s children will always be held accountable.</p>
         <hr class="my-4">
         <div class="monsterImageContainer">
-            <img class="monsterPortrait" src="../../images/tiefling.png" alt="Tiefling image">
+            <img class="monsterPortrait rounded" src="../../images/tiefling.png" alt="Tiefling image">
         </div>
         <div class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseStats" role="button"

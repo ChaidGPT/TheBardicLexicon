@@ -328,3 +328,11 @@ table {
 .menuBox {
   background-color: white;
 }
+
+.accordion .card {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  max-width: 85%;
+  margin: 0;
+}

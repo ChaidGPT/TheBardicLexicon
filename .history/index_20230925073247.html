@@ -16,15 +16,31 @@
   <header class="header-top">
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">D&D Resource</a>
+        <a class="navbar-brand navMonsterName" href="index.html">The Bardic Lexicon</a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="bestiary.html">Bestiary</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarResources" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Player Resources
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarResources">
+                <h6 class="dropdown-header">Character Creation</h6>
+                <a class="dropdown-item" href="playerResources/races.html">Races</a>
+                <a class="dropdown-item" href="playerResources/classes.html">Classes</a>
+                <a class="dropdown-item" href="playerResources/background.html">Personality and Background</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerResources/gear.html">Adventuring Gear</a>
+                <a class="dropdown-item" href="playerResources/equipment.html">Equipment</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerResources/spells.html">Spells</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="playerResources/bestiary.html">Bestiary</a>
+              </div>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -32,10 +48,10 @@
                 Player Tools
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Character Sheet</a>
-                <a class="dropdown-item" href="dice.html">Dice Roll Generator</a>
+                <a class="dropdown-item" href="playerTools/charSheet.html">Character Sheet</a>
+                <a class="dropdown-item" href="playerTools/dice.html">Dice Roll Generator</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">More</a>
               </div>
             </li>
           </ul>
@@ -46,13 +62,14 @@
 
   <div class="container" id="monsterPage">
 
-    <div class="jumbotron">
-      <h1 class="display-4">What it do??</h1>
-      <p class="lead">A place for important info!</p>
+    <div class="jumbotron indexPanel">
+      <img id="logo" class="img-fluid" src="images/logo.png" alt="The Bardic Lexicon logo">
+      <p class="lead">A handy place to find your D&D info on the go!</p>
       <hr class="my-4">
-      <p>Important info!</p>
+      <p>Quick navigation</p>
 
-      <a class="btn btn-primary btn-lg" href="bestiary.html" role="button">Find Beasts</a>
+      <a class="btn btn-secondary btn-sm" href="playerResources/bestiary.html" role="button">Search Bestiary</a>
+      <a class="btn btn-secondary btn-sm" href="playerTools/dice.html" role="button">Roll Dice</a>
     </div>
 
     <footer class="page-footer font-small blue fixed-bottom">

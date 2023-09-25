@@ -328,3 +328,16 @@ table {
 .menuBox {
   background-color: white;
 }
+
+#spellContainer {
+  margin-bottom: 80px;
+  align-self: center;
+}
+
+.accordion .card {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  max-width: 85%, auto;
+  margin: 0;
+}

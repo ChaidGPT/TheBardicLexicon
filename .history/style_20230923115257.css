@@ -328,3 +328,24 @@ table {
 .menuBox {
   background-color: white;
 }
+
+#spellContainer {
+  margin-bottom: 80px;
+  display: inline-block;
+}
+
+.accordion .card {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  /* max-width: 85%, auto; */
+  margin: 0;
+  background-color: #e9ecef;
+}
+
+#spellPage {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-color: #e9ecef;
+}

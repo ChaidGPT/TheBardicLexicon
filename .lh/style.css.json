@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 317,
+            "activePatchIndex": 363,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -1276,6 +1276,190 @@
                 {
                     "date": 1695484392815,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,10 +111,10 @@\n \r\n #monsterPage {\r\n   padding: 20px 0px 150px 0px;\r\n   min-height: 100vh;\r\n-  /* justify-content: center;\r\n-  align-items: center; */\r\n+  justify-content: center;\r\n+  align-items: center;\r\n }\r\n \r\n .monsterName {\r\n   font-family: 'endor';\r\n@@ -329,7 +329,11 @@\n .diceBtn {\r\n   margin: 5px;\r\n }\r\n \r\n+.diceP {\r\n+  margin: 0;\r\n+}\r\n+\r\n .menuBox {\r\n   background-color: white;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695490166866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -335,5 +335,9 @@\n }\r\n \r\n .menuBox {\r\n   background-color: white;\r\n+}\r\n+\r\n+.accordion .card {\r\n+  border: none;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695490543380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,12 +44,8 @@\n   background-color: #e9ecef;\r\n   padding: 25px 0 0 0;\r\n }\r\n \r\n-/* .bestiary-card {\r\n-  background-color: #343a40;\r\n-} */\r\n-\r\n .beast-thumbnail {\r\n   width: auto;\r\n   max-height: 150px;\r\n }\r\n@@ -62,13 +58,8 @@\n .bestiary-figure:hover {\r\n   border: 2px black solid;\r\n }\r\n \r\n-/* .card-img-top {\r\n-  height: auto;\r\n-  max-width: 150px;\r\n-} */\r\n-\r\n /* CSS for footer */\r\n footer {\r\n   background-color: #343a40;\r\n   color: #fff;\r\n@@ -338,6 +329,10 @@\n   background-color: white;\r\n }\r\n \r\n .accordion .card {\r\n+  padding: 0;\r\n   border: none;\r\n+  border-radius: 0;\r\n+  max-width: 85%;\r\n+  margin: 0;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695490653422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -332,7 +332,7 @@\n .accordion .card {\r\n   padding: 0;\r\n   border: none;\r\n   border-radius: 0;\r\n-  max-width: 85%;\r\n+  max-width: 85%, auto;\r\n   margin: 0;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695491225366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -328,8 +328,16 @@\n .menuBox {\r\n   background-color: white;\r\n }\r\n \r\n+#spellContainer {\r\n+\r\n+}\r\n+\r\n+.accordion {\r\n+  padding-bottom: 20 px;\r\n+}\r\n+\r\n .accordion .card {\r\n   padding: 0;\r\n   border: none;\r\n   border-radius: 0;\r\n"
+                },
+                {
+                    "date": 1695491262092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -329,13 +329,13 @@\n   background-color: white;\r\n }\r\n \r\n #spellContainer {\r\n-\r\n+  margin-bottom: 20 px;\r\n }\r\n \r\n .accordion {\r\n-  padding-bottom: 20 px;\r\n+  /* padding-bottom: 20 px; */\r\n }\r\n \r\n .accordion .card {\r\n   padding: 0;\r\n"
+                },
+                {
+                    "date": 1695491290957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -329,9 +329,9 @@\n   background-color: white;\r\n }\r\n \r\n #spellContainer {\r\n-  margin-bottom: 20 px;\r\n+  padding-bottom: 20 px;\r\n }\r\n \r\n .accordion {\r\n   /* padding-bottom: 20 px; */\r\n"
+                },
+                {
+                    "date": 1695491453647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -329,9 +329,9 @@\n   background-color: white;\r\n }\r\n \r\n #spellContainer {\r\n-  padding-bottom: 20 px;\r\n+  padding-bottom: 20px;\r\n }\r\n \r\n .accordion {\r\n   /* padding-bottom: 20 px; */\r\n"
+                },
+                {
+                    "date": 1695491488486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -329,9 +329,9 @@\n   background-color: white;\r\n }\r\n \r\n #spellContainer {\r\n-  padding-bottom: 20px;\r\n+  margin-bottom: 20px;\r\n }\r\n \r\n .accordion {\r\n   /* padding-bottom: 20 px; */\r\n"
+                },
+                {
+                    "date": 1695491835631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -329,9 +329,9 @@\n   background-color: white;\r\n }\r\n \r\n #spellContainer {\r\n-  margin-bottom: 20px;\r\n+  margin-bottom: 50px;\r\n }\r\n \r\n .accordion {\r\n   /* padding-bottom: 20 px; */\r\n"
+                },
+                {
+                    "date": 1695491845658,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -329,9 +329,9 @@\n   background-color: white;\r\n }\r\n \r\n #spellContainer {\r\n-  margin-bottom: 50px;\r\n+  margin-bottom: 80px;\r\n }\r\n \r\n .accordion {\r\n   /* padding-bottom: 20 px; */\r\n"
+                },
+                {
+                    "date": 1695491916698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -330,8 +330,12 @@\n }\r\n \r\n #spellContainer {\r\n   margin-bottom: 80px;\r\n+  display: flex;\r\n+  flex-direction: column;\r\n+  align-items: center;\r\n+  justify-content: center;\r\n }\r\n \r\n .accordion {\r\n   /* padding-bottom: 20 px; */\r\n"
+                },
+                {
+                    "date": 1695491934907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -333,9 +333,9 @@\n   margin-bottom: 80px;\r\n   display: flex;\r\n   flex-direction: column;\r\n   align-items: center;\r\n-  justify-content: center;\r\n+  /* justify-content: center; */\r\n }\r\n \r\n .accordion {\r\n   /* padding-bottom: 20 px; */\r\n"
+                },
+                {
+                    "date": 1695491945248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -332,9 +332,9 @@\n #spellContainer {\r\n   margin-bottom: 80px;\r\n   display: flex;\r\n   flex-direction: column;\r\n-  align-items: center;\r\n+  /* align-items: center; */\r\n   /* justify-content: center; */\r\n }\r\n \r\n .accordion {\r\n"
+                },
+                {
+                    "date": 1695491958533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -331,9 +331,9 @@\n \r\n #spellContainer {\r\n   margin-bottom: 80px;\r\n   display: flex;\r\n-  flex-direction: column;\r\n+  /* flex-direction: column; */\r\n   /* align-items: center; */\r\n   /* justify-content: center; */\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1695491971317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -331,11 +331,11 @@\n \r\n #spellContainer {\r\n   margin-bottom: 80px;\r\n   display: flex;\r\n-  /* flex-direction: column; */\r\n+  flex-direction: column;\r\n   /* align-items: center; */\r\n-  /* justify-content: center; */\r\n+  justify-content: center;\r\n }\r\n \r\n .accordion {\r\n   /* padding-bottom: 20 px; */\r\n"
+                },
+                {
+                    "date": 1695492094664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -330,12 +330,8 @@\n }\r\n \r\n #spellContainer {\r\n   margin-bottom: 80px;\r\n-  display: flex;\r\n-  flex-direction: column;\r\n-  /* align-items: center; */\r\n-  justify-content: center;\r\n }\r\n \r\n .accordion {\r\n   /* padding-bottom: 20 px; */\r\n"
+                },
+                {
+                    "date": 1695493376008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -332,12 +332,8 @@\n #spellContainer {\r\n   margin-bottom: 80px;\r\n }\r\n \r\n-.accordion {\r\n-  /* padding-bottom: 20 px; */\r\n-}\r\n-\r\n .accordion .card {\r\n   padding: 0;\r\n   border: none;\r\n   border-radius: 0;\r\n"
+                },
+                {
+                    "date": 1695493408283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -330,8 +330,9 @@\n }\r\n \r\n #spellContainer {\r\n   margin-bottom: 80px;\r\n+  align-self: center;\r\n }\r\n \r\n .accordion .card {\r\n   padding: 0;\r\n"
+                },
+                {
+                    "date": 1695493525079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -331,8 +331,9 @@\n \r\n #spellContainer {\r\n   margin-bottom: 80px;\r\n   align-self: center;\r\n+  display: flex;\r\n }\r\n \r\n .accordion .card {\r\n   padding: 0;\r\n"
+                },
+                {
+                    "date": 1695493544748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -330,9 +330,8 @@\n }\r\n \r\n #spellContainer {\r\n   margin-bottom: 80px;\r\n-  align-self: center;\r\n   display: flex;\r\n }\r\n \r\n .accordion .card {\r\n"
+                },
+                {
+                    "date": 1695493562308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -330,9 +330,9 @@\n }\r\n \r\n #spellContainer {\r\n   margin-bottom: 80px;\r\n-  display: flex;\r\n+  display: inline-block;\r\n }\r\n \r\n .accordion .card {\r\n   padding: 0;\r\n"
+                },
+                {
+                    "date": 1695493710614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -339,5 +339,11 @@\n   border: none;\r\n   border-radius: 0;\r\n   max-width: 85%, auto;\r\n   margin: 0;\r\n+}\r\n+\r\n+#spellPage {\r\n+  min-height: 100vh;\r\n+  justify-content: center;\r\n+  align-items: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695493773238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -342,8 +342,6 @@\n   margin: 0;\r\n }\r\n \r\n #spellPage {\r\n-  min-height: 100vh;\r\n-  justify-content: center;\r\n-  align-items: center;\r\n+  margin: 0 auto;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695493815649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -342,6 +342,8 @@\n   margin: 0;\r\n }\r\n \r\n #spellPage {\r\n-  margin: 0 auto;\r\n+  display: flex;\r\n+  justify-content: center;\r\n+  align-items: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695493945083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,349 @@\n+@font-face {\r\n+  font-family: 'endor';\r\n+  src: url('endor.ttf') format('truetype');\r\n+}\r\n+\r\n+html {\r\n+  border-left: 8px solid #343a40;\r\n+  border-right: 8px solid #343a40;\r\n+  min-height: 100%;\r\n+}\r\n+\r\n+.header-top {\r\n+  position: relative;\r\n+  z-index: 10;\r\n+}\r\n+\r\n+/* CSS for header */\r\n+.navbar {\r\n+  background-color: #343a40;\r\n+  color: #fff;\r\n+}\r\n+\r\n+.navbar .navbar-brand {\r\n+  color: #fff;\r\n+}\r\n+\r\n+.navbar .navbar-brand:hover {\r\n+  color: lightgrey;\r\n+}\r\n+\r\n+.navbar .nav-link {\r\n+  color: #fff;\r\n+}\r\n+\r\n+.navbar .nav-link:hover {\r\n+  color: lightgrey;\r\n+}\r\n+\r\n+nav .navbar-toggler-icon {\r\n+  color: #fff;\r\n+}\r\n+\r\n+body {\r\n+  background-color: #e9ecef;\r\n+  padding: 25px 0 0 0;\r\n+}\r\n+\r\n+.beast-thumbnail {\r\n+  width: auto;\r\n+  max-height: 150px;\r\n+}\r\n+\r\n+.bestiary-figure {\r\n+  border: 2px transparent solid;\r\n+  background-color: #fff;\r\n+}\r\n+\r\n+.bestiary-figure:hover {\r\n+  border: 2px black solid;\r\n+}\r\n+\r\n+/* CSS for footer */\r\n+footer {\r\n+  background-color: #343a40;\r\n+  color: #fff;\r\n+  padding: 10px;\r\n+  margin: 30px 0 0 0;\r\n+  display: flex;\r\n+  justify-content: center;\r\n+  align-items: center;\r\n+  border-left: 5px solid #343a40;\r\n+}\r\n+\r\n+.goBackBtn {\r\n+  position: absolute;\r\n+  top: 65px;\r\n+  left: 13px;\r\n+\r\n+  padding: .25rem .4rem;\r\n+  font-size: .875rem;\r\n+  line-height: .5;\r\n+  border-radius: .2rem;\r\n+}\r\n+\r\n+.jumbotron {\r\n+  text-align: center;\r\n+  margin-bottom: 100px;\r\n+  min-height: 500px;\r\n+\r\n+  h1, p {\r\n+    text-align: left;\r\n+  }\r\n+}\r\n+\r\n+.card {\r\n+  padding: 20px;\r\n+  border: 2px lightgray solid;\r\n+  border-radius: 5%;\r\n+  max-width: 85%;\r\n+  margin: 30px auto;\r\n+}\r\n+\r\n+#monsterPage {\r\n+  padding: 20px 0px 150px 0px;\r\n+  min-height: 100vh;\r\n+  justify-content: center;\r\n+  align-items: center;\r\n+}\r\n+\r\n+.monsterName {\r\n+  font-family: 'endor';\r\n+  padding-top: 20px;\r\n+  padding-bottom: 10px;\r\n+}\r\n+\r\n+.navMonsterName {\r\n+  font-family: 'endor';\r\n+  /* padding-top: 20px; */\r\n+  padding-bottom: 10px;\r\n+}\r\n+\r\n+.contentsPageName {\r\n+  font-family: 'endor';\r\n+}\r\n+\r\n+a.list-group-flush.border-0 {\r\n+  padding-left: 20px;\r\n+}\r\n+\r\n+.monsterImageContainer {\r\n+  display: flex;\r\n+  justify-content: center;\r\n+  margin: 0 0 10px 0;\r\n+}\r\n+\r\n+.monsterImageContainer img {\r\n+  border: 2px black solid;\r\n+  border-radius: 5%;\r\n+  background-color: #D0C6B1;\r\n+  max-width: 300px;\r\n+  transition: transform 0.3s ease;\r\n+}\r\n+\r\n+#collapseStats {\r\n+  border: 2px lightgray solid;\r\n+  border-radius: 5%;\r\n+  margin: 30px auto;\r\n+  padding: 5px 15px;\r\n+  background-color: white;\r\n+  max-width: 500px;\r\n+}\r\n+\r\n+#collapseStats p {\r\n+  text-align: left;\r\n+}\r\n+\r\n+#collapseStats2 {\r\n+  border: 2px lightgray solid;\r\n+  border-radius: 5%;\r\n+  margin: 30px auto;\r\n+  padding: 5px 15px;\r\n+  background-color: white;\r\n+  max-width: 500px;\r\n+}\r\n+\r\n+#collapseStats2 p {\r\n+  text-align: left;\r\n+}\r\n+\r\n+#collapseLore {\r\n+  border: 2px lightgray solid;\r\n+  border-radius: 5%;\r\n+  margin: 30px auto;\r\n+  padding: 5px 15px;\r\n+  background-color: white;\r\n+  max-width: 500px;\r\n+}\r\n+\r\n+#collapseLore p {\r\n+  text-align: left;\r\n+}\r\n+\r\n+li {\r\n+  text-align: left;\r\n+}\r\n+\r\n+.tableContainer {\r\n+  display: flex;\r\n+  justify-content: center;\r\n+  border-radius: 10px;\r\n+}\r\n+\r\n+table {\r\n+  border-collapse: collapse;\r\n+  width: 300px;\r\n+}\r\n+\r\n+.tg {\r\n+  border-collapse: collapse;\r\n+  border-spacing: 0;\r\n+}\r\n+\r\n+.tg td {\r\n+  border-color: black;\r\n+  border-style: solid;\r\n+  border-width: 1px;\r\n+  font-family: Arial, sans-serif;\r\n+  font-size: 14px;\r\n+  overflow: hidden;\r\n+  padding: 10px 5px;\r\n+  word-break: normal;\r\n+}\r\n+\r\n+.tg th {\r\n+  border-color: black;\r\n+  border-style: solid;\r\n+  border-width: 1px;\r\n+  font-family: Arial, sans-serif;\r\n+  font-size: 14px;\r\n+  font-weight: normal;\r\n+  overflow: hidden;\r\n+  padding: 10px 5px;\r\n+  word-break: normal;\r\n+}\r\n+\r\n+.tg .tg-uqo3 {\r\n+  background-color: #efefef;\r\n+  text-align: center;\r\n+  vertical-align: top\r\n+}\r\n+\r\n+.tg .tg-yj5y {\r\n+  background-color: #efefef;\r\n+  border-color: inherit;\r\n+  text-align: center;\r\n+  vertical-align: top\r\n+}\r\n+\r\n+.tg .tg-34fe {\r\n+  background-color: #c0c0c0;\r\n+  border-color: inherit;\r\n+  text-align: center;\r\n+  vertical-align: top\r\n+}\r\n+\r\n+\r\n+.tg  {border-collapse:collapse;border-spacing:0;}\r\n+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\r\n+  overflow:hidden;padding:10px 5px;word-break:normal;}\r\n+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\r\n+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\r\n+.tg .tg-f5e1{background-color:#efefef;border-color:#000000;color:#c0c0c0;text-align:center;vertical-align:top}\r\n+.tg .tg-yj5y{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:top}\r\n+.tg .tg-34fe{background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}\r\n+.tg .tg-kftd{background-color:#efefef;text-align:left;vertical-align:top}\r\n+\r\n+\r\n+\r\n+.bold-text {\r\n+  font-weight: bold;\r\n+}\r\n+\r\n+.horizontal-line {\r\n+  border-top: 2px solid black;\r\n+  width: 50%;\r\n+  margin: 12px auto;\r\n+  display: flex;\r\n+  justify-content: center;\r\n+  align-items: center;\r\n+\r\n+  @media screen and (max-width: 768px) {\r\n+    width: 80%;\r\n+    margin: 10px auto;\r\n+  }\r\n+\r\n+  @media screen and (max-width: 480px) {\r\n+    width: 80%;\r\n+    margin: 10px auto;\r\n+  }\r\n+}\r\n+\r\n+/* Monster Page Specific */\r\n+\r\n+.monsterBtn {\r\n+  margin: 5px;\r\n+  font-family: 'spindles';\r\n+}\r\n+\r\n+.critical-failure {\r\n+  color: red;\r\n+  font-weight: bold;\r\n+}\r\n+\r\n+.critical-success {\r\n+  color: green;\r\n+  font-weight: bold;\r\n+}\r\n+\r\n+.attributeForm {\r\n+  max-width: 50px;\r\n+}\r\n+\r\n+#characterPage {\r\n+  padding: 50px 15px 150px 15px;\r\n+  min-height: 100vh;\r\n+  justify-content: center;\r\n+  align-items: center;\r\n+}\r\n+\r\n+/* Character Sheet Specific */\r\n+\r\n+.attributes {\r\n+  border: 2px solid black;\r\n+  padding: 5px;\r\n+  max-width: auto;\r\n+}\r\n+\r\n+/* Dice page stuff */\r\n+\r\n+.diceBtn {\r\n+  margin: 5px;\r\n+}\r\n+\r\n+.diceP {\r\n+  margin: 0;\r\n+}\r\n+\r\n+.menuBox {\r\n+  background-color: white;\r\n+}\r\n+\r\n+#spellContainer {\r\n+  margin-bottom: 80px;\r\n+  display: inline-block;\r\n+}\r\n+\r\n+.accordion .card {\r\n+  padding: 0;\r\n+  border: none;\r\n+  border-radius: 0;\r\n+  max-width: 85%, auto;\r\n+  margin: 0;\r\n+}\r\n+\r\n+/* #spellPage {\r\n+  display: flex;\r\n+  justify-content: center;\r\n+  align-items: center;\r\n+} */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695494874218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -337,362 +337,13 @@\n .accordion .card {\r\n   padding: 0;\r\n   border: none;\r\n   border-radius: 0;\r\n-  max-width: 85%, auto;\r\n+  /* max-width: 85%, auto; */\r\n   margin: 0;\r\n }\r\n \r\n /* #spellPage {\r\n   display: flex;\r\n   justify-content: center;\r\n   align-items: center;\r\n-} */\n-@font-face {\r\n-  font-family: 'endor';\r\n-  src: url('endor.ttf') format('truetype');\r\n-}\r\n-\r\n-html {\r\n-  border-left: 8px solid #343a40;\r\n-  border-right: 8px solid #343a40;\r\n-  min-height: 100%;\r\n-}\r\n-\r\n-.header-top {\r\n-  position: relative;\r\n-  z-index: 10;\r\n-}\r\n-\r\n-/* CSS for header */\r\n-.navbar {\r\n-  background-color: #343a40;\r\n-  color: #fff;\r\n-}\r\n-\r\n-.navbar .navbar-brand {\r\n-  color: #fff;\r\n-}\r\n-\r\n-.navbar .navbar-brand:hover {\r\n-  color: lightgrey;\r\n-}\r\n-\r\n-.navbar .nav-link {\r\n-  color: #fff;\r\n-}\r\n-\r\n-.navbar .nav-link:hover {\r\n-  color: lightgrey;\r\n-}\r\n-\r\n-nav .navbar-toggler-icon {\r\n-  color: #fff;\r\n-}\r\n-\r\n-body {\r\n-  background-color: #e9ecef;\r\n-  padding: 25px 0 0 0;\r\n-}\r\n-\r\n-.beast-thumbnail {\r\n-  width: auto;\r\n-  max-height: 150px;\r\n-}\r\n-\r\n-.bestiary-figure {\r\n-  border: 2px transparent solid;\r\n-  background-color: #fff;\r\n-}\r\n-\r\n-.bestiary-figure:hover {\r\n-  border: 2px black solid;\r\n-}\r\n-\r\n-/* CSS for footer */\r\n-footer {\r\n-  background-color: #343a40;\r\n-  color: #fff;\r\n-  padding: 10px;\r\n-  margin: 30px 0 0 0;\r\n-  display: flex;\r\n-  justify-content: center;\r\n-  align-items: center;\r\n-  border-left: 5px solid #343a40;\r\n-}\r\n-\r\n-.goBackBtn {\r\n-  position: absolute;\r\n-  top: 65px;\r\n-  left: 13px;\r\n-\r\n-  padding: .25rem .4rem;\r\n-  font-size: .875rem;\r\n-  line-height: .5;\r\n-  border-radius: .2rem;\r\n-}\r\n-\r\n-.jumbotron {\r\n-  text-align: center;\r\n-  margin-bottom: 100px;\r\n-  min-height: 500px;\r\n-\r\n-  h1, p {\r\n-    text-align: left;\r\n-  }\r\n-}\r\n-\r\n-.card {\r\n-  padding: 20px;\r\n-  border: 2px lightgray solid;\r\n-  border-radius: 5%;\r\n-  max-width: 85%;\r\n-  margin: 30px auto;\r\n-}\r\n-\r\n-#monsterPage {\r\n-  padding: 20px 0px 150px 0px;\r\n-  min-height: 100vh;\r\n-  justify-content: center;\r\n-  align-items: center;\r\n-}\r\n-\r\n-.monsterName {\r\n-  font-family: 'endor';\r\n-  padding-top: 20px;\r\n-  padding-bottom: 10px;\r\n-}\r\n-\r\n-.navMonsterName {\r\n-  font-family: 'endor';\r\n-  /* padding-top: 20px; */\r\n-  padding-bottom: 10px;\r\n-}\r\n-\r\n-.contentsPageName {\r\n-  font-family: 'endor';\r\n-}\r\n-\r\n-a.list-group-flush.border-0 {\r\n-  padding-left: 20px;\r\n-}\r\n-\r\n-.monsterImageContainer {\r\n-  display: flex;\r\n-  justify-content: center;\r\n-  margin: 0 0 10px 0;\r\n-}\r\n-\r\n-.monsterImageContainer img {\r\n-  border: 2px black solid;\r\n-  border-radius: 5%;\r\n-  background-color: #D0C6B1;\r\n-  max-width: 300px;\r\n-  transition: transform 0.3s ease;\r\n-}\r\n-\r\n-#collapseStats {\r\n-  border: 2px lightgray solid;\r\n-  border-radius: 5%;\r\n-  margin: 30px auto;\r\n-  padding: 5px 15px;\r\n-  background-color: white;\r\n-  max-width: 500px;\r\n-}\r\n-\r\n-#collapseStats p {\r\n-  text-align: left;\r\n-}\r\n-\r\n-#collapseStats2 {\r\n-  border: 2px lightgray solid;\r\n-  border-radius: 5%;\r\n-  margin: 30px auto;\r\n-  padding: 5px 15px;\r\n-  background-color: white;\r\n-  max-width: 500px;\r\n-}\r\n-\r\n-#collapseStats2 p {\r\n-  text-align: left;\r\n-}\r\n-\r\n-#collapseLore {\r\n-  border: 2px lightgray solid;\r\n-  border-radius: 5%;\r\n-  margin: 30px auto;\r\n-  padding: 5px 15px;\r\n-  background-color: white;\r\n-  max-width: 500px;\r\n-}\r\n-\r\n-#collapseLore p {\r\n-  text-align: left;\r\n-}\r\n-\r\n-li {\r\n-  text-align: left;\r\n-}\r\n-\r\n-.tableContainer {\r\n-  display: flex;\r\n-  justify-content: center;\r\n-  border-radius: 10px;\r\n-}\r\n-\r\n-table {\r\n-  border-collapse: collapse;\r\n-  width: 300px;\r\n-}\r\n-\r\n-.tg {\r\n-  border-collapse: collapse;\r\n-  border-spacing: 0;\r\n-}\r\n-\r\n-.tg td {\r\n-  border-color: black;\r\n-  border-style: solid;\r\n-  border-width: 1px;\r\n-  font-family: Arial, sans-serif;\r\n-  font-size: 14px;\r\n-  overflow: hidden;\r\n-  padding: 10px 5px;\r\n-  word-break: normal;\r\n-}\r\n-\r\n-.tg th {\r\n-  border-color: black;\r\n-  border-style: solid;\r\n-  border-width: 1px;\r\n-  font-family: Arial, sans-serif;\r\n-  font-size: 14px;\r\n-  font-weight: normal;\r\n-  overflow: hidden;\r\n-  padding: 10px 5px;\r\n-  word-break: normal;\r\n-}\r\n-\r\n-.tg .tg-uqo3 {\r\n-  background-color: #efefef;\r\n-  text-align: center;\r\n-  vertical-align: top\r\n-}\r\n-\r\n-.tg .tg-yj5y {\r\n-  background-color: #efefef;\r\n-  border-color: inherit;\r\n-  text-align: center;\r\n-  vertical-align: top\r\n-}\r\n-\r\n-.tg .tg-34fe {\r\n-  background-color: #c0c0c0;\r\n-  border-color: inherit;\r\n-  text-align: center;\r\n-  vertical-align: top\r\n-}\r\n-\r\n-\r\n-.tg  {border-collapse:collapse;border-spacing:0;}\r\n-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\r\n-  overflow:hidden;padding:10px 5px;word-break:normal;}\r\n-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\r\n-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\r\n-.tg .tg-f5e1{background-color:#efefef;border-color:#000000;color:#c0c0c0;text-align:center;vertical-align:top}\r\n-.tg .tg-yj5y{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:top}\r\n-.tg .tg-34fe{background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}\r\n-.tg .tg-kftd{background-color:#efefef;text-align:left;vertical-align:top}\r\n-\r\n-\r\n-\r\n-.bold-text {\r\n-  font-weight: bold;\r\n-}\r\n-\r\n-.horizontal-line {\r\n-  border-top: 2px solid black;\r\n-  width: 50%;\r\n-  margin: 12px auto;\r\n-  display: flex;\r\n-  justify-content: center;\r\n-  align-items: center;\r\n-\r\n-  @media screen and (max-width: 768px) {\r\n-    width: 80%;\r\n-    margin: 10px auto;\r\n-  }\r\n-\r\n-  @media screen and (max-width: 480px) {\r\n-    width: 80%;\r\n-    margin: 10px auto;\r\n-  }\r\n-}\r\n-\r\n-/* Monster Page Specific */\r\n-\r\n-.monsterBtn {\r\n-  margin: 5px;\r\n-  font-family: 'spindles';\r\n-}\r\n-\r\n-.critical-failure {\r\n-  color: red;\r\n-  font-weight: bold;\r\n-}\r\n-\r\n-.critical-success {\r\n-  color: green;\r\n-  font-weight: bold;\r\n-}\r\n-\r\n-.attributeForm {\r\n-  max-width: 50px;\r\n-}\r\n-\r\n-#characterPage {\r\n-  padding: 50px 15px 150px 15px;\r\n-  min-height: 100vh;\r\n-  justify-content: center;\r\n-  align-items: center;\r\n-}\r\n-\r\n-/* Character Sheet Specific */\r\n-\r\n-.attributes {\r\n-  border: 2px solid black;\r\n-  padding: 5px;\r\n-  max-width: auto;\r\n-}\r\n-\r\n-/* Dice page stuff */\r\n-\r\n-.diceBtn {\r\n-  margin: 5px;\r\n-}\r\n-\r\n-.diceP {\r\n-  margin: 0;\r\n-}\r\n-\r\n-.menuBox {\r\n-  background-color: white;\r\n-}\r\n-\r\n-#spellContainer {\r\n-  margin-bottom: 80px;\r\n-  display: inline-block;\r\n-}\r\n-\r\n-.accordion .card {\r\n-  padding: 0;\r\n-  border: none;\r\n-  border-radius: 0;\r\n-  max-width: 85%, auto;\r\n-  margin: 0;\r\n-}\r\n-\r\n-#spellPage {\r\n-  display: flex;\r\n-  justify-content: center;\r\n-  align-items: center;\r\n\\ No newline at end of file\n-}\n+} */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695494986008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -339,8 +339,9 @@\n   border: none;\r\n   border-radius: 0;\r\n   /* max-width: 85%, auto; */\r\n   margin: 0;\r\n+  background-color: #c0c0c0;\r\n }\r\n \r\n /* #spellPage {\r\n   display: flex;\r\n"
+                },
+                {
+                    "date": 1695495025828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -339,9 +339,9 @@\n   border: none;\r\n   border-radius: 0;\r\n   /* max-width: 85%, auto; */\r\n   margin: 0;\r\n-  background-color: #c0c0c0;\r\n+  background-color: #e9ecef;\r\n }\r\n \r\n /* #spellPage {\r\n   display: flex;\r\n"
+                },
+                {
+                    "date": 1695495065208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -342,9 +342,9 @@\n   margin: 0;\r\n   background-color: #e9ecef;\r\n }\r\n \r\n-/* #spellPage {\r\n+#spellPage {\r\n   display: flex;\r\n   justify-content: center;\r\n   align-items: center;\r\n\\ No newline at end of file\n-} */\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695495082090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -346,5 +346,6 @@\n #spellPage {\r\n   display: flex;\r\n   justify-content: center;\r\n   align-items: center;\r\n+  background-color: #e9ecef;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695495113190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -344,8 +344,8 @@\n }\r\n \r\n #spellPage {\r\n   display: flex;\r\n-  justify-content: center;\r\n+  justify-content:space-evenly;\r\n   align-items: center;\r\n   background-color: #e9ecef;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695495132652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -345,7 +345,6 @@\n \r\n #spellPage {\r\n   display: flex;\r\n   justify-content:space-evenly;\r\n-  align-items: center;\r\n   background-color: #e9ecef;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695495154428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -344,7 +344,6 @@\n }\r\n \r\n #spellPage {\r\n   display: flex;\r\n-  justify-content:space-evenly;\r\n   background-color: #e9ecef;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695495177637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -343,7 +343,9 @@\n   background-color: #e9ecef;\r\n }\r\n \r\n #spellPage {\r\n-  display: flex;\r\n+  /* display: flex;\r\n+  justify-content: center;\r\n+  align-items: center; */\r\n   background-color: #e9ecef;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695495513748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -347,5 +347,9 @@\n   /* display: flex;\r\n   justify-content: center;\r\n   align-items: center; */\r\n   background-color: #e9ecef;\r\n+}\r\n+\r\n+.card-header {\r\n+  background-color: #e9ecef;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695495677304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -343,11 +343,10 @@\n   background-color: #e9ecef;\r\n }\r\n \r\n #spellPage {\r\n-  /* display: flex;\r\n+  display: flex;\r\n   justify-content: center;\r\n-  align-items: center; */\r\n   background-color: #e9ecef;\r\n }\r\n \r\n .card-header {\r\n"
+                },
+                {
+                    "date": 1695495714587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -350,5 +350,6 @@\n }\r\n \r\n .card-header {\r\n   background-color: #e9ecef;\r\n+  min-width: auto;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695495740660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -350,6 +350,6 @@\n }\r\n \r\n .card-header {\r\n   background-color: #e9ecef;\r\n-  min-width: auto;\r\n+  min-width: fit-content;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695495753070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -350,6 +350,6 @@\n }\r\n \r\n .card-header {\r\n   background-color: #e9ecef;\r\n-  min-width: fit-content;\r\n+  min-width: 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695495764442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -350,6 +350,6 @@\n }\r\n \r\n .card-header {\r\n   background-color: #e9ecef;\r\n-  min-width: 50px;\r\n+  min-width: 400px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695495809077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -343,13 +343,12 @@\n   background-color: #e9ecef;\r\n }\r\n \r\n #spellPage {\r\n-  display: flex;\r\n+  display: inline-flex;\r\n   justify-content: center;\r\n   background-color: #e9ecef;\r\n }\r\n \r\n .card-header {\r\n   background-color: #e9ecef;\r\n-  min-width: 400px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695495841758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -330,9 +330,8 @@\n }\r\n \r\n #spellContainer {\r\n   margin-bottom: 80px;\r\n-  display: inline-block;\r\n }\r\n \r\n .accordion .card {\r\n   padding: 0;\r\n"
+                },
+                {
+                    "date": 1695495867652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -342,10 +342,8 @@\n   background-color: #e9ecef;\r\n }\r\n \r\n #spellPage {\r\n-  display: inline-flex;\r\n-  justify-content: center;\r\n   background-color: #e9ecef;\r\n }\r\n \r\n .card-header {\r\n"
+                },
+                {
+                    "date": 1695495905470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -347,5 +347,9 @@\n }\r\n \r\n .card-header {\r\n   background-color: #e9ecef;\r\n+}\r\n+\r\n+.accordion {\r\n+  width: 100%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695496433983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,5 +351,9 @@\n }\r\n \r\n .accordion {\r\n   width: 100%;\r\n-}\n\\ No newline at end of file\n+}\r\n+\r\n+#accordionExample {\r\n+  margin: 0 auto;\r\n+}\r\n"
+                },
+                {
+                    "date": 1695496572406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -327,33 +327,4 @@\n \r\n .menuBox {\r\n   background-color: white;\r\n }\r\n-\r\n-#spellContainer {\r\n-  margin-bottom: 80px;\r\n-}\r\n-\r\n-.accordion .card {\r\n-  padding: 0;\r\n-  border: none;\r\n-  border-radius: 0;\r\n-  /* max-width: 85%, auto; */\r\n-  margin: 0;\r\n-  background-color: #e9ecef;\r\n-}\r\n-\r\n-#spellPage {\r\n-  background-color: #e9ecef;\r\n-}\r\n-\r\n-.card-header {\r\n-  background-color: #e9ecef;\r\n-}\r\n-\r\n-.accordion {\r\n-  width: 100%;\r\n-}\r\n-\r\n-#accordionExample {\r\n-  margin: 0 auto;\r\n-}\r\n"
                 }
             ],
             "date": 1690811923410,

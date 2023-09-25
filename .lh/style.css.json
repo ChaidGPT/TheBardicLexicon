@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 363,
+            "activePatchIndex": 364,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -1460,6 +1460,10 @@
                 {
                     "date": 1695496572406,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -327,33 +327,4 @@\n \r\n .menuBox {\r\n   background-color: white;\r\n }\r\n-\r\n-#spellContainer {\r\n-  margin-bottom: 80px;\r\n-}\r\n-\r\n-.accordion .card {\r\n-  padding: 0;\r\n-  border: none;\r\n-  border-radius: 0;\r\n-  /* max-width: 85%, auto; */\r\n-  margin: 0;\r\n-  background-color: #e9ecef;\r\n-}\r\n-\r\n-#spellPage {\r\n-  background-color: #e9ecef;\r\n-}\r\n-\r\n-.card-header {\r\n-  background-color: #e9ecef;\r\n-}\r\n-\r\n-.accordion {\r\n-  width: 100%;\r\n-}\r\n-\r\n-#accordionExample {\r\n-  margin: 0 auto;\r\n-}\r\n"
+                },
+                {
+                    "date": 1695658051839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -155,9 +155,8 @@\n }\r\n \r\n #collapseStats2 {\r\n   border: 2px lightgray solid;\r\n-  border-radius: 5%;\r\n   margin: 30px auto;\r\n   padding: 5px 15px;\r\n   background-color: white;\r\n   max-width: 500px;\r\n@@ -168,9 +167,8 @@\n }\r\n \r\n #collapseLore {\r\n   border: 2px lightgray solid;\r\n-  border-radius: 5%;\r\n   margin: 30px auto;\r\n   padding: 5px 15px;\r\n   background-color: white;\r\n   max-width: 500px;\r\n"
                 }
             ],
             "date": 1690811923410,

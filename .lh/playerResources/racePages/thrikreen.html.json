@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1694977127124,
@@ -12,6 +12,10 @@
                 {
                     "date": 1695043947016,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n-                <a class=\"navbar-brand monsterName\" href=\"../../index.html\">D&D Resource</a>\r\n+                <a class=\"navbar-brand navMonsterName\" href=\"../../index.html\">The Bardic Lexicon</a>\r\n                 <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n                     data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\"\r\n                     aria-label=\"Toggle navigation\">\r\n                     <span class=\"navbar-toggler-icon\"></span>\r\n"
+                },
+                {
+                    "date": 1695658739013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,9 +69,9 @@\n                 aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToLore()\">Lore</button>\r\n         </div>\r\n \r\n         <!-- Start collapseStats -->\r\n-        <div class=\"collapse\" id=\"collapseStats\">\r\n+        <div class=\"collapse rounded\" id=\"collapseStats\">\r\n             <h4>Traits</h4>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p>Info</p>\r\n             <p><span class=\"bold-text\">Ability Score Increase:</span> </p>\r\n@@ -100,9 +100,9 @@\n             <p><span class=\"bold-text\">Dwarven Armor Training:</span> </p>\r\n         </div>\r\n         <!-- End collapseStats -->\r\n         <!-- Start collapseLore -->\r\n-        <div class=\"collapse\" id=\"collapseLore\">\r\n+        <div class=\"collapse rounded\" id=\"collapseLore\">\r\n             <div class=\"dropdown\">\r\n                 <button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\"\r\n                     data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                     Lore\r\n"
                 }
             ],
             "date": 1694977127124,

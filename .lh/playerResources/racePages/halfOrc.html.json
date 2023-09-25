@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1694456163539,
@@ -32,6 +32,10 @@
                 {
                     "date": 1694545428449,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n <body>\r\n     <header class=\"header-top\">\r\n         <nav class=\"navbar navbar-expand-lg fixed-top\">\r\n             <div class=\"container\">\r\n-                <a class=\"navbar-brand monsterName\" href=\"../../index.html\">The Bardic Lexicon</a>\r\n+                <a class=\"navbar-brand navMonsterName\" href=\"../../index.html\">The Bardic Lexicon</a>\r\n                 <button class=\"navbar-toggler navbar-dark\" type=\"button\" data-toggle=\"collapse\"\r\n                     data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\"\r\n                     aria-label=\"Toggle navigation\">\r\n                     <span class=\"navbar-toggler-icon\"></span>\r\n"
+                },
+                {
+                    "date": 1695658739044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n                 aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToLore()\">Lore</button>\r\n         </div>\r\n \r\n         <!-- Start collapseStats -->\r\n-        <div class=\"collapse\" id=\"collapseStats\">\r\n+        <div class=\"collapse rounded\" id=\"collapseStats\">\r\n             <h4>Traits</h4>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p>Your half-orc character has certain traits deriving from your ore ancestry.</p>\r\n             <p><span class=\"bold-text\">Ability Score Increase:</span> Your Strength score increases by 2, and your\r\n@@ -105,9 +105,9 @@\n                 script.</p>\r\n         </div>\r\n         <!-- End collapseStats -->\r\n         <!-- Start collapseLore -->\r\n-        <div class=\"collapse\" id=\"collapseLore\">\r\n+        <div class=\"collapse rounded\" id=\"collapseLore\">\r\n             <div class=\"dropdown\">\r\n                 <button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\"\r\n                     data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                     Lore\r\n"
                 }
             ],
             "date": 1694456163539,

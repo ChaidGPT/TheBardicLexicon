@@ -156,7 +156,6 @@ a.list-group-flush.border-0 {
 
 #collapseStats2 {
   border: 2px lightgray solid;
-  border-radius: 5%;
   margin: 30px auto;
   padding: 5px 15px;
   background-color: white;
@@ -169,7 +168,6 @@ a.list-group-flush.border-0 {
 
 #collapseLore {
   border: 2px lightgray solid;
-  border-radius: 5%;
   margin: 30px auto;
   padding: 5px 15px;
   background-color: white;

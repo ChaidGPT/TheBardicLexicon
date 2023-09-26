@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 195,
+            "activePatchIndex": 196,
             "patches": [
                 {
                     "date": 1693239574363,
@@ -788,6 +788,10 @@
                 {
                     "date": 1695664919815,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,16 +21,33 @@\n         </button>\r\n         <div class=\"collapse navbar-collapse\" id=\"navbarNavDropdown\">\r\n           <ul class=\"navbar-nav ml-auto nav justify-content-end\">\r\n             <li class=\"nav-item dropdown\">\r\n+              <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarCharacter\" role=\"button\" data-toggle=\"dropdown\"\r\n+                aria-haspopup=\"true\" aria-expanded=\"false\">\r\n+                Character Creation\r\n+              </a>\r\n+              <div class=\"dropdown-menu\" aria-labelledby=\"navbarCharacter\">\r\n+                <a class=\"dropdown-item\" href=\"races.html\">Races</a>\r\n+                <a class=\"dropdown-item\" href=\"classes.html\">Classes</a>\r\n+                <a class=\"dropdown-item\" href=\"personality.html\">Personality & Inspiration</a>\r\n+                <a class=\"dropdown-item\" href=\"background.html\">Character Backgrounds</a>\r\n+              </div>\r\n+            </li>\r\n+            <li class=\"nav-item dropdown\">\r\n               <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarResources\" role=\"button\" data-toggle=\"dropdown\"\r\n                 aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                 Player Resources\r\n               </a>\r\n               <div class=\"dropdown-menu\" aria-labelledby=\"navbarResources\">\r\n-                <a class=\"dropdown-item\" href=\"races.html\">Races</a>\r\n-                <a class=\"dropdown-item\" href=\"classes.html\">Classes</a>\r\n+                <h6 class=\"dropdown-header\">Items</h6>\r\n+                <a class=\"dropdown-item\" href=\"gear.html\">Adventuring Gear</a>\r\n+                <a class=\"dropdown-item\" href=\"equipment.html\">Equipment</a>\r\n                 <div class=\"dropdown-divider\"></div>\r\n+                <h6 class=\"dropdown-header\">Magic</h6>\r\n+                <a class=\"dropdown-item\" href=\"spells.html\">Spells</a>\r\n+                <div class=\"dropdown-divider\"></div>\r\n+                <h6 class=\"dropdown-header\">Enemies</h6>\r\n                 <a class=\"dropdown-item\" href=\"bestiary.html\">Bestiary</a>\r\n               </div>\r\n             </li>\r\n             <li class=\"nav-item dropdown\">\r\n"
+                },
+                {
+                    "date": 1695740231586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,8 +72,9 @@\n \r\n     <div class=\"px-4 py-5 my-5 text-center \">\r\n       <h1 class=\"display-5 fw-bold contentsPageName\">Bestiary</h1>\r\n       <div class=\"col-lg-6 mx-auto\">\r\n+        <div class=\"horizontal-line\"></div>\r\n         <p class=\"lead mb-4\">Explore the diverse creatures of Dungeons & Dragons in our comprehensive Bestiary. From iconic to obscure, uncover their lore, strengths, and weaknesses.</p>\r\n         <p class=\"mb-4\">Click below to dive into the lore of each creature!</p>\r\n       </div>\r\n     </div>\r\n"
                 }
             ],
             "date": 1693239574363,

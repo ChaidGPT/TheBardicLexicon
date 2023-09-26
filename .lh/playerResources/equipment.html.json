@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1695652041703,
@@ -20,6 +20,10 @@
                 {
                     "date": 1695667022158,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n \r\n     <div class=\"container \" id=\"monsterPage\">\r\n \r\n         <div class=\"px-4 py-5 my-5 text-center\">\r\n-            <h1 class=\"display-5 fw-bold monsterName\">Equipment</h1>\r\n+            <h1 class=\"display-5 fw-bold contentsPageName\">Equipment</h1>\r\n             <div class=\"col-lg-6 mx-auto\">\r\n                 <p class=\"lead mb-4\">Info</p>\r\n                 <p class=\"mb-4\">More info</p>\r\n             </div>\r\n"
+                },
+                {
+                    "date": 1695740230970,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,8 +72,9 @@\n \r\n         <div class=\"px-4 py-5 my-5 text-center\">\r\n             <h1 class=\"display-5 fw-bold contentsPageName\">Equipment</h1>\r\n             <div class=\"col-lg-6 mx-auto\">\r\n+              <div class=\"horizontal-line\"></div>\r\n                 <p class=\"lead mb-4\">Info</p>\r\n                 <p class=\"mb-4\">More info</p>\r\n             </div>\r\n         </div>\r\n"
                 }
             ],
             "date": 1695652041703,

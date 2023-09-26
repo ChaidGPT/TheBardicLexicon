@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 19,
+            "activePatchIndex": 20,
             "patches": [
                 {
                     "date": 1694464075882,
@@ -84,6 +84,10 @@
                 {
                     "date": 1695666123589,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -86,9 +86,9 @@\n                 <a href=\"classePages/barbarian.html\">\r\n                     <figure class=\"bestiary-figure\">\r\n                         <img src=\"../images/barbarian.png\" class=\"rounded mx-auto d-block beast-thumbnail\"\r\n                             alt=\"Barbarian image\">\r\n-                        <figcaption class=\"figure-caption text-center\">Barbarian *</figcaption>\r\n+                        <figcaption class=\"figure-caption text-center\">Barbarian</figcaption>\r\n                     </figure>\r\n                 </a>\r\n \r\n                 <a href=\"classePages/bard.html\">\r\n"
+                },
+                {
+                    "date": 1695740230985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,8 +72,9 @@\n \r\n         <div class=\"px-4 py-5 my-5 text-center\">\r\n             <h1 class=\"display-5 fw-bold contentsPageName\">Player Classes</h1>\r\n             <div class=\"col-lg-6 mx-auto\">\r\n+                <div class=\"horizontal-line\"></div>\r\n                 <p class=\"lead mb-4\">Explore character classes in Dungeons & Dragons.</p>\r\n                 <p class=\"mb-4\">Click on the links below to choose a class. (* - Page not yet complete)</p>\r\n             </div>\r\n         </div>\r\n"
                 }
             ],
             "date": 1694464075882,

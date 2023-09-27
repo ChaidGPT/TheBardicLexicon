@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 102,
+            "activePatchIndex": 104,
             "patches": [
                 {
                     "date": 1695652876587,
@@ -416,6 +416,14 @@
                 {
                     "date": 1695773139651,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -261,9 +261,9 @@\n                       <p>Some of these languages are actually families of languages with many dialects. For example, the Primordial language includes the Auran, Aquan, Ignan, and Terran dialects, one for each of the four elemental planes. Creatures that speak different dialects of the same language can communicate with one another.</p>\r\n                       <h6>Standard Languages</h6>\r\n \r\n                       <table class=\"table table-responsive\">\r\n-                        <thead class=\"thead-light\">\r\n+                        <thead>\r\n                           <tr>\r\n                             <th scope=\"col\">Language</th>\r\n                             <th scope=\"col\">Typical Speakers</th>\r\n                             <th scope=\"col\">Script</th>\r\n@@ -317,9 +317,9 @@\n                       \r\n                       <h6>Exotic Languages</h6>\r\n \r\n                       <table class=\"table table-responsive\">\r\n-                        <thead class=\"thead-dark\">\r\n+                        <thead>\r\n                           <tr>\r\n                             <th scope=\"col\">Language</th>\r\n                             <th scope=\"col\">Typical Speakers</th>\r\n                             <th scope=\"col\">Script</th>\r\n"
+                },
+                {
+                    "date": 1695792491955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,9 +109,9 @@\n                       <h6>Height and Weight</h6>\r\n                       <p>You can decide your character’s height and weight, using the information provided in your race description or on the Random Height and Weight table. Think about what your character’s ability scores might say about his or her height and weight. A weak but agile character might be thin. A strong and tough character might be tall or just heavy.</p>\r\n                       <p>If you want to, you can roll randomly for your character’s height and weight using the Random Height and Weight table. The dice roll given in the Height Modifier colum n determines the character’s extra height (in inches) beyond the base height. That same number multiplied by the dice roll or quantity given in the Weight Modifier colum n determines the character’s extra weight (in pounds) beyond the base weight.</p>\r\n \r\n-                      <table class=\"table table-responsive\">\r\n+                      <table class=\"table table-responsive-sm\">\r\n                         <thead>\r\n                           <tr>\r\n                             <th scope=\"col\">Race</th>\r\n                             <th scope=\"col\">Base Height</th>\r\n"
+                },
+                {
+                    "date": 1695792514261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,9 +109,9 @@\n                       <h6>Height and Weight</h6>\r\n                       <p>You can decide your character’s height and weight, using the information provided in your race description or on the Random Height and Weight table. Think about what your character’s ability scores might say about his or her height and weight. A weak but agile character might be thin. A strong and tough character might be tall or just heavy.</p>\r\n                       <p>If you want to, you can roll randomly for your character’s height and weight using the Random Height and Weight table. The dice roll given in the Height Modifier colum n determines the character’s extra height (in inches) beyond the base height. That same number multiplied by the dice roll or quantity given in the Weight Modifier colum n determines the character’s extra weight (in pounds) beyond the base weight.</p>\r\n \r\n-                      <table class=\"table table-responsive-sm\">\r\n+                      <table class=\"table-responsive\">\r\n                         <thead>\r\n                           <tr>\r\n                             <th scope=\"col\">Race</th>\r\n                             <th scope=\"col\">Base Height</th>\r\n"
                 }
             ],
             "date": 1695652876587,

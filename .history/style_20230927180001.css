@@ -348,7 +348,7 @@ table {
 
 .menuBox {
   background-color: white;
-  margin-bottom: 50px;
+  margin: 0, 50px;
 }
 
 .personalityAccordian {

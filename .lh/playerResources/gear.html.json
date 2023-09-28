@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1695652044127,
@@ -16,6 +16,10 @@
                 {
                     "date": 1695740230971,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,8 +72,9 @@\n \r\n         <div class=\"px-4 py-5 my-5 text-center\">\r\n             <h1 class=\"display-5 fw-bold contentsPageName\">Adventuring Gear</h1>\r\n             <div class=\"col-lg-6 mx-auto\">\r\n+              <div class=\"horizontal-line\"></div>\r\n                 <p class=\"lead mb-4\">Info</p>\r\n                 <p class=\"mb-4\">More info</p>\r\n             </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1695834998610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,16 +69,16 @@\n       </header>\r\n \r\n     <div class=\"container \" id=\"monsterPage\">\r\n \r\n-        <div class=\"px-4 py-5 my-5 text-center\">\r\n-            <h1 class=\"display-5 fw-bold contentsPageName\">Adventuring Gear</h1>\r\n-            <div class=\"col-lg-6 mx-auto\">\r\n-              <div class=\"horizontal-line\"></div>\r\n-                <p class=\"lead mb-4\">Info</p>\r\n-                <p class=\"mb-4\">More info</p>\r\n-            </div>\r\n+      <div class=\"container-fluid px-4 py-5 my-5 text-center\">\r\n+        <h1 class=\"display-5 fw-bold contentsPageName\">Adventuring Gear</h1>\r\n+        <div>\r\n+            <div class=\"horizontal-line\"></div>\r\n+            <p class=\"lead mb-4\">Info</p>\r\n+            <p class=\"mb-4\">Info</p>\r\n         </div>\r\n+    </div>\r\n \r\n         <!-- Player Races Thumbnails -->\r\n \r\n         <div class=\"container menuBox rounded\">\r\n"
                 }
             ],
             "date": 1695652044127,

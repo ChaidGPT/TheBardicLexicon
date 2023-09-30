@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 382,
+            "activePatchIndex": 384,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -1536,6 +1536,14 @@
                 {
                     "date": 1695862872766,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -347,9 +347,9 @@\n }\r\n \r\n .menuBox {\r\n   background-color: white;\r\n-  margin-bottom: 80px;\r\n+  margin-bottom: 50px;\r\n }\r\n \r\n .personalityAccordian {\r\n   margin-bottom: 150px;\r\n"
+                },
+                {
+                    "date": 1696047288445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -345,8 +345,12 @@\n .diceP {\r\n   margin: 0;\r\n }\r\n \r\n+.diceForm {\r\n+  padding-top: 15px;\r\n+}\r\n+\r\n .menuBox {\r\n   background-color: white;\r\n   margin-bottom: 50px;\r\n }\r\n"
+                },
+                {
+                    "date": 1696047318730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -346,9 +346,9 @@\n   margin: 0;\r\n }\r\n \r\n .diceForm {\r\n-  padding-top: 15px;\r\n+  padding-top: 17px;\r\n }\r\n \r\n .menuBox {\r\n   background-color: white;\r\n"
                 }
             ],
             "date": 1690811923410,

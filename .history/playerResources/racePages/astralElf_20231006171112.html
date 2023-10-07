@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Autognome</title>
+    <title>Astral Elf</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../../style.css">
@@ -71,12 +71,13 @@
     <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">Go Back</button>
 
     <div class="jumbotron">
-        <h1 class="display-4 monsterName">Autognome</h1>
+        <h1 class="display-4 navMonsterName">Astral Elf</h1>
         <div class="horizontal-line"></div>
-        <p>Basic info</p>
+        <p>Long ago, groups of elves ventured from the Fey-wild to the Astral Plane to be closer to their gods. Life in the Silver Void has imbued their souls with a spark of divine light. That light manifests as a starry gleam in an astral elf's eyes.</p>
+        <p></p>
         <hr class="my-4">
         <div class="monsterImageContainer">
-            <img class="monsterPortrait rounded" src="../../images/autognome.jpg" alt="Autognome image">
+            <img class="monsterPortrait rounded" src="../../images/astralElf.webp" alt="Astral Elf image">
         </div>
         <div class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseStats" role="button"
@@ -89,17 +90,17 @@
         <div class="collapse rounded" id="collapseStats">
             <h4>Traits</h4>
             <div class="horizontal-line"></div>
-            <p>Info</p>
-            <p><span class="bold-text">Ability Score Increase:</span> </p>
-            <p><span class="bold-text">Age:</span> </p>
-            <p><span class="bold-text">Alignment:</span> </p>
-            <p><span class="bold-text">Size:</span> </p>
-            <p><span class="bold-text">Speed:</span> </p>
-            <p><span class="bold-text">Darkvision:</span> </p>
-            <p><span class="bold-text">Dwarven Resilience:</span> </p>
-            <p><span class="bold-text">Dwarven Combat Training:</span> </p>
-            <p><span class="bold-text">Tools Proficiency:</span> </p>
-            <p><span class="bold-text">Stonecunning:</span> </p>
+            <p>Because nothing ages on the Astral Plane, astral elves who inhabit that plane can be very old, and their longevity gives them an unusual perspective on the passage of time. Some are prone to melancholy, while others might display an absence of feeling. Many look for creative ways to occupy themselves. Whether they choose to live in quiet contemplation or strike out to explore the reaches of the multiverse, astral elves tend to see things through the lens of time as having little or no meaning to them. Astral elves who don't dwell on the Astral Plane can live to be more than 750 years old.</p>
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text">Creature Type:</span> You are a Humanoid.</p>
+            <p><span class="bold-text">Size:</span> You are Medium.</p>
+            <p><span class="bold-text">Speed:</span> Your walking speed is 30 feet.</p>
+            <p><span class="bold-text">Astral Fire:</span> You know one of the following cantrips of your choice: dancing lights, light, or sacred flame. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race).</p>
+            <p><span class="bold-text">Darkvision:</span> You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+            <p><span class="bold-text">Fey Ancestry:</span> You have advantage on saving throws you make to avoid or end the charmed condition on yourself. </p>
+            <p><span class="bold-text">Keen Senses:</span> You have proficiency in the Perception skill.</p>
+            <p><span class="bold-text">Starlight Step:</span> As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+            <p><span class="bold-text">Astral Trance:</span> </p>
             <p><span class="bold-text">Languages:</span> </p>
             <p><span class="bold-text">Subrace:</span> </p>
 
@@ -118,43 +119,46 @@
         <!-- End collapseStats -->
         <!-- Start collapseLore -->
         <div class="collapse rounded" id="collapseLore">
-          <h5>Autognome History Table</h5>
-          <div class="tableContainer">
-            <table class="tg">
-                <thead>
-                    <tr>
-                        <th class="tg-34fe"><span style="font-weight:bold">D6</span></th>
-                        <th class="tg-34fe"><span style="font-weight:bold">Story</span></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="tg-yj5y">Black</td>
-                        <td class="tg-yj5y">Acid</td>
-                    </tr>
-                    <tr>
-                        <td class="tg-f5e1"><span style="color:#000">Blue</span></td>
-                        <td class="tg-yj5y">Lightning</td>
-                    </tr>
-                    <tr>
-                        <td class="tg-kftd">Brass</td>
-                        <td class="tg-kftd">Fire</td>
-                    </tr>
-                    <tr>
-                        <td class="tg-kftd">Bronze</td>
-                        <td class="tg-kftd">Lightning</td>
-                    </tr>
-                    <tr>
-                        <td class="tg-kftd">Copper</td>
-                        <td class="tg-kftd">Acid</td>
-                    </tr>
-                    <tr>
-                        <td class="tg-kftd">Gold</td>
-                        <td class="tg-kftd">Fire</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Lore
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#1">1111</a>
+                    <a class="dropdown-item" href="#2">2222</a>
+                    <a class="dropdown-item" href="#3">3333</a>
+                    <a class="dropdown-item" href="#Names">Names</a>
+                </div>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="1">
+                <h5>1</h5>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="2">
+                <h5>2222</h5>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="3">
+                <h5>3333</h5>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="Names">
+                <h5>Names</h5>
+                <p>Info</p>
+                <p><span class="bold-text">Male Names:</span> </p>
+                <p><span class="bold-text">Female Names:</span> </p>
+                <p><span class="bold-text">Clan Names:</span> </p>
+            </div>
             <div class="horizontal-line"></div>
             <button type="button" class="btn btn-secondary" onclick="goToTop()">Back to Top</button>
         </div>

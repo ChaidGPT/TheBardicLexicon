@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 65,
+            "activePatchIndex": 66,
             "patches": [
                 {
                     "date": 1694268625502,
@@ -268,6 +268,10 @@
                 {
                     "date": 1696637710641,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,9 +109,9 @@\n                 <a href=\"racePages/astralElf.html\">\r\n                     <figure class=\"bestiary-figure\">\r\n                         <img src=\"../images/astralElf.webp\" class=\"rounded mx-auto d-block beast-thumbnail\"\r\n                             alt=\"Astral Elf image\">\r\n-                        <figcaption class=\"figure-caption text-center\">Astral Elf *</figcaption>\r\n+                        <figcaption class=\"figure-caption text-center\">Astral Elf</figcaption>\r\n                     </figure>\r\n                 </a>\r\n \r\n                 <a href=\"racePages/autognome.html\">\r\n"
+                },
+                {
+                    "date": 1696778442481,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -117,9 +117,9 @@\n                 <a href=\"racePages/autognome.html\">\r\n                     <figure class=\"bestiary-figure\">\r\n                         <img src=\"../images/autognome.jpg\" class=\"rounded mx-auto d-block beast-thumbnail\"\r\n                             alt=\"Autognome image\">\r\n-                        <figcaption class=\"figure-caption text-center\">Autognome *</figcaption>\r\n+                        <figcaption class=\"figure-caption text-center\">Autognome</figcaption>\r\n                     </figure>\r\n                 </a>\r\n \r\n                 <a href=\"racePages/bugbear.html\">\r\n"
                 }
             ],
             "date": 1694268625502,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 11,
+            "activePatchIndex": 12,
             "patches": [
                 {
                     "date": 1693242915831,
@@ -52,6 +52,10 @@
                 {
                     "date": 1695666079156,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n                 </a>\r\n                 <div class=\"dropdown-menu\" aria-labelledby=\"navbarResources\">\r\n                   <h6 class=\"dropdown-header\">Items</h6>\r\n                   <a class=\"dropdown-item\" href=\"../../gear.html\">Adventuring Gear</a>\r\n-                  <a class=\"dropdown-item\" href=\"../../gear.html\">Equipment</a>\r\n+                  <a class=\"dropdown-item\" href=\"../../equipment.html\">Equipment</a>\r\n                   <div class=\"dropdown-divider\"></div>\r\n                   <h6 class=\"dropdown-header\">Magic</h6>\r\n                   <a class=\"dropdown-item\" href=\"../../spells.html\">Spells</a>\r\n                   <div class=\"dropdown-divider\"></div>\r\n"
+                },
+                {
+                    "date": 1696905462768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,10 +45,11 @@\n                   <div class=\"dropdown-divider\"></div>\r\n                   <h6 class=\"dropdown-header\">Magic</h6>\r\n                   <a class=\"dropdown-item\" href=\"../../spells.html\">Spells</a>\r\n                   <div class=\"dropdown-divider\"></div>\r\n-                  <h6 class=\"dropdown-header\">Enemies</h6>\r\n+                  <h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n                   <a class=\"dropdown-item\" href=\"../../bestiary.html\">Bestiary</a>\r\n+                  <a class=\"dropdown-item\" href=\"../../gods.html\">Gods & Deities</a>\r\n                 </div>\r\n               </li>\r\n               <li class=\"nav-item dropdown\">\r\n                 <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\"\r\n"
                 }
             ],
             "date": 1693242915831,

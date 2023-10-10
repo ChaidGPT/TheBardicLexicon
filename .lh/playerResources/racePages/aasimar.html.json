@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 8,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1694982140768,
@@ -40,6 +40,10 @@
                 {
                     "date": 1696039930937,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -108,9 +108,9 @@\n         <div class=\"collapse rounded\" id=\"collapseLore\">\r\n             <h4>Celestial Features Table</h4>\r\n             <p>This table contains examples that can be used for inspiration.</p>\r\n \r\n-            <table class=\"table-responsive border\">\r\n+            <table class=\"table table-responsive border\">\r\n               <thead>\r\n                 <tr>\r\n                   <th scope=\"col\">d6</th>\r\n                   <th scope=\"col\">Celestial Feature</th>\r\n"
+                },
+                {
+                    "date": 1696905462507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,10 +45,11 @@\n                     <div class=\"dropdown-divider\"></div>\r\n                     <h6 class=\"dropdown-header\">Magic</h6>\r\n                     <a class=\"dropdown-item\" href=\"../spells.html\">Spells</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n-                    <h6 class=\"dropdown-header\">Enemies</h6>\r\n+                    <h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n                     <a class=\"dropdown-item\" href=\"../bestiary.html\">Bestiary</a>\r\n+                    <a class=\"dropdown-item\" href=\"../gods.html\">Gods & Deities</a>\r\n                   </div>\r\n                 </li>\r\n                 <li class=\"nav-item dropdown\">\r\n                   <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\"\r\n"
                 }
             ],
             "date": 1694982140768,

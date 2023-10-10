@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1695652041703,
@@ -28,6 +28,10 @@
                 {
                     "date": 1695834998611,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,16 +69,16 @@\n       </header>\r\n \r\n     <div class=\"container \" id=\"monsterPage\">\r\n \r\n-        <div class=\"px-4 py-5 my-5 text-center\">\r\n-            <h1 class=\"display-5 fw-bold contentsPageName\">Equipment</h1>\r\n-            <div class=\"col-lg-6 mx-auto\">\r\n-              <div class=\"horizontal-line\"></div>\r\n-                <p class=\"lead mb-4\">Info</p>\r\n-                <p class=\"mb-4\">More info</p>\r\n-            </div>\r\n+      <div class=\"container-fluid px-4 py-5 my-5 text-center\">\r\n+        <h1 class=\"display-5 fw-bold contentsPageName\">Equipment</h1>\r\n+        <div>\r\n+            <div class=\"horizontal-line\"></div>\r\n+            <p class=\"lead mb-4\">Info</p>\r\n+            <p class=\"mb-4\">Info</p>\r\n         </div>\r\n+    </div>\r\n \r\n         <!-- Player Races Thumbnails -->\r\n \r\n         <div class=\"container menuBox rounded\">\r\n"
+                },
+                {
+                    "date": 1696872363056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,10 +45,11 @@\n                     <div class=\"dropdown-divider\"></div>\r\n                     <h6 class=\"dropdown-header\">Magic</h6>\r\n                     <a class=\"dropdown-item\" href=\"spells.html\">Spells</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n-                    <h6 class=\"dropdown-header\">Enemies</h6>\r\n-                    <a class=\"dropdown-item\" href=\"bestiary.html\">Bestiary</a>\r\n+                    <h6 class=\"dropdown-header\">Inhabitants of the Realm</h6>\r\n+                                <a class=\"dropdown-item\" href=\"bestiary.html\">Bestiary</a>\r\n+                                <a class=\"dropdown-item\" href=\"gods.html\">Gods & Deities</a>\r\n                   </div>\r\n                 </li>\r\n                 <li class=\"nav-item dropdown\">\r\n                   <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\"\r\n"
                 }
             ],
             "date": 1695652041703,

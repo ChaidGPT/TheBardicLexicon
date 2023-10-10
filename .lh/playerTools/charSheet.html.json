@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 45,
+            "activePatchIndex": 46,
             "patches": [
                 {
                     "date": 1693247240570,
@@ -188,6 +188,10 @@
                 {
                     "date": 1695666798359,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,29 +82,29 @@\n                     </div>\r\n \r\n                     <div class=\"col-2\">\r\n                         <label for=\"str\" class=\"\">Dex</label>\r\n-                        <input type=\"text\" class=\"form-control statNum\" id=\"dex\" placeholder=\"Dex\">\r\n+                        <input type=\"text\" class=\"form-control statNum\" id=\"dex\" aria-label=\"Dex\" placeholder=\"Dex\">\r\n                     </div>\r\n \r\n                     <div class=\"col-2\">\r\n                         <label for=\"str\" class=\"\">Con</label>\r\n-                        <input type=\"text\" class=\"form-control statNum\" id=\"con\" placeholder=\"Con\">\r\n+                        <input type=\"text\" class=\"form-control statNum\" id=\"con\" aria-label=\"Con\" placeholder=\"Con\">\r\n                     </div>\r\n \r\n                     <div class=\"col-2\">\r\n                         <label for=\"str\" class=\"\">Int</label>\r\n-                        <input type=\"text\" class=\"form-control statNum\" id=\"int\" placeholder=\"Int\">\r\n+                        <input type=\"text\" class=\"form-control statNum\" id=\"int\" aria-label=\"Int\" placeholder=\"Int\">\r\n                     </div>\r\n \r\n                     <div class=\"col-2\">\r\n                         <label for=\"str\" class=\"\">Wis</label>\r\n-                        <input type=\"text\" class=\"form-control statNum\" id=\"wis\" placeholder=\"Wis\">\r\n+                        <input type=\"text\" class=\"form-control statNum\" id=\"wis\" aria-label=\"Wis\" placeholder=\"Wis\">\r\n                     </div>\r\n \r\n                     <div class=\"col-2\">\r\n                         <label for=\"str\" class=\"\">Cha</label>\r\n-                        <input type=\"text\" class=\"form-control statNum\" id=\"cha\" placeholder=\"Cha\">\r\n+                        <input type=\"text\" class=\"form-control statNum\" id=\"cha\" aria-label=\"Cha\" placeholder=\"Cha\">\r\n                     </div>\r\n                 </div>\r\n             </form>\r\n         </form>\r\n"
+                },
+                {
+                    "date": 1696905624448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,10 +47,11 @@\n                     <div class=\"dropdown-divider\"></div>\r\n                     <h6 class=\"dropdown-header\">Magic</h6>\r\n                     <a class=\"dropdown-item\" href=\"../playerResources/spells.html\">Spells</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n-                    <h6 class=\"dropdown-header\">Enemies</h6>\r\n+                    <h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n                     <a class=\"dropdown-item\" href=\"../playerResources/bestiary.html\">Bestiary</a>\r\n+                    <a class=\"dropdown-item\" href=\"../playerResources/gods.html\">Gods & Deities</a>\r\n                   </div>\r\n                 </li>\r\n                 <li class=\"nav-item dropdown\">\r\n                   <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\"\r\n"
                 }
             ],
             "date": 1693247240570,

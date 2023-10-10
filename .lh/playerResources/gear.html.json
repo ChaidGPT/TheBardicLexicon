@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1695652044127,
@@ -24,6 +24,10 @@
                 {
                     "date": 1696872363044,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,10 +45,11 @@\n                     <div class=\"dropdown-divider\"></div>\r\n                     <h6 class=\"dropdown-header\">Magic</h6>\r\n                     <a class=\"dropdown-item\" href=\"spells.html\">Spells</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n-                    <h6 class=\"dropdown-header\">Enemies</h6>\r\n-                    <a class=\"dropdown-item\" href=\"bestiary.html\">Bestiary</a>\r\n+                    <h6 class=\"dropdown-header\">Inhabitants of the Realm</h6>\r\n+                                <a class=\"dropdown-item\" href=\"bestiary.html\">Bestiary</a>\r\n+                                <a class=\"dropdown-item\" href=\"gods.html\">Gods & Deities</a>\r\n                   </div>\r\n                 </li>\r\n                 <li class=\"nav-item dropdown\">\r\n                   <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\"\r\n"
+                },
+                {
+                    "date": 1696905624351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n                     <div class=\"dropdown-divider\"></div>\r\n                     <h6 class=\"dropdown-header\">Magic</h6>\r\n                     <a class=\"dropdown-item\" href=\"spells.html\">Spells</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n-                    <h6 class=\"dropdown-header\">Inhabitants of the Realm</h6>\r\n+                    <h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n                                 <a class=\"dropdown-item\" href=\"bestiary.html\">Bestiary</a>\r\n                                 <a class=\"dropdown-item\" href=\"gods.html\">Gods & Deities</a>\r\n                   </div>\r\n                 </li>\r\n"
                 }
             ],
             "date": 1695652044127,

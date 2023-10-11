@@ -1,3 +1,3 @@
-# MonsterGuide
+# The Bardic Lexicon
 
-A mobile-first website using HTML, JavaScript, CSS, and Bootstrap, tailored for Dungeons and Dragons players. It offers a user-friendly platform to explore Bestiary information and will expand to include more game tools. Improving mobile design skills while creating something fun and useful for the gaming community.
+The Bardic Lexicon is a mobile-first website crafted with HTML, JavaScript, CSS, and Bootstrap 4.6, designed specifically for avid Dungeons and Dragons players. It provides an intuitive platform for delving into crucial resources like Character Creation and Bestiary details, with plans for further enriching the experience with additional game-enhancing tools. This project not only hones mobile design proficiency but also aims to deliver an enjoyable and indispensable resource for the thriving gaming community, with the hopes of bringing other developers on board to contribute and collaborate.

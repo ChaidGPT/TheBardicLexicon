@@ -1,0 +1,18 @@
+{
+    "sourceFile": "accordion.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1697209132150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1697209132150,
+            "name": "Commit-0",
+            "content": "  // Add an event listener for when a collapse element is shown\r\n  $('.collapse').on('shown.bs.collapse', function () {\r\n    // Get the offset top of the shown element\r\n    var offsetTop = $(this).offset().top;\r\n    \r\n    // Scroll to that position with a smooth animation\r\n    $('html, body').animate({\r\n      scrollTop: offsetTop\r\n    }, 500); // You can adjust the animation speed (in milliseconds) as needed\r\n  });\r\n"
+        }
+    ]
+}

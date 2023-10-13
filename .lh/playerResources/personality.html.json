@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 152,
+            "activePatchIndex": 153,
             "patches": [
                 {
                     "date": 1695652876587,
@@ -616,6 +616,10 @@
                 {
                     "date": 1696905624601,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n                     <div class=\"dropdown-divider\"></div>\r\n                     <h6 class=\"dropdown-header\">Magic</h6>\r\n                     <a class=\"dropdown-item\" href=\"spells.html\">Spells</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n-                    <h6 class=\"dropdown-header\">Inhabitants of the Realm</h6>\r\n+                    <h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n                                 <a class=\"dropdown-item\" href=\"bestiary.html\">Bestiary</a>\r\n                                 <a class=\"dropdown-item\" href=\"gods.html\">Gods & Deities</a>\r\n                   </div>\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1697224167521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -452,7 +452,8 @@\n         crossorigin=\"anonymous\"></script>\r\n     <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js\"\r\n         integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\"\r\n         crossorigin=\"anonymous\"></script>\r\n+        <script src=\"../accordion.js\"></script>\r\n </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1695652876587,

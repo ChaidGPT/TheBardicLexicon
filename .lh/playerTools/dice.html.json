@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 27,
+            "activePatchIndex": 29,
             "patches": [
                 {
                     "date": 1693243007371,
@@ -116,6 +116,14 @@
                 {
                     "date": 1696905624454,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,10 +45,11 @@\n                 <div class=\"dropdown-divider\"></div>\r\n                 <h6 class=\"dropdown-header\">Magic</h6>\r\n                 <a class=\"dropdown-item\" href=\"../playerResources/spells.html\">Spells</a>\r\n                 <div class=\"dropdown-divider\"></div>\r\n-                <h6 class=\"dropdown-header\">Enemies</h6>\r\n-                <a class=\"dropdown-item\" href=\"../playerResources/bestiary.html\">Bestiary</a>\r\n+                <h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n+                    <a class=\"dropdown-item\" href=\"../playerResources/bestiary.html\">Bestiary</a>\r\n+                    <a class=\"dropdown-item\" href=\"../playerResources/gods.html\">Gods & Deities</a>\r\n               </div>\r\n             </li>\r\n             <li class=\"nav-item dropdown\">\r\n               <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\"\r\n"
+                },
+                {
+                    "date": 1697934666236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -114,9 +114,9 @@\n               <label class=\"form-check-label\" for=\"noSound\">\r\n                 No sound\r\n               </label>\r\n             </div>\r\n-            <div class=\"d-flex justify-content-center\">\r\n+            <div class=\"d-flex\">\r\n               <input class=\"btn btn-sm btn-secondary diceBtn\" aria-label=\"Submit button\" type=\"submit\" value=\"Roll\">\r\n               <input class=\"btn btn-sm btn-secondary diceBtn\" aria-label=\"Clear button\" type=\"button\" value=\"Clear\"\r\n                 style=\"display: none;\">\r\n             </div><br>\r\n"
+                },
+                {
+                    "date": 1697934744531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,14 +109,16 @@\n                 <input type=\"text\" class=\"form-control\" id=\"modifierNumber\" value=\"\" placeholder=\"Modifier\"\r\n                   aria-label=\"Modifier amount\" aria-describedby=\"Modifier amount\" data-toggle=\"tooltip\"\r\n                   data-placement=\"top\" title=\"Modifier number\">\r\n               </div>\r\n+              <div class=\"form-check\">\r\n               <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"noSound\">\r\n               <label class=\"form-check-label\" for=\"noSound\">\r\n                 No sound\r\n               </label>\r\n             </div>\r\n-            <div class=\"d-flex\">\r\n+            </div>\r\n+            <div class=\"d-flex justify-content-center\">\r\n               <input class=\"btn btn-sm btn-secondary diceBtn\" aria-label=\"Submit button\" type=\"submit\" value=\"Roll\">\r\n               <input class=\"btn btn-sm btn-secondary diceBtn\" aria-label=\"Clear button\" type=\"button\" value=\"Clear\"\r\n                 style=\"display: none;\">\r\n             </div><br>\r\n"
                 }
             ],
             "date": 1693243007371,

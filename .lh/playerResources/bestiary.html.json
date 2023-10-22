@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 199,
+            "activePatchIndex": 200,
             "patches": [
                 {
                     "date": 1693239574363,
@@ -804,6 +804,10 @@
                 {
                     "date": 1696905625689,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n                 <div class=\"dropdown-divider\"></div>\r\n                 <h6 class=\"dropdown-header\">Magic</h6>\r\n                 <a class=\"dropdown-item\" href=\"spells.html\">Spells</a>\r\n                 <div class=\"dropdown-divider\"></div>\r\n-                <h6 class=\"dropdown-header\">Inhabitants of the Realm</h6>\r\n+                <h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n                                 <a class=\"dropdown-item\" href=\"bestiary.html\">Bestiary</a>\r\n                                 <a class=\"dropdown-item\" href=\"gods.html\">Gods & Deities</a>\r\n               </div>\r\n             </li>\r\n"
+                },
+                {
+                    "date": 1697937636874,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -374,8 +374,16 @@\n               <figcaption class=\"figure-caption text-center\">Deva</figcaption>\r\n             </figure>\r\n           </a>\r\n \r\n+          <a href=\"monsterPages/d/devils.html\">\r\n+            <figure class=\"bestiary-figure\">\r\n+              <img src=\"../images/devils.webp\" class=\"rounded mx-auto d-block beast-thumbnail\"\r\n+                alt=\"Devils image\">\r\n+              <figcaption class=\"figure-caption text-center\">Devils</figcaption>\r\n+            </figure>\r\n+          </a>\r\n+\r\n           <a href=\"monsterPages/d/dretch.html\">\r\n             <figure class=\"bestiary-figure\">\r\n               <img src=\"../images/dretch.png\" class=\"rounded mx-auto d-block beast-thumbnail\" alt=\"Dretch image\">\r\n               <figcaption class=\"figure-caption text-center\">Dretch</figcaption>\r\n"
                 }
             ],
             "date": 1693239574363,

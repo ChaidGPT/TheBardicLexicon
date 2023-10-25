@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 203,
+            "activePatchIndex": 205,
             "patches": [
                 {
                     "date": 1693239574363,
@@ -820,6 +820,14 @@
                 {
                     "date": 1698100353698,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -433,13 +433,12 @@\n \r\n       <div class=\"container menuBox rounded\">\r\n         <div class=\"row justify-content-center\">\r\n \r\n-          <a href=\"monsterPages/a/flyingSword.html\">\r\n+          <a href=\"monsterPages/d/devilErinyes.html\">\r\n             <figure class=\"bestiary-figure\">\r\n-              <img src=\"../images/flyingSword.png\" class=\"rounded mx-auto d-block beast-thumbnail\"\r\n-                alt=\"Flying Sword image\">\r\n-              <figcaption class=\"figure-caption text-center\">Flying Sword</figcaption>\r\n+              <img src=\"../images/devilErinyes.png\" class=\"rounded mx-auto d-block beast-thumbnail\" alt=\"Erinyes image\">\r\n+              <figcaption class=\"figure-caption text-center\">Erinyes</figcaption>\r\n             </figure>\r\n           </a>\r\n \r\n         </div>\r\n"
+                },
+                {
+                    "date": 1698194763807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -518,8 +518,15 @@\n               <figcaption class=\"figure-caption text-center\">Hezrou</figcaption>\r\n             </figure>\r\n           </a>\r\n \r\n+          <a href=\"monsterPages/d/devilHorned.html\">\r\n+            <figure class=\"bestiary-figure\">\r\n+              <img src=\"../images/devilHorned.png\" class=\"rounded mx-auto d-block beast-thumbnail\" alt=\"Horned Devil image\">\r\n+              <figcaption class=\"figure-caption text-center\">Horned Devil</figcaption>\r\n+            </figure>\r\n+          </a>\r\n+\r\n         </div>\r\n       </div>\r\n \r\n     </div>\r\n"
+                },
+                {
+                    "date": 1698199309033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -541,13 +541,12 @@\n \r\n       <div class=\"container menuBox rounded\">\r\n         <div class=\"row justify-content-center\">\r\n \r\n-          <a href=\"monsterPages/a/flyingSword.html\">\r\n+          <a href=\"monsterPages/d/devilIce.html\">\r\n             <figure class=\"bestiary-figure\">\r\n-              <img src=\"../images/flyingSword.png\" class=\"rounded mx-auto d-block beast-thumbnail\"\r\n-                alt=\"Flying Sword image\">\r\n-              <figcaption class=\"figure-caption text-center\">Flying Sword</figcaption>\r\n+              <img src=\"../images/devilIce.png\" class=\"rounded mx-auto d-block beast-thumbnail\" alt=\"Ice Devil image\">\r\n+              <figcaption class=\"figure-caption text-center\">Ice Devil</figcaption>\r\n             </figure>\r\n           </a>\r\n \r\n         </div>\r\n"
                 }
             ],
             "date": 1693239574363,

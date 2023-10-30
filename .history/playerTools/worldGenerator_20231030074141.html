@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Bardic Lexicon Home</title>
+  <title>World Generator</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -59,7 +59,7 @@
                 Player Tools
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="playerTools/worldGenerator.html">World Generator</a>
+                <a class="dropdown-item" href="playerTools/charSheet.html">Character Sheet</a>
                 <a class="dropdown-item" href="playerTools/dice.html">Dice Roll Generator</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">More</a>
@@ -72,15 +72,17 @@
     </nav>
   </header>
 
-  <div class="container" id="monsterPage">
-
-    <div class="jumbotron indexPanel">
-      <img id="logo" class="img-fluid" src="images/logo.png" alt="The Bardic Lexicon logo">
-      <p class="lead">A handy place to find your D&D info on the go!</p>
-      <hr class="my-4">
-    </div>
-
-    <!-- Content -->
+  <div class="container mt-5">
+    <h1 class="mb-4">World/Region Generator</h1>
+    <form id="worldForm" class="mb-4">
+        <div class="form-group">
+            <label for="worldName">Enter a name for your world:</label>
+            <input type="text" class="form-control" id="worldName" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Generate New World/Region</button>
+    </form>
+    <div id="generatedContent"></div>
+</div>
 
     <footer class="page-footer font-small blue fixed-bottom">
       <p>&copy; Chad Oswald | <a href="mailto:chadloswald@gmail.com">chadloswald@gmail.com</a></p>

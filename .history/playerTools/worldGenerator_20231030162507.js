@@ -114,22 +114,20 @@ document.addEventListener("DOMContentLoaded", function () {
         const selectedFeatures = getRandomElements(physicalFeatures, featuresCount);
         const selectedInhabitants = getRandomElements(inhabitants, inhabitantsCount);
 
-        let content = `<h2>${worldName}</h2>`;
-
-        selectedSettlements.forEach(settlement => {
-            content += `
-            <h4>Settlements:</h4>
+        generatedContent.innerHTML = `
+            <h2>${worldName}</h2>
+            <div>
+                <h5>Settlements:</h5>
                 <ul>
-                    <li>${settlement.name}
-                        <ul>
-                            ${selectedSettlementPOI.map(item => `<li><a href="${item.link}" target="_blank">${item.name}</a></li>`).join("")}
-                        </ul>
-                    </li>
+                    ${selectedSettlements.map(item => `<li><a href="${item.link}" target="_blank">${item.name}</a></li>`).join("")}
                 </ul>
-            `;
-        });
-
-        content += `
+            </div>
+            <div>
+                <h5>Settlement Points of Interest:</h5>
+                <ul>
+                    ${selectedSettlementPOI.map(item => `<li><a href="${item.link}" target="_blank">${item.name}</a></li>`).join("")}
+                </ul>
+            </div>
             <div>
                 <h4>Ancient Structures:</h4>
                 <ul>
@@ -149,8 +147,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 </ul>
             </div>
         `;
-
-        generatedContent.innerHTML = content;
     });
 
     enableSettlementsCheckbox.addEventListener("change", function () {

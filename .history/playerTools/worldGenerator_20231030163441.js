@@ -118,7 +118,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         selectedSettlements.forEach(settlement => {
             content += `
-            <h4>Settlements:</h4>
                 <ul>
                     <li>${settlement.name}
                         <ul>

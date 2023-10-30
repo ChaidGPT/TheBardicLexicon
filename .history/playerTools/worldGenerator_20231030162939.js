@@ -118,14 +118,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         selectedSettlements.forEach(settlement => {
             content += `
-            <h4>Settlements:</h4>
-                <ul>
-                    <li>${settlement.name}
-                        <ul>
-                            ${selectedSettlementPOI.map(item => `<li><a href="${item.link}" target="_blank">${item.name}</a></li>`).join("")}
-                        </ul>
-                    </li>
-                </ul>
+                <div>
+                    <h5>${settlement.name}:</h5>
+                    <ul>
+                        ${selectedSettlementPOI.map(item => `<li><a href="${item.link}" target="_blank">${item.name}</a></li>`).join("")}
+                    </ul>
+                </div>
             `;
         });
 

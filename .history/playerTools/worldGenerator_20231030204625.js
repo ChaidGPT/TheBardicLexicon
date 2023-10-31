@@ -353,31 +353,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let content = `<h2>${worldName}</h2>`;
 
-    if (settlementsCount > 0) {
-        content += `<h5>Settlements</h5>`;
-        for (let i = 0; i < settlementsCount; i++) {
-          const selectedSettlement = getRandomElements(settlements, 1)[0];
-          const selectedSettlementPOI = getRandomElements(
-            settlementPOI,
-            settlementPOISelect.value
-          );
-  
-          content += `
-            <ul>
-              <li>${selectedSettlement.name}
+    content += `<h5>Settlements</h5>`;
+    selectedSettlements.forEach((settlement) => {
+      content += `
                 <ul>
-                  ${selectedSettlementPOI
-                    .map(
-                      (item) =>
-                        `<li><a href="${item.link}" target="_blank">${item.name}</a></li>`
-                    )
-                    .join("")}
+                    <li>${settlement.name}
+                        <ul>
+                            ${selectedSettlementPOI
+                              .map(
+                                (item) =>
+                                  `<li><a href="${item.link}" target="_blank">${item.name}</a></li>`
+                              )
+                              .join("")}
+                        </ul>
+                    </li>
                 </ul>
-              </li>
-            </ul>
-          `;
-        }
-      }
+            `;
+    });
 
     // content += `
     //     <div>

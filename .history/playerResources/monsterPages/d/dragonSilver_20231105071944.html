@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Shadow Dragon</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="../../../style.css">
+</head>
+
+<body>
+   <header class="header-top">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand navMonsterName" href="../../../index.html">The Bardic Lexicon</a>
+          <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto nav justify-content-end">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarCharacter" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Character Creation
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarCharacter">
+                  <a class="dropdown-item" href="../../races.html">Races</a>
+                  <a class="dropdown-item" href="../../classes.html">Classes</a>
+                  <a class="dropdown-item" href="../../personality.html">Personality & Inspiration</a>
+                  <a class="dropdown-item" href="../../background.html">Character Backgrounds</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarResources" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Player Resources
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarResources">
+                  <h6 class="dropdown-header">Items</h6>
+                  <a class="dropdown-item" href="../../gear.html">Adventuring Gear</a>
+                  <a class="dropdown-item" href="../../equipment.html">Equipment</a>
+                  <div class="dropdown-divider"></div>
+                  <h6 class="dropdown-header">Magic</h6>
+                  <a class="dropdown-item" href="../../spells.html">Spells</a>
+                  <div class="dropdown-divider"></div>
+                  <h6 class="dropdown-header">Inhabitants of the Realms</h6>
+                  <a class="dropdown-item" href="../../bestiary.html">Bestiary</a>
+                  <a class="dropdown-item" href="../../gods.html">Gods & Deities</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Player Tools
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="../../../playerTools/worldGenerator.html">World Generator</a>
+                  <a class="dropdown-item" href="../../../playerTools/dice.html">Dice Roll Generator</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">More</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+   <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">Go Back</button>
+
+   <div class="jumbotron">
+      <h1 class="display-4 monsterName">Shadow Dragon</h1>
+      <div class="horizontal-line"></div>
+      <p>Shadow dragons are true dragons that were either born 
+        In the Shadowfell or transformed by years spent within 
+        its dismal confines. Some shadow dragons embrace 
+        the Shadowfell for its bleak landscapes and desolation. 
+        Others seek to return to the Material Plane, hungry to 
+        spread the darkness and evil of the Plane of Shadow.</p>
+      <hr class="my-4">
+      <div class="monsterImageContainer">
+         <img class="monsterPortrait rounded" src="../../../images/dragonShadow.webp" alt="Shadow Dragon image">
+      </div>
+      <div class="btn-group" role="group" aria-label="Basic example">
+         <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseStats" role="button"
+            aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToStats()">Dracolich Template</button>
+         <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseLore" role="button"
+            aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToLore()">Lore</button>
+      </div>
+
+      <!-- Start collapseStats -->
+      <div class="collapse rounded" id="collapseStats">
+         <h4>Dracolich Template</h4>
+         <p>Only an ancient or adult true dragon can be transformed 
+            into a dracolich. Younger dragons that attempt to 
+            undergo the transformation die, as do other creatures 
+            that aren't true dragons but possess the dragon type, 
+            such as pseudodragons and wyverns. A shadow dragon 
+            can't be transformed into a dracolich, for it has already 
+            lost too much of its physical form.</p>
+         <p>When a dragon becomes a dracolich, it retains its 
+            statistics except as described below. The dragon loses 
+            any trait, such as Amphibious, that assumes a living 
+            physiology. The dracolich might retain or lose any or all 
+            of its lair actions or inherit new ones, as the DM sees fit.</p>
+        
+         <div class="horizontal-line"></div>
+         <p><span class="bold-text">Type:</span> The dracolich's type changes from dragon to undead, and it no longer requires air, food, drink, or sleep.</p>
+         <p><span class="bold-text">Damage Resistance:</span> The dracolich has resistance to necrotic damage.</p>
+         <p><span class="bold-text">Damage Immunities:</span> The dracolich has immunity to poison. It also retains any immunities it had prior to becoming a dracolich.</p>
+         <p><span class="bold-text">Condition Immunities:</span> The dracolich can't be charmed, frightened, paralyzed, or poisoned. It also doesn't suffer from exhaustion.</p>
+         <p><span class="bold-text">Magic Resistance:</span> The dracolich has advantage on saving throws against spells and other magical effects.</p>
+
+      </div>
+      <!-- End collapseStats -->
+      <!-- Start collapseLore -->
+      <div class="collapse rounded" id="collapseLore">
+         <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Lore
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+               <a class="dropdown-item" href="#1">Dark Portals</a>
+               <a class="dropdown-item" href="#2">Recast in Shadow</a>
+               <a class="dropdown-item" href="#3">Back in the World</a>
+            </div>
+         </div>
+         <div class="horizontal-line"></div>
+         <div id="1">
+            <h5>Dark Portals</h5>
+            <p>Portals to the Shadowfell manifest 
+                in forlorn places and the deep gloom of subterranean 
+                caverns. The dragons that lair in such places often 
+                discover these portals and find themselves transported 
+                to a new realm. Ancient dragons that sleep in their lairs 
+                for months or years at a time might find themselves 
+                spirited away, never knowing that a portal has formed 
+                without their knowledge as they dream.</p>
+         </div>
+         <div class="horizontal-line"></div>
+         <div id="2">
+            <h5>Recast in Shadow</h5>
+            <p>The transformation to a shadow 
+                dragon happens over a period of years, during which 
+                time a dragon's scales lose their luster and fade to a 
+                charcoal hue. Its leathery wings become translucent, its 
+                eyes paling to pools of opalescent gray. Shadow dragons 
+                find sunlight abhorrent, and they are weaker in bright 
+                light than they are in darkness. Darkness makes the 
+                dragon fade to a spectral shadow of its former self.</p>
+            <p>The magical nature of dragons holds an attraction 
+                for the Shadowfell, which seems somehow to crave the might and majesty of these great reptiles. The 
+                Shadowfell also has a dispiriting effect on its denizens, 
+                such that the longer a creature remains on the plane, 
+                the more it accepts the plane's malaise. As months and 
+                years pass for a dragon on the Shadowfell, it becomes 
+                aware of the transformation being wrought upon it, and 
+                yet can do nothing to prevent it.</p>
+         </div>
+         <div class="horizontal-line"></div>
+         <div id="3">
+            <h5>Back in the World</h5>
+            <p>A shadow dragon is so suffused 
+                with the power of the Shadowfell that even a return to 
+                the Material Plane can't undo its transformation. Some 
+                shadow dragons attempt to lure other creatures from 
+                the mortal realm back to the Shadowfell to keep them 
+                company, at least until they tire of their guests and 
+                devour them. Others are happy to leave the Shadowfell 
+                behind forever, understanding that treasure and power 
+                are easier to come by in the Material Plane.</p>
+         </div>
+         
+         <div class="horizontal-line"></div>
+         <button type="button" class="btn btn-secondary" onclick="goToTop()">Back to Top</button>
+      </div>
+   </div>
+
+   <!-- End collapseLore -->
+
+   <footer class="page-footer font-small blue fixed-bottom">
+      <p>&copy; Chad Oswald | <a href="mailto:chadloswald@gmail.com">chadloswald@gmail.com</a></p>
+   </footer>
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+   <script src="../../../scriptMon.js"></script>
+</body>
+
+</html>

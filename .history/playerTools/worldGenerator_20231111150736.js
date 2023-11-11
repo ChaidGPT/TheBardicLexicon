@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const worldForm = document.getElementById("worldForm");
   const generatedContent = document.getElementById("generatedContent");
-
+  
   // Settlement Section Checkbox Functionality
   const enableSettlementsCheckbox =
     document.getElementById("enableSettlements");
@@ -13,9 +13,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const templateSelect = document.getElementById("template");
   const templatePOISelect = document.getElementById("templatePOI");
 
+
+
   // World Generator Arrays
 
-  //   Start Settlement Arrays
+//   Start Settlement Arrays
 
   const settlements = [
     {
@@ -275,221 +277,187 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   ];
 
-  //   End Settlement Arrays
+//   End Settlement Arrays
 
-  // Start Template Arrays
+// Start Template Arrays
 
-  const template = [
-    {
-      name: "T1111",
-      link: "https://example.com/",
-    },
-    {
-      name: "T2222",
-      link: "https://example.com/",
-    },
-    {
-      name: "T3333",
-      link: "https://example.com/",
-    },
-    {
-      name: "T4444",
-      link: "https://example.com/",
-    },
-    {
-      name: "T5555",
-      link: "https://example.com/",
-    },
-    {
-      name: "T6666",
-      link: "https://example.com/",
-    },
-    {
-      name: "T7777",
-      link: "https://example.com/",
-    },
-    {
-      name: "T8888",
-      link: "https://example.com/",
-    },
-  ];
+const template = [
+  {
+    name: "T1111",
+    link: "https://example.com/",
+  },
+  {
+    name: "T2222",
+    link: "https://example.com/",
+  },
+  {
+    name: "T3333",
+    link: "https://example.com/",
+  },
+  {
+    name: "T4444",
+    link: "https://example.com/",
+  },
+  {
+    name: "T5555",
+    link: "https://example.com/",
+  },
+  {
+    name: "T6666",
+    link: "https://example.com/",
+  },
+  {
+    name: "T7777",
+    link: "https://example.com/",
+  },
+  {
+    name: "T8888",
+    link: "https://example.com/",
+  },
+];
 
-  const templatePOI = [
-    {
-      name: "t1111",
-      link: "https://example.com/",
-    },
-    {
-      name: "t2222",
-      link: "https://example.com/",
-    },
-    {
-      name: "t3333",
-      link: "https://example.com/",
-    },
-    {
-      name: "t4444",
-      link: "https://example.com/",
-    },
-    {
-      name: "t5555",
-      link: "https://example.com/",
-    },
-    {
-      name: "t6666",
-      link: "https://example.com/",
-    },
-    {
-      name: "t7777",
-      link: "https://example.com/",
-    },
-    {
-      name: "t8888",
-      link: "https://example.com/",
-    },
-  ];
+const templatePOI = [
+  {
+    name: "t1111",
+    link: "https://example.com/",
+  },
+  {
+    name: "t2222",
+    link: "https://example.com/",
+  },
+  {
+    name: "t3333",
+    link: "https://example.com/",
+  },
+  {
+    name: "t4444",
+    link: "https://example.com/",
+  },
+  {
+    name: "t5555",
+    link: "https://example.com/",
+  },
+  {
+    name: "t6666",
+    link: "https://example.com/",
+  },
+  {
+    name: "t7777",
+    link: "https://example.com/",
+  },
+  {
+    name: "t8888",
+    link: "https://example.com/",
+  },
+];
 
-  // End Template Arrays
+// End Template Arrays
 
-  function getRandomElements(array, count) {
-    const shuffledArray = array.slice().sort(() => 0.5 - Math.random());
-    return shuffledArray.slice(0, count);
-  }
 
-  worldForm.addEventListener("submit", function (event) {
-    event.preventDefault();
 
-    const worldName = document.getElementById("worldName").value;
-    const settlementsCount = parseInt(settlementsSelect.value);
-    const settlementPOICount = parseInt(settlementPOISelect.value);
+function getRandomElements(array, count) {
+  const shuffledArray = array.slice().sort(() => 0.5 - Math.random());
+  return shuffledArray.slice(0, count);
+}
 
-    const selectedSettlements = getRandomElements(
-      settlements,
-      settlementsCount
-    );
-    const selectedSettlementPOI = getRandomElements(
-      settlementPOI,
-      settlementPOICount
-    );
+worldForm.addEventListener("submit", function (event) {
+  event.preventDefault();
 
-    let content = `<h2>${worldName}</h2>`;
+  const worldName = document.getElementById("worldName").value;
+  const settlementsCount = parseInt(settlementsSelect.value);
+  const settlementPOICount = parseInt(settlementPOISelect.value);
 
-    if (settlementsCount > 0) {
+  const selectedSettlements = getRandomElements(settlements, settlementsCount);
+  const selectedSettlementPOI = getRandomElements(settlementPOI, settlementPOICount);
+
+  let content = `<h2>${worldName}</h2>`;
+
+  if (settlementsCount > 0) {
       content += `<h5>Settlements</h5>`;
       for (let i = 0; i < settlementsCount; i++) {
-        const selectedSettlement = getRandomElements(settlements, 1)[0];
-        const selectedSettlementPOI = getRandomElements(
-          settlementPOI,
-          settlementPOISelect.value
-        );
+          const selectedSettlement = getRandomElements(settlements, 1)[0];
+          const selectedSettlementPOI = getRandomElements(
+              settlementPOI,
+              settlementPOISelect.value
+          );
 
-        content += `
+          content += `
               <ul>
                   <li>${selectedSettlement.name}
                       <ul>
                           ${selectedSettlementPOI
-                            .map(
-                              (item) =>
-                                `<li><a href="${item.link}" target="_blank">${item.name}</a></li>`
-                            )
-                            .join("")}
+                              .map(
+                                  (item) =>
+                                      `<li><a href="${item.link}" target="_blank">${item.name}</a></li>`
+                              )
+                              .join("")}
                       </ul>
                   </li>
               </ul>
           `;
       }
-    }
+  }
 
-    // New template section content generation
-    const enableTemplate = enableTemplateCheckbox.checked;
-    if (enableTemplate) {
-      const templateCount = parseInt(templateSelect.value);
+  // New template section content generation
+const enableTemplate = enableTemplateCheckbox.checked;
+if (enableTemplate) {
+    const templateCount = parseInt(templateSelect.value);
 
-      // Add logic to append template content to the generated content
-      content += `<h5>Templates</h5>`;
-      for (let i = 0; i < templateCount; i++) {
+    // Add logic to append template content to the generated content
+    content += `<h5>Templates</h5>`;
+    for (let i = 0; i < templateCount; i++) {
         const selectedTemplate = getRandomElements(template, 1)[0];
-        const selectedTemplatePOI = getRandomElements(
-          templatePOI,
-          templatePOISelect.value
-        );
+        const selectedTemplatePOI = getRandomElements(templatePOI, templatePOISelect.value);
 
         content += `
             <ul>
                 <li>${selectedTemplate.name}
                     <ul>
                         ${selectedTemplatePOI
-                          .map(
-                            (item) =>
-                              `<li><a href="${item.link}" target="_blank">${item.name}</a></li>`
-                          )
-                          .join("")}
+                            .map(
+                                (item) =>
+                                    `<li><a href="${item.link}" target="_blank">${item.name}</a></li>`
+                            )
+                            .join("")}
                     </ul>
                 </li>
             </ul>
         `;
-      }
     }
+}
 
-    // Display the content
-    generatedContent.innerHTML = content;
+  // Display the content
+  generatedContent.innerHTML = content;
 
-    // Display the Print buttons
-    const printButton = document.getElementById("printButton");
+  // Display the Print buttons
+  const printButton = document.getElementById("printButton");
 
-    printButton.style.display = "block";
-  });
+  printButton.style.display = "block";
+});
 
-  printButton.addEventListener("click", function () {
-    // Format the content for printing
-    const contentToPrint = `
-            <html>
-                <head>
-                    <title>Print</title>
-                    <style>
-                        /* Add your custom styles here */
-                        body {
-                            font-family: 'Arial', sans-serif;
-                            margin: 20px;
-                        }
-                        header {
-                          text-align: center;
-                          margin-bottom: 20px;
-                      }
-                        h1 {
-                            color: #333;
-                        }
-                        /* Add more styles as needed */
-                    </style>
-                </head>
-                <body>
-                    <header>
-                        <img src="../images/logo.png" alt="The Bardic Lexicon Logo" width="200">
-                        <h2>World Generator</h2>
-                    </header>
-                    ${generatedContent.innerHTML}
-                </body>
-            </html>
-        `;
+printButton.addEventListener("click", function () {
+  // Format the content for printing
+  const contentToPrint = generatedContent.innerHTML;
 
-    // Create a new window for printing
-    const printWindow = window.open("", "_blank");
-    printWindow.document.write("<html><head><title>Print</title></head><body>");
-    printWindow.document.write(contentToPrint);
-    printWindow.document.write("</body></html>");
+  // Create a new window for printing
+  const printWindow = window.open("", "_blank");
+  printWindow.document.write("<html><head><title>Print</title></head><body>");
+  printWindow.document.write(contentToPrint);
+  printWindow.document.write("</body></html>");
 
-    // Trigger the print function
-    printWindow.print();
-  });
+  // Trigger the print function
+  printWindow.print();
+});
 
-  // Enable/disable settlement options based on checkbox state
-  enableTemplateCheckbox.addEventListener("change", function () {
-    templateSelect.disabled = !this.checked;
-    templatePOISelect.disabled = !this.checked;
-  });
-  // Enable/disable template options based on checkbox state
-  enableSettlementsCheckbox.addEventListener("change", function () {
-    settlementsSelect.disabled = !this.checked;
-    settlementPOISelect.disabled = !this.checked;
-  });
+// Enable/disable settlement options based on checkbox state
+enableTemplateCheckbox.addEventListener("change", function () {
+  templateSelect.disabled = !this.checked;
+  templatePOISelect.disabled = !this.checked;
+});
+// Enable/disable template options based on checkbox state
+enableSettlementsCheckbox.addEventListener("change", function () {
+  settlementsSelect.disabled = !this.checked;
+  settlementPOISelect.disabled = !this.checked;
+});
+
 });

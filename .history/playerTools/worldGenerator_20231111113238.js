@@ -279,80 +279,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //   End Settlement Arrays
 
-// Start Template Arrays
-
-const template = [
-  {
-    name: "T1111",
-    link: "https://example.com/",
-  },
-  {
-    name: "T2222",
-    link: "https://example.com/",
-  },
-  {
-    name: "T3333",
-    link: "https://example.com/",
-  },
-  {
-    name: "T4444",
-    link: "https://example.com/",
-  },
-  {
-    name: "T5555",
-    link: "https://example.com/",
-  },
-  {
-    name: "T6666",
-    link: "https://example.com/",
-  },
-  {
-    name: "T7777",
-    link: "https://example.com/",
-  },
-  {
-    name: "T8888",
-    link: "https://example.com/",
-  },
-];
-
-const templatePOI = [
-  {
-    name: "t1111",
-    link: "https://example.com/",
-  },
-  {
-    name: "t2222",
-    link: "https://example.com/",
-  },
-  {
-    name: "t3333",
-    link: "https://example.com/",
-  },
-  {
-    name: "t4444",
-    link: "https://example.com/",
-  },
-  {
-    name: "t5555",
-    link: "https://example.com/",
-  },
-  {
-    name: "t6666",
-    link: "https://example.com/",
-  },
-  {
-    name: "t7777",
-    link: "https://example.com/",
-  },
-  {
-    name: "t8888",
-    link: "https://example.com/",
-  },
-];
-
-// End Template Arrays
-
 
 
 function getRandomElements(array, count) {
@@ -399,46 +325,43 @@ worldForm.addEventListener("submit", function (event) {
   }
 
   // New template section content generation
-const enableTemplate = enableTemplateCheckbox.checked;
-if (enableTemplate) {
-    const templateCount = parseInt(templateSelect.value);
+  const enableTemplate = enableTemplateCheckbox.checked;
+  if (enableTemplate) {
+      const templateCount = parseInt(templateSelect.value);
+      const templatePOICount = parseInt(templatePOISelect.value);
 
-    // Add logic to append template content to the generated content
-    content += `<h5>Templates</h5>`;
-    for (let i = 0; i < templateCount; i++) {
-        const selectedTemplate = getRandomElements(template, 1)[0];
-        const selectedTemplatePOI = getRandomElements(templatePOI, templatePOISelect.value);
+      const selectedTemplates = getRandomElements(template, templateCount);
+      const selectedTemplatePOI = getRandomElements(templatePOI, templatePOICount);
 
-        content += `
-            <ul>
-                <li>${selectedTemplate.name}
-                    <ul>
-                        ${selectedTemplatePOI
-                            .map(
-                                (item) =>
-                                    `<li><a href="${item.link}" target="_blank">${item.name}</a></li>`
-                            )
-                            .join("")}
-                    </ul>
-                </li>
-            </ul>
-        `;
-    }
-}
+      // Add logic to append template content to the generated content
+      content += `<h5>Templates</h5>`;
+      for (let i = 0; i < templateCount; i++) {
+          const selectedTemplate = getRandomElements(template, 1)[0];
+
+          content += `
+              <ul>
+                  <li>${selectedTemplate.name}
+                      <ul>
+                          ${selectedTemplatePOI
+                              .map(
+                                  (item) =>
+                                      `<li><a href="${item.link}" target="_blank">${item.name}</a></li>`
+                              )
+                              .join("")}
+                      </ul>
+                  </li>
+              </ul>
+          `;
+      }
+  }
 
   // Display the content
   generatedContent.innerHTML = content;
 });
 
-// Enable/disable settlement options based on checkbox state
+// Enable/disable template options based on checkbox state
 enableTemplateCheckbox.addEventListener("change", function () {
   templateSelect.disabled = !this.checked;
   templatePOISelect.disabled = !this.checked;
 });
-// Enable/disable template options based on checkbox state
-enableSettlementsCheckbox.addEventListener("change", function () {
-  settlementsSelect.disabled = !this.checked;
-  settlementPOISelect.disabled = !this.checked;
-});
-
 });

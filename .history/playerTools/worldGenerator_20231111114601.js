@@ -298,22 +298,6 @@ const template = [
     name: "T4444",
     link: "https://example.com/",
   },
-  {
-    name: "T5555",
-    link: "https://example.com/",
-  },
-  {
-    name: "T6666",
-    link: "https://example.com/",
-  },
-  {
-    name: "T7777",
-    link: "https://example.com/",
-  },
-  {
-    name: "T8888",
-    link: "https://example.com/",
-  },
 ];
 
 const templatePOI = [
@@ -331,22 +315,6 @@ const templatePOI = [
   },
   {
     name: "t4444",
-    link: "https://example.com/",
-  },
-  {
-    name: "t5555",
-    link: "https://example.com/",
-  },
-  {
-    name: "t6666",
-    link: "https://example.com/",
-  },
-  {
-    name: "t7777",
-    link: "https://example.com/",
-  },
-  {
-    name: "t8888",
     link: "https://example.com/",
   },
 ];

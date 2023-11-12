@@ -365,7 +365,6 @@ table {
 }
 
 
-.randomGenImage {
-  max-width: 100%;
-  height: auto;
+#printButton {
+  display: none;
 }

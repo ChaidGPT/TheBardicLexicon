@@ -359,7 +359,12 @@ table {
   margin-bottom: 150px;
 }
 
-.weightTable {
-  max-width: 100%;
-  overflow-x: auto;
+.godSymbol {
+  max-width: 150px;
+  margin: 15px;
+}
+
+
+#printButton {
+  display: none;
 }

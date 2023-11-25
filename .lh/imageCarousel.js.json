@@ -1,0 +1,18 @@
+{
+    "sourceFile": "imageCarousel.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1700844006035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1700844006034,
+            "name": "Commit-0",
+            "content": "document.addEventListener('DOMContentLoaded', function () {\r\n    var imageFolder = \"imageCarousel\"; // Updated folder path\r\n    var imageExtensions = ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'webp', 'avif']; // Added \"avif\" to the list\r\n  \r\n    var carouselInner = document.querySelector('#imageCarousel .carousel-inner');\r\n  \r\n    fetchImages();\r\n  \r\n    function fetchImages() {\r\n      fetch(imageFolder)\r\n        .then(response => response.text())\r\n        .then(html => {\r\n          var doc = new DOMParser().parseFromString(html, 'text/html');\r\n          var images = Array.from(doc.querySelectorAll('img'));\r\n  \r\n          images.forEach(function (img, index) {\r\n            var src = img.getAttribute('src');\r\n            var extension = src.split('.').pop().toLowerCase();\r\n  \r\n            if (imageExtensions.includes(extension)) {\r\n              var itemClass = index === 0 ? 'carousel-item active' : 'carousel-item';\r\n              var item = document.createElement('div');\r\n              item.className = itemClass;\r\n              item.innerHTML = '<img class=\"d-block w-100\" src=\"' + src + '\" alt=\"Image\">';\r\n              carouselInner.appendChild(item);\r\n            }\r\n          });\r\n        })\r\n        .catch(error => console.error('Error fetching images:', error));\r\n    }\r\n  });  "
+        }
+    ]
+}

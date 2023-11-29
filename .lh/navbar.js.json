@@ -1,0 +1,18 @@
+{
+    "sourceFile": "navbar.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1701298496242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1701298496242,
+            "name": "Commit-0",
+            "content": "// navbar.js\r\ndocument.addEventListener('DOMContentLoaded', function () {\r\n    // Fetch the navbar.html content\r\n    fetch('navbar.html')\r\n      .then(response => response.text())\r\n      .then(data => {\r\n        // Insert the navbar content into the placeholder\r\n        document.getElementById('navbar-placeholder').innerHTML = data;\r\n      })\r\n      .catch(error => console.error('Error fetching navbar:', error));\r\n  });  "
+        }
+    ]
+}

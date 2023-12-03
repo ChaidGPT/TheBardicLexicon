@@ -1,0 +1,18 @@
+{
+    "sourceFile": "games/snake/snake.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1701573598602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1701573598602,
+            "name": "Commit-0",
+            "content": "@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: 'Open Sans', sans-serif;\r\n}\r\nbody {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  min-height: 100vh;\r\n  background: #E3F2FD;\r\n}\r\n.wrapper {\r\n  width: 65vmin;\r\n  height: 70vmin;\r\n  display: flex;\r\n  overflow: hidden;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  border-radius: 5px;\r\n  background: #293447;\r\n  box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);\r\n}\r\n.game-details {\r\n  color: #B8C6DC;\r\n  font-weight: 500;\r\n  font-size: 1.2rem;\r\n  padding: 20px 27px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n.play-board {\r\n  height: 100%;\r\n  width: 100%;\r\n  display: grid;\r\n  background: #212837;\r\n  grid-template: repeat(30, 1fr) / repeat(30, 1fr);\r\n}\r\n.play-board .food {\r\n  background: #FF003D;\r\n}\r\n.play-board .head {\r\n  background: #60CBFF;\r\n}\r\n.controls {\r\n  display: none;\r\n  justify-content: space-between;\r\n}\r\n.controls i {\r\n  padding: 25px 0;\r\n  text-align: center;\r\n  font-size: 1.3rem;\r\n  color: #B8C6DC;\r\n  width: calc(100% / 4);\r\n  cursor: pointer;\r\n  border-right: 1px solid #171B26;\r\n}\r\n@media screen and (max-width: 800px) {\r\n  .wrapper {\r\n    width: 90vmin;\r\n    height: 115vmin;\r\n  }\r\n  .game-details {\r\n    font-size: 1rem;\r\n    padding: 15px 27px;\r\n  }\r\n  .controls {\r\n    display: flex;\r\n  }\r\n  .controls i {\r\n    padding: 15px 0;\r\n    font-size: 1rem;\r\n  }\r\n}"
+        }
+    ]
+}

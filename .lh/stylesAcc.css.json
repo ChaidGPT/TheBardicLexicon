@@ -1,0 +1,18 @@
+{
+    "sourceFile": "stylesAcc.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1701531344072,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1701531344072,
+            "name": "Commit-0",
+            "content": "a:hover,a:focus{\r\n    text-decoration: none;\r\n    outline: none;\r\n}\r\n#accordion .panel{\r\n    border: none;\r\n    border-radius: 0;\r\n    box-shadow: none;\r\n    margin-bottom: 15px;\r\n    position: relative;\r\n}\r\n#accordion .panel:before{\r\n    content: \"\";\r\n    display: block;\r\n    width: 1px;\r\n    height: 100%;\r\n    border: 1px dashed #6e8898;\r\n    position: absolute;\r\n    top: 25px;\r\n    left: 18px;\r\n}\r\n#accordion .panel:last-child:before{ display: none; }\r\n#accordion .panel-heading{\r\n    padding: 0;\r\n    border: none;\r\n    border-radius: 0;\r\n    position: relative;\r\n}\r\n#accordion .panel-title a{\r\n    display: block;\r\n    padding: 10px 30px 10px 60px;\r\n    margin: 0;\r\n    background: #fff;\r\n    font-size: 18px;\r\n    font-weight: 700;\r\n    letter-spacing: 1px;\r\n    color: #1d3557;\r\n    border-radius: 0;\r\n    position: relative;\r\n}\r\n#accordion .panel-title a:before,\r\n#accordion .panel-title a.collapsed:before{\r\n    content: \"\\f107\";\r\n    font-family: \"Font Awesome 5 Free\";\r\n    font-weight: 900;\r\n    width: 40px;\r\n    height: 100%;\r\n    line-height: 40px;\r\n    background: #8a8ac3;\r\n    border: 1px solid #8a8ac3;\r\n    border-radius: 3px;\r\n    font-size: 17px;\r\n    color: #fff;\r\n    text-align: center;\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    transition: all 0.3s ease 0s;\r\n}\r\n#accordion .panel-title a.collapsed:before{\r\n    content: \"\\f105\";\r\n    background: #fff;\r\n    border: 1px solid #6e8898;\r\n    color: #000;\r\n}\r\n#accordion .panel-body{\r\n    padding: 10px 30px 10px 30px;\r\n    margin-left: 40px;\r\n    background: #fff;\r\n    border-top: none;\r\n    font-size: 15px;\r\n    color: #6f6f6f;\r\n    line-height: 28px;\r\n    letter-spacing: 1px;\r\n}"
+        }
+    ]
+}

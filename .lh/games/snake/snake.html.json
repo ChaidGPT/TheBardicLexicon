@@ -1,0 +1,26 @@
+{
+    "sourceFile": "games/snake/snake.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1701570897717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1701573428144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,26 @@\n-<h1>Test</h1>\n\\ No newline at end of file\n+<!DOCTYPE html>\r\n+<html lang=\"en\" dir=\"ltr\">\r\n+  <head>\r\n+    <meta charset=\"utf-8\">\r\n+    <title>Snake Game</title>\r\n+    <link rel=\"stylesheet\" href=\"style.css\">\r\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css\">\r\n+    <script src=\"snake.js\" defer></script>\r\n+  </head>\r\n+  <body>\r\n+    <div class=\"wrapper\">\r\n+      <div class=\"game-details\">\r\n+        <span class=\"score\">Score: 0</span>\r\n+        <span class=\"high-score\">High Score: 0</span>\r\n+      </div>\r\n+      <div class=\"play-board\"></div>\r\n+      <div class=\"controls\">\r\n+        <i data-key=\"ArrowLeft\" class=\"fa-solid fa-arrow-left-long\"></i>\r\n+        <i data-key=\"ArrowUp\" class=\"fa-solid fa-arrow-up-long\"></i>\r\n+        <i data-key=\"ArrowRight\" class=\"fa-solid fa-arrow-right-long\"></i>\r\n+        <i data-key=\"ArrowDown\" class=\"fa-solid fa-arrow-down-long\"></i>\r\n+      </div>\r\n+    </div>\r\n+  </body>\r\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701573545512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n <html lang=\"en\" dir=\"ltr\">\r\n   <head>\r\n     <meta charset=\"utf-8\">\r\n     <title>Snake Game</title>\r\n-    <link rel=\"stylesheet\" href=\"style.css\">\r\n+    <link rel=\"stylesheet\" href=\"snake.css\">\r\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css\">\r\n     <script src=\"snake.js\" defer></script>\r\n   </head>\r\n"
+                }
+            ],
+            "date": 1701570897717,
+            "name": "Commit-0",
+            "content": "<h1>Test</h1>"
+        }
+    ]
+}

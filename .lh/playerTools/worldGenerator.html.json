@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 12,
+            "activePatchIndex": 14,
             "patches": [
                 {
                     "date": 1698696495678,
@@ -56,6 +56,14 @@
                 {
                     "date": 1699730649290,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,8 +127,40 @@\n                     </select>\r\n                 </div>\r\n                 <!-- End Settlement Options -->\r\n \r\n+                <!-- Start Template Options -->\r\n+<div class=\"form-group\">\r\n+    <div class=\"form-check\">\r\n+        <input class=\"form-check-input\" type=\"checkbox\" id=\"enableTemplate\" />\r\n+        <label class=\"form-check-label\" for=\"enableTemplate\">Enable Template</label>\r\n+    </div>\r\n+    <label for=\"template\">Number of Templates:</label>\r\n+    <select class=\"form-control\" id=\"template\" disabled>\r\n+        <option value=\"0\">0</option>\r\n+        <option value=\"1\">1</option>\r\n+        <option value=\"2\">2</option>\r\n+        <option value=\"3\">3</option>\r\n+        <option value=\"4\">4</option>\r\n+        <option value=\"5\">5</option>\r\n+        <!-- Add more options as needed -->\r\n+    </select>\r\n+</div>\r\n+\r\n+<div class=\"form-group\">\r\n+    <label for=\"templatePOI\">Number of Template Points of Interest:</label>\r\n+    <select class=\"form-control\" id=\"templatePOI\" disabled>\r\n+        <option value=\"0\">0</option>\r\n+        <option value=\"1\">1</option>\r\n+        <option value=\"2\">2</option>\r\n+        <option value=\"3\">3</option>\r\n+        <option value=\"4\">4</option>\r\n+        <option value=\"5\">5</option>\r\n+        <!-- Add more options as needed -->\r\n+    </select>\r\n+</div>\r\n+<!-- End Template Options -->\r\n+\r\n                 <!-- Submit Button -->\r\n                 <button type=\"submit\" class=\"btn btn-primary\">Generate</button>\r\n             </form>\r\n \r\n"
+                },
+                {
+                    "date": 1701561593574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,8 +95,10 @@\n                     <input type=\"text\" class=\"form-control\" id=\"worldName\" required />\r\n                 </div>\r\n                 <!-- End World Name Field -->\r\n \r\n+                <div class=\"horizontal-line\"></div>\r\n+\r\n                 <!-- Start Settlement Options -->\r\n                 <div class=\"form-group\">\r\n                     <div class=\"form-check\">\r\n                         <input class=\"form-check-input\" type=\"checkbox\" id=\"enableSettlements\" />\r\n@@ -127,8 +129,10 @@\n                     </select>\r\n                 </div>\r\n                 <!-- End Settlement Options -->\r\n \r\n+                <div class=\"horizontal-line\"></div>\r\n+\r\n                 <!-- Start Template Options -->\r\n <div class=\"form-group\">\r\n     <div class=\"form-check\">\r\n         <input class=\"form-check-input\" type=\"checkbox\" id=\"enableTemplate\" />\r\n@@ -166,8 +170,13 @@\n \r\n             <!-- End World Generator Form -->\r\n \r\n             <div id=\"generatedContent\"></div>\r\n+\r\n+            <div class=\"text-center mt-3\">\r\n+                <button type=\"button\" class=\"btn btn-secondary\" id=\"printButton\">Print</button>\r\n+            </div>\r\n+\r\n         </div>\r\n     </div>\r\n \r\n     <footer class=\"page-footer font-small blue fixed-bottom\">\r\n"
+                },
+                {
+                    "date": 1701561626572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,9 +95,9 @@\n                     <input type=\"text\" class=\"form-control\" id=\"worldName\" required />\r\n                 </div>\r\n                 <!-- End World Name Field -->\r\n \r\n-                <div class=\"horizontal-line\"></div>\r\n+                <div class=\"light-horizontal-line\"></div>\r\n \r\n                 <!-- Start Settlement Options -->\r\n                 <div class=\"form-group\">\r\n                     <div class=\"form-check\">\r\n@@ -129,9 +129,9 @@\n                     </select>\r\n                 </div>\r\n                 <!-- End Settlement Options -->\r\n \r\n-                <div class=\"horizontal-line\"></div>\r\n+                <div class=\"light-horizontal-line\"></div>\r\n \r\n                 <!-- Start Template Options -->\r\n <div class=\"form-group\">\r\n     <div class=\"form-check\">\r\n"
                 }
             ],
             "date": 1698696495678,

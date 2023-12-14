@@ -3,11 +3,31 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1701573633150,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1701643783722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,13 @@\n     foodX = Math.floor(Math.random() * 30) + 1;\r\n     foodY = Math.floor(Math.random() * 30) + 1;\r\n }\r\n const handleGameOver = () => {\r\n+    // Play game over splat\r\n+    const gameOverSound = document.getElementById('gameOverSound');\r\n+    if (gameOverSound) {\r\n+        gameOverSound.play();\r\n+    }\r\n     // Clearing the timer and reloading the page on game over\r\n     clearInterval(setIntervalId);\r\n     alert(\"Game Over! Press OK to replay...\");\r\n     location.reload();\r\n"
+                },
+                {
+                    "date": 1701644112474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n     foodX = Math.floor(Math.random() * 30) + 1;\r\n     foodY = Math.floor(Math.random() * 30) + 1;\r\n }\r\n const handleGameOver = () => {\r\n-    // Play game over splat\r\n+    // Play game over sound\r\n     const gameOverSound = document.getElementById('gameOverSound');\r\n     if (gameOverSound) {\r\n         gameOverSound.play();\r\n     }\r\n"
+                },
+                {
+                    "date": 1701644900164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,12 +22,19 @@\n     const gameOverSound = document.getElementById('gameOverSound');\r\n     if (gameOverSound) {\r\n         gameOverSound.play();\r\n     }\r\n-    // Clearing the timer and reloading the page on game over\r\n+    \r\n+    // Show Bootstrap modal\r\n+    $('#gameOverModal').modal('show');\r\n+\r\n+    // Clearing the timer (if needed) - adjust as per your requirements\r\n     clearInterval(setIntervalId);\r\n-    alert(\"Game Over! Press OK to replay...\");\r\n-    location.reload();\r\n+    \r\n+    // Optionally, you can reload the page after the modal is closed\r\n+    $('#gameOverModal').on('hidden.bs.modal', function () {\r\n+        location.reload();\r\n+    });\r\n }\r\n const changeDirection = e => {\r\n     // Changing velocity value based on key press\r\n     if(e.key === \"ArrowUp\" && velocityY != 1) {\r\n"
+                },
+                {
+                    "date": 1701645134408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,25 +17,21 @@\n     foodX = Math.floor(Math.random() * 30) + 1;\r\n     foodY = Math.floor(Math.random() * 30) + 1;\r\n }\r\n const handleGameOver = () => {\r\n-    // Play game over sound\r\n+    // Play game over sound only if not already played\r\n     const gameOverSound = document.getElementById('gameOverSound');\r\n-    if (gameOverSound) {\r\n+    if (gameOverSound && !gameOver) {\r\n         gameOverSound.play();\r\n     }\r\n-    \r\n-    // Show Bootstrap modal\r\n-    $('#gameOverModal').modal('show');\r\n \r\n-    // Clearing the timer (if needed) - adjust as per your requirements\r\n+    // Clearing the timer and reloading the page on game over\r\n     clearInterval(setIntervalId);\r\n-    \r\n-    // Optionally, you can reload the page after the modal is closed\r\n-    $('#gameOverModal').on('hidden.bs.modal', function () {\r\n-        location.reload();\r\n-    });\r\n+    gameOver = true; // Set gameOver to true to prevent multiple plays\r\n+    alert(\"Game Over! Press OK to replay...\");\r\n+    location.reload();\r\n }\r\n+\r\n const changeDirection = e => {\r\n     // Changing velocity value based on key press\r\n     if(e.key === \"ArrowUp\" && velocityY != 1) {\r\n         velocityX = 0;\r\n"
+                },
+                {
+                    "date": 1701645286284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,13 +23,15 @@\n     if (gameOverSound && !gameOver) {\r\n         gameOverSound.play();\r\n     }\r\n \r\n+    // Open the game over modal\r\n+    $('#gameOverModal').modal('show');\r\n+\r\n     // Clearing the timer and reloading the page on game over\r\n     clearInterval(setIntervalId);\r\n     gameOver = true; // Set gameOver to true to prevent multiple plays\r\n-    alert(\"Game Over! Press OK to replay...\");\r\n-    location.reload();\r\n+    // location.reload(); // You can choose to reload the page or not, depending on your preference\r\n }\r\n \r\n const changeDirection = e => {\r\n     // Changing velocity value based on key press\r\n"
                 }
             ],
             "date": 1701573633149,

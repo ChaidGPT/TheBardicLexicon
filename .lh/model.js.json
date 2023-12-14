@@ -1,0 +1,26 @@
+{
+    "sourceFile": "model.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1701642017095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1701642197511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,13 @@\n $(document).ready(function() {\r\n-    // Attach a click event to your modal trigger button\r\n-    $('#snakeModal').on('show.bs.modal', function(e) {\r\n-      // Use AJAX to load content from snake.html into the modal body\r\n-      $('#snakeModalBody').load('path/to/snake.html');\r\n+  // Attach a click event to your modal trigger button\r\n+  $('#snakeModal').on('show.bs.modal', function(e) {\r\n\\ No newline at end of file\n+    // Use AJAX to load content from snake.html into the modal body\r\n+    $('#snakeModalBody').load('path/to/snake.html', function() {\r\n+      // After content is loaded, initialize the Snake game\r\n+      const script = document.createElement('script');\r\n+      script.src = 'path/to/snake.js'; // Replace with the actual path to snake.js\r\n+      script.defer = true;\r\n+      document.head.appendChild(script);\r\n     });\r\n-  });\n+  });\r\n+});\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701642312714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n $(document).ready(function() {\r\n   // Attach a click event to your modal trigger button\r\n   $('#snakeModal').on('show.bs.modal', function(e) {\r\n     // Use AJAX to load content from snake.html into the modal body\r\n-    $('#snakeModalBody').load('path/to/snake.html', function() {\r\n+    $('#snakeModalBody').load('snake.html', function() {\r\n       // After content is loaded, initialize the Snake game\r\n       const script = document.createElement('script');\r\n-      script.src = 'path/to/snake.js'; // Replace with the actual path to snake.js\r\n+      script.src = 'snake.js'; // Relative path to snake.js\r\n       script.defer = true;\r\n       document.head.appendChild(script);\r\n     });\r\n   });\r\n"
+                }
+            ],
+            "date": 1701642017095,
+            "name": "Commit-0",
+            "content": "$(document).ready(function() {\r\n    // Attach a click event to your modal trigger button\r\n    $('#snakeModal').on('show.bs.modal', function(e) {\r\n      // Use AJAX to load content from snake.html into the modal body\r\n      $('#snakeModalBody').load('path/to/snake.html');\r\n    });\r\n  });"
+        }
+    ]
+}

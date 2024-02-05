@@ -429,12 +429,12 @@ document.addEventListener("DOMContentLoaded", function () {
         );
       
         const selectedRacesForSettlement =
-          racesCount !== "random" ? getRandomElements(races, racesCount) : races;
+          racesCount !== "random" ? getRandomElements(races, racesCount) : getRandomElements(races, 1);
       
         content += `
           <div class="row">
             <div class="col-md-6">
-              <p><strong>Settlement Type: &nbsp</strong>${selectedSettlement.name}</p>
+              <h5>${selectedSettlement.name}</h5>
               <p><strong>Points of Interest:</strong></p><ul>`;
       
         content += selectedSettlementPOI
@@ -444,7 +444,7 @@ document.addEventListener("DOMContentLoaded", function () {
         content += `</ul>
             </div>
             <div class="col-md-6">
-              <br><br><p><strong>Races:</strong></p><ul>`;
+              <p><strong>Races:</strong></p><ul>`;
       
         content += selectedRacesForSettlement
           .map((race) => `<li>${race.name}</li>`)
@@ -456,7 +456,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           if (i < settlementsCount - 1) {
             // Add some margin between settlements
-            content += `<div class="my-4"></div> <hr>`;
+            content += `<div class="my-4"></div>`;
           }
       }
 

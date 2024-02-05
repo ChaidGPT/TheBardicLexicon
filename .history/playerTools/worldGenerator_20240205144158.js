@@ -429,12 +429,13 @@ document.addEventListener("DOMContentLoaded", function () {
         );
       
         const selectedRacesForSettlement =
-          racesCount !== "random" ? getRandomElements(races, racesCount) : races;
+          racesCount !== "random" ? getRandomElements(races, racesCount) : getRandomElements(races, 1);
       
         content += `
           <div class="row">
             <div class="col-md-6">
               <p><strong>Settlement Type: &nbsp</strong>${selectedSettlement.name}</p>
+              <div class="horizontal-line"></div>
               <p><strong>Points of Interest:</strong></p><ul>`;
       
         content += selectedSettlementPOI

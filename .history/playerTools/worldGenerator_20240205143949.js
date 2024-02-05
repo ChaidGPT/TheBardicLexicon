@@ -429,7 +429,7 @@ document.addEventListener("DOMContentLoaded", function () {
         );
       
         const selectedRacesForSettlement =
-          racesCount !== "random" ? getRandomElements(races, racesCount) : races;
+          racesCount !== "random" ? getRandomElements(races, racesCount) : getRandomElements(races, 1);
       
         content += `
           <div class="row">
@@ -444,7 +444,7 @@ document.addEventListener("DOMContentLoaded", function () {
         content += `</ul>
             </div>
             <div class="col-md-6">
-              <br><br><p><strong>Races:</strong></p><ul>`;
+              <br><p><strong>Races:</strong></p><ul>`;
       
         content += selectedRacesForSettlement
           .map((race) => `<li>${race.name}</li>`)

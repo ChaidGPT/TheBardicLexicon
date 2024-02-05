@@ -7,9 +7,15 @@ document.addEventListener("DOMContentLoaded", function () {
   const settlementsSelect = document.getElementById("settlements");
   const settlementPOISelect = document.getElementById("settlementPOI");
 
+  // Template Section Checkbox Functionality
+  const enableTemplateCheckbox = document.getElementById("enableTemplate");
+  const templateSelect = document.getElementById("template");
+  const templatePOISelect = document.getElementById("templatePOI");
+
   // Races Section Functionality
   const racesSelect = document.getElementById("races");
 
+  // Enable/disable races options based on checkbox state
   enableSettlementsCheckbox.addEventListener("change", function () {
     settlementsSelect.disabled = !this.checked;
     settlementPOISelect.disabled = !this.checked;
@@ -411,53 +417,51 @@ document.addEventListener("DOMContentLoaded", function () {
     let content = `<h2>${worldName}</h2>`;
 
     if (settlementsCount > 0) {
-      content += `<div class="container"><hr>`;
+      content += `<div class="container">`; // Bootstrap container for styling
 
       for (let i = 0; i < settlementsCount; i++) {
         const selectedSettlement = getRandomElements(settlements, 1)[0];
-      
+
         let settlementPOICountForSettlement;
         if (settlementPOICount === "random") {
           settlementPOICountForSettlement = Math.floor(Math.random() * 5) + 1;
         } else {
           settlementPOICountForSettlement = settlementPOICount;
         }
-      
+
         const selectedSettlementPOI = getRandomElements(
           settlementPOI,
           settlementPOICountForSettlement
         );
-      
+
+        // Add races for each settlement
         const selectedRacesForSettlement =
-          racesCount !== "random" ? getRandomElements(races, racesCount) : races;
-      
+          racesCount !== "random" ? getRandomElements(races, racesCount) : getRandomElements(races, 1);
+
         content += `
           <div class="row">
             <div class="col-md-6">
-              <p><strong>Settlement Type: &nbsp</strong>${selectedSettlement.name}</p>
-              <p><strong>Points of Interest:</strong></p><ul>`;
-      
-        content += selectedSettlementPOI
-          .map((item) => `<li>${item.name}</li>`)
-          .join("");
-      
-        content += `</ul>
+              <p><strong>Settlement:</strong> ${selectedSettlement.name}</p>
             </div>
-            <div class="col-md-6">
-              <br><br><p><strong>Races:</strong></p><ul>`;
-      
-        content += selectedRacesForSettlement
-          .map((race) => `<li>${race.name}</li>`)
-          .join("");
-      
-        content += `</ul>
-            </div>
-          </div>`;
+            <div class="col-md-6">`;
 
-          if (i < settlementsCount - 1) {
-            // Add some margin between settlements
-            content += `<div class="my-4"></div> <hr>`;
-          }
+        if (selectedSettlementPOI.length > 0) {
+          content += `<p><strong>Points of Interest:</strong></p><ul>`;
+          content += selectedSettlementPOI
+            .map((item) => `<li>${item.name}</li>`)
+            .join("");
+          content += `</ul>`;
+        }
+
+        if (selectedRacesForSettlement.length > 0) {
+          content += `<p><strong>Races:</strong></p><ul>`;
+          content += selectedRacesForSettlement
+            .map((race) => `<li>${race.name}</li>`)
+            .join("");
+          content += `</ul>`;
+        }
+
+        content += `</div></div>`;
       }
 
       content += `</div>`;
@@ -466,5 +470,22 @@ document.addEventListener("DOMContentLoaded", function () {
       const printButton = document.getElementById("printButton");
       printButton.style.display = "block";
     }
+  });
+
+  const printButton = document.getElementById("printButton");
+  printButton.addEventListener("click", function () {
+    // ... (existing code)
+  });
+
+  // Enable/disable settlement options based on checkbox state
+  enableTemplateCheckbox.addEventListener("change", function () {
+    templateSelect.disabled = !this.checked;
+    templatePOISelect.disabled = !this.checked;
+  });
+
+  // Enable/disable template options based on checkbox state
+  enableSettlementsCheckbox.addEventListener("change", function () {
+    settlementsSelect.disabled = !this.checked;
+    settlementPOISelect.disabled = !this.checked;
   });
 });

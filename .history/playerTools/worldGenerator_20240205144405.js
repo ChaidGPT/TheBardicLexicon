@@ -429,7 +429,7 @@ document.addEventListener("DOMContentLoaded", function () {
         );
       
         const selectedRacesForSettlement =
-          racesCount !== "random" ? getRandomElements(races, racesCount) : races;
+          racesCount !== "random" ? getRandomElements(races, racesCount) : getRandomElements(races, 1);
       
         content += `
           <div class="row">

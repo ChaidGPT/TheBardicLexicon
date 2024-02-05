@@ -7,9 +7,15 @@ document.addEventListener("DOMContentLoaded", function () {
   const settlementsSelect = document.getElementById("settlements");
   const settlementPOISelect = document.getElementById("settlementPOI");
 
+  // Template Section Checkbox Functionality
+  const enableTemplateCheckbox = document.getElementById("enableTemplate");
+  const templateSelect = document.getElementById("template");
+  const templatePOISelect = document.getElementById("templatePOI");
+
   // Races Section Functionality
   const racesSelect = document.getElementById("races");
 
+  // Enable/disable races options based on checkbox state
   enableSettlementsCheckbox.addEventListener("change", function () {
     settlementsSelect.disabled = !this.checked;
     settlementPOISelect.disabled = !this.checked;
@@ -411,10 +417,9 @@ document.addEventListener("DOMContentLoaded", function () {
     let content = `<h2>${worldName}</h2>`;
 
     if (settlementsCount > 0) {
-      content += `<div class="container"><hr>`;
-
+      content += `<h5>Settlements</h5>`;
       for (let i = 0; i < settlementsCount; i++) {
-        const selectedSettlement = getRandomElements(settlements, 1)[0];
+        const selectedSettlement = selectedSettlements[i];
       
         let settlementPOICountForSettlement;
         if (settlementPOICount === "random") {
@@ -428,43 +433,94 @@ document.addEventListener("DOMContentLoaded", function () {
           settlementPOICountForSettlement
         );
       
+        // Add races for each settlement
         const selectedRacesForSettlement =
-          racesCount !== "random" ? getRandomElements(races, racesCount) : races;
+          racesCount !== "random" ? getRandomElements(races, racesCount) : getRandomElements(races, Math.floor(Math.random() * 5) + 1);
       
         content += `
-          <div class="row">
-            <div class="col-md-6">
-              <p><strong>Settlement Type: &nbsp</strong>${selectedSettlement.name}</p>
-              <p><strong>Points of Interest:</strong></p><ul>`;
-      
-        content += selectedSettlementPOI
-          .map((item) => `<li>${item.name}</li>`)
-          .join("");
-      
-        content += `</ul>
-            </div>
-            <div class="col-md-6">
-              <br><br><p><strong>Races:</strong></p><ul>`;
-      
-        content += selectedRacesForSettlement
-          .map((race) => `<li>${race.name}</li>`)
-          .join("");
-      
-        content += `</ul>
-            </div>
-          </div>`;
-
-          if (i < settlementsCount - 1) {
-            // Add some margin between settlements
-            content += `<div class="my-4"></div> <hr>`;
-          }
+          <ul>
+            <li>${selectedSettlement.name}
+              <ul>
+                ${selectedSettlementPOI
+                  .map(
+                    (item) =>
+                      `<li><a href="${item.link}" target="_blank">${item.name}</a></li>`
+                  )
+                  .join("")}
+              </ul>
+            </li>
+            ${selectedRacesForSettlement.length > 0
+              ? `<ul>Races:
+                ${selectedRacesForSettlement
+                  .map(
+                    (race) =>
+                      `<li><a href="${race.link}" target="_blank">${race.name}</a></li>`
+                  )
+                  .join("")}
+              </ul>`
+              : `<p>Races: Uninhabited</p>`}
+          </ul>
+        `;
       }
-
-      content += `</div>`;
-      generatedContent.innerHTML = content;
-
-      const printButton = document.getElementById("printButton");
-      printButton.style.display = "block";
     }
+
+    generatedContent.innerHTML = content;
+
+    const printButton = document.getElementById("printButton");
+    printButton.style.display = "block";
+  });
+
+  const printButton = document.getElementById("printButton");
+  printButton.addEventListener("click", function () {
+    // Format the content for printing
+    const contentToPrint = `
+      <html>
+          <head>
+              <title>Print</title>
+              <style>
+                  /* Add your custom styles here */
+                  body {
+                      font-family: 'Arial', sans-serif;
+                      margin: 20px;
+                  }
+                  header {
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+                  h1 {
+                      color: #333;
+                  }
+                  /* Add more styles as needed */
+              </style>
+          </head>
+          <body>
+              <header>
+                  <img src="../images/logo.png" alt="The Bardic Lexicon Logo" width="200">
+                  <h2>World Generator</h2>
+              </header>
+              ${generatedContent.innerHTML}
+          </body>
+      </html>
+  `;
+
+    // Create a new window for printing
+    const printWindow = window.open("", "_blank");
+    printWindow.document.write("<html><head><title>Print</title></head><body>");
+    printWindow.document.write(contentToPrint);
+    printWindow.document.write("</body></html>");
+
+    // Trigger the print function
+    printWindow.print();
+  });
+
+  // Enable/disable settlement options based on checkbox state
+  enableTemplateCheckbox.addEventListener("change", function () {
+    templateSelect.disabled = !this.checked;
+    templatePOISelect.disabled = !this.checked;
+  });
+  // Enable/disable template options based on checkbox state
+  enableSettlementsCheckbox.addEventListener("change", function () {
+    settlementsSelect.disabled = !this.checked;
+    settlementPOISelect.disabled = !this.checked;
   });
 });

@@ -408,10 +408,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const selectedRaces = getRandomElements(races, racesCount);
     const selectedSettlements = getRandomElements(settlements, settlementsCount);
 
-    let content = `<h2>${worldName}</h2>`;
+    let content = `<h2>${worldName}</h2>
+    <div class="horizontal-line"></div>`;
 
     if (settlementsCount > 0) {
-      content += `<div class="container"><hr>`;
+      content += `<div class="container">`;
 
       for (let i = 0; i < settlementsCount; i++) {
         const selectedSettlement = getRandomElements(settlements, 1)[0];
@@ -429,7 +430,7 @@ document.addEventListener("DOMContentLoaded", function () {
         );
       
         const selectedRacesForSettlement =
-          racesCount !== "random" ? getRandomElements(races, racesCount) : races;
+          racesCount !== "random" ? getRandomElements(races, racesCount) : getRandomElements(races, 1);
       
         content += `
           <div class="row">

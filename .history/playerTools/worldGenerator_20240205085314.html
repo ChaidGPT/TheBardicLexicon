@@ -160,62 +160,47 @@
 
           <div class="light-horizontal-line"></div>
 
-<!-- Start Settlement Options -->
-<div class="form-group">
-  <div class="form-check">
-    <input
-      class="form-check-input"
-      type="checkbox"
-      id="enableSettlements"
-      data-toggle="collapse"
-      data-target="#settlementOptions"
-    />
-    <label class="form-check-label" for="enableSettlements"
-      >Enable Settlements</label
-    >
-  </div>
+          <!-- Start Settlement Options -->
+          <div class="form-group">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="enableSettlements"
+                data-toggle="collapse"
+                data-target="#settlementOptions"
+              />
+              <label class="form-check-label" for="enableSettlements"
+                >Enable Settlements</label
+              >
+            </div>
+            <label for="settlements">Number of Settlements:</label>
+            <select class="form-control" id="settlements" disabled>
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <!-- Add more options as needed -->
+            </select>
+          </div>
 
-  <!-- Add the 'collapse' class to the following div -->
-  <div id="settlementOptions" class="collapse">
-
-    <!-- Wrap both settlement options in a common container -->
-    <div class="settlement-options-container">
-
-      <!-- Number of Settlements -->
-      <div>
-        <label for="settlements">Number of Settlements:</label>
-        <select class="form-control" id="settlements" disabled>
-          <option value="0">0</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <!-- Add more options as needed -->
-        </select>
-      </div>
-
-      <!-- Number of Settlement Points of Interest -->
-      <div>
-        <label for="settlementPOI"
-          >Number of Settlement Points of Interest:</label
-        >
-        <select class="form-control" id="settlementPOI" disabled>
-          <option value="0">0</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <!-- Add more options as needed -->
-        </select>
-      </div>
-
-    </div>
-  </div>
-</div>
-<!-- End Settlement Options -->
-
+          <div class="form-group">
+            <label for="settlementPOI"
+              >Number of Settlement Points of Interest:</label
+            >
+            <select class="form-control" id="settlementPOI" disabled>
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <!-- Add more options as needed -->
+            </select>
+          </div>
+          <!-- End Settlement Options -->
 
           <div class="light-horizontal-line"></div>
 

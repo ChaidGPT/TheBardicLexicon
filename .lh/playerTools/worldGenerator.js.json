@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 77,
+            "activePatchIndex": 80,
             "patches": [
                 {
                     "date": 1698696596782,
@@ -316,6 +316,18 @@
                 {
                     "date": 1707251080175,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -701,12 +701,15 @@\n \r\n   content += selectedRacesForSettlement\r\n     .map((race) => `\r\n     <li class=\"list-inline-item\">\r\n-    <a href=\"${race.link}\" target=\"_blank\">\r\n-      <img src=\"${race.image}\" alt=\"${race.name}\" class=\"img-thumbnail\" style=\"max-width: 70px; max-height: auto; margin-right: 5px;\">\r\n-    </a>\r\n-  </li>`)\r\n+      <div>\r\n+        <a href=\"${race.link}\" target=\"_blank\">\r\n+          <img src=\"${race.image}\" alt=\"${race.name}\" class=\"img-thumbnail\" style=\"max-width: 70px; max-height: auto; margin-bottom: 5px;\">\r\n+        </a>\r\n+        <p class=\"text-center\">${race.name}</p>\r\n+      </div>\r\n+    </li>`)\r\n     .join(\"\");\r\n \r\n   content += `</ul>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1707260805960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -658,9 +658,9 @@\n         const selectedSettlement = selectedSettlements[i];\r\n   \r\n         let settlementPOICountForSettlement;\r\n         if (settlementPOICount === \"random\") {\r\n-          settlementPOICountForSettlement = Math.floor(Math.random() * 5) + 1;\r\n+          settlementPOICountForSettlement = Math.floor(Math.random() * 26);\r\n         } else {\r\n           settlementPOICountForSettlement = settlementPOICount;\r\n         }\r\n   \r\n@@ -670,9 +670,9 @@\n         );\r\n   \r\n         let selectedRacesForSettlement;\r\n         if (racesCount === \"random\") {\r\n-          const randomRacesCount = Math.floor(Math.random() * 5) + 1;\r\n+          const randomRacesCount = Math.floor(Math.random() * 50);\r\n           selectedRacesForSettlement = getRandomElements(races, randomRacesCount);\r\n         } else {\r\n           selectedRacesForSettlement = getRandomElements(races, racesCount);\r\n         }\r\n"
+                },
+                {
+                    "date": 1707260885671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -623,9 +623,9 @@\n     const settlementsCountInput = document.getElementById(\"settlements\");\r\n     let settlementsCount;\r\n   \r\n     if (settlementsCountInput.value === \"random\") {\r\n-      settlementsCount = Math.floor(Math.random() * 5) + 1;\r\n+      settlementsCount = Math.floor(Math.random() * 30) + 1;\r\n     } else {\r\n       settlementsCount = parseInt(settlementsCountInput.value);\r\n     }\r\n   \r\n"
+                },
+                {
+                    "date": 1707261347927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     settlementPOISelect.disabled = !this.checked;\r\n     racesSelect.disabled = !this.checked;\r\n   });\r\n \r\n-  // World Generator Arrays\r\n+  // Start World Generator Arrays\r\n \r\n   //   Start Settlement Arrays\r\n \r\n   const settlements = [\r\n@@ -610,8 +610,10 @@\n   ];\r\n \r\n   // End Template Arrays\r\n \r\n+  // Start World Generator Arrays\r\n+\r\n   function getRandomElements(array, count) {\r\n     const shuffledArray = array.slice().sort(() => 0.5 - Math.random());\r\n     return shuffledArray.slice(0, count);\r\n   }\r\n@@ -723,10 +725,7 @@\n }\r\n   \r\n       content += `</div>`;\r\n       generatedContent.innerHTML = content;\r\n-  \r\n-      const printButton = document.getElementById(\"printButton\");\r\n-      printButton.style.display = \"block\";\r\n     }\r\n   });\r\n });\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1698696596782,

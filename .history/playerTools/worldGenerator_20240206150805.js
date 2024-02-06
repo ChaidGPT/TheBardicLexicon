@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     racesSelect.disabled = !this.checked;
   });
 
-  // Start World Generator Arrays
+  // World Generator Arrays
 
   //   Start Settlement Arrays
 
@@ -611,8 +611,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // End Template Arrays
 
-  // Start World Generator Arrays
-
   function getRandomElements(array, count) {
     const shuffledArray = array.slice().sort(() => 0.5 - Math.random());
     return shuffledArray.slice(0, count);
@@ -726,6 +724,9 @@ document.addEventListener("DOMContentLoaded", function () {
   
       content += `</div>`;
       generatedContent.innerHTML = content;
+  
+      const printButton = document.getElementById("printButton");
+      printButton.style.display = "block";
     }
   });
 });

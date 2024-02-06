@@ -339,7 +339,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       name: "Fairies",
-      link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/fairy.html",
+      link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/fairy.htmls",
     },
     {
       name: "Firbolgs",

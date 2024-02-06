@@ -339,7 +339,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       name: "Fairies",
-      link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/fairy.html",
+      link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/fairy.htmls",
     },
     {
       name: "Firbolgs",
@@ -645,7 +645,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <ul>`;
 
   content += selectedRacesForSettlement
-    .map((race) => `<li><a href="${race.link}" target="_blank">${race.name}</a></li>`)
+    .map((race) => `<li>${race.name}</li>`)
     .join("");
 
   content += `</ul>

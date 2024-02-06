@@ -700,15 +700,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <ul>`;
 
   content += selectedRacesForSettlement
-    .map((race) => `
-    <li class="list-inline-item">
-      <div>
-        <a href="${race.link}" target="_blank">
-          <img src="${race.image}" alt="${race.name}" class="img-thumbnail" style="max-width: 70px; max-height: auto; margin-bottom: 5px;">
-        </a>
-        <p class="text-center">${race.name}</p>
-      </div>
-    </li>`)
+    .map((race) => `<li><a href="${race.link}" target="_blank">${race.name}</a></li>`)
     .join("");
 
   content += `</ul>

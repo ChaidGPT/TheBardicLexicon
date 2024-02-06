@@ -280,257 +280,206 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "Aarakocra",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/aarakocra.html",
-      image: "../images/aarakocraRace.webp"
     },
     {
       name: "Aasimar",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/aasimar.html",
-      image: "../images/aasimar.webp"
     },
     {
       name: "Astral Elves",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/astralElf.html",
-      image: "../images/astralElf.webp"
     },
     {
       name: "Autognomes",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/autognome.html",
-      image: "../images/autognome.jpg"
     },
     {
       name: "Bugbears",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/bugbear.html",
-      image: "../images/bugbearRace.jpg"
     },
     {
       name: "Cats",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/cats.html",
-      image: "../images/cats.webp"
     },
     {
       name: "Centaurs",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/centaur.html",
-      image: "../images/centaurRace.webp"
     },
     {
       name: "Changelings",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/changeling.html",
-      image: "../images/changeling.webp"
     },
     {
       name: "Deep Gnomes",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/deepGnome.html",
-      image: "../images/deepGnome.webp"
     },
     {
       name: "Dogs",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/dogs.html",
-      image: "../images/dogs.avif"
     },
     {
       name: "Dragonborn",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/dragonborn.html",
-      image: "../images/dragonborn.png"
     },
     {
       name: "Duergar",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/duergar.html",
-      image: "../images/duergar.webp"
     },
     {
       name: "Dwarves",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/dwarf.html",
-      image: "../images/dwarf.png"
     },
     {
       name: "Eladrin",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/eladrin.html",
-      image: "../images/eladrin.webp"
     },
     {
       name: "Elves",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/elf.html",
-      image: "../images/elf.png"
     },
     {
       name: "Fairies",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/fairy.html",
-      image: "../images/fairy.png"
     },
     {
       name: "Firbolgs",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/firbolg.html",
-      image: "../images/firbolg.webp"
     },
     {
       name: "Air Genasi",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/genasiAir.html",
-      image: "../images/genasiAir.png"
     },
     {
       name: "Earth Genasi",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/genasiEarth.html",
-      image: "../images/genasiEarth.jpg"
     },
     {
       name: "Fire Genasi",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/genasiFire.html",
-      image: "../images/genasiFire.jpg"
     },
     {
       name: "Water Genasi",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/genasiWater.html",
-      image: "../images/genasiWater.webp"
     },
     {
       name: "Giff",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/giff.html",
-      image: "../images/giff.webp"
     },
     {
       name: "Githyanki",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/githyanki.html",
-      image: "../images/githyanki.webp"
     },
     {
       name: "Githzerai",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/githzerai.html",
-      image: "../images/githzerai.webp"
     },
     {
       name: "Gnomes",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/gnome.html",
-      image: "../images/gnome.png"
     },
     {
       name: "Goblins",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/goblin.html",
-      image: "../images/goblinRace.webp"
     },
     {
       name: "Goliaths",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/goliath.html",
-      image: "../images/goliath.png"
     },
     {
       name: "Hadozee",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/hadozee.html",
-      image: "../images/hadozee.webp"
     },
     {
       name: "Half-Elves",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/halfElf.html",
-      image: "../images/halfelf.png"
     },
     {
       name: "Halflings",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/halfling.html",
-      image: "../images/halfling.png"
     },
     {
       name: "Half-Orcs",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/halfOrc.html",
-      image: "../images/halfOrc.png"
     },
     {
       name: "Harengon",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/harengon.html",
-      image: "../images/harengon.webp"
     },
     {
       name: "Hobgoblins",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/hobgoblin.html",
-      image: "../images/hobgoblinRace.jpg"
     },
     {
       name: "Humans",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/human.html",
-      image: "../images/human.png"
     },
     {
       name: "Kenku",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/kenku.html",
-      image: "../images/kenku.webp"
     },
     {
       name: "Kobold",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/kobold.html",
-      image: "../images/koboldRace.webp"
     },
     {
       name: "Lizardfolk",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/lizardfolk.html",
-      image: "../images/lizardfolk.webp"
     },
     {
       name: "Minotaurs",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/minotaur.html",
-      image: "../images/minotaurRace.png"
     },
     {
       name: "Orcs",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/orc.html",
-      image: "../images/orcRace.webp"
     },
     {
       name: "Owlin",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/owlin.html",
-      image: "../images/owlin.jpg"
     },
     {
       name: "Plasmoids",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/plasmoid.html",
-      image: "../images/plasmoid.webp"
     },
     {
       name: "Satyrs",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/satyr.html",
-      image: "../images/satyr.png"
     },
     {
       name: "Sea Elves",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/seaElf.html",
-      image: "../images/seaElf.png"
     },
     {
       name: "Shadar-kai",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/shadarkai.html",
-      image: "../images/Shadarkai.webp"
     },
     {
       name: "Shifters",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/shifter.html",
-      image: "../images/shifter.webp"
     },
     {
       name: "Tabaxi",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/tabaxi.html",
-      image: "../images/tabaxi.webp"
     },
     {
       name: "Thri-kreen",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/thrikreen.html",
-      image: "../images/thrikreen.webp"
     },
     {
       name: "Tieflings",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/tiefling.html",
-      image: "../images/tiefling.png"
     },
     {
       name: "Tortles",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/tortle.html",
-      image: "../images/tortle.webp"
     },
     {
       name: "Tritons",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/triton.html",
-      image: "../images/triton.webp"
     },
     {
       name: "Yuan-Ti",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/yuanti.html",
-      image: "../images/yuanti.webp"
     },
   ];
   
@@ -700,15 +649,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <ul>`;
 
   content += selectedRacesForSettlement
-    .map((race) => `
-    <li class="list-inline-item">
-      <div>
-        <a href="${race.link}" target="_blank">
-          <img src="${race.image}" alt="${race.name}" class="img-thumbnail" style="max-width: 70px; max-height: auto; margin-bottom: 5px;">
-        </a>
-        <p class="text-center">${race.name}</p>
-      </div>
-    </li>`)
+    .map((race) => `<li><a href="${race.link}" target="_blank">${race.name}</a></li>`)
     .join("");
 
   content += `</ul>

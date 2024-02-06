@@ -702,13 +702,10 @@ document.addEventListener("DOMContentLoaded", function () {
   content += selectedRacesForSettlement
     .map((race) => `
     <li class="list-inline-item">
-      <div>
-        <a href="${race.link}" target="_blank">
-          <img src="${race.image}" alt="${race.name}" class="img-thumbnail" style="max-width: 70px; max-height: auto; margin-bottom: 5px;">
-        </a>
-        <p class="text-center">${race.name}</p>
-      </div>
-    </li>`)
+    <a href="${race.link}" target="_blank">
+      <img src="${race.image}" alt="${race.name}" class="img-thumbnail" style="max-width: 50px; max-height: 50px; margin-right: 5px;">
+    </a>
+  </li>`)
     .join("");
 
   content += `</ul>

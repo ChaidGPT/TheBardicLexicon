@@ -24,154 +24,156 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "Small Town",
       link: "https://example.com/small_town",
-      description: "Quaint town known for its tight-knit community."
     },
     {
       name: "River Town",
       link: "https://example.com/river_town",
-      description: "Thrives on water-based trade and fishing."
     },
     {
-      name: "Mining Outpost",
-      link: "https://example.com/mining_outpost",
-      description: "Settlement focused on mining and resource extraction."
+      name: "Harbor Town",
+      link: "https://example.com/harbor_town",
     },
     {
-      name: "Coastal Village",
-      link: "https://example.com/coastal_village",
-      description: "Relies on maritime activities and coastal trade."
+      name: "Trade Outpost",
+      link: "https://example.com/trade_outpost",
     },
     {
-      name: "Forest Hamlet",
-      link: "https://example.com/forest_hamlet",
-      description: "Hidden within a dense forest, in harmony with nature."
-    },
-    {
-      name: "Mountain Stronghold",
-      link: "https://example.com/mountain_stronghold",
-      description: "Built into the mountainside for defense and resources."
-    },
-    {
-      name: "Desert Oasis",
-      link: "https://example.com/desert_oasis",
-      description: "Vital stop in the desert for travelers and adventurers."
-    },
-    {
-      name: "Swamp Village",
-      link: "https://example.com/swamp_village",
-      description: "Relies on the unique resources and challenges of the swamp."
-    },
-    {
-      name: "Magical Enclave",
-      link: "https://example.com/magical_enclave",
-      description: "Hub for magical research, study, and the mystical arts."
-    },
-    {
-      name: "Nomadic Camp",
-      link: "https://example.com/nomadic_camp",
-      description: "Mobile settlement of wandering tribes or travelers."
-    },
-    {
-      name: "Underground City",
-      link: "https://example.com/underground_city",
-      description: "Thrives below the surface, away from the eyes above."
-    },
-    {
-      name: "Floating Citadel",
-      link: "https://example.com/floating_citadel",
-      description: "A marvel in the sky or above water, feat. magical or technological engineering."
-    },
-    {
-      name: "Beachside Resort",
-      link: "https://example.com/beachside_resort",
-      description: "Popular destination for relaxation and tourism."
-    },
-    {
-      name: "Borderland Garrison",
-      link: "https://example.com/borderland_garrison",
-      description: "Defensive outpost strategically located at a border."
-    },
-    {
-      name: "Trade Hub",
-      link: "https://example.com/trade_hub",
-      description: "Bustling center of commerce for traders, merchants, and caravans."
-    },
-    {
-      name: "Outpost",
-      link: "https://example.com/outpost",
-      description: "A remote settlement, often serving as a military or exploratory outpost."
-    },
-    {
-      name: "Stronghold",
-      link: "https://example.com/stronghold",
-      description: "Well-fortified settlement known for its defenses and security."
+      name: "Mining Town",
+      link: "https://example.com/mining_town",
     },
     {
       name: "Fishing Village",
       link: "https://example.com/fishing_village",
-      description: "Relies on fishing and coastal activities for sustenance."
     },
     {
-      name: "Market Town",
-      link: "https://example.com/market_town",
-      description: "Thriving center for trade and commerce, known for its markets."
+      name: "Forest Encampment",
+      link: "https://example.com/forest_encampment",
+    },
+    {
+      name: "Mage's Enclave",
+      link: "https://example.com/mages_enclave",
+    },
+    {
+      name: "Monastery",
+      link: "https://example.com/monastery",
+    },
+    {
+      name: "Nomadic Camp",
+      link: "https://example.com/nomadic_camp",
+    },
+    {
+      name: "Dwarven Stronghold",
+      link: "https://example.com/dwarven_stronghold",
+    },
+    {
+      name: "Elven Treetop Village",
+      link: "https://example.com/elven_treetop_village",
+    },
+    {
+      name: "Goblin Market",
+      link: "https://example.com/goblin_market",
+    },
+    {
+      name: "Swamp Settlement",
+      link: "https://example.com/swamp_settlement",
+    },
+    {
+      name: "Orcish Encampment",
+      link: "https://example.com/orcish_encampment",
+    },
+    {
+      name: "Magical Academy",
+      link: "https://example.com/magical_academy",
+    },
+    {
+      name: "Haunted Hamlet",
+      link: "https://example.com/haunted_hamlet",
+    },
+    {
+      name: "Underground City",
+      link: "https://example.com/underground_city",
+    },
+    {
+      name: "Coastal Citadel",
+      link: "https://example.com/coastal_citadel",
+    },
+    {
+      name: "Beastman Tribe Camp",
+      link: "https://example.com/beastman_tribe_camp",
+    },
+    {
+      name: "Celestial Outpost",
+      link: "https://example.com/celestial_outpost",
     },
     {
       name: "Arcane Refuge",
       link: "https://example.com/arcane_refuge",
-      description: "A secluded place for magical study, often hidden from the world."
     },
     {
-      name: "Settler's Camp",
-      link: "https://example.com/settlers_camp",
-      description: "Temporary camp for settlers establishing new territories."
+      name: "Desert Oasis",
+      link: "https://example.com/desert_oasis",
     },
     {
-      name: "Nomad's Oasis",
-      link: "https://example.com/nomads_oasis",
-      description: "Mobile oasis settlement for nomadic tribes in the desert."
+      name: "Royal Capital",
+      link: "https://example.com/royal_capital",
     },
     {
-      name: "Skyward Retreat",
-      link: "https://example.com/skyward_retreat",
-      description: "Elevated settlement in the mountains or trees, offering panoramic views."
+      name: "Mageocracy",
+      link: "https://example.com/mageocracy",
     },
     {
-      name: "Lakeside Haven",
-      link: "https://example.com/lakeside_haven",
-      description: "Tranquil settlement nestled by a picturesque lake."
+      name: "Merchant Metropolis",
+      link: "https://example.com/merchant_metropolis",
     },
     {
-      name: "Refugee Camp",
-      link: "https://example.com/refugee_camp",
-      description: "Temporary shelter for refugees, often near conflict zones."
+      name: "Demonic Citadel",
+      link: "https://example.com/demonic_citadel",
     },
     {
-      name: "Cavern Enclave",
-      link: "https://example.com/cavern_enclave",
-      description: "Settlement built within natural caverns, hidden from the surface."
+      name: "Dragon's Roost",
+      link: "https://example.com/dragons_roost",
     },
     {
-      name: "Sylvan Retreat",
-      link: "https://example.com/sylvan_retreat",
-      description: "Hidden settlement in the heart of a magical or enchanted forest."
+      name: "Floating City",
+      link: "https://example.com/floating_city",
     },
     {
-      name: "Pirate Cove",
-      link: "https://example.com/pirate_cove",
-      description: "Hidden harbor for pirates, smugglers, and sailors of ill repute."
+      name: "Necropolis",
+      link: "https://example.com/necropolis",
     },
     {
-      name: "Watchtower Outpost",
-      link: "https://example.com/watchtower_outpost",
-      description: "Guarded outpost with a strategic watchtower for surveillance."
+      name: "Archipelago Metropolis",
+      link: "https://example.com/archipelago_metropolis",
     },
     {
-      name: "Wayfarer's Rest",
-      link: "https://example.com/wayfarers_rest",
-      description: "Rest stop for travelers and adventurers journeying through the wilderness."
+      name: "Giantkin Citadel",
+      link: "https://example.com/giantkin_citadel",
     },
-  ];  
+    {
+      name: "Subterranean Metropolis",
+      link: "https://example.com/subterranean_metropolis",
+    },
+    {
+      name: "Celestial City",
+      link: "https://example.com/celestial_city",
+    },
+    {
+      name: "City of the Dead",
+      link: "https://example.com/city_of_the_dead",
+    },
+    {
+      name: "Empyreal Bastion",
+      link: "https://example.com/empyreal_bastion",
+    },
+    {
+      name: "Floating Gardens",
+      link: "https://example.com/floating_gardens",
+    },
+    {
+      name: "Elemental Conflux",
+      link: "https://example.com/elemental_conflux",
+    },
+  ];
 
   const settlementPOI = [
     {
@@ -279,202 +281,201 @@ document.addEventListener("DOMContentLoaded", function () {
   const races = [
     {
       name: "Aarakocra",
-      link: "https://example.com/aarakocra",
+      link: "https://example.com/human",
     },
     {
       name: "Aasimar",
-      link: "https://example.com/aasimar",
+      link: "https://example.com/elf",
     },
     {
-      name: "Astral Elves",
-      link: "https://example.com/astral-elves",
+      name: "AasimarAstral Elves",
+      link: "https://example.com/dwarf",
     },
     {
       name: "Autognomes",
-      link: "https://example.com/autognomes",
+      link: "https://example.com/human",
     },
     {
       name: "Bugbears",
-      link: "https://example.com/bugbears",
+      link: "https://example.com/elf",
     },
     {
       name: "Cats",
-      link: "https://example.com/cats",
+      link: "https://example.com/dwarf",
     },
     {
-      name: "Centaurs",
-      link: "https://example.com/centaurs",
+      name: "Centaur",
+      link: "https://example.com/human",
     },
     {
-      name: "Changelings",
-      link: "https://example.com/changelings",
+      name: "Changlings",
+      link: "https://example.com/elf",
     },
     {
       name: "Deep Gnomes",
-      link: "https://example.com/deep-gnomes",
+      link: "https://example.com/dwarf",
     },
     {
       name: "Dogs",
-      link: "https://example.com/dogs",
+      link: "https://example.com/dwarf",
     },
     {
       name: "Dragonborn",
-      link: "https://example.com/dragonborn",
+      link: "https://example.com/human",
     },
     {
       name: "Duergar",
-      link: "https://example.com/duergar",
+      link: "https://example.com/elf",
     },
     {
       name: "Dwarves",
-      link: "https://example.com/dwarves",
+      link: "https://example.com/dwarf",
     },
     {
       name: "Eladrin",
-      link: "https://example.com/eladrin",
+      link: "https://example.com/human",
     },
     {
       name: "Elves",
-      link: "https://example.com/elves",
+      link: "https://example.com/elf",
     },
     {
       name: "Firbolgs",
-      link: "https://example.com/firbolgs",
+      link: "https://example.com/dwarf",
     },
     {
       name: "Air Genasi",
-      link: "https://example.com/air-genasi",
+      link: "https://example.com/human",
     },
     {
       name: "Earth Genasi",
-      link: "https://example.com/earth-genasi",
+      link: "https://example.com/elf",
     },
     {
       name: "Fire Genasi",
-      link: "https://example.com/fire-genasi",
+      link: "https://example.com/dwarf",
     },
     {
       name: "Water Genasi",
-      link: "https://example.com/water-genasi",
+      link: "https://example.com/dwarf",
     },
     {
       name: "Giff",
-      link: "https://example.com/giff",
+      link: "https://example.com/human",
     },
     {
       name: "Githyanki",
-      link: "https://example.com/githyanki",
+      link: "https://example.com/elf",
     },
     {
       name: "Githzerai",
-      link: "https://example.com/githzerai",
+      link: "https://example.com/dwarf",
     },
     {
       name: "Gnomes",
-      link: "https://example.com/gnomes",
+      link: "https://example.com/human",
     },
     {
       name: "Goblins",
-      link: "https://example.com/goblins",
+      link: "https://example.com/elf",
     },
     {
-      name: "Goliaths",
-      link: "https://example.com/goliaths",
+      name: "Goliath",
+      link: "https://example.com/dwarf",
     },
     {
       name: "Hadozee",
-      link: "https://example.com/hadozee",
+      link: "https://example.com/human",
     },
     {
-      name: "Half-Elves",
-      link: "https://example.com/half-elves",
+      name: "Hald Elves",
+      link: "https://example.com/elf",
     },
     {
-      name: "Half-Orcs",
-      link: "https://example.com/half-orcs",
+      name: "Half Orcs",
+      link: "https://example.com/dwarf",
     },
     {
       name: "Harengon",
-      link: "https://example.com/harengon",
+      link: "https://example.com/dwarf",
     },
     {
       name: "Hobgoblins",
-      link: "https://example.com/hobgoblins",
+      link: "https://example.com/human",
     },
     {
       name: "Humans",
-      link: "https://example.com/humans",
+      link: "https://example.com/elf",
     },
     {
       name: "Kenku",
-      link: "https://example.com/kenku",
+      link: "https://example.com/dwarf",
     },
     {
       name: "Kobold",
-      link: "https://example.com/kobold",
+      link: "https://example.com/human",
     },
     {
       name: "Lizardfolk",
-      link: "https://example.com/lizardfolk",
+      link: "https://example.com/elf",
     },
     {
-      name: "Dwarves",
-      link: "https://example.com/dwarves",
+      name: "Dwarf",
+      link: "https://example.com/dwarf",
     },
     {
-      name: "Minotaurs",
-      link: "https://example.com/minotaurs",
+      name: "Minotaur",
+      link: "https://example.com/human",
     },
     {
       name: "Orcs",
-      link: "https://example.com/orcs",
+      link: "https://example.com/elf",
     },
     {
       name: "Owlin",
-      link: "https://example.com/owlin",
+      link: "https://example.com/dwarf",
     },
     {
-      name: "Satyrs",
-      link: "https://example.com/satyrs",
+      name: "Satyr",
+      link: "https://example.com/dwarf",
     },
     {
       name: "Sea Elves",
-      link: "https://example.com/sea-elves",
+      link: "https://example.com/human",
     },
     {
-      name: "Shadar-kai",
-      link: "https://example.com/shadar-kai",
+      name: "Shadarkai",
+      link: "https://example.com/elf",
     },
     {
       name: "Shifters",
-      link: "https://example.com/shifters",
+      link: "https://example.com/dwarf",
     },
     {
       name: "Tabaxi",
-      link: "https://example.com/tabaxi",
+      link: "https://example.com/human",
     },
     {
-      name: "Thri-kreen",
-      link: "https://example.com/thri-kreen",
+      name: "Thrikreen",
+      link: "https://example.com/elf",
     },
     {
-      name: "Tieflings",
-      link: "https://example.com/tieflings",
+      name: "Tiefling",
+      link: "https://example.com/dwarf",
     },
     {
-      name: "Tortles",
-      link: "https://example.com/tortles",
+      name: "Tortle",
+      link: "https://example.com/human",
     },
     {
-      name: "Tritons",
-      link: "https://example.com/tritons",
+      name: "Triton",
+      link: "https://example.com/elf",
     },
     {
-      name: "Yuan-Ti",
-      link: "https://example.com/yuan-ti",
+      name: "Yuan Ti",
+      link: "https://example.com/dwarf",
     },
   ];
-  
 
   //   End Settlement Arrays
 
@@ -619,41 +620,33 @@ document.addEventListener("DOMContentLoaded", function () {
         }
   
         content += `
-    <div class="row">
-      <div class="col-md-6">
-        <h4><strong>${selectedSettlement.name}</strong></h4>
-        <p>${selectedSettlement.description}</p>
-      </div>
-      <div class="col-md-6">
-        <div class="container">
-          <p><strong>Points of Interest:</strong></p>
-          <ul>`;
-
-  content += selectedSettlementPOI
-    .map((item) => `<li>${item.name}</li>`)
-    .join("");
-
-  content += `</ul>
-        </div>
-
-        <div class="container">
-          <p><strong>Inhabitants:</strong></p>
-          <ul>`;
-
-  content += selectedRacesForSettlement
-    .map((race) => `<li>${race.name}</li>`)
-    .join("");
-
-  content += `</ul>
-      </div>
-    </div>
-  </div>`;
-
-  if (i < settlementsCount - 1) {
-    // Add some margin between settlements
-    content += `<div class="my-4"></div> <hr>`;
-  }
-}
+          <div class="row">
+            <div class="col-md-6">
+              <p><strong>Settlement Type: &nbsp</strong>${selectedSettlement.name}</p>
+              <p><strong>Points of Interest:</strong></p><ul>`;
+  
+        content += selectedSettlementPOI
+          .map((item) => `<li>${item.name}</li>`)
+          .join("");
+  
+        content += `</ul>
+            </div>
+            <div class="col-md-6">
+              <br><br><p><strong>Races:</strong></p><ul>`;
+  
+        content += selectedRacesForSettlement
+          .map((race) => `<li>${race.name}</li>`)
+          .join("");
+  
+        content += `</ul>
+            </div>
+          </div>`;
+  
+        if (i < settlementsCount - 1) {
+          // Add some margin between settlements
+          content += `<div class="my-4"></div> <hr>`;
+        }
+      }
   
       content += `</div>`;
       generatedContent.innerHTML = content;

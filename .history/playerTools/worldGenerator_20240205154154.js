@@ -24,154 +24,194 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "Small Town",
       link: "https://example.com/small_town",
-      description: "Quaint town known for its tight-knit community."
+      description: "This is a small and quaint town, known for its tight-knit community and simplicity.",
     },
     {
       name: "River Town",
       link: "https://example.com/river_town",
-      description: "Thrives on water-based trade and fishing."
+      description: "Situated along a winding river, this town thrives on water-based trade and fishing.",
     },
     {
-      name: "Mining Outpost",
-      link: "https://example.com/mining_outpost",
-      description: "Settlement focused on mining and resource extraction."
+      name: "Harbor Town",
+      link: "https://example.com/harbor_town",
+      description: "A bustling harbor town with a lively port, attracting sailors and traders from afar.",
     },
     {
-      name: "Coastal Village",
-      link: "https://example.com/coastal_village",
-      description: "Relies on maritime activities and coastal trade."
+      name: "Trade Outpost",
+      link: "https://example.com/trade_outpost",
+      description: "An isolated trade outpost strategically positioned for crossroads commerce.",
     },
     {
-      name: "Forest Hamlet",
-      link: "https://example.com/forest_hamlet",
-      description: "Hidden within a dense forest, in harmony with nature."
-    },
-    {
-      name: "Mountain Stronghold",
-      link: "https://example.com/mountain_stronghold",
-      description: "Built into the mountainside for defense and resources."
-    },
-    {
-      name: "Desert Oasis",
-      link: "https://example.com/desert_oasis",
-      description: "Vital stop in the desert for travelers and adventurers."
-    },
-    {
-      name: "Swamp Village",
-      link: "https://example.com/swamp_village",
-      description: "Relies on the unique resources and challenges of the swamp."
-    },
-    {
-      name: "Magical Enclave",
-      link: "https://example.com/magical_enclave",
-      description: "Hub for magical research, study, and the mystical arts."
-    },
-    {
-      name: "Nomadic Camp",
-      link: "https://example.com/nomadic_camp",
-      description: "Mobile settlement of wandering tribes or travelers."
-    },
-    {
-      name: "Underground City",
-      link: "https://example.com/underground_city",
-      description: "Thrives below the surface, away from the eyes above."
-    },
-    {
-      name: "Floating Citadel",
-      link: "https://example.com/floating_citadel",
-      description: "A marvel in the sky or above water, feat. magical or technological engineering."
-    },
-    {
-      name: "Beachside Resort",
-      link: "https://example.com/beachside_resort",
-      description: "Popular destination for relaxation and tourism."
-    },
-    {
-      name: "Borderland Garrison",
-      link: "https://example.com/borderland_garrison",
-      description: "Defensive outpost strategically located at a border."
-    },
-    {
-      name: "Trade Hub",
-      link: "https://example.com/trade_hub",
-      description: "Bustling center of commerce for traders, merchants, and caravans."
-    },
-    {
-      name: "Outpost",
-      link: "https://example.com/outpost",
-      description: "A remote settlement, often serving as a military or exploratory outpost."
-    },
-    {
-      name: "Stronghold",
-      link: "https://example.com/stronghold",
-      description: "Well-fortified settlement known for its defenses and security."
+      name: "Mining Town",
+      link: "https://example.com/mining_town",
+      description: "Nestled in the mountains, this town thrives on mining and resource extraction.",
     },
     {
       name: "Fishing Village",
       link: "https://example.com/fishing_village",
-      description: "Relies on fishing and coastal activities for sustenance."
+      description: "A humble village focused on fishing, providing a serene coastal lifestyle.",
     },
     {
-      name: "Market Town",
-      link: "https://example.com/market_town",
-      description: "Thriving center for trade and commerce, known for its markets."
+      name: "Forest Encampment",
+      link: "https://example.com/forest_encampment",
+      description: "Hidden in the heart of the forest, this settlement coexists with nature.",
+    },
+    {
+      name: "Mage's Enclave",
+      link: "https://example.com/mages_enclave",
+      description: "A magical enclave where mages gather to study and harness arcane powers.",
+    },
+    {
+      name: "Monastery",
+      link: "https://example.com/monastery",
+      description: "A peaceful monastery where monks practice ancient traditions and contemplation.",
+    },
+    {
+      name: "Nomadic Camp",
+      link: "https://example.com/nomadic_camp",
+      description: "A mobile camp of nomads, moving across vast landscapes in search of resources.",
+    },
+    {
+      name: "Dwarven Stronghold",
+      link: "https://example.com/dwarven_stronghold",
+      description: "Carved into the mountains, this stronghold is the epitome of dwarven craftsmanship.",
+    },
+    {
+      name: "Elven Treetop Village",
+      link: "https://example.com/elven_treetop_village",
+      description: "An elevated village nestled in the trees, where elves live in harmony with nature.",
+    },
+    {
+      name: "Goblin Market",
+      link: "https://example.com/goblin_market",
+      description: "A chaotic market run by goblins, offering a variety of unique and peculiar goods.",
+    },
+    {
+      name: "Swamp Settlement",
+      link: "https://example.com/swamp_settlement",
+      description: "Built on stilts, this settlement thrives in the mysterious and challenging swamp environment.",
+    },
+    {
+      name: "Orcish Encampment",
+      link: "https://example.com/orcish_encampment",
+      description: "An encampment where orcs gather, known for their martial prowess and strength.",
+    },
+    {
+      name: "Magical Academy",
+      link: "https://example.com/magical_academy",
+      description: "A prestigious academy where aspiring wizards and sorcerers master the arcane arts.",
+    },
+    {
+      name: "Haunted Hamlet",
+      link: "https://example.com/haunted_hamlet",
+      description: "A mysterious hamlet with a haunting past, rumored to be visited by otherworldly entities.",
+    },
+    {
+      name: "Underground City",
+      link: "https://example.com/underground_city",
+      description: "Built beneath the surface, this city thrives in the subterranean realms.",
+    },
+    {
+      name: "Coastal Citadel",
+      link: "https://example.com/coastal_citadel",
+      description: "A fortified citadel overlooking the coast, providing protection from maritime threats.",
+    },
+    {
+      name: "Beastman Tribe Camp",
+      link: "https://example.com/beastman_tribe_camp",
+      description: "A camp where diverse beastman tribes convene, each with unique traditions and cultures.",
+    },
+    {
+      name: "Celestial Outpost",
+      link: "https://example.com/celestial_outpost",
+      description: "An outpost aligned with celestial forces, serving as a beacon of divine influence.",
     },
     {
       name: "Arcane Refuge",
       link: "https://example.com/arcane_refuge",
-      description: "A secluded place for magical study, often hidden from the world."
+      description: "A refuge for those seeking protection from magical threats, hidden from the mundane world.",
     },
     {
-      name: "Settler's Camp",
-      link: "https://example.com/settlers_camp",
-      description: "Temporary camp for settlers establishing new territories."
+      name: "Desert Oasis",
+      link: "https://example.com/desert_oasis",
+      description: "An oasis in the midst of the desert, providing a vital water source and respite for travelers.",
     },
     {
-      name: "Nomad's Oasis",
-      link: "https://example.com/nomads_oasis",
-      description: "Mobile oasis settlement for nomadic tribes in the desert."
+      name: "Royal Capital",
+      link: "https://example.com/royal_capital",
+      description: "The majestic capital ruled by royalty, embodying grandeur and political significance.",
     },
     {
-      name: "Skyward Retreat",
-      link: "https://example.com/skyward_retreat",
-      description: "Elevated settlement in the mountains or trees, offering panoramic views."
+      name: "Mageocracy",
+      link: "https://example.com/mageocracy",
+      description: "A society governed by powerful mages, where magic influences every aspect of life.",
     },
     {
-      name: "Lakeside Haven",
-      link: "https://example.com/lakeside_haven",
-      description: "Tranquil settlement nestled by a picturesque lake."
+      name: "Merchant Metropolis",
+      link: "https://example.com/merchant_metropolis",
+      description: "A bustling metropolis known for its vibrant markets and flourishing trade.",
     },
     {
-      name: "Refugee Camp",
-      link: "https://example.com/refugee_camp",
-      description: "Temporary shelter for refugees, often near conflict zones."
+      name: "Demonic Citadel",
+      link: "https://example.com/demonic_citadel",
+      description: "A citadel tainted by demonic influence, harboring dark secrets and malevolent power.",
     },
     {
-      name: "Cavern Enclave",
-      link: "https://example.com/cavern_enclave",
-      description: "Settlement built within natural caverns, hidden from the surface."
+      name: "Dragon's Roost",
+      link: "https://example.com/dragons_roost",
+      description: "A roost inhabited by dragons, where these majestic creatures reign supreme.",
     },
     {
-      name: "Sylvan Retreat",
-      link: "https://example.com/sylvan_retreat",
-      description: "Hidden settlement in the heart of a magical or enchanted forest."
+      name: "Floating City",
+      link: "https://example.com/floating_city",
+      description: "A city suspended in the sky, supported by magical forces and awe-inspiring architecture.",
     },
     {
-      name: "Pirate Cove",
-      link: "https://example.com/pirate_cove",
-      description: "Hidden harbor for pirates, smugglers, and sailors of ill repute."
+      name: "Necropolis",
+      link: "https://example.com/necropolis",
+      description: "A city of the dead, where undead creatures roam and ancient tombs hold dark secrets.",
     },
     {
-      name: "Watchtower Outpost",
-      link: "https://example.com/watchtower_outpost",
-      description: "Guarded outpost with a strategic watchtower for surveillance."
+      name: "Archipelago Metropolis",
+      link: "https://example.com/archipelago_metropolis",
+      description: "A metropolis spread across a chain of islands, connected by maritime trade and travel.",
     },
     {
-      name: "Wayfarer's Rest",
-      link: "https://example.com/wayfarers_rest",
-      description: "Rest stop for travelers and adventurers journeying through the wilderness."
+      name: "Giantkin Citadel",
+      link: "https://example.com/giantkin_citadel",
+      description: "A citadel inhabited by giantkin, where colossal beings shape the landscape to their will.",
     },
-  ];  
+    {
+      name: "Subterranean Metropolis",
+      link: "https://example.com/subterranean_metropolis",
+      description: "An underground metropolis with intricate tunnels and chambers, hidden from the surface world.",
+    },
+    {
+      name: "Celestial City",
+      link: "https://example.com/celestial_city",
+      description: "A city touched by celestial forces, radiating divine energy and embodying purity.",
+    },
+    {
+      name: "City of the Dead",
+      link: "https://example.com/city_of_the_dead",
+      description: "A city inhabited by undead beings, where the line between life and death blurs.",
+    },
+    {
+      name: "Empyreal Bastion",
+      link: "https://example.com/empyreal_bastion",
+      description: "A bastion elevated to the heavens, symbolizing celestial protection and divine guardianship.",
+    },
+    {
+      name: "Floating Gardens",
+      link: "https://example.com/floating_gardens",
+      description: "Gardens suspended in the air, adorned with vibrant flora and offering breathtaking views.",
+    },
+    {
+      name: "Elemental Conflux",
+      link: "https://example.com/elemental_conflux",
+      description: "A conflux where elemental forces converge, shaping the landscape and influencing its inhabitants.",
+    },
+  ];
 
   const settlementPOI = [
     {
@@ -621,8 +661,8 @@ document.addEventListener("DOMContentLoaded", function () {
         content += `
     <div class="row">
       <div class="col-md-6">
-        <h4><strong>${selectedSettlement.name}</strong></h4>
-        <p>${selectedSettlement.description}</p>
+        <p><strong>Settlement Type: &nbsp</strong>${selectedSettlement.name}</p>
+        <p><strong>Description:</strong> ${selectedSettlement.description}</p>
       </div>
       <div class="col-md-6">
         <div class="container">
@@ -637,7 +677,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
 
         <div class="container">
-          <p><strong>Inhabitants:</strong></p>
+          <p><strong>Races:</strong></p>
           <ul>`;
 
   content += selectedRacesForSettlement

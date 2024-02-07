@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 123,
+            "activePatchIndex": 124,
             "patches": [
                 {
                     "date": 1698696596782,
@@ -500,6 +500,10 @@
                 {
                     "date": 1707345227011,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,9 +84,9 @@\n     {\r\n       name: \"Underground City\",\r\n       link: \"https://example.com/underground_city\",\r\n       description: \"Thrives below the surface, away from the eyes above.\",\r\n-      image: \"../images/locations/smallTown.jpg\",\r\n+      image: \"../images/locations/undergroundCity.jpg\",\r\n     },\r\n     {\r\n       name: \"Floating Citadel\",\r\n       link: \"https://example.com/floating_citadel\",\r\n"
+                },
+                {
+                    "date": 1707346092572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -764,9 +764,9 @@\n     .map((race) => `\r\n     <li class=\"list-inline-item\">\r\n       <div>\r\n         <a href=\"${race.link}\" target=\"_blank\">\r\n-          <img src=\"${race.image}\" alt=\"${race.name}\" class=\"img-thumbnail\" style=\"max-width: 70px; max-height: auto; margin-bottom: 5px;\">\r\n+          <img src=\"${race.image}\" alt=\"${race.name}\" class=\"img-thumbnail bestiary-figure\" style=\"max-width: 70px; max-height: auto; margin-bottom: 5px;\">\r\n         </a>\r\n         <p class=\"text-center\">${race.name}</p>\r\n       </div>\r\n     </li>`)\r\n"
                 }
             ],
             "date": 1698696596782,

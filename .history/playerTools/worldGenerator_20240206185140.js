@@ -715,12 +715,9 @@ document.addEventListener("DOMContentLoaded", function () {
           <h5><strong>Points of Interest:</strong></h5>
           <ul>`;
 
-          content += selectedSettlementPOI
-          .map((item) => `
-            <li>
-              <strong>${item.name}:</strong> ${item.description} <a href="${item.link}" target="_blank">(Learn more)</a>
-            </li>`)
-          .join("");        
+  content += selectedSettlementPOI
+    .map((item) => `<li>${item.name}</li>`)
+    .join("");
 
   content += `</ul>
         </div>

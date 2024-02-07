@@ -177,127 +177,102 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "Pilgrimage site",
       link: "https://example.com/pilgrimage_site",
-      description: "A sacred site that attracts pilgrims from distant lands."
     },
     {
       name: "Temple to the Gods",
       link: "https://example.com/temple_to_the_gods",
-      description: "A grand temple dedicated to the worship of powerful deities."
     },
     {
       name: "Large sewer system",
       link: "https://example.com/large_sewer_system",
-      description: "An extensive underground network of sewers, perfect for urban exploration."
     },
     {
       name: "Mysterious Standing Stones",
       link: "https://example.com/mysterious_standing_stones",
-      description: "Ancient stones with mystical symbols, shrouded in mystery and lore."
     },
     {
       name: "Enchanted Garden",
       link: "https://example.com/enchanted_garden",
-      description: "A magical garden filled with flora and fauna with enchanting properties."
     },
     {
       name: "Arena of Champions",
       link: "https://example.com/arena_of_champions",
-      description: "A coliseum where mighty warriors engage in epic battles for glory."
     },
     {
       name: "Mage's Library",
       link: "https://example.com/mages_library",
-      description: "A repository of arcane knowledge, guarded by powerful spells and enchantments."
     },
     {
       name: "Haunted Manor",
       link: "https://example.com/haunted_manor",
-      description: "A spooky and eerie manor inhabited by restless spirits and ghostly apparitions."
     },
     {
       name: "Thieves' Guild Hideout",
       link: "https://example.com/thieves_guild_hideout",
-      description: "A secret den where skilled thieves plan and execute their daring heists."
     },
     {
       name: "Ancient Ruins",
       link: "https://example.com/ancient_ruins",
-      description: "The remnants of a once-great civilization, now abandoned and surrounded by history."
     },
     {
       name: "Goblin Market",
       link: "https://example.com/goblin_market",
-      description: "A bustling market run by mischievous goblins, offering rare and peculiar goods."
     },
     {
       name: "Cursed Well",
       link: "https://example.com/cursed_well",
-      description: "A well with a dark curse, rumored to bring misfortune to those who drink from it."
     },
     {
       name: "Wizard's Tower",
       link: "https://example.com/wizards_tower",
-      description: "A towering structure where wise wizards conduct magical experiments and studies."
     },
     {
       name: "Beastmaster's Menagerie",
       link: "https://example.com/beastmasters_menagerie",
-      description: "A collection of exotic and fantastical creatures, tamed and cared for by skilled beastmasters."
     },
     {
       name: "Enigmatic Obelisk",
       link: "https://example.com/enigmatic_obelisk",
-      description: "A mysterious obelisk with inscriptions that hold the key to ancient secrets."
     },
     {
       name: "Astral Observatory",
       link: "https://example.com/astral_observatory",
-      description: "An observatory where astronomers study the celestial bodies and the mysteries of the cosmos."
     },
     {
       name: "Underground Arena",
       link: "https://example.com/underground_arena",
-      description: "An arena hidden beneath the surface, where clandestine competitions take place."
     },
     {
       name: "Lighthouse of the Lost Souls",
       link: "https://example.com/lighthouse_of_the_lost_souls",
-      description: "A haunting lighthouse guiding lost souls, surrounded by tales of maritime tragedies."
     },
     {
       name: "Mystical Hot Springs",
       link: "https://example.com/mystical_hot_springs",
-      description: "Natural hot springs with magical properties, known for their healing and rejuvenating effects."
     },
     {
       name: "World Renowned Bakery",
       link: "https://example.com/world_renowned_bakery",
-      description: "A bakery famous across realms for its delectable pastries and enchanting confections."
     },
     {
       name: "Sorcerer's Market",
       link: "https://example.com/sorcerers_market",
-      description: "A market where sorcerers and magic practitioners trade rare ingredients and mystical artifacts."
     },
     {
       name: "The Whispering Grove",
       link: "https://example.com/whispering_grove",
-      description: "A serene grove with trees that seem to whisper ancient secrets to those who listen."
     },
     {
       name: "Dragon's Hoard",
       link: "https://example.com/dragons_hoard",
-      description: "A legendary treasure hoard that may be guarded by a mighty dragon, attracting brave adventurers."
     },
     {
       name: "Clockwork Workshop",
       link: "https://example.com/clockwork_workshop",
-      description: "A workshop where skilled artisans craft intricate clockwork devices and automata."
     },
     {
       name: "Feywild Portal",
       link: "https://example.com/feywild_portal",
-      description: "A mystical portal connecting the mortal realm to the enchanting and unpredictable Feywild."
     },
   ];
 
@@ -686,7 +661,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
         let settlementPOICountForSettlement;
         if (settlementPOICount === "random") {
-          settlementPOICountForSettlement = Math.floor((Math.random() * 5) + 1);
+          settlementPOICountForSettlement = Math.floor(Math.random() * 10);
         } else {
           settlementPOICountForSettlement = settlementPOICount;
         }
@@ -698,7 +673,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
         let selectedRacesForSettlement;
         if (racesCount === "random") {
-          const randomRacesCount = Math.floor((Math.random() * 5) + 1)
+          const randomRacesCount = Math.floor(Math.random() * 10);
           selectedRacesForSettlement = getRandomElements(races, randomRacesCount);
         } else {
           selectedRacesForSettlement = getRandomElements(races, racesCount);
@@ -712,21 +687,18 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
       <div class="col-md-6">
         <div class="container">
-          <h5><strong>Points of Interest:</strong></h5>
+          <p><strong>Points of Interest:</strong></p>
           <ul>`;
 
-          content += selectedSettlementPOI
-          .map((item) => `
-            <li>
-              <strong>${item.name}:</strong> ${item.description} <a href="${item.link}" target="_blank">(Learn more)</a>
-            </li>`)
-          .join("");        
+  content += selectedSettlementPOI
+    .map((item) => `<li>${item.name}</li>`)
+    .join("");
 
   content += `</ul>
         </div>
 
         <div class="container">
-          <h5><strong>Inhabitants:</strong></h5>
+          <p><strong>Inhabitants:</strong></p>
           <ul>`;
 
   content += selectedRacesForSettlement

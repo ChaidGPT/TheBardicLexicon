@@ -76,8 +76,7 @@
       </h1>
       <div>
         <div class="horizontal-line"></div>
-        <p class="lead mb-4">Randomly generate some content to get your adventure going./p>
-        <p>Work in progress.</p>
+        <p class="lead mb-4">Info</p>
       </div>
     </div>
 
@@ -90,7 +89,7 @@
         <!-- Start World Name Field -->
         <div class="form-group">
           <label for="worldName">Enter a name for your world:</label>
-          <input type="text" class="form-control" id="worldName" autocomplete="off"/>
+          <input type="text" class="form-control" id="worldName" autocomplete="off" required />
         </div>
         <!-- End World Name Field -->
 
@@ -115,7 +114,7 @@
                 <label for="settlements">Number of Settlements:</label>
                 <select class="form-control" id="settlements"
                   title="How many different settlements should be generated?" disabled>
-                  <option value="random">Random</option>
+                  <option value="random">Random 1 - 30</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -154,7 +153,7 @@
                 <label for="settlementPOI">Number of Settlement Points of Interest:</label>
                 <select class="form-control" id="settlementPOI"
                   title="How many Points of Interest will exist in each settlement?" disabled>
-                  <option value="random">Random</option>
+                  <option value="random">Random 0 - 25</option>
                   <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -188,8 +187,8 @@
                 <label for="races">Diversity of Inhabitants:</label>
                 <select class="form-control" id="races"
                   title="How many different races of beings will live in your settlements?" disabled>
-                  <option value="random">Random</option>
-                  <option value="Uninhabited">Uninhabited</option>
+                  <option value="random">Random 0 - 50</option>
+                  <option value="0">Uninhabited</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>

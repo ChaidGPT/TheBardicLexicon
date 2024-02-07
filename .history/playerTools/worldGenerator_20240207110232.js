@@ -716,7 +716,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
         let settlementPOICountForSettlement;
         if (settlementPOICount === "random") {
-          settlementPOICountForSettlement = Math.floor((Math.random() * 3) + 1);
+          settlementPOICountForSettlement = Math.floor((Math.random() * 5) + 1);
         } else {
           settlementPOICountForSettlement = settlementPOICount;
         }
@@ -728,7 +728,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
         let selectedRacesForSettlement;
         if (racesCount === "random") {
-          const randomRacesCount = Math.floor((Math.random() * 4) + 1)
+          const randomRacesCount = Math.floor((Math.random() * 6) + 1)
           selectedRacesForSettlement = getRandomElements(races, randomRacesCount);
         } else {
           selectedRacesForSettlement = getRandomElements(races, racesCount);
@@ -737,7 +737,7 @@ document.addEventListener("DOMContentLoaded", function () {
         content += `
     <div class="row">
       <div class="col-md-6">
-        <h4 class="text-center" style="font-family: 'endor'";><strong>${selectedSettlement.name}</strong></h4>
+        <h4><strong>${selectedSettlement.name}</strong></h4>
         <p>${selectedSettlement.description}</p>
         <img src="${selectedSettlement.image}" alt="${settlements.name}" class=".img-fluid" style="max-width: 100%; max-height: auto; margin-bottom: 10px;">
       </div>

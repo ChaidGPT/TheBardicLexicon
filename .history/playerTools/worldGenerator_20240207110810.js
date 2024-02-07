@@ -737,7 +737,7 @@ document.addEventListener("DOMContentLoaded", function () {
         content += `
     <div class="row">
       <div class="col-md-6">
-        <h4 class="text-center" style="font-family: 'endor'";><strong>${selectedSettlement.name}</strong></h4>
+        <h4><strong>${selectedSettlement.name}</strong></h4>
         <p>${selectedSettlement.description}</p>
         <img src="${selectedSettlement.image}" alt="${settlements.name}" class=".img-fluid" style="max-width: 100%; max-height: auto; margin-bottom: 10px;">
       </div>

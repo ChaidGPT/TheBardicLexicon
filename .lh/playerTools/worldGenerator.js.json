@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 97,
+            "activePatchIndex": 105,
             "patches": [
                 {
                     "date": 1698696596782,
@@ -396,6 +396,38 @@
                 {
                     "date": 1707331676355,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -738,9 +738,9 @@\n     <div class=\"row\">\r\n       <div class=\"col-md-6\">\r\n         <h4><strong>${selectedSettlement.name}</strong></h4>\r\n         <p>${selectedSettlement.description}</p>\r\n-        <img src=\"${selectedSettlement.image}\" alt=\"${settlements.name}\" class=\".img-fluid\" style=\"max-width: 100%; max-height: auto;\">\r\n+        <img src=\"${selectedSettlement.image}\" alt=\"${settlements.name}\" class=\".img-fluid\" style=\"max-width: 100%; max-height: auto; margin-bottom: 10px;\">\r\n       </div>\r\n       <div class=\"col-md-6\">\r\n         <div class=\"container\">\r\n           <h5><strong>Points of Interest:</strong></h5>\r\n"
+                },
+                {
+                    "date": 1707332427446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -727,9 +727,9 @@\n         );\r\n   \r\n         let selectedRacesForSettlement;\r\n         if (racesCount === \"random\") {\r\n-          const randomRacesCount = Math.floor((Math.random() * 5) + 1)\r\n+          const randomRacesCount = Math.floor(Math.random() * 6)\r\n           selectedRacesForSettlement = getRandomElements(races, randomRacesCount);\r\n         } else {\r\n           selectedRacesForSettlement = getRandomElements(races, racesCount);\r\n         }\r\n"
+                },
+                {
+                    "date": 1707332552134,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -727,9 +727,9 @@\n         );\r\n   \r\n         let selectedRacesForSettlement;\r\n         if (racesCount === \"random\") {\r\n-          const randomRacesCount = Math.floor(Math.random() * 6)\r\n+          const randomRacesCount = Math.floor((Math.random() * 6) + 1)\r\n           selectedRacesForSettlement = getRandomElements(races, randomRacesCount);\r\n         } else {\r\n           selectedRacesForSettlement = getRandomElements(races, racesCount);\r\n         }\r\n"
+                },
+                {
+                    "date": 1707332776624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -715,9 +715,9 @@\n         const selectedSettlement = selectedSettlements[i];\r\n   \r\n         let settlementPOICountForSettlement;\r\n         if (settlementPOICount === \"random\") {\r\n-          settlementPOICountForSettlement = Math.floor((Math.random() * 5) + 1);\r\n+          settlementPOICountForSettlement = Math.floor((Math.random() * 3) + 1);\r\n         } else {\r\n           settlementPOICountForSettlement = settlementPOICount;\r\n         }\r\n   \r\n"
+                },
+                {
+                    "date": 1707332805605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -715,9 +715,9 @@\n         const selectedSettlement = selectedSettlements[i];\r\n   \r\n         let settlementPOICountForSettlement;\r\n         if (settlementPOICount === \"random\") {\r\n-          settlementPOICountForSettlement = Math.floor((Math.random() * 3) + 1);\r\n+          settlementPOICountForSettlement = Math.floor(Math.random() * 3);\r\n         } else {\r\n           settlementPOICountForSettlement = settlementPOICount;\r\n         }\r\n   \r\n"
+                },
+                {
+                    "date": 1707332861442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -715,9 +715,9 @@\n         const selectedSettlement = selectedSettlements[i];\r\n   \r\n         let settlementPOICountForSettlement;\r\n         if (settlementPOICount === \"random\") {\r\n-          settlementPOICountForSettlement = Math.floor(Math.random() * 3);\r\n+          settlementPOICountForSettlement = Math.floor((Math.random() * 3) + 1);\r\n         } else {\r\n           settlementPOICountForSettlement = settlementPOICount;\r\n         }\r\n   \r\n"
+                },
+                {
+                    "date": 1707332890384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -727,9 +727,9 @@\n         );\r\n   \r\n         let selectedRacesForSettlement;\r\n         if (racesCount === \"random\") {\r\n-          const randomRacesCount = Math.floor((Math.random() * 6) + 1)\r\n+          const randomRacesCount = Math.floor((Math.random() * 4) + 1)\r\n           selectedRacesForSettlement = getRandomElements(races, randomRacesCount);\r\n         } else {\r\n           selectedRacesForSettlement = getRandomElements(races, racesCount);\r\n         }\r\n"
+                },
+                {
+                    "date": 1707332969652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -736,9 +736,9 @@\n   \r\n         content += `\r\n     <div class=\"row\">\r\n       <div class=\"col-md-6\">\r\n-        <h4><strong>${selectedSettlement.name}</strong></h4>\r\n+        <h4 style=\"font-family: 'endor'\"; ><strong>${selectedSettlement.name}</strong></h4>\r\n         <p>${selectedSettlement.description}</p>\r\n         <img src=\"${selectedSettlement.image}\" alt=\"${settlements.name}\" class=\".img-fluid\" style=\"max-width: 100%; max-height: auto; margin-bottom: 10px;\">\r\n       </div>\r\n       <div class=\"col-md-6\">\r\n"
+                },
+                {
+                    "date": 1707333082629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -736,9 +736,9 @@\n   \r\n         content += `\r\n     <div class=\"row\">\r\n       <div class=\"col-md-6\">\r\n-        <h4 style=\"font-family: 'endor'\"; ><strong>${selectedSettlement.name}</strong></h4>\r\n+        <h4 class=\"text-center\" style=\"font-family: 'endor'\";><strong>${selectedSettlement.name}</strong></h4>\r\n         <p>${selectedSettlement.description}</p>\r\n         <img src=\"${selectedSettlement.image}\" alt=\"${settlements.name}\" class=\".img-fluid\" style=\"max-width: 100%; max-height: auto; margin-bottom: 10px;\">\r\n       </div>\r\n       <div class=\"col-md-6\">\r\n"
                 }
             ],
             "date": 1698696596782,

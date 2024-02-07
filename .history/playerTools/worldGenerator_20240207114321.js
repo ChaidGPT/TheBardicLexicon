@@ -31,61 +31,61 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "River Town",
       link: "https://example.com/river_town",
       description: "Thrives on water-based trade and fishing.",
-      image: "../images/locations/riverTown.jpg",
+      image: "../images/locations",
     },
     {
       name: "Mining Outpost",
       link: "https://example.com/mining_outpost",
       description: "Settlement focused on mining and resource extraction.",
-      image: "../images/locations/miningOutpost.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Coastal Village",
       link: "https://example.com/coastal_village",
       description: "Relies on maritime activities and coastal trade.",
-      image: "../images/locations/coastalVillage.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Forest Hamlet",
       link: "https://example.com/forest_hamlet",
       description: "Hidden within a dense forest, in harmony with nature.",
-      image: "../images/locations/forestVillage.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Mountain Stronghold",
       link: "https://example.com/mountain_stronghold",
       description: "Built into the mountainside for defense and resources.",
-      image: "../images/locations/mountainStronghold.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Desert Oasis",
       link: "https://example.com/desert_oasis",
       description: "Vital stop in the desert for travelers and adventurers.",
-      image: "../images/locations/desertOasis.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Swamp Village",
       link: "https://example.com/swamp_village",
       description: "Relies on the unique resources and challenges of the swamp.",
-      image: "../images/locations/swampVillage.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Magical Enclave",
       link: "https://example.com/magical_enclave",
       description: "Hub for magical research, study, and the mystical arts.",
-      image: "../images/locations/magicalEnclave.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Nomadic Camp",
       link: "https://example.com/nomadic_camp",
       description: "Mobile settlement of wandering tribes or travelers.",
-      image: "../images/locations/nomadicCamp.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Underground City",
       link: "https://example.com/underground_city",
       description: "Thrives below the surface, away from the eyes above.",
-      image: "../images/locations/undergroundCity.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Floating Citadel",
@@ -199,7 +199,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Wayfarer's Rest",
       link: "https://example.com/wayfarers_rest",
       description: "Rest stop for travelers and adventurers journeying through the wilderness.",
-      image: "../images/locations/smallTown.jpg",
+      image: "../images/locations/village.jpg",
     },
   ];  
 
@@ -739,7 +739,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="col-md-6">
         <h4 class="text-center" style="font-family: 'endor'";><strong>${selectedSettlement.name}</strong></h4>
         <p>${selectedSettlement.description}</p>
-        <img src="${selectedSettlement.image}" alt="${settlements.name}" class="img-fluid shadow-sm" style="max-width: 100%; max-height: auto; margin-bottom: 10px; border-radius: 10px">
+        <img src="${selectedSettlement.image}" alt="${settlements.name}" class=".img-fluid" style="max-width: 100%; max-height: auto; margin-bottom: 10px;">
       </div>
       <div class="col-md-6">
         <div class="container">

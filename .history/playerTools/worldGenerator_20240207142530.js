@@ -79,13 +79,13 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Nomadic Camp",
       link: "https://example.com/nomadic_camp",
       description: "Mobile settlement of wandering tribes or travelers.",
-      image: "../images/locations/nomadicCamp.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Underground City",
       link: "https://example.com/underground_city",
       description: "Thrives below the surface, away from the eyes above.",
-      image: "../images/locations/undergroundCity.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Floating Citadel",

@@ -73,19 +73,19 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Magical Enclave",
       link: "https://example.com/magical_enclave",
       description: "Hub for magical research, study, and the mystical arts.",
-      image: "../images/locations/magicalEnclave.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Nomadic Camp",
       link: "https://example.com/nomadic_camp",
       description: "Mobile settlement of wandering tribes or travelers.",
-      image: "../images/locations/nomadicCamp.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Underground City",
       link: "https://example.com/underground_city",
       description: "Thrives below the surface, away from the eyes above.",
-      image: "../images/locations/undergroundCity.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Floating Citadel",

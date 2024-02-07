@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Underground City",
       link: "https://example.com/underground_city",
       description: "Thrives below the surface, away from the eyes above.",
-      image: "../images/locations/undergroundCity.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Floating Citadel",

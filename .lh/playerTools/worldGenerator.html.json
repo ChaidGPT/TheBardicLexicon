@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 68,
+            "activePatchIndex": 69,
             "patches": [
                 {
                     "date": 1698696495678,
@@ -280,6 +280,10 @@
                 {
                     "date": 1707332600347,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,8 @@\n                 <select class=\"form-control\" id=\"races\"\r\n                   title=\"How many different races of beings will live in your settlements?\" disabled>\r\n                   <option value=\"\">Select and option</option>\r\n                   <option value=\"random\">Random</option>\r\n-                  <option value=\"Uninhabited\">Uninhabited</option>\r\n                   <option value=\"1\">1</option>\r\n                   <option value=\"2\">2</option>\r\n                   <option value=\"3\">3</option>\r\n                   <option value=\"4\">4</option>\r\n"
+                },
+                {
+                    "date": 1707333393289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,10 +75,10 @@\n         World/Region Generator\r\n       </h1>\r\n       <div>\r\n         <div class=\"horizontal-line\"></div>\r\n-        <p class=\"lead mb-4\">Randomly generate some content to get your adventure going./p>\r\n-        <p>Work in progress.</p>\r\n+        <p class=\"lead mb-4\">Randomly generate some content to get your adventure going.</p>\r\n+        <p>Work in progress</p>\r\n       </div>\r\n     </div>\r\n \r\n     <div class=\"container mt-5 text-left\">\r\n"
                 }
             ],
             "date": 1698696495678,

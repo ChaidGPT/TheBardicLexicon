@@ -739,7 +739,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="col-md-6">
         <h4><strong>${selectedSettlement.name}</strong></h4>
         <p>${selectedSettlement.description}</p>
-        <img src="${selectedSettlement.image}" alt="${settlements.name}" class=".img-fluid" style="max-width: 100%; max-height: auto; margin-bottom: 10px;">
+        <img src="${selectedSettlement.image}" alt="${settlements.name}" style="max-width: 400px; max-height: auto;">
       </div>
       <div class="col-md-6">
         <div class="container">

@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Market Town",
       link: "https://example.com/market_town",
       description: "Thriving center for trade and commerce, known for its markets.",
-      image: "../images/locations/marketTown.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Arcane Refuge",

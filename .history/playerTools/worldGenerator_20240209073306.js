@@ -127,13 +127,13 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Fishing Village",
       link: "https://example.com/fishing_village",
       description: "Relies on fishing and coastal activities for sustenance.",
-      image: "../images/locations/fishingVIllage.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Market Town",
       link: "https://example.com/market_town",
       description: "Thriving center for trade and commerce, known for its markets.",
-      image: "../images/locations/marketTown.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Arcane Refuge",

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 12,
+            "activePatchIndex": 13,
             "patches": [
                 {
                     "date": 1693242915828,
@@ -56,6 +56,10 @@
                 {
                     "date": 1698972889835,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                     aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                     Player Tools\r\n                   </a>\r\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                    <a class=\"dropdown-item\" href=\"../../../playerTools/charSheet.html\">Character Sheet</a>\r\n+                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n                     <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n                     <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                   </div>\r\n"
+                },
+                {
+                    "date": 1707573822541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                     aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                     Player Tools\r\n                   </a>\r\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                     <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n                     <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                   </div>\r\n@@ -71,9 +71,9 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4 monsterName\">Blights</h1>\r\n+        <h1 class=\"display-4 monsterName text-center\">Blights</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n         <p>Awakened plants gifted with the powers of intelligence and mobility, blights plague lands contaminated by\r\n             darkness. Drinking that darkness from the soil, a blight carries out the will of ancient evil and attempts\r\n             to spread that evil wherever it can.</p>\r\n"
                 }
             ],
             "date": 1693242915828,

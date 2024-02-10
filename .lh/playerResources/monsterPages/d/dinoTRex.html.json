@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1698972565554,
@@ -12,6 +12,10 @@
                 {
                     "date": 1698972888563,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n                                 data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                                 Player Tools\r\n                             </a>\r\n                             <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                                <a class=\"dropdown-item\" href=\"../../../playerTools/charSheet.html\">Character Sheet</a>\r\n+                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n                                 <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                                 <div class=\"dropdown-divider\"></div>\r\n                                 <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                             </div>\r\n"
+                },
+                {
+                    "date": 1707573821956,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n                                 data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                                 Player Tools\r\n                             </a>\r\n                             <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                                 <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                                 <div class=\"dropdown-divider\"></div>\r\n                                 <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                             </div>\r\n@@ -72,11 +72,11 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4 monsterName\">Tyrannosaurus Rex</h1>\r\n+        <h1 class=\"display-4 monsterName text-center\">Tyrannosaurus Rex</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n-        <p class=\"lead\">Huge beast, unaligned</p>\r\n+        <p class=\"lead text-center\">Huge beast, unaligned</p>\r\n         <p>This enormous predator terrorizes all other creatures in\r\n             its territory. Despite its size and weight, a tyrannosaurus\r\n             is a swift runner. It chases anything it thinks it can eat,\r\n             and there are few creatures it won't try to devour whole.\r\n"
                 }
             ],
             "date": 1698972565554,

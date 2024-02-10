@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 10,
+            "activePatchIndex": 11,
             "patches": [
                 {
                     "date": 1699220737759,
@@ -48,6 +48,10 @@
                 {
                     "date": 1700358677389,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,9 +96,9 @@\n \r\n       <!-- Start collapseStats -->\r\n       <div class=\"collapse rounded\" id=\"collapseStats\">\r\n          <!-- Ancient -->\r\n-         <h4>Ancient Blue Dragon</h4>\r\n+         <h4>Ancient Brass Dragon</h4>\r\n          <p class=\"text-center font-italic small\">Gargantuan dragon, Chaotic good</p>\r\n          <div class=\"light-horizontal-line\"></div>\r\n          <div class=\"tableContainer\">\r\n             <table class=\"tg\">\r\n@@ -175,9 +175,9 @@\n          <p><span class=\"bold-text\">Wing Attack (Costs 2 Actions):</span> The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</p>\r\n          <!-- End Ancient -->\r\n          <div class=\"horizontal-line\"></div>\r\n          <!-- Adult -->\r\n-         <h4>Adult Blue Dragon</h4>\r\n+         <h4>Adult Brass Dragon</h4>\r\n          <p class=\"text-center font-italic small\">Huge dragon, chaotic good</p>\r\n          <div class=\"light-horizontal-line\"></div>\r\n          <div class=\"tableContainer\">\r\n             <table class=\"tg\">\r\n@@ -254,9 +254,9 @@\n \r\n          <div class=\"horizontal-line\"></div>\r\n \r\n          <!-- Young -->\r\n-         <h4>Young Black Dragon</h4>\r\n+         <h4>Young Brass Dragon</h4>\r\n          <p class=\"text-center font-italic small\">Large dragon, lawful evil</p>\r\n          <div class=\"light-horizontal-line\"></div>\r\n          <div class=\"tableContainer\">\r\n             <table class=\"tg\">\r\n"
+                },
+                {
+                    "date": 1707573822074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n                         data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                         Player Tools\r\n                      </a>\r\n                      <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                        <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                        <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                         <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                         <div class=\"dropdown-divider\"></div>\r\n                         <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                      </div>\r\n@@ -72,9 +72,9 @@\n \r\n    <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n    <div class=\"jumbotron\">\r\n-      <h1 class=\"display-4 monsterName\">Brass Dragon</h1>\r\n+      <h1 class=\"display-4 monsterName text-center\">Brass Dragon</h1>\r\n       <div class=\"horizontal-line\"></div>\r\n       <p>The most gregarious of the true dragons, brass dragons crave conversation, sunlight, and hot, dry climates.</p>\r\n       <p>A brass dragon's head is defined by the broad protective plate that expands from its forehead and the spikes\r\n          protruding from its chin. A frill runs the length of its neck, and its tapering wings extend down the length of\r\n"
                 }
             ],
             "date": 1699220737759,

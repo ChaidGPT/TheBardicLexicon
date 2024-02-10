@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 14,
+            "activePatchIndex": 15,
             "patches": [
                 {
                     "date": 1693242915829,
@@ -64,6 +64,10 @@
                 {
                     "date": 1698972889681,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                   aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                   Player Tools\r\n                 </a>\r\n                 <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                  <a class=\"dropdown-item\" href=\"../../../playerTools/charSheet.html\">Character Sheet</a>\r\n+                  <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n                   <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                   <div class=\"dropdown-divider\"></div>\r\n                   <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1707573822584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                   aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                   Player Tools\r\n                 </a>\r\n                 <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                  <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                  <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                   <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                   <div class=\"dropdown-divider\"></div>\r\n                   <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                 </div>\r\n@@ -71,11 +71,11 @@\n \r\n    <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n    <div class=\"jumbotron\">\r\n-      <h1 class=\"display-4 monsterName\">Solar</h1>\r\n+      <h1 class=\"display-4 monsterName text-center\">Solar</h1>\r\n       <div class=\"horizontal-line\"></div>\r\n-      <p class=\"lead\">Large celestial, lawful good</p>\r\n+      <p class=\"lead text-center\">Large celestial, lawful good</p>\r\n       <p>A solar is godlike in its glory and power. On the battlefield, the solar's sword flies into the fray on its\r\n          own, and a single arrow from a solar's bow can strike a target dead on contact. So great is a solar's celestial\r\n          might that even demon princes shrink at its resonant commands.</p>\r\n       <p>It is said that only twenty-four solars exist. The few solars that are known are stewards of specific deities.\r\n"
                 }
             ],
             "date": 1693242915829,

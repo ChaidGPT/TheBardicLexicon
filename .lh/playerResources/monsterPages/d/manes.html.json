@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 10,
+            "activePatchIndex": 11,
             "patches": [
                 {
                     "date": 1693838211463,
@@ -48,6 +48,10 @@
                 {
                     "date": 1698972888591,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                     aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                     Player Tools\r\n                   </a>\r\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                    <a class=\"dropdown-item\" href=\"../../../playerTools/charSheet.html\">Character Sheet</a>\r\n+                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n                     <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n                     <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                   </div>\r\n"
+                },
+                {
+                    "date": 1707573822423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                     aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                     Player Tools\r\n                   </a>\r\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                     <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n                     <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                   </div>\r\n@@ -71,11 +71,11 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4 monsterName\">Manes</h1>\r\n+        <h1 class=\"display-4 monsterName text-center\">Manes</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n-        <p class=\"lead\">Small fiend (demon), chaotic evil</p>\r\n+        <p class=\"lead text-center\">Small fiend (demon), chaotic evil</p>\r\n         <p>Souls of evil creatures that descend to the Lower Planes are transformed into manes-the lowest form of\r\n             demonkind. These wretched fiends attack any non-demon they see, and they are called to the Material Plane by\r\n             those seeking to sow death and chaos.</p>\r\n         <p>Orcus, the Prince of Undeath, has the power to transform manes into undead monsters, most often ghouls and\r\n"
                 }
             ],
             "date": 1693838211463,

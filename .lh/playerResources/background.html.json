@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 62,
+            "activePatchIndex": 63,
             "patches": [
                 {
                     "date": 1695652267355,
@@ -256,6 +256,10 @@
                 {
                     "date": 1700929376895,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -389,8 +389,9 @@\n                 <p>Charlatans are colorful characters w ho conceal their true selves behind the m asks they construct.\r\n                   They reflect what people want to see, what they want to believe, and how they see the world. But their\r\n                   true selves are sometimes plagued by an uneasy conscience, an old enemy, or deep-seated trust issues.\r\n                 </p>\r\n+                <p>Want some help creating your character randomly? Roll on these tables to generate some traits:</p>\r\n \r\n                 <table class=\"table table-responsive table-sm\">\r\n                   <thead class=\"thead-light\">\r\n                     <tr>\r\n@@ -638,8 +639,9 @@\n                 <h6>Suggested Characteristics</h6>\r\n                 <p>Criminals might seem like villains on the surface, and many of them are villainous to the core. But\r\n                   some have an abundance of endearing, if not redeeming, characteristics. There might be honor among\r\n                   thieves, but criminals rarely show any respect for law or authority.</p>\r\n+                  <p>Want some help creating your character randomly? Roll on these tables to generate some traits:</p>\r\n \r\n                 <table class=\"table table-responsive table-sm\">\r\n                   <thead class=\"thead-light\">\r\n                     <tr>\r\n@@ -898,8 +900,9 @@\n                 <h6>Suggested Characteristics</h6>\r\n                 <p>Successful entertainers have to be able to capture and hold an audience’s attention, so they tend to\r\n                   have flamboyant or forceful personalities. They’re inclined toward the romantic and often cling to\r\n                   high-minded ideals about the practice of art and the appreciation of beauty.</p>\r\n+                  <p>Want some help creating your character randomly? Roll on these tables to generate some traits:</p>\r\n \r\n                 <table class=\"table table-responsive table-sm\">\r\n                   <thead class=\"thead-light\">\r\n                     <tr>\r\n"
+                },
+                {
+                    "date": 1707573824524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                 aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                 Player Tools\r\n               </a>\r\n               <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                <a class=\"dropdown-item\" href=\"../playerTools/worldGenerator.html\">World Generator</a>\r\n+                <a class=\"dropdown-item\" href=\"../playerTools/worldGenerator.html\">Location Generator</a>\r\n                 <a class=\"dropdown-item\" href=\"../playerTools/dice.html\">Dice Roll Generator</a>\r\n                 <div class=\"dropdown-divider\"></div>\r\n                 <a class=\"dropdown-item\" href=\"#\">More</a>\r\n               </div>\r\n"
                 }
             ],
             "date": 1695652267355,

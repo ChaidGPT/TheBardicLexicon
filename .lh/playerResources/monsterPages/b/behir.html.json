@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 13,
+            "activePatchIndex": 14,
             "patches": [
                 {
                     "date": 1693242915828,
@@ -60,6 +60,10 @@
                 {
                     "date": 1698972889840,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                     aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                     Player Tools\r\n                   </a>\r\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                    <a class=\"dropdown-item\" href=\"../../../playerTools/charSheet.html\">Character Sheet</a>\r\n+                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n                     <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n                     <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                   </div>\r\n"
+                },
+                {
+                    "date": 1707573822527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                     aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                     Player Tools\r\n                   </a>\r\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                     <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n                     <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                   </div>\r\n@@ -71,11 +71,11 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4 monsterName\">Behir</h1>\r\n+        <h1 class=\"display-4 monsterName text-center\">Behir</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n-        <p class=\"lead\">Huge monstrosity, neutral evil</p>\r\n+        <p class=\"lead text-center\">Huge monstrosity, neutral evil</p>\r\n         <p>The serpentine behir crawls along floors and clambers up walls to reach its prey. Its lightning breath can\r\n             incinerate most creatures, even as more powerful foes are constricted in its coils and eaten alive.</p>\r\n         <p>A behir's monstrous form resembles a combination of centipede and crocodile. Its scaled hide ranges from\r\n             ultramarine to deep blue in color, fading to pale blue on its underside.</p>\r\n"
                 }
             ],
             "date": 1693242915828,

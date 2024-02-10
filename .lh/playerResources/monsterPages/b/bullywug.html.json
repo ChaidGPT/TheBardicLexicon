@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 13,
+            "activePatchIndex": 14,
             "patches": [
                 {
                     "date": 1693242915826,
@@ -60,6 +60,10 @@
                 {
                     "date": 1698972889796,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n                   aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                   Player Tools\r\n                 </a>\r\n                 <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                  <a class=\"dropdown-item\" href=\"../../../playerTools/charSheet.html\">Character Sheet</a>\r\n+                  <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n                   <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                   <div class=\"dropdown-divider\"></div>\r\n                   <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1707573822545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n                   aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                   Player Tools\r\n                 </a>\r\n                 <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                  <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                  <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                   <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                   <div class=\"dropdown-divider\"></div>\r\n                   <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                 </div>\r\n@@ -70,11 +70,11 @@\n \r\n    <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n    <div class=\"jumbotron\">\r\n-      <h1 class=\"display-4 monsterName\">Bullywug</h1>\r\n+      <h1 class=\"display-4 monsterName text-center\">Bullywug</h1>\r\n       <div class=\"horizontal-line\"></div>\r\n-      <p class=\"lead\">Medium humanoid (bullywug), neutral evil </p>\r\n+      <p class=\"lead text-center\">Medium humanoid (bullywug), neutral evil </p>\r\n       <p>Life as a bullywug is nasty, brutish, and wet. These frogheaded amphibious humanoids must stay constantly\r\n          moist, dwelling in rainy forests, marshes, and damp caves. Always hungry and thoroughly evil, bullywugs\r\n          overwhelm opponents with superior numbers when they can, but they flee from serious threats to search for\r\n          easier prey.</p>\r\n"
                 }
             ],
             "date": 1693242915826,

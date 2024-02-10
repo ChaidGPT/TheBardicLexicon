@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 13,
+            "activePatchIndex": 14,
             "patches": [
                 {
                     "date": 1693242915832,
@@ -60,6 +60,10 @@
                 {
                     "date": 1698972889691,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                   aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                   Player Tools\r\n                 </a>\r\n                 <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                  <a class=\"dropdown-item\" href=\"../../../playerTools/charSheet.html\">Character Sheet</a>\r\n+                  <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n                   <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                   <div class=\"dropdown-divider\"></div>\r\n                   <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1707573822573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                   aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                   Player Tools\r\n                 </a>\r\n                 <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                  <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                  <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                   <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                   <div class=\"dropdown-divider\"></div>\r\n                   <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                 </div>\r\n@@ -71,9 +71,9 @@\n \r\n    <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n    <div class=\"jumbotron\">\r\n-      <h1 class=\"display-4 monsterName\">Animated Objects</h1>\r\n+      <h1 class=\"display-4 monsterName text-center\">Animated Objects</h1>\r\n       <div class=\"horizontal-line\"></div>\r\n       <p>Animated objects are crafted with potent magic to follow the commands of their creators. When not commanded,\r\n          they follow the last order they received to the best of their ability, and can act independently to fulfill\r\n          simple instructions. Some animated objects (including many of those created in the Feywild) might converse\r\n"
                 }
             ],
             "date": 1693242915832,

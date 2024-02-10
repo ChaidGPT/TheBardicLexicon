@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 13,
+            "activePatchIndex": 14,
             "patches": [
                 {
                     "date": 1693242915830,
@@ -60,6 +60,10 @@
                 {
                     "date": 1698972889826,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                     aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                     Player Tools\r\n                   </a>\r\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                    <a class=\"dropdown-item\" href=\"../../../playerTools/charSheet.html\">Character Sheet</a>\r\n+                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n                     <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n                     <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                   </div>\r\n"
+                },
+                {
+                    "date": 1707573822531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                     aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                     Player Tools\r\n                   </a>\r\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                     <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n                     <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                   </div>\r\n@@ -71,11 +71,11 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4 monsterName\">Basilisk</h1>\r\n+        <h1 class=\"display-4 monsterName text-center\">Basilisk</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n-        <p class=\"lead\">Medium monstrosity, unaligned</p>\r\n+        <p class=\"lead text-center\">Medium monstrosity, unaligned</p>\r\n         <p>Travelers sometimes find objects that look like pieces of remarkably lifelike stone carvings of wildlife.\r\n             Missing parts appear to have been bitten off. Seasoned explorers regard such relics as warnings, knowing\r\n             that the basilisk that created them is likely to be nearby.</p>\r\n         <hr class=\"my-4\">\r\n"
                 }
             ],
             "date": 1693242915830,

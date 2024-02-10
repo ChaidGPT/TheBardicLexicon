@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1695663700366,
@@ -12,6 +12,10 @@
                 {
                     "date": 1698972891564,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n                                 data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                                 Player Tools\r\n                             </a>\r\n                             <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                                <a class=\"dropdown-item\" href=\"../../../playerTools/charSheet.html\">Character Sheet</a>\r\n+                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n                                 <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                                 <div class=\"dropdown-divider\"></div>\r\n                                 <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                             </div>\r\n"
+                },
+                {
+                    "date": 1707573822691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n                                 data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                                 Player Tools\r\n                             </a>\r\n                             <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                                 <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                                 <div class=\"dropdown-divider\"></div>\r\n                                 <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                             </div>\r\n@@ -54,9 +54,9 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4 monsterName\">Halfling</h1>\r\n+        <h1 class=\"display-4 monsterName text-center\">Halfling</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n         <p>The comforts of home are the goals of most halflings’ lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies; a blazing fire and a generous meal; fine drink and fine conversation. Though some halflings live out their days in remote agricultural communities, others form nomadic bands that travel constantly, lured by the open road and the wide horizon to discover the wonders of new lands and peoples. But even these wanderers love peace, food, hearth, and home, though home might be a wagon jostling along an dirt road or a raft floating downriver.</p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n"
                 }
             ],
             "date": 1695663700366,

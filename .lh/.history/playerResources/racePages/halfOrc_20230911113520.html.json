@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1695663700340,
@@ -12,6 +12,10 @@
                 {
                     "date": 1698972891590,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n                                 data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                                 Player Tools\r\n                             </a>\r\n                             <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                                <a class=\"dropdown-item\" href=\"../../../playerTools/charSheet.html\">Character Sheet</a>\r\n+                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n                                 <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                                 <div class=\"dropdown-divider\"></div>\r\n                                 <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                             </div>\r\n"
+                },
+                {
+                    "date": 1707573822693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n                                 data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                                 Player Tools\r\n                             </a>\r\n                             <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                                 <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                                 <div class=\"dropdown-divider\"></div>\r\n                                 <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                             </div>\r\n@@ -54,9 +54,9 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4 monsterName\">Half-Orc</h1>\r\n+        <h1 class=\"display-4 monsterName text-center\">Half-Orc</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n         <p>Whether united under the leadership of a mighty warlock or having fought to a standstill after years of conflict, orc and human tribes sometimes form alliances, joining forces into a larger horde to the terror of civilized lands nearby. When these alliances are sealed by marriages, half-orcs are born. Some half-orcs rise to become proud chiefs of orc tribes, their human blood giving them an edge over their full-blooded orc rivals. Some venture into the world to prove their worth among humans and other more civilized races. Many of these become adventurers, achieving greatness for their mighty deeds and notoriety for their barbaric customs and savage fury.</p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n"
                 }
             ],
             "date": 1695663700340,

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Location Generator</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+  <header class="header-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand navMonsterName" href="../index.html">The Bardic Lexicon</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto nav justify-content-end">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarCharacter" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Character Creation
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarCharacter">
+                <a class="dropdown-item" href="../playerResources/races.html">Races</a>
+                <a class="dropdown-item" href="../playerResources/classes.html">Classes</a>
+                <a class="dropdown-item" href="../playerResources/personality.html">Personality & Inspiration</a>
+                <a class="dropdown-item" href="../playerResources/background.html">Character Backgrounds</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarResources" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Player Resources
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarResources">
+                <h6 class="dropdown-header">Items</h6>
+                <a class="dropdown-item" href="../playerResources/gear.html">Adventuring Gear</a>
+                <a class="dropdown-item" href="../playerResources/equipment.html">Equipment</a>
+                <div class="dropdown-divider"></div>
+                <h6 class="dropdown-header">Magic</h6>
+                <a class="dropdown-item" href="../playerResources/spells.html">Spells</a>
+                <div class="dropdown-divider"></div>
+                <h6 class="dropdown-header">Inhabitants of the Realms</h6>
+                <a class="dropdown-item" href="../playerResources/bestiary.html">Bestiary</a>
+                <a class="dropdown-item" href="../playerResources/gods.html">Gods & Deities</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Player Tools
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="../playerTools/charSheet.html">Character Sheet</a>
+                <a class="dropdown-item" href="../playerTools/dice.html">Dice Roll Generator</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">More</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container" id="monsterPage">
+    <div class="container-fluid px-4 py-5 my-5 text-center">
+      <h1 class="display-5 fw-bold contentsPageName">
+        Location Generator
+      </h1>
+      <div>
+        <div class="horizontal-line"></div>
+        <p class="lead mb-4">Randomly generate some content to get your adventure going.</p>
+        <p>Work in progress</p>
+      </div>
+    </div>
+
+    <div class="container mt-5 text-left">
+
+      <!-- Start Location Generator Form -->
+
+      <form id="worldForm" class="mb-4">
+
+        <!-- Start World Name Field -->
+        
+        <!-- End World Name Field -->
+
+
+        <!-- Start Settlement Options -->
+        
+        <div class="form-group ">
+          <div class="container mx-auto">
+          <div class="input-group-prepend mb-4">
+            <button type="submit" class="btn btn-primary mr-2">Generate</button>
+            <div class="input-group-append">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="enableSettlements" data-toggle="collapse" data-target="#settlementOptions" />
+                <label class="form-check-label ALI" for="enableSettlements">Randomizer Settings</label>
+              </div>
+              <hr>
+            </div>
+          </div> 
+        </div>         
+          
+
+          <!-- Add the 'collapse' class to the following div -->
+          <div id="settlementOptions" class="collapse">
+
+            <!-- Wrap both settlement options in a common container -->
+            <div class="container">
+
+              <!-- Number of Settlements -->
+              <div>
+                <label for="settlements">Number of Settlements:</label>
+                <select class="form-control" id="settlements"
+                  title="How many different settlements should be generated?" disabled>
+                  <option value="random">Random</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+
+              <!-- Number of Settlement Points of Interest -->
+              <div>
+                <label for="settlementPOI">Number of Settlement Points of Interest:</label>
+                <select class="form-control" id="settlementPOI"
+                  title="How many Points of Interest will exist in each settlement?" disabled>
+                  <option value="random">Random</option>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="races">Diversity of Inhabitants:</label>
+                <select class="form-control" id="races"
+                  title="How many different races of beings will live in your settlements?" disabled>
+                  <option value="random">Random</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+              <hr>
+            </div>
+          </div>
+
+        </div>
+        <!-- End Settlement Options -->
+
+
+
+
+        <!-- Start Template Options -->
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="enableTemplate" data-toggle="collapse"
+              data-target="#templateOptions" style="display: none;" />
+            <label class="form-check-label" for="enableTemplate" style="display: none;">Enable Template</label>
+          </div>
+
+          <div id="templateOptions" class="collapse">
+
+            <div class="template-options-container">
+
+              <label for="template">Number of Templates:</label>
+              <select class="form-control" id="template" disabled>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <!-- Add more options as needed -->
+              </select>
+            </div>
+
+            <!-- Number of Points of Interest -->
+            <div class="form-group">
+              <label for="templatePOI">Number of Template Points of Interest:</label>
+              <select class="form-control" id="templatePOI" disabled>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <!-- Add more options as needed -->
+              </select>
+            </div>
+
+          </div>
+        </div>
+        <!-- End Template Options -->
+
+      </form>
+
+      <!-- End Location Generator Form -->
+
+      <div id="generatedContent"></div>
+
+    </div>
+  </div>
+
+  <footer class="page-footer font-small blue fixed-bottom">
+    <p>
+      &copy; Chad Oswald |
+      <a href="mailto:chadloswald@gmail.com">chadloswald@gmail.com</a>
+    </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+  <script src="worldGenerator.js"></script>
+</body>
+
+</html>

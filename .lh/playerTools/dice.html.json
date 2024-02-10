@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 29,
+            "activePatchIndex": 30,
             "patches": [
                 {
                     "date": 1693243007371,
@@ -124,6 +124,10 @@
                 {
                     "date": 1697934744531,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,14 +109,16 @@\n                 <input type=\"text\" class=\"form-control\" id=\"modifierNumber\" value=\"\" placeholder=\"Modifier\"\r\n                   aria-label=\"Modifier amount\" aria-describedby=\"Modifier amount\" data-toggle=\"tooltip\"\r\n                   data-placement=\"top\" title=\"Modifier number\">\r\n               </div>\r\n+              <div class=\"form-check\">\r\n               <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"noSound\">\r\n               <label class=\"form-check-label\" for=\"noSound\">\r\n                 No sound\r\n               </label>\r\n             </div>\r\n-            <div class=\"d-flex\">\r\n+            </div>\r\n+            <div class=\"d-flex justify-content-center\">\r\n               <input class=\"btn btn-sm btn-secondary diceBtn\" aria-label=\"Submit button\" type=\"submit\" value=\"Roll\">\r\n               <input class=\"btn btn-sm btn-secondary diceBtn\" aria-label=\"Clear button\" type=\"button\" value=\"Clear\"\r\n                 style=\"display: none;\">\r\n             </div><br>\r\n"
+                },
+                {
+                    "date": 1707573821538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                 aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                 Player Tools\r\n               </a>\r\n               <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                <a class=\"dropdown-item\" href=\"charSheet.html\">Character Sheet</a>\r\n+                <a class=\"dropdown-item\" href=\"worldGenerator.html\">Location Generator</a>\r\n                 <a class=\"dropdown-item\" href=\"dice.html\">Dice Roll Generator</a>\r\n                 <div class=\"dropdown-divider\"></div>\r\n                 <a class=\"dropdown-item\" href=\"#\">More</a>\r\n               </div>\r\n@@ -70,10 +70,10 @@\n   </header>\r\n \r\n   <div class=\"container\" id=\"monsterPage\">\r\n     <div class=\"jumbotron\">\r\n-      <h1 class=\"display-5 monsterName\">Dice Roll Generator</h1>\r\n-      <p class=\"lead\">Who needs dice IRL when you've got a computer!</p>\r\n+      <h1 class=\"display-5 monsterName text-center\">Dice Roll Generator</h1>\r\n+      <p class=\"lead text-center\">Who needs dice IRL when you've got a computer!</p>\r\n       <hr class=\"my-4\">\r\n       <div class=\"card w-75 mx-auto\">\r\n         <form>\r\n           <div class=\"diceForm mx-auto\">\r\n"
                 }
             ],
             "date": 1693243007371,

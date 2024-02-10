@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 7,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1698099004404,
@@ -36,6 +36,10 @@
                 {
                     "date": 1698972889606,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n                                 data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                                 Player Tools\r\n                             </a>\r\n                             <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                                <a class=\"dropdown-item\" href=\"../../../playerTools/charSheet.html\">Character Sheet</a>\r\n+                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n                                 <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                                 <div class=\"dropdown-divider\"></div>\r\n                                 <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                             </div>\r\n"
+                },
+                {
+                    "date": 1707573821881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n                                 data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                                 Player Tools\r\n                             </a>\r\n                             <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                                 <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                                 <div class=\"dropdown-divider\"></div>\r\n                                 <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                             </div>\r\n@@ -72,11 +72,11 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4 monsterName\">Bone Devil</h1>\r\n+        <h1 class=\"display-4 monsterName text-center\">Bone Devil</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n-        <p class=\"lead\">Large fiend (demon), lawful evil</p>\r\n+        <p class=\"lead text-center\">Large fiend (demon), lawful evil</p>\r\n         <p>Driven by hate, lust, and envy, bone devils act as the\r\n             cruel taskmasters of the Nine Hells. They set weaker\r\n             devils to work, taking special delight in seeing fiends\r\n             that defy them demoted. At the same time, they long for\r\n"
                 }
             ],
             "date": 1698099004403,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 17,
+            "activePatchIndex": 18,
             "patches": [
                 {
                     "date": 1693501172599,
@@ -76,6 +76,10 @@
                 {
                     "date": 1698972889668,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                     aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                     Player Tools\r\n                   </a>\r\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                    <a class=\"dropdown-item\" href=\"../../../playerTools/charSheet.html\">Character Sheet</a>\r\n+                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n                     <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n                     <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                   </div>\r\n"
+                },
+                {
+                    "date": 1707573821935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                     aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                     Player Tools\r\n                   </a>\r\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                     <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n                     <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                   </div>\r\n@@ -71,11 +71,11 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4 monsterName\">Darkmantle</h1>\r\n+        <h1 class=\"display-4 monsterName text-center\">Darkmantle</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n-        <p class=\"lead\">Small monstrosity, unaligned</p>\r\n+        <p class=\"lead text-center\">Small monstrosity, unaligned</p>\r\n         <p>A darkmantle clings to cavern ceilings, remaining perfectly still as it waits for creatures to pass beneath\r\n             it. From a distance, it can pass itself off as a stalactite or a lump of stone. Then it drops from the\r\n             ceiling and unfurls, surrounding itself with magical darkness as it engulfs and crushes its prey.</p>\r\n         <p>Darkmantles are found throughout the Underdark, but they are equally common on the Shadowfell. Thriving in\r\n"
                 }
             ],
             "date": 1693501172599,

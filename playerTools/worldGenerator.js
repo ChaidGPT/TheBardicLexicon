@@ -588,17 +588,7 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "../images/yuanti.webp"
     },
   ];
-
-  const encounters = [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-  ];
   
-
   //   End Settlement Arrays
 
   // Start Template Arrays
@@ -675,7 +665,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // End Template Arrays
 
-  // Start World Generator Arrays
+  // End World Generator Arrays
 
   function getRandomElements(array, count) {
     const shuffledArray = array.slice().sort(() => 0.5 - Math.random());

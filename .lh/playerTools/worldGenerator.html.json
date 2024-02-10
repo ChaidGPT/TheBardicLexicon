@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 120,
+            "activePatchIndex": 123,
             "patches": [
                 {
                     "date": 1698696495678,
@@ -488,6 +488,18 @@
                 {
                     "date": 1707573821995,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                 aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                 Player Tools\r\n               </a>\r\n               <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                <a class=\"dropdown-item\" href=\"\">World Generator</a>\r\n+                <a class=\"dropdown-item\" href=\"\">Location Generator</a>\r\n                 <a class=\"dropdown-item\" href=\"../playerTools/dice.html\">Dice Roll Generator</a>\r\n                 <div class=\"dropdown-divider\"></div>\r\n                 <a class=\"dropdown-item\" href=\"#\">More</a>\r\n               </div>\r\n@@ -82,9 +82,9 @@\n     </div>\r\n \r\n     <div class=\"container mt-5 text-left\">\r\n \r\n-      <!-- Start World Generator Form -->\r\n+      <!-- Start Location Generator Form -->\r\n \r\n       <form id=\"worldForm\" class=\"mb-4\">\r\n \r\n         <!-- Start World Name Field -->\r\n@@ -217,9 +217,9 @@\n         <!-- End Template Options -->\r\n \r\n       </form>\r\n \r\n-      <!-- End World Generator Form -->\r\n+      <!-- End Location Generator Form -->\r\n \r\n       <div id=\"generatedContent\"></div>\r\n \r\n     </div>\r\n"
+                },
+                {
+                    "date": 1707582064263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,9 +96,9 @@\n         <div class=\"d-flex justify-content-center\">\r\n         <div class=\"form-group mx-auto\">\r\n           <div class=\"input-group-prepend mb-4\">\r\n             <button type=\"submit\" class=\"btn btn-primary mr-2\">Generate</button>\r\n-            <div class=\"input-group-append\">\r\n+            <div>\r\n               <div class=\"form-check\">\r\n                 <input class=\"form-check-input\" type=\"checkbox\" id=\"enableSettlements\" data-toggle=\"collapse\" data-target=\"#settlementOptions\" />\r\n                 <label class=\"form-check-label ALI\" for=\"enableSettlements\">Randomizer Settings</label>\r\n               </div>\r\n"
+                },
+                {
+                    "date": 1707582086215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,12 +93,12 @@\n \r\n \r\n         <!-- Start Settlement Options -->\r\n         <div class=\"d-flex justify-content-center\">\r\n-        <div class=\"form-group mx-auto\">\r\n+        <div class=\"form-group-sm mx-auto\">\r\n           <div class=\"input-group-prepend mb-4\">\r\n             <button type=\"submit\" class=\"btn btn-primary mr-2\">Generate</button>\r\n-            <div>\r\n+            <div class=\"input-group-append\">\r\n               <div class=\"form-check\">\r\n                 <input class=\"form-check-input\" type=\"checkbox\" id=\"enableSettlements\" data-toggle=\"collapse\" data-target=\"#settlementOptions\" />\r\n                 <label class=\"form-check-label ALI\" for=\"enableSettlements\">Randomizer Settings</label>\r\n               </div>\r\n"
+                },
+                {
+                    "date": 1707582101676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,9 +99,9 @@\n             <button type=\"submit\" class=\"btn btn-primary mr-2\">Generate</button>\r\n             <div class=\"input-group-append\">\r\n               <div class=\"form-check\">\r\n                 <input class=\"form-check-input\" type=\"checkbox\" id=\"enableSettlements\" data-toggle=\"collapse\" data-target=\"#settlementOptions\" />\r\n-                <label class=\"form-check-label ALI\" for=\"enableSettlements\">Randomizer Settings</label>\r\n+                <label class=\"form-check-label ALI\" for=\"enableSettlements\">Settings</label>\r\n               </div>\r\n               <hr>\r\n             </div>\r\n           </div>          \r\n"
                 }
             ],
             "date": 1698696495678,

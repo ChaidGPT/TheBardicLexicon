@@ -187,19 +187,19 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Pirate Cove",
       link: "https://example.com/pirate_cove",
       description: "Hidden harbor for pirates, smugglers, and sailors of ill repute.",
-      image: "../images/locations/pirateCove.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Watchtower Outpost",
       link: "https://example.com/watchtower_outpost",
       description: "Guarded outpost with a strategic watchtower for surveillance.",
-      image: "../images/locations/watchtowewOutpost.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Wayfarer's Rest",
       link: "https://example.com/wayfarers_rest",
       description: "Rest stop for travelers and adventurers journeying through the wilderness.",
-      image: "../images/locations/wayfarersRest.png",
+      image: "../images/locations/smallTown.jpg",
     },
   ];  
 

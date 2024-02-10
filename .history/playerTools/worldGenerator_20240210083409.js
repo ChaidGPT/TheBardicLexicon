@@ -181,25 +181,25 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Sylvan Retreat",
       link: "https://example.com/sylvan_retreat",
       description: "Hidden settlement in the heart of a magical or enchanted forest.",
-      image: "../images/locations/sylvanRetreat.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Pirate Cove",
       link: "https://example.com/pirate_cove",
       description: "Hidden harbor for pirates, smugglers, and sailors of ill repute.",
-      image: "../images/locations/pirateCove.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Watchtower Outpost",
       link: "https://example.com/watchtower_outpost",
       description: "Guarded outpost with a strategic watchtower for surveillance.",
-      image: "../images/locations/watchtowewOutpost.jpg",
+      image: "../images/locations/smallTown.jpg",
     },
     {
       name: "Wayfarer's Rest",
       link: "https://example.com/wayfarers_rest",
       description: "Rest stop for travelers and adventurers journeying through the wilderness.",
-      image: "../images/locations/wayfarersRest.png",
+      image: "../images/locations/smallTown.jpg",
     },
   ];  
 

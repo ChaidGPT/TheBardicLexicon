@@ -967,7 +967,7 @@ if (encountersCountValue === "random") {
       
 
       <div class="container">
-      <h5><strong>The party sees a...</strong></h5>
+      <h5><strong>Encounters:</strong></h5>
       <ul>`;
 
       content += selectedEncountersForSettlement

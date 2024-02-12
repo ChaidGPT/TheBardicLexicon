@@ -591,162 +591,46 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const encounters = [
     {
-      name: "Falling Objects",
-      description: "You hear yelling from above you. Suddenly, various objects rain down, shattering on impact."
+      name: "1",
+      description: "Description 1"
     },
     {
-      name: "Mysterious Figure",
-      description: "A cloaked figure approaches, handing you a cryptic message before disappearing into the surroundings."
+      name: "2",
+      description: "Description 2"
     },
     {
-      name: "Lost Creature",
-      description: "You come across a distressed creature in need of help. Its owner is nowhere to be found."
+      name: "3",
+      description: "Description 3"
     },
     {
-      name: "Makeshift Market",
-      description: "In a clearing, creatures have set up a makeshift market, selling peculiar and rare items."
+      name: "4",
+      description: "Description 4"
     },
     {
-      name: "Enchanted Oasis",
-      description: "A hidden oasis in the wilderness grants a temporary magical boon to those who drink from it."
+      name: "5",
+      description: "Description 5"
     },
     {
-      name: "Dancing Lights",
-      description: "Mysterious lights lead you off the path to a hidden area with strange flora and fauna."
+      name: "6",
+      description: "Description 6"
     },
     {
-      name: "Talking Statue",
-      description: "A statue suddenly comes to life, imparting ancient wisdom or posing a riddle before freezing again."
+      name: "7",
+      description: "Description 7"
     },
     {
-      name: "Thunderstorm Shelter",
-      description: "A sudden thunderstorm forces you to seek shelter. Lightning reveals a hidden cave entrance nearby."
+      name: "8",
+      description: "Description 8"
     },
     {
-      name: "Wandering Performer",
-      description: "A traveling entertainer offers to perform a tale of your adventures for a small fee or a meal."
+      name: "9",
+      description: "Description 9"
     },
     {
-      name: "Mirror Portal",
-      description: "A magical mirror reflects a different location. Stepping through transports you to that place momentarily."
+      name: "10",
+      description: "Description 10"
     },
-    {
-      name: "Giant Footprints",
-      description: "Enormous footprints lead into the wilderness. What could have made them?"
-    },
-    {
-      name: "Haunted Well",
-      description: "A well in the area is said to be haunted, with unsettling visions for those who peer inside."
-    },
-    {
-      name: "Doppelganger's Encounter",
-      description: "In a camp, you spot someone who looks exactly like one of the party members. They claim not to know you."
-    },
-    {
-      name: "Cursed Coin",
-      description: "A cursed coin is found on the ground, bringing both fortune and misfortune to whoever possesses it."
-    },
-    {
-      name: "Spectral Musician",
-      description: "A ghostly musician plays a haunting melody. Those who listen too long risk being drawn into the ethereal realm."
-    },
-    {
-      name: "Trapped Faerie",
-      description: "A faerie is caught in a magical trap. Freeing it earns you the gratitude of the Fey, who may aid you in the future."
-    },
-    {
-      name: "Glowing Cave",
-      description: "A cave is filled with bioluminescent mushrooms. Harvesting them may have magical effects or attract curious creatures."
-    },
-    {
-      name: "Cursed Reflection",
-      description: "An abandoned mirror reflects a distorted version of reality. Gazing too long may have strange consequences."
-    },
-    {
-      name: "Friendly Mimic",
-      description: "You encounter a mimic that, instead of attacking, offers useful information or assistance in exchange for food."
-    },
-    {
-      name: "Time-Shifted Location",
-      description: "You stumble upon a location seemingly stuck in a time loop, each area revealing a different point in history."
-    },
-    {
-      name: "Whispering Trees",
-      description: "The trees in a dense forest seem to whisper secrets. Listening carefully might reveal valuable information."
-    },
-    {
-      name: "Blinking Creatures",
-      description: "Creatures with the ability to blink in and out of existence appear, acting with confusion or hostility."
-    },
-    {
-      name: "Talisman Vendor",
-      description: "A charismatic vendor offers enchanted talismans. The effects vary, and some may have unintended consequences."
-    },
-    {
-      name: "Rogue Fey Circle",
-      description: "A faerie ring appears in the moonlight. Stepping inside transports you to a different location in the world."
-    },
-    {
-      name: "Oracle's Vision",
-      description: "An oracle appears, providing a cryptic vision about the party's future. Deciphering it may lead to crucial insights."
-    },
-    {
-      name: "Diplomatic Ambush",
-      description: "A group of creatures approaches, seeking an alliance against a common foe. Their sincerity is questionable."
-    },
-    {
-      name: "Spider-Infested Area",
-      description: "You stumble upon an area infested with giant spiders. Exploring may reveal valuable silk or the presence of a deadly arachnid."
-    },
-    {
-      name: "Cursed Painting",
-      description: "An eerie painting in a location seems cursed. Gazing at it transports you to a nightmarish realm for a brief moment."
-    },
-    {
-      name: "Wandering Wizards",
-      description: "Two wizards engage in a magical duel nearby. The party may choose to intervene or watch the spectacle unfold."
-    },
-    {
-      name: "Feywild Glimpse",
-      description: "A portal to the Feywild briefly opens, allowing glimpses of vibrant landscapes and playful fey creatures."
-    },
-    {
-      name: "Bardic Challenge",
-      description: "A local bard challenges the party to a contest of skill. Winning earns admiration, while losing may result in jests."
-    },
-    {
-      name: "Cursed Caverns",
-      description: "A network of caverns is cursed, causing strange phenomena. Navigating them may lead to hidden treasures or peril."
-    },
-    {
-      name: "Temporal Freeze",
-      description: "Time freezes momentarily. Exploring during this frozen moment may reveal secrets or present unique challenges."
-    },
-    {
-      name: "Oracle's Garden",
-      description: "A secluded garden is tended by an oracle. Eating the fruits there provides visions of possible futures."
-    },
-    {
-      name: "Enchanted Wildlife",
-      description: "You encounter a group of animals exhibiting magical traits. Interacting with them may lead to unexpected outcomes."
-    },
-    {
-      name: "Goblin Ambush",
-      description: "Goblins set up an ambush, hoping to loot unsuspecting travelers. The party must navigate or confront the threat."
-    },
-    {
-      name: "Moonlit Ritual",
-      description: "You chance upon a group performing a mysterious moonlit ritual. Observing or interrupting could have consequences."
-    },
-    {
-      name: "Ghostly Guide",
-      description: "A benevolent ghost offers guidance, leading the party to a hidden location or providing useful information."
-    },
-    {
-      name: "Shifting Shadows",
-      description: "Strange shadows move independently, hinting at a magical disturbance or the presence of otherworldly entities."
-    },
-  ];  
+  ]
   
   //   End Settlement Arrays
 
@@ -866,11 +750,10 @@ document.addEventListener("DOMContentLoaded", function () {
     let encountersCount;
   
     if (encountersCountInput.value === "random") {
-      const randomEncountersCount = Math.floor((Math.random() * 4) + 1);
-      selectedEncountersForSettlement = getRandomElements(encounters, randomEncountersCount);
+      encountersCountCount = "random";
     } else {
-      selectedEncountersForSettlement = getRandomElements(encounters, encountersCount);
-    }    
+      encountersCount = parseInt(encountersCountInput.value);
+    }
   // ----------
 
     const selectedSettlements = getRandomElements(settlements, settlementsCount);
@@ -903,24 +786,14 @@ document.addEventListener("DOMContentLoaded", function () {
           selectedRacesForSettlement = getRandomElements(races, racesCount);
         }
 
-       // Encounters
-let encountersCountValue;
-
-if (encountersCountInput.value === "random") {
-  encountersCountValue = "random";
-} else {
-  encountersCountValue = parseInt(encountersCountInput.value);
-}
-
-let selectedEncountersForSettlement;
-
-if (encountersCountValue === "random") {
-  const randomEncountersCount = Math.floor((Math.random() * 5) + 1); // Adjusted to 5 encounters
-  selectedEncountersForSettlement = getRandomElements(encounters, randomEncountersCount);
-} else {
-  selectedEncountersForSettlement = getRandomElements(encounters, encountersCountValue);
-}
-
+        // Encounters
+        let selectedEncountersForSettlement;
+        if (encountersCountInput === "random") {
+          const randomEncountersCount = Math.floor((Math.random() * 4) + 1)
+          selectedEncountersForSettlement = getRandomElements(encounters, randomEncountersCount);
+        } else {
+          selectedEncountersForSettlement = getRandomElements(encounters, encountersCount);
+        }
   
         content += `
     <div class="row">
@@ -967,13 +840,13 @@ if (encountersCountValue === "random") {
       
 
       <div class="container">
-      <h5><strong>The party sees a...</strong></h5>
+      <h5><strong>Encounters:</strong></h5>
       <ul>`;
 
       content += selectedEncountersForSettlement
-      .map((encounter) => `
+      .map((encounters) => `
         <li>
-          <strong>${encounter.name}:</strong> ${encounter.description}
+          <strong>${encounters.name}:</strong> ${encounters.description}
         </li>`)
       .join("");        
 

@@ -591,19 +591,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const encounters = [
     {
-      name: "Falling Objects",
+      name: "A Falling Objects",
       description: "You hear yelling from above you. Suddenly, various objects rain down, shattering on impact."
     },
     {
-      name: "Mysterious Figure",
+      name: "A Mysterious Figure",
       description: "A cloaked figure approaches, handing you a cryptic message before disappearing into the surroundings."
     },
     {
-      name: "Lost Creature",
+      name: "A Lost Creature",
       description: "You come across a distressed creature in need of help. Its owner is nowhere to be found."
     },
     {
-      name: "Makeshift Market",
+      name: "A Makeshift Market",
       description: "In a clearing, creatures have set up a makeshift market, selling peculiar and rare items."
     },
     {
@@ -967,7 +967,7 @@ if (encountersCountValue === "random") {
       
 
       <div class="container">
-      <h5><strong>The party sees a...</strong></h5>
+      <h5><strong>The party sees...</strong></h5>
       <ul>`;
 
       content += selectedEncountersForSettlement

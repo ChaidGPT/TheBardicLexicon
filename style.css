@@ -366,7 +366,6 @@ table {
   margin: 15px;
 }
 
-
-#printButton {
-  display: none;
+.icon {
+  padding-left: 15px;
 }

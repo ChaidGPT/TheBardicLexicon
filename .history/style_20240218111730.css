@@ -105,12 +105,14 @@ footer {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .monsterName {
   font-family: 'endor';
   padding-top: 20px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .navMonsterName {
@@ -364,7 +366,6 @@ table {
   margin: 15px;
 }
 
-
-#printButton {
-  display: none;
+.icon {
+  padding-left: 15px;
 }

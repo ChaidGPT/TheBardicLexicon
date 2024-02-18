@@ -9,7 +9,14 @@
       {
         "aria-required-children": "off"
       }
-    ]
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "disown-opener": "off"
   },
   "browserslist": [
     "defaults",

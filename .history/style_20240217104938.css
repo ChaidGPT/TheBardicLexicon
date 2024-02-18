@@ -112,6 +112,7 @@ footer {
   font-family: 'endor';
   padding-top: 20px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .navMonsterName {
@@ -368,4 +369,16 @@ table {
 
 #printButton {
   display: none;
+}
+
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff; /* Set your desired background color */
+  transition: transform 1s ease;
+}
+
+.page-flip {
+  transform: rotateY(-180deg);
 }

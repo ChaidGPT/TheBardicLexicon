@@ -334,26 +334,6 @@ document.addEventListener("DOMContentLoaded", function () {
       link: "https://example.com/crashedAirship",
       description: "A freshly crashed airship that the crew is still working on."
     },
-    {
-      name: "Brand New Airship",
-      link: "https://example.com/nweAirship",
-      description: "A brand new airship is being loaded up for it's maiden voyage."
-    },
-    {
-      name: "Seat of Governance",
-      link: "https://example.com/",
-      description: "The regional  government is headquartered here."
-    },
-    {
-      name: "Bardic College",
-      link: "https://example.com/",
-      description: "People come from all around to train at this Bard's College."
-    },
-    {
-      name: "Pet Shop",
-      link: "https://example.com/",
-      description: "A shop that sells all sorts of pets, both common and exotic."
-    },
   ];
 
   const races = [
@@ -725,7 +705,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       name: "a Cursed Painting",
-      description: "An eerie painting here seems cursed. What happens if you investigate?"
+      description: "An eerie painting here location seems cursed. Gazing at it transports you to a nightmarish realm for a brief moment."
     },
     {
       name: "Wandering Wizards",
@@ -798,14 +778,6 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "an Exceptional Child",
       description: "A child approaches. They seem to have the answers to all your questions, but how?"
-    },
-    {
-      name: "a Curious Fruit Tree",
-      description: "This tree is growing with many different types of fruit."
-    },
-    {
-      name: "an Interesting Offer",
-      description: "A person approaches and tells you there is something of value in one of the Points of Interest here. They will split it with you if you can get it."
     },
   ];  
   

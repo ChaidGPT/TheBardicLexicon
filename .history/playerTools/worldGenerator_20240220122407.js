@@ -355,9 +355,9 @@ document.addEventListener("DOMContentLoaded", function () {
       description: "A shop that sells all sorts of pets, both common and a little less common."
     },
     {
-      name: "Ornate Mausoleum",
+      name: "",
       link: "https://example.com/",
-      description: "A grand mausoleum where the rich are laid to rest."
+      description: ""
     },
   ];
 

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 12,
+            "activePatchIndex": 13,
             "patches": [
                 {
                     "date": 1690828837274,
@@ -56,6 +56,10 @@
                 {
                     "date": 1708527410667,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n         \"Aasimar\",\r\n         \"Auran\",\r\n         \"Autognome\",\r\n         \"Beastmaster's\",\r\n+        \"beastmasters\",\r\n         \"bioluminescent\",\r\n         \"endor\",\r\n         \"Feywild\",\r\n         \"Firbolg\",\r\n"
+                },
+                {
+                    "date": 1708620793549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n {\r\n     \"cSpell.words\": [\r\n+        \"Aalpamac\",\r\n         \"Aaqa\",\r\n         \"Aaracokra\",\r\n         \"aarakocra\",\r\n         \"Aasimar\",\r\n"
                 }
             ],
             "date": 1690828837274,

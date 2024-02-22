@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1708544540083,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1708617026510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,9 +77,9 @@\n         <p class=\"lead text-center\">Huge giant, chaotic neutral</p>\r\n         <p>Cyclopes are one-eyed giants that eke out a meager existence in wild lands. Isolationists by nature, they avoid contact with other races and try to drive away strangers in their territory.</p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait rounded\" src=\"../../../images/cyclops.png\" alt=\"Cyclops image\">\r\n+            <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../../images/cyclops.png\" alt=\"Cyclops image\">\r\n         </div>\r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n                 aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
                 }
             ],
             "date": 1708544540083,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1695663695818,
@@ -16,6 +16,10 @@
                 {
                     "date": 1708544540919,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,9 +265,9 @@\n     <!-- End collapseLore -->\r\n \r\n \r\n \r\n-    <footer class=\"page-footer font-small blue fixed-bottom\">\r\n+    <footer class=\"page-footer font-small blue\">\r\n       <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a></p>\r\n       <a href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" aria-label=\"LinkedIn Profile\">\r\n         <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"currentColor\" class=\"bi bi-linkedin icon\"\r\n           viewBox=\"0 0 16 16\">\r\n"
+                },
+                {
+                    "date": 1708617026914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n             while the smaller eyestalks that crown its body twist and turn to keep its foes in sight. When a beholder\r\n             sleeps, it closes its central eye but leaves its smaller eyes open and alert.</p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait rounded\" src=\"../../images/beholder.webp\" alt=\"Beholder image\">\r\n+            <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/beholder.webp\" alt=\"Beholder image\">\r\n         </div>\r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n                 aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
                 }
             ],
             "date": 1695663695818,

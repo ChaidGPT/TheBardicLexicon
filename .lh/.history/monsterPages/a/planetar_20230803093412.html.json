@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1695663700243,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1708617027723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,15 +29,15 @@\n       <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n       <div class=\"jumbotron\">\r\n          <h1 class=\"display-4\">Palentar</h1>\r\n-         <p class=\"lead\">Large celestial, lawful good</p>\r\n+         <p class=\"lead text-center\">Large celestial, lawful good</p>\r\n          <p>Planetars act as the weapons of the gods they serve, presenting a tangible representation of their deities' might. A planetar can call down rain to relieve a drought, or can loose an insect plague to devour crops. A planetar's celestial ears detect every falsehood, and its radiant eyes see through every deception.</p>\r\n          <p>Planetars are muscular and hairless and have opalescent green skin and white-feathered wings. They tower over most humanoids, brandishing immense swords with grace. Sometimes sent to aid powerful mortals on important tasks for good, planetars are especially fond of missions that involve battling fiends.</p>\r\n          <p>For basic lore see <a href=\"angels.html\">Angels</a></p>\r\n          <hr class=\"my-4\">\r\n          <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait rounded\" src=\"../../images/planetar.webp\" alt=\"Aarakocra image\">\r\n+            <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/planetar.webp\" alt=\"Aarakocra image\">\r\n          </div>\r\n          <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n          </div>\r\n"
                 }
             ],
             "date": 1695663700243,

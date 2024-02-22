@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1708544540062,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1708617026200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n             new lands and peoples. But even these wanderers love peace, food, hearth, and home, though home might be a\r\n             wagon jostling along an dirt road or a raft floating downriver.</p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait rounded\" src=\"../../images/halfling.png\" alt=\"Halfling image\">\r\n+            <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/halfling.png\" alt=\"Halfling image\">\r\n         </div>\r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n                 aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Traits</button>\r\n"
                 }
             ],
             "date": 1708544540062,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 71,
+            "activePatchIndex": 79,
             "patches": [
                 {
                     "date": 1694268625502,
@@ -292,6 +292,38 @@
                 {
                     "date": 1708544540888,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -508,9 +508,9 @@\n         </div>\r\n \r\n     </div>\r\n \r\n-    <footer class=\"page-footer font-small blue fixed-bottom\">\r\n+    <footer class=\"page-footer font-small blue\">\r\n       <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a></p>\r\n       <a href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" aria-label=\"LinkedIn Profile\">\r\n         <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"currentColor\" class=\"bi bi-linkedin icon\"\r\n           viewBox=\"0 0 16 16\">\r\n"
+                },
+                {
+                    "date": 1708616280703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,9 +87,9 @@\n \r\n         <h3 class=\"text-center\">Core Races</h3>\r\n         <div class=\"horizontal-line\"></div>\r\n \r\n-        <div class=\"container menuBox rounded\">\r\n+        <div class=\"container menuBox rounded-circle\">\r\n             <div class=\"row justify-content-center\">\r\n \r\n                 <a href=\"racePages/aarakocra.html\">\r\n                     <figure class=\"bestiary-figure\">\r\n"
+                },
+                {
+                    "date": 1708616309711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,9 +87,9 @@\n \r\n         <h3 class=\"text-center\">Core Races</h3>\r\n         <div class=\"horizontal-line\"></div>\r\n \r\n-        <div class=\"container menuBox rounded-circle\">\r\n+        <div class=\"container menuBox rounded-pill\">\r\n             <div class=\"row justify-content-center\">\r\n \r\n                 <a href=\"racePages/aarakocra.html\">\r\n                     <figure class=\"bestiary-figure\">\r\n"
+                },
+                {
+                    "date": 1708616354398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,9 +87,9 @@\n \r\n         <h3 class=\"text-center\">Core Races</h3>\r\n         <div class=\"horizontal-line\"></div>\r\n \r\n-        <div class=\"container menuBox rounded-pill\">\r\n+        <div class=\"container menuBox rounded-lg\">\r\n             <div class=\"row justify-content-center\">\r\n \r\n                 <a href=\"racePages/aarakocra.html\">\r\n                     <figure class=\"bestiary-figure\">\r\n"
+                },
+                {
+                    "date": 1708616418199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,9 +84,9 @@\n         </div>\r\n \r\n         <!-- Player Races Thumbnails -->\r\n \r\n-        <h3 class=\"text-center\">Core Races</h3>\r\n+        <h3 class=\"text-center contentsPageName\">Core Races</h3>\r\n         <div class=\"horizontal-line\"></div>\r\n \r\n         <div class=\"container menuBox rounded-lg\">\r\n             <div class=\"row justify-content-center\">\r\n"
+                },
+                {
+                    "date": 1708616439524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -483,9 +483,9 @@\n \r\n             </div>\r\n         </div>\r\n \r\n-        <h3 class=\"text-center\">Homebrew Races</h3>\r\n+        <h3 class=\"text-center contentsPageName\">Homebrew Races</h3>\r\n         <div class=\"horizontal-line\"></div>\r\n \r\n         <div class=\"container menuBox rounded\">\r\n             <div class=\"row justify-content-center\">\r\n"
+                },
+                {
+                    "date": 1708616520456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,9 +84,9 @@\n         </div>\r\n \r\n         <!-- Player Races Thumbnails -->\r\n \r\n-        <h3 class=\"text-center contentsPageName\">Core Races</h3>\r\n+        <h3 class=\"text-center contentsPageName shadow-lg\">Core Races</h3>\r\n         <div class=\"horizontal-line\"></div>\r\n \r\n         <div class=\"container menuBox rounded-lg\">\r\n             <div class=\"row justify-content-center\">\r\n"
+                },
+                {
+                    "date": 1708616541875,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,9 +84,9 @@\n         </div>\r\n \r\n         <!-- Player Races Thumbnails -->\r\n \r\n-        <h3 class=\"text-center contentsPageName shadow-lg\">Core Races</h3>\r\n+        <h3 class=\"text-center contentsPageName\">Core Races</h3>\r\n         <div class=\"horizontal-line\"></div>\r\n \r\n         <div class=\"container menuBox rounded-lg\">\r\n             <div class=\"row justify-content-center\">\r\n@@ -486,9 +486,9 @@\n \r\n         <h3 class=\"text-center contentsPageName\">Homebrew Races</h3>\r\n         <div class=\"horizontal-line\"></div>\r\n \r\n-        <div class=\"container menuBox rounded\">\r\n+        <div class=\"container menuBox rounded shadow-lg\">\r\n             <div class=\"row justify-content-center\">\r\n \r\n                 <a href=\"racePages/cats.html\">\r\n                     <figure class=\"bestiary-figure\">\r\n"
+                },
+                {
+                    "date": 1708616561674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,9 +87,9 @@\n \r\n         <h3 class=\"text-center contentsPageName\">Core Races</h3>\r\n         <div class=\"horizontal-line\"></div>\r\n \r\n-        <div class=\"container menuBox rounded-lg\">\r\n+        <div class=\"container menuBox rounded-lg shadow-lg\">\r\n             <div class=\"row justify-content-center\">\r\n \r\n                 <a href=\"racePages/aarakocra.html\">\r\n                     <figure class=\"bestiary-figure\">\r\n"
                 }
             ],
             "date": 1694268625502,

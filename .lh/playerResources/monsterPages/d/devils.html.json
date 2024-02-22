@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 10,
+            "activePatchIndex": 11,
             "patches": [
                 {
                     "date": 1697762148589,
@@ -48,6 +48,10 @@
                 {
                     "date": 1697938461257,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -327,9 +327,9 @@\n           </p>\r\n           <p>\r\n             <span class=\"bold-text\">Greater Devils:</span> The greater devils\r\n             include the pit fiends, erinyes, horned devils, and ice devils that\r\n-            command lesser devils and attend the archdevils\r\n+            command lesser devils and attend the archdevils.\r\n           </p>\r\n           <p>\r\n             <span class=\"bold-text\">Lesser Devils:</span> The lesser devils\r\n             include numerous strains of fiends, including imps, chain devils,\r\n@@ -398,5 +398,5 @@\n       crossorigin=\"anonymous\"\r\n     ></script>\r\n     <script src=\"../../../scriptMon.js\"></script>\r\n   </body>\r\n-</html>\n\\ No newline at end of file\n+</html>\r\n"
+                },
+                {
+                    "date": 1708617025620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -128,13 +128,13 @@\n       Go Back\r\n     </button>\r\n \r\n     <div class=\"jumbotron\">\r\n-      <h1 class=\"display-4 monsterName\">Devils</h1>\r\n+      <h1 class=\"display-4 monsterName text-center\">Devils</h1>\r\n       <div class=\"horizontal-line\"></div>\r\n       <p>\r\n         Devils personify tyranny, with a totalitarian society dedicated to the\r\n-        domination of mortal life. The shadow of the Nine Hells of Baa tor\r\n+        domination of mortal life. The shadow of the Nine Hells of Baator\r\n         extends far across the multiverse, and Asmodeus, the dark lord of Ness\r\n         us, strives to subjugate the cosmos to satisfy his thirst for power. To\r\n         do so, he must continually expand his infernal armies, sending his\r\n         servants to the mortal realm to corrupt the souls from which new devils\r\n@@ -142,9 +142,9 @@\n       </p>\r\n       <hr class=\"my-4\" />\r\n       <div class=\"monsterImageContainer\">\r\n         <img\r\n-          class=\"monsterPortrait rounded\"\r\n+          class=\"monsterPortrait rounded shadow-lg\"\r\n           src=\"../../../images/devils.webp\"\r\n           alt=\"Devils image\"\r\n         />\r\n       </div>\r\n@@ -364,9 +364,19 @@\n         </div>\r\n         <div class=\"horizontal-line\"></div>\r\n         <div id=\"5\">\r\n           <h5>The Nine Hells</h5>\r\n-          <p></p>\r\n+          <p>\r\n+            The Nine Hells are a single plane comprising nine separate layers.\r\n+            The first eight layers are each ruled by arch devils that answer to\r\n+            the greatest archdevil of all: Asmodeus, the Archduke of Nessus, the\r\n+            ninth layer. To reach the deepest layer of the Nine Hells, one must\r\n+            descend through all eight of the layers above it, in order. The most\r\n+            expeditious means of doing so is the River Styx, which plunges ever\r\n+            deeper as it flows from one layer to the next. Only the most\r\n+            courageous adventurers can withstand the torment and horror of that\r\n+            journey.\r\n+          </p>\r\n         </div>\r\n         <div class=\"horizontal-line\"></div>\r\n         <button type=\"button\" class=\"btn btn-secondary\" onclick=\"goToTop()\">\r\n           Back to Top\r\n"
                 }
             ],
             "date": 1697762148589,

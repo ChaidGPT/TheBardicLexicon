@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 9,
+            "activePatchIndex": 10,
             "patches": [
                 {
                     "date": 1693840999575,
@@ -44,6 +44,10 @@
                 {
                     "date": 1707573822439,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n                     aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                     Player Tools\r\n                   </a>\r\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                    <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                     <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n                     <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                   </div>\r\n@@ -71,11 +71,11 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4 monsterName\">Quasit</h1>\r\n+        <h1 class=\"display-4 monsterName text-center\">Quasit</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n-        <p class=\"lead\">Tiny fiend (demon), chaotic evil</p>\r\n+        <p class=\"lead text-center\">Tiny fiend (demon), chaotic evil</p>\r\n         <p>Quasits infest the Lower Planes. Physically weak, they keep to the shadows to plot mischief and wickedness. More powerful demons use quasits as spies and messengers when they aren't devouring them or pulling them apart to pass the time.</p>\r\n         <p>A quasit can assume animal forms, but in its true form it looks like a 2-foot-tall green humanoid with a barbed tail and horns. The quasit has clawed fingers and toes, and 'these claws can deliver an irritating poison. It prefers to be invisible when it attacks.</p>\r\n             <p>For basic lore see <a href=\"demons.html\">Demons</a></p>\r\n         <hr class=\"my-4\">\r\n"
+                },
+                {
+                    "date": 1708617025162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,9 +79,9 @@\n         <p>A quasit can assume animal forms, but in its true form it looks like a 2-foot-tall green humanoid with a barbed tail and horns. The quasit has clawed fingers and toes, and 'these claws can deliver an irritating poison. It prefers to be invisible when it attacks.</p>\r\n             <p>For basic lore see <a href=\"demons.html\">Demons</a></p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait rounded\" src=\"../../../images/quasit.png\" alt=\"Quasit image\">\r\n+            <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../../images/quasit.png\" alt=\"Quasit image\">\r\n         </div>\r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n                 aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
                 }
             ],
             "date": 1693840999575,

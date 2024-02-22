@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1695663695789,
@@ -16,6 +16,10 @@
                 {
                     "date": 1708544540739,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -160,9 +160,9 @@\n    </div>\r\n \r\n    <!-- End collapseLore -->\r\n \r\n-   <footer class=\"page-footer font-small blue fixed-bottom\">\r\n+   <footer class=\"page-footer font-small blue\">\r\n       <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a></p>\r\n       <a href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" aria-label=\"LinkedIn Profile\">\r\n         <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"currentColor\" class=\"bi bi-linkedin icon\"\r\n           viewBox=\"0 0 16 16\">\r\n"
+                },
+                {
+                    "date": 1708617027039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n       <p>When night falls, unlucky travelers hear the faint cries of the forlorn dead. This woeful spirit is a banshee, a spiteful creature formed from the spirit of a female elf.</p>\r\n       <p>Banshees appear as luminous, wispy forms that vaguely recall their mortal features. A banshee's face is wreathed in a wild tangle of hair, its body clad in wispy rags that flutter and stream around it.</p>\r\n       <hr class=\"my-4\">\r\n       <div class=\"monsterImageContainer\">\r\n-         <img class=\"monsterPortrait rounded\" src=\"../../images/banshee.png\" alt=\"Banshee image\">\r\n+         <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/banshee.png\" alt=\"Banshee image\">\r\n       </div>\r\n       <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n          <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n             aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
                 }
             ],
             "date": 1695663695789,

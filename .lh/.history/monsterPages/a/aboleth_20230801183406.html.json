@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1695663700159,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1708617027509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,13 +26,13 @@\n          </nav>\r\n       </header>\r\n       <div class=\"jumbotron\">\r\n          <h1 class=\"display-4\">Aboleth</h1>\r\n-         <p class=\"lead\">Large aberration, lawful evil </p>\r\n+         <p class=\"lead text-center\">Large aberration, lawful evil </p>\r\n          <p>Before the coming of the gods, aboleths lurked in primordial oceans and underground lakes. They reached out with their minds and seized control of the burgeoning life-forms of the mortal realm, making those creatures their slaves. Their dominance made them like gods. Then the true gods appeared, smashing the aboleth’s empire and freeing their slaves. Aboleths have never forgotten.</p>\r\n          <hr class=\"my-4\">\r\n          <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait rounded\" src=\"../../images/aboleth.jpg\" alt=\"Aarakocra image\">\r\n+            <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/aboleth.jpg\" alt=\"Aarakocra image\">\r\n          </div>\r\n          <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseLore\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToLore()\">Lore</button>\r\n"
                 }
             ],
             "date": 1695663700159,

@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1695663700205,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1708617027802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n          <h1 class=\"display-4\">Animated Objects</h1>\r\n          <p>Animated objects are crafted with potent magic to follow the commands of their creators. When not commanded, they follow the last order they received to the best of their ability, and can act independently to fulfill simple instructions. Some animated objects (including many of those created in the Feywild) might converse fluently or adopt a persona, but most are simple automatons.</p>\r\n          <hr class=\"my-4\">\r\n          <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait rounded\" src=\"../../images/animatedObjects.webp\" alt=\"Aarakocra image\">\r\n+            <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/animatedObjects.webp\" alt=\"Aarakocra image\">\r\n          </div>\r\n          <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseLore\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToLore()\">Lore</button>\r\n             <div class=\"btn-group\" role=\"group\">\r\n"
                 }
             ],
             "date": 1695663700205,

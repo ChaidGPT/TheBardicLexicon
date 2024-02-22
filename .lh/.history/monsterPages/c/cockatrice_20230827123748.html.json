@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1695663695753,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1708617027087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,18 +38,18 @@\n \r\n     <div class=\"jumbotron\">\r\n         <h1 class=\"display-4\">Cockatrice</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n-        <p class=\"lead\">Small monstrosity, unaligned</p>\r\n+        <p class=\"lead text-center\">Small monstrosity, unaligned</p>\r\n         <p>The cockatrice looks like a hideous hybrid of lizard, bird, and bat, and it is infamous for its ability to\r\n             turn flesh to stone. These omnivores have a diet that consists of berries, nuts, flowers, and small animals\r\n             such as insects, mice, and frogs- things they can swallow whole. They would be no threat to anything else if\r\n             not for their fierce and frenzied response to even a hint of danger. A cockatrice flies into the face of any\r\n             threat, squawking and madly beating its wings as its head darts out to peck. The smallest scratch from a\r\n             cockatrice's beak can spell doom as its victim slowly turns to stone from the injury.</p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait rounded\" src=\"../../images/cockatrice.webp\" alt=\"Cockatrice image\">\r\n+            <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/cockatrice.webp\" alt=\"Cockatrice image\">\r\n         </div>\r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n                 aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
                 }
             ],
             "date": 1695663695753,

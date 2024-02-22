@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1708544540057,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1708617026203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,9 +82,9 @@\n             their peers continue to live as children. Many half-elves, unable to fit into either society, choose lives\r\n             of solitary wandering or join with other misfits and outcasts in the adventuring life.</p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait rounded\" src=\"../../images/halfelf.png\" alt=\"Half-Elf image\">\r\n+            <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/halfelf.png\" alt=\"Half-Elf image\">\r\n         </div>\r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n                 aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Traits</button>\r\n"
                 }
             ],
             "date": 1708544540057,

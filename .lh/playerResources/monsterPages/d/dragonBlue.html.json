@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 14,
+            "activePatchIndex": 15,
             "patches": [
                 {
                     "date": 1699220737760,
@@ -64,6 +64,10 @@
                 {
                     "date": 1708544540544,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -430,9 +430,9 @@\n    </div>\r\n \r\n    <!-- End collapseLore -->\r\n \r\n-   <footer class=\"page-footer font-small blue fixed-bottom\">\r\n+   <footer class=\"page-footer font-small blue\">\r\n       <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a></p>\r\n       <a href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" aria-label=\"LinkedIn Profile\">\r\n         <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"currentColor\" class=\"bi bi-linkedin icon\"\r\n           viewBox=\"0 0 16 16\">\r\n"
+                },
+                {
+                    "date": 1708617025337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,9 @@\n       <p>A blue dragon's scales vary in color from an iridescent azure to a deep indigo, polished to a glossy finish by the desert sands. As the dragon ages, its ·scales become thicker and harder, and its hide hums and crackles with static electricity. These effects intensify when the dragon is angry or about to attack, giving off an odor of ozone and dusty air.</p>\r\n       <p>For basic lore see <a href=\"dragonsChromatic.html\">Chromatic Dragons</a></p>\r\n       <hr class=\"my-4\">\r\n       <div class=\"monsterImageContainer\">\r\n-         <img class=\"monsterPortrait rounded\" src=\"../../../images/dragonBlue.webp\" alt=\"Blue Dragon image\">\r\n+         <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../../images/dragonBlue.webp\" alt=\"Blue Dragon image\">\r\n       </div>\r\n       <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n          <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n             aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info/types</button>\r\n"
                 }
             ],
             "date": 1699220737760,

@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1695663695843,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1708617026708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,15 +35,15 @@\n \r\n    <div class=\"jumbotron\">\r\n       <h1 class=\"display-4\">Needle Blight</h1>\r\n       <div class=\"horizontal-line\"></div>\r\n-      <p class=\"lead\">Medium plant, neutral evil</p>\r\n+      <p class=\"lead text-center\">Medium plant, neutral evil</p>\r\n       <p>In the shadows of a forest, needle blights might be taken at a distance for shuffling, hunched humanoids. Up close, these creatures reveal themselves as horrid plants whose conifer-like needles grow across their bodies in quivering clumps. A needle blight lashes out with these needles or launches them as an aerial assault that can punch through armor and flesh.</p>\r\n       <p>When needle blights detect a threat, they loose a pollen that the wind carries to other needle blights throughout the forest. Alerted to their foes' location, needle blights converge from all sides to drench their roots in blood.</p>\r\n       <p>For basic lore see <a href=\"blights.html\">Blights</a></p>\r\n       <hr class=\"my-4\">\r\n       <div class=\"monsterImageContainer\">\r\n-         <img class=\"monsterPortrait rounded\" src=\"../../images/needleBlight.webp\" alt=\"Flying Sword image\">\r\n+         <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/needleBlight.webp\" alt=\"Flying Sword image\">\r\n       </div>\r\n       <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n          <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n             aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
                 }
             ],
             "date": 1695663695843,

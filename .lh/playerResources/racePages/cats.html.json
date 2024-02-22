@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 15,
+            "activePatchIndex": 16,
             "patches": [
                 {
                     "date": 1695862672328,
@@ -68,6 +68,10 @@
                 {
                     "date": 1696905462480,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,10 +45,11 @@\n                 <div class=\"dropdown-divider\"></div>\r\n                 <h6 class=\"dropdown-header\">Magic</h6>\r\n                 <a class=\"dropdown-item\" href=\"../spells.html\">Spells</a>\r\n                 <div class=\"dropdown-divider\"></div>\r\n-                <h6 class=\"dropdown-header\">Enemies</h6>\r\n-                <a class=\"dropdown-item\" href=\"../bestiary.html\">Bestiary</a>\r\n+                <h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n+                    <a class=\"dropdown-item\" href=\"../bestiary.html\">Bestiary</a>\r\n+                    <a class=\"dropdown-item\" href=\"../gods.html\">Gods & Deities</a>\r\n               </div>\r\n             </li>\r\n             <li class=\"nav-item dropdown\">\r\n               <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\"\r\n"
+                },
+                {
+                    "date": 1708617025096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n \r\n   <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n   <div class=\"jumbotron\">\r\n-    <h1 class=\"display-4 monsterName\">Cats</h1>\r\n+    <h1 class=\"display-4 monsterName text-center\">Cats</h1>\r\n     <div class=\"horizontal-line\"></div>\r\n     <p>A sudden, fleeting movement glimpsed in the corner of an eye. A svelte shape insinuating itself into an\r\n       implausibly small gap. A small, curled form in front of the fire, suddenly startled from sleep. Cats get\r\n       everywhere, comfortable in any situation and adaptable in the way that few creatures are. They find a home in the\r\n@@ -82,9 +82,9 @@\n       are capable of withstanding hardship, and do not trust lightly but fiercely protect those in whom they have placed\r\n       their trust in.</p>\r\n     <hr class=\"my-4\">\r\n     <div class=\"monsterImageContainer\">\r\n-      <img class=\"monsterPortrait rounded\" src=\"../../images/cats.webp\" alt=\"Cats image\">\r\n+      <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/cats.webp\" alt=\"Cats image\">\r\n     </div>\r\n     <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n       <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n         aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Traits</button>\r\n"
                 }
             ],
             "date": 1695862672328,

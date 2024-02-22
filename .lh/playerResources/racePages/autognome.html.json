@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 14,
+            "activePatchIndex": 15,
             "patches": [
                 {
                     "date": 1694977127128,
@@ -64,6 +64,10 @@
                 {
                     "date": 1708544540477,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -151,9 +151,9 @@\n     </div>\r\n \r\n     <!-- End collapseLore -->\r\n \r\n-    <footer class=\"page-footer font-small blue fixed-bottom\">\r\n+    <footer class=\"page-footer font-small blue\">\r\n       <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a></p>\r\n       <a href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" aria-label=\"LinkedIn Profile\">\r\n         <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"currentColor\" class=\"bi bi-linkedin icon\"\r\n           viewBox=\"0 0 16 16\">\r\n"
+                },
+                {
+                    "date": 1708617025200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,9 +77,9 @@\n         <p>Autognomes are mechanical beings built by rock gnomes. Sometimes, because of a malfunction or a unique circumstance, an autognome becomes separated from its creator and strikes out on its own.</p>\r\n         <p>An autognome bears a resemblance to its creator, and most autognomes are programmed to speak and understand Gnomish. The internal components used in an autognome's manufacture can vary wildly; one autognome might have an actual beating heart in its chest cavity, while another might be powered by stardust or intricate clockwork gears</p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait rounded\" src=\"../../images/autognome.jpg\" alt=\"Autognome image\">\r\n+            <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/autognome.jpg\" alt=\"Autognome image\">\r\n         </div>\r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n                 aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Traits</button>\r\n"
                 }
             ],
             "date": 1694977127128,

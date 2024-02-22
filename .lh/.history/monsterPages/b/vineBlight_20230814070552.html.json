@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1695663695853,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1708617026665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,13 +36,13 @@\n \r\n    <div class=\"jumbotron\">\r\n       <h1 class=\"display-4\">Flying Sword</h1>\r\n       <div class=\"horizontal-line\"></div>\r\n-      <p class=\"lead\">Small construct, unaligned</p>\r\n+      <p class=\"lead text-center\">Small construct, unaligned</p>\r\n       <p>For basic lore see <a href=\"animatedObjects.html\">Animated Objects</a></p>\r\n       <hr class=\"my-4\">\r\n       <div class=\"monsterImageContainer\">\r\n-         <img class=\"monsterPortrait rounded\" src=\"../../images/vineBlight.webp\" alt=\"Flying Sword image\">\r\n+         <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/vineBlight.webp\" alt=\"Flying Sword image\">\r\n       </div>\r\n       <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n          <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n             aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
                 }
             ],
             "date": 1695663695853,

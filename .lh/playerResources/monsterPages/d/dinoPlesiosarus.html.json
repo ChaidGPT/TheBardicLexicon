@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1698971805710,
@@ -16,6 +16,10 @@
                 {
                     "date": 1707573822632,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n                                 data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                                 Player Tools\r\n                             </a>\r\n                             <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                                 <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                                 <div class=\"dropdown-divider\"></div>\r\n                                 <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                             </div>\r\n@@ -72,11 +72,11 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4 monsterName\">Plesiosaurus</h1>\r\n+        <h1 class=\"display-4 monsterName text-center\">Plesiosaurus</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n-        <p class=\"lead\">Large beast, unaligned</p>\r\n+        <p class=\"lead text-center\">Large beast, unaligned</p>\r\n         <p>A plesiosaurus is a marine dinosaur whose compact \r\n             body is driven by powerful flippers. Predatory and \r\n             aggressive, it attacks any creature it encounters. Its \r\n             flexible neck accounts for a third of its total length, \r\n"
+                },
+                {
+                    "date": 1708617025484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,9 +83,9 @@\n             letting it twist in any direction to deliver a powerful bite.</p>\r\n         <p>For basic lore see <a href=\"dinosaurs.html\">Dinosaurs</a></p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait rounded\" src=\"../../../images/dinoPlesiosaurus.webp\" alt=\"Plesiosaurus image\">\r\n+            <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../../images/dinoPlesiosaurus.webp\" alt=\"Plesiosaurus image\">\r\n         </div>\r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n                 aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
                 }
             ],
             "date": 1698971805710,

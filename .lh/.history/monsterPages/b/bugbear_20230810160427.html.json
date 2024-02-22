@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1695663695826,
@@ -16,6 +16,10 @@
                 {
                     "date": 1708544540744,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -259,9 +259,9 @@\n    </div>\r\n \r\n    <!-- End collapseLore -->\r\n \r\n-   <footer class=\"page-footer font-small blue fixed-bottom\">\r\n+   <footer class=\"page-footer font-small blue\">\r\n       <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a></p>\r\n       <a href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" aria-label=\"LinkedIn Profile\">\r\n         <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"currentColor\" class=\"bi bi-linkedin icon\"\r\n           viewBox=\"0 0 16 16\">\r\n"
+                },
+                {
+                    "date": 1708617026868,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n       <p class=\"lead text-center\">Medium humanoid (goblinoid), chaotic evil</p>\r\n       <p>Bugbears are born for battle and mayhem. Surviving by raiding and hunting, they bully the weak and despise being bossed around, but their love of carnage means they will fight for powerful masters if bloodshed and treasure are assured.</p>\r\n       <hr class=\"my-4\">\r\n       <div class=\"monsterImageContainer\">\r\n-         <img class=\"monsterPortrait rounded\" src=\"../../images/bugbear.png\" alt=\"Banshee image\">\r\n+         <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/bugbear.png\" alt=\"Banshee image\">\r\n       </div>\r\n       <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n          <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n             aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Bugbear Basic Info</button>\r\n"
                 }
             ],
             "date": 1695663695826,

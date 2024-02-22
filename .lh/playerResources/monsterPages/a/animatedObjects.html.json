@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 16,
+            "activePatchIndex": 17,
             "patches": [
                 {
                     "date": 1693242915832,
@@ -72,6 +72,10 @@
                 {
                     "date": 1708544540655,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -117,9 +117,9 @@\n    <!-- End collapseLore -->\r\n \r\n \r\n \r\n-   <footer class=\"page-footer font-small blue fixed-bottom\">\r\n+   <footer class=\"page-footer font-small blue\">\r\n       <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a></p>\r\n       <a href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" aria-label=\"LinkedIn Profile\">\r\n         <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"currentColor\" class=\"bi bi-linkedin icon\"\r\n           viewBox=\"0 0 16 16\">\r\n"
+                },
+                {
+                    "date": 1708617025910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,9 +79,9 @@\n          simple instructions. Some animated objects (including many of those created in the Feywild) might converse\r\n          fluently or adopt a persona, but most are simple automatons.</p>\r\n       <hr class=\"my-4\">\r\n       <div class=\"monsterImageContainer\">\r\n-         <img class=\"monsterPortrait rounded\" src=\"../../../images/animatedObjects.webp\" alt=\"Animated Objects image\">\r\n+         <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../../images/animatedObjects.webp\" alt=\"Animated Objects image\">\r\n       </div>\r\n       <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n          <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseLore\" role=\"button\"\r\n             aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToLore()\">Lore</button>\r\n"
                 }
             ],
             "date": 1693242915832,

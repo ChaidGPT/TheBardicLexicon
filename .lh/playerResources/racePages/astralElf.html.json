@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 14,
+            "activePatchIndex": 15,
             "patches": [
                 {
                     "date": 1694976969908,
@@ -64,6 +64,10 @@
                 {
                     "date": 1708286022912,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n \r\n   <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n   <div class=\"jumbotron\">\r\n-    <h1 class=\"display-4 navMonsterName\">Astral Elf</h1>\r\n+    <h1 class=\"display-4 monsterName text-center\">Astral Elf</h1>\r\n     <div class=\"horizontal-line\"></div>\r\n     <p>Long ago, groups of elves ventured from the Fey-wild to the Astral Plane to be closer to their gods. Life in the\r\n       Silver Void has imbued their souls with a spark of divine light. That light manifests as a starry gleam in an\r\n       astral elf's eyes.</p>\r\n"
+                },
+                {
+                    "date": 1708617025108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,9 +79,9 @@\n       astral elf's eyes.</p>\r\n     <p></p>\r\n     <hr class=\"my-4\">\r\n     <div class=\"monsterImageContainer\">\r\n-      <img class=\"monsterPortrait rounded\" src=\"../../images/astralElf.webp\" alt=\"Astral Elf image\">\r\n+      <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/astralElf.webp\" alt=\"Astral Elf image\">\r\n     </div>\r\n     <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n       <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n         aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Traits</button>\r\n"
                 }
             ],
             "date": 1694976969908,

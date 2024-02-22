@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1695663700130,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1708617027332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,14 +26,14 @@\n   </header>\r\n   \r\n     <div class=\"jumbotron\">\r\n         <h1 class=\"display-4\">Aarakocra</h1>\r\n-        <p class=\"lead\">Medium humanoid (aarakocra), neutral good</p>\r\n+        <p class=\"lead text-center\">Medium humanoid (aarakocra), neutral good</p>\r\n         <p>Aarakocra range the Howling Gyre, an endless storm of mighty winds and lashing rains that surrounds the tranquil realm of Aaqa in the Elemental Plane of Air. Making aerial patrols, these birdlike humanoids guard the windy borders of their home against invaders from the Elemental Plane of Earth, such as gargoyles, their sworn enemies. </p>\r\n         <hr class=\"my-4\">\r\n \r\n         <div class=\"monsterImageContainer\">\r\n-          <img class=\"monsterPortrait rounded\" src=\"../../images/aarakocra.jpg\" alt=\"Aarakocra image\">\r\n+          <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/aarakocra.jpg\" alt=\"Aarakocra image\">\r\n         </div>\r\n \r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseA\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapseBasic\">Basic Info</button>\r\n"
                 }
             ],
             "date": 1695663700130,

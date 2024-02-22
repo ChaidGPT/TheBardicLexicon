@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1698454091274,
@@ -28,6 +28,10 @@
                 {
                     "date": 1707573821951,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n                                 data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                                 Player Tools\r\n                             </a>\r\n                             <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n-                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">World Generator</a>\r\n+                                <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                                 <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                                 <div class=\"dropdown-divider\"></div>\r\n                                 <a class=\"dropdown-item\" href=\"#\">More</a>\r\n                             </div>\r\n@@ -72,11 +72,11 @@\n \r\n     <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n     <div class=\"jumbotron\">\r\n-        <h1 class=\"display-4 monsterName\">Pit Fiend</h1>\r\n+        <h1 class=\"display-4 monsterName text-center\">Pit Fiend</h1>\r\n         <div class=\"horizontal-line\"></div>\r\n-        <p class=\"lead\">Large fiend (demon), lawful evil</p>\r\n+        <p class=\"lead text-center\">Large fiend (demon), lawful evil</p>\r\n         <p>The undisputed lords of most other devils, pit fiends\r\n             attend the archdukes and archduchesses of the Nine\r\n             Hells and carry out their wishes. These mighty devils\r\n             are the generals of the Nine Hells, leading its infernal\r\n"
+                },
+                {
+                    "date": 1708617025607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -97,9 +97,9 @@\n             acknowledging any chance of defeat.</p>\r\n         <p>For basic lore see <a href=\"devils.html\">Devils</a></p>\r\n         <hr class=\"my-4\">\r\n         <div class=\"monsterImageContainer\">\r\n-            <img class=\"monsterPortrait rounded\" src=\"../../../images/devilPirFiend.webp\" alt=\"Pit Fiend image\">\r\n+            <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../../images/devilPirFiend.webp\" alt=\"Pit Fiend image\">\r\n         </div>\r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n                 aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Basic Info</button>\r\n"
                 }
             ],
             "date": 1698454091274,

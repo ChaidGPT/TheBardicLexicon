@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 210,
+            "activePatchIndex": 211,
             "patches": [
                 {
                     "date": 1698696596782,
@@ -848,6 +848,10 @@
                 {
                     "date": 1708617329379,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -992,9 +992,9 @@\n     <div class=\"row\">\r\n       <div class=\"col-md-6\">\r\n         <h4 class=\"text-center\" style=\"font-family: 'endor'\";><strong>${selectedSettlement.name}</strong></h4>\r\n         <p>${selectedSettlement.description}</p>\r\n-        <img src=\"${selectedSettlement.image}\" alt=\"${settlements.name}\" class=\"img-fluid\" style=\"max-width: 100%; max-height: auto; margin-bottom: 10px; border-radius: 10px\">\r\n+        <img src=\"${selectedSettlement.image}\" alt=\"${settlements.name}\" class=\"img-fluid shadow-lg\" style=\"max-width: 100%; max-height: auto; margin-bottom: 10px; border-radius: 10px\">\r\n       </div>\r\n       <div class=\"col-md-6\">\r\n \r\n         <div class=\"container\">\r\n"
+                },
+                {
+                    "date": 1708636931608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -991,9 +991,9 @@\n         content += `\r\n     <div class=\"row\">\r\n       <div class=\"col-md-6\">\r\n         <h4 class=\"text-center\" style=\"font-family: 'endor'\";><strong>${selectedSettlement.name}</strong></h4>\r\n-        <p>${selectedSettlement.description}</p>\r\n+        <p class=\"text-center\">${selectedSettlement.description}</p>\r\n         <img src=\"${selectedSettlement.image}\" alt=\"${settlements.name}\" class=\"img-fluid shadow-lg\" style=\"max-width: 100%; max-height: auto; margin-bottom: 10px; border-radius: 10px\">\r\n       </div>\r\n       <div class=\"col-md-6\">\r\n \r\n"
                 }
             ],
             "date": 1698696596782,

@@ -993,7 +993,7 @@ if (encountersCountValue === "random") {
       <div class="col-md-6">
         <h4 class="text-center" style="font-family: 'endor'";><strong>${selectedSettlement.name}</strong></h4>
         <p>${selectedSettlement.description}</p>
-        <img src="${selectedSettlement.image}" alt="${settlements.name}" class="img-fluid shadow-lg" style="max-width: 100%; max-height: auto; margin-bottom: 10px; border-radius: 10px">
+        <img src="${selectedSettlement.image}" alt="${settlements.name}" class="img-fluid" style="max-width: 100%; max-height: auto; margin-bottom: 10px; border-radius: 10px">
       </div>
       <div class="col-md-6">
 

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 155,
+            "activePatchIndex": 159,
             "patches": [
                 {
                     "date": 1698696495678,
@@ -628,6 +628,22 @@
                 {
                     "date": 1708637225694,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n       </div>\r\n     </nav>\r\n   </header>\r\n \r\n-  <div class=\"container\" >\r\n+  <div class=\"container\" id=\"locationsPage\">\r\n     <div class=\"container-fluid px-4 py-5 my-5 text-center\">\r\n       <h1 class=\"display-5 fw-bold contentsPageName\">\r\n         Location Generator\r\n       </h1>\r\n"
+                },
+                {
+                    "date": 1708638108821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,9 +69,9 @@\n     </nav>\r\n   </header>\r\n \r\n   <div class=\"container\" id=\"locationsPage\">\r\n-    <div class=\"container-fluid px-4 py-5 my-5 text-center\">\r\n+    <div class=\"container-fluid px-4 py-5 mt-5 mb-3 text-center\">\r\n       <h1 class=\"display-5 fw-bold contentsPageName\">\r\n         Location Generator\r\n       </h1>\r\n       <div>\r\n"
+                },
+                {
+                    "date": 1708638233335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n         Location Generator\r\n       </h1>\r\n       <div>\r\n         <div class=\"horizontal-line\"></div>\r\n-        <p class=\"lead mb-4\">Randomly generate some content to get your adventure going.</p>\r\n+        <p class=\"lead mb-3\">Randomly generate some content to get your adventure going.</p>\r\n         <!-- <p>Work in progress</p> -->\r\n       </div>\r\n     </div>\r\n \r\n"
+                },
+                {
+                    "date": 1708638246810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n         Location Generator\r\n       </h1>\r\n       <div>\r\n         <div class=\"horizontal-line\"></div>\r\n-        <p class=\"lead mb-3\">Randomly generate some content to get your adventure going.</p>\r\n+        <p class=\"lead mb-2\">Randomly generate some content to get your adventure going.</p>\r\n         <!-- <p>Work in progress</p> -->\r\n       </div>\r\n     </div>\r\n \r\n"
+                },
+                {
+                    "date": 1708638260056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n         Location Generator\r\n       </h1>\r\n       <div>\r\n         <div class=\"horizontal-line\"></div>\r\n-        <p class=\"lead mb-2\">Randomly generate some content to get your adventure going.</p>\r\n+        <p class=\"lead mb-1\">Randomly generate some content to get your adventure going.</p>\r\n         <!-- <p>Work in progress</p> -->\r\n       </div>\r\n     </div>\r\n \r\n"
                 }
             ],
             "date": 1698696495678,

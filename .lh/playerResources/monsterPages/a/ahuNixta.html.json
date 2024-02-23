@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 13,
+            "activePatchIndex": 14,
             "patches": [
                 {
                     "date": 1708704125972,
@@ -60,6 +60,10 @@
                 {
                     "date": 1708709191972,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,15 +181,15 @@\n         </div>\r\n       </div>\r\n       <div class=\"horizontal-line\"></div>\r\n       <div id=\"1\">\r\n-        <h5>Eternal Memories</h5>\r\n-        <p></p>\r\n+        <h5>Clockwork Armor</h5>\r\n+        <p>Weak and easy prey in their natural state, the ahu-nixta long ago mastered the art of clockwork design, building armor that could carry them through the voids between stars and bolster their physical abilities.</p>\r\n       </div>\r\n       <div class=\"horizontal-line\"></div>\r\n       <div id=\"2\">\r\n-        <h5>Gods of the Lake</h5>\r\n-        <p></p>\r\n+        <h5>Always Murmuring Praise</h5>\r\n+        <p>The ahu-nixta constantly murmur praise of dark gods, though this sound is somewhat muffled by their armored shell. In large groups, their voices always offer the same praise, like a dark chorus.</p>\r\n       </div>\r\n       <div class=\"horizontal-line\"></div>\r\n       <button type=\"button\" class=\"btn btn-secondary\" onclick=\"goToTop()\">Back to Top</button>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1708710078083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -195,9 +195,9 @@\n     </div>\r\n   </div>\r\n   <!-- End collapseLore -->\r\n   </div>\r\n-  <footer class=\"page-footer font-small blue\">\r\n+  <footer class=\"page-footer font-small blue fixed-bottom\">\r\n     <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a></p>\r\n     <a href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" aria-label=\"LinkedIn Profile\">\r\n       <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"currentColor\" class=\"bi bi-linkedin icon\"\r\n         viewBox=\"0 0 16 16\">\r\n"
                 }
             ],
             "date": 1708704125972,

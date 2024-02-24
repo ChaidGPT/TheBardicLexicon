@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ahu-Nixta Construct</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../../style.css">
+</head>
+
+<body>
+  <header class="header-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand navMonsterName" href="../../../index.html">The Bardic Lexicon</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto nav justify-content-end">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarCharacter" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Character Creation
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarCharacter">
+                <a class="dropdown-item" href="../../races.html">Races</a>
+                <a class="dropdown-item" href="../../classes.html">Classes</a>
+                <a class="dropdown-item" href="../../personality.html">Personality & Inspiration</a>
+                <a class="dropdown-item" href="../../background.html">Character Backgrounds</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarResources" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Player Resources
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarResources">
+                <h6 class="dropdown-header">Items</h6>
+                <a class="dropdown-item" href="../../gear.html">Adventuring Gear</a>
+                <a class="dropdown-item" href="../../equipment.html">Equipment</a>
+                <div class="dropdown-divider"></div>
+                <h6 class="dropdown-header">Magic</h6>
+                <a class="dropdown-item" href="../../spells.html">Spells</a>
+                <div class="dropdown-divider"></div>
+                <h6 class="dropdown-header">Inhabitants of the Realms</h6>
+                <a class="dropdown-item" href="../../bestiary.html">Bestiary</a>
+                <a class="dropdown-item" href="../../gods.html">Gods & Deities</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Player Tools
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="../../../playerTools/worldGenerator.html">Location Generator</a>
+                <a class="dropdown-item" href="../../../playerTools/dice.html">Dice Roll Generator</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">More</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">Go Back</button>
+
+  <div class="jumbotron">
+    <h1 class="display-4 monsterName text-center">Ahu-Nixta Construct</h1>
+    <div class="horizontal-line"></div>
+    <p class="lead text-center">Large aberration, neutral evil </p>
+    <p>Hidden deep within its clockwork armor, the creature is a shapeless horror from beyond the stars.</p>
+    <hr class="my-4">
+    <div class="monsterImageContainer">
+      <img class="monsterPortrait rounded shadow-lg" src="../../../images/ahuNixta.jpg" alt="Ahu-Nixta image">
+    </div>
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseStats" role="button"
+        aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToStats()">Basic Info</button>
+      <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseLore" role="button"
+        aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToLore()">Lore</button>
+    </div>
+    <!-- Start collapseStats -->
+    <div class="collapse rounded" id="collapseStats">
+      <h4>Basic Character Attributes</h4>
+      <div class="horizontal-line"></div>
+      <div class="tableContainer">
+        <table class="tg">
+          <thead>
+            <tr>
+              <th class="tg-34fe"><span class="bold-text">Attribute</span></th>
+              <th class="tg-yj5y">STR</th>
+              <th class="tg-yj5y">DEX</th>
+              <th class="tg-yj5y">CON</th>
+              <th class="tg-yj5y">INT</th>
+              <th class="tg-uqo3">WIS</th>
+              <th class="tg-uqo3">CHA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-34fe"><span class="bold-text">Value</span></td>
+              <td class="tg-yj5y">17</td>
+              <td class="tg-yj5y">15</td>
+              <td class="tg-yj5y">14</td>
+              <td class="tg-yj5y">19</td>
+              <td class="tg-uqo3">13</td>
+              <td class="tg-uqo3">10</td>
+            </tr>
+            <tr>
+              <td class="tg-34fe"><span class="bold-text">Modifier</span></td>
+              <td class="tg-yj5y">+3</td>
+              <td class="tg-yj5y">+2</td>
+              <td class="tg-yj5y">+2</td>
+              <td class="tg-yj5y">+4</td>
+              <td class="tg-uqo3">+1</td>
+              <td class="tg-uqo3">+0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="horizontal-line"></div>
+      <p><span class="bold-text">Armor Class:</span> 14 (clockwork armor)</p>
+      <p><span class="bold-text">Hit Points:</span> 67 (9d10 + 18)</p>
+      <p><span class="bold-text">Speed:</span> 30 ft., fly 30 ft.</p>
+      <div class="horizontal-line"></div>
+      <p><span class="bold-text">Skills:</span> Perception +3</p>
+      <p><span class="bold-text">Damage Immunities:</span> poison, psychic</p>
+      <p><span class="bold-text">Condition Immunities:</span> charmed, exhaustion, frightened, paralyzed, petrified,
+        poisoned, prone</p>
+      <p><span class="bold-text">Senses:</span> darkvision 60 ft., passive Perception 13</p>
+      <p><span class="bold-text">Languages:</span> Deep Speech, Void Speech</p>
+      <p><span class="bold-text">Challenge:</span> 3 (700 XP)</p>
+      <div class="horizontal-line"></div>
+      <p><span class="bold-text">Clockwork Encasement:</span> The creature within the machine is a somewhat shapeless
+        mass, both protected and given concrete manipulators by its armor. The clockwork armor has a variety of
+        manipulators that the ahu-nixta can use to attack or to interact with objects outside of the armor. When the
+        ahu-nixta is reduced to 0 hp, its clockwork armor breaks and the ahunixta exits it. Once out of its armor, the
+        creature’s pulpy mass no longer receives the benefits of the listed Damage or Condition Immunities, except for
+        psychic and prone. Without its clockwork armor, the ahu-nixta has the following statistics: AC 12, hp 37 (5d10 +
+        10), Strength 9 (-1), and all its modes of travel are reduced to 20 feet. In addition, it has no attack actions,
+        though it can still cast its spells. The ahu-nixta’s body can form eyes, mouths, and grabbing appendages. Its
+        grabbing appendages can pick up objects and manipulate them, but the appendages can’t be used for combat. The
+        ahu-nixta’s extra appendages can open and close glass-covered viewing ports in the clockwork armor, requiring no
+        action, so it can see and interact with objects outside the armor. The ahu-nixta can exit or enter its clockwork
+        armor as a bonus action.</p>
+      <p><span class="bold-text">Immutable Form:</span> The clockwork armor of the ahu-nixta is immune to any spell or
+        effect that would alter its form, as is the creature that controls it as long as the ahu-nixta remains within
+        the armor.</p>
+      <p><span class="bold-text">Innate Spellcasting:</span> The ahu-nixta’s innate spellcasting ability is Intelligence
+        (spell save DC 14, +6 to hit with spell attacks). The ahu-nixta can innately cast the following spells,
+        requiring no material components:</p>
+      <ul>
+        <li>fear, fire bolt (2d10), telekinesis</li>
+      </ul>
+      <div class="horizontal-line"></div>
+      <h5>Actions</h5>
+      <p><span class="bold-text">Multiattack:</span> The ahu-nixta makes three melee attacks. It can cast one at will spell in place of two melee attacks.</p>
+      <p><span class="bold-text">Whirring Blades:</span> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.</p>
+      <p><span class="bold-text">Pronged Scepter:</span> Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 6 (1d6+ 3) piercing damage.</p>
+      <p><span class="bold-text">Bashing Rod:</span> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) bludgeoning damage.</p>
+    </div>
+    <!-- End collapseStats -->
+    <!-- Start collapseLore -->
+    <div class="collapse rounded" id="collapseLore">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Lore
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#1">Clockwork Armor</a>
+          <a class="dropdown-item" href="#2">Always Murmuring Praise</a>
+        </div>
+      </div>
+      <div class="horizontal-line"></div>
+      <div id="1">
+        <h5>Clockwork Armor</h5>
+        <p>Weak and easy prey in their natural state, the ahu-nixta long ago mastered the art of clockwork design, building armor that could carry them through the voids between stars and bolster their physical abilities.</p>
+      </div>
+      <div class="horizontal-line"></div>
+      <div id="2">
+        <h5>Always Murmuring Praise</h5>
+        <p>The ahu-nixta constantly murmur praise of dark gods, though this sound is somewhat muffled by their armored shell. In large groups, their voices always offer the same praise, like a dark chorus.</p>
+      </div>
+      <div class="horizontal-line"></div>
+      <button type="button" class="btn btn-secondary" onclick="goToTop()">Back to Top</button>
+    </div>
+  </div>
+  <!-- End collapseLore -->
+  </div>
+  <footer class="page-footer font-small blue fixed-bottom">
+    <p>&copy; Chad Oswald | <a href="mailto:chadloswald@gmail.com">chadloswald@gmail.com</a></p>
+    <a href="https://www.linkedin.com/in/chad-oswald-994a8b1b3/" target="_blank" aria-label="LinkedIn Profile">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin icon"
+        viewBox="0 0 16 16">
+        <path
+          d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+      </svg>
+      LinkedIn</a>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="../../../scriptMon.js"></script>
+</body>
+
+</html>

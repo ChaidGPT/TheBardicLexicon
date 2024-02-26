@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 13,
+            "activePatchIndex": 22,
             "patches": [
                 {
                     "date": 1690828837274,
@@ -60,6 +60,42 @@
                 {
                     "date": 1708620793549,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n {\r\n     \"cSpell.words\": [\r\n+        \"Aalpamac\",\r\n         \"Aaqa\",\r\n         \"Aaracokra\",\r\n         \"aarakocra\",\r\n         \"Aasimar\",\r\n"
+                },
+                {
+                    "date": 1708875643702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n         \"Aaqa\",\r\n         \"Aaracokra\",\r\n         \"aarakocra\",\r\n         \"Aasimar\",\r\n+        \"Akaasits\",\r\n         \"Auran\",\r\n         \"Autognome\",\r\n         \"Beastmaster's\",\r\n         \"beastmasters\",\r\n"
+                },
+                {
+                    "date": 1708875649159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,7 +16,8 @@\n         \"Firbolg\",\r\n         \"interplanar\",\r\n         \"Mishka\",\r\n         \"Planetar\",\r\n+        \"spellcasters\",\r\n         \"vaati\"\r\n     ]\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708875654927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,9 @@\n         \"Firbolg\",\r\n         \"interplanar\",\r\n         \"Mishka\",\r\n         \"Planetar\",\r\n+        \"spellcaster\",\r\n         \"spellcasters\",\r\n         \"vaati\"\r\n     ]\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708875660286,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n         \"Aaqa\",\r\n         \"Aaracokra\",\r\n         \"aarakocra\",\r\n         \"Aasimar\",\r\n+        \"akaasit’s\",\r\n         \"Akaasits\",\r\n         \"Auran\",\r\n         \"Autognome\",\r\n         \"Beastmaster's\",\r\n"
+                },
+                {
+                    "date": 1708875665501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n         \"aarakocra\",\r\n         \"Aasimar\",\r\n         \"akaasit’s\",\r\n         \"Akaasits\",\r\n+        \"armblades\",\r\n         \"Auran\",\r\n         \"Autognome\",\r\n         \"Beastmaster's\",\r\n         \"beastmasters\",\r\n"
+                },
+                {
+                    "date": 1708875673448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,9 @@\n         \"Feywild\",\r\n         \"Firbolg\",\r\n         \"interplanar\",\r\n         \"Mishka\",\r\n+        \"Multiattack\",\r\n         \"Planetar\",\r\n         \"spellcaster\",\r\n         \"spellcasters\",\r\n         \"vaati\"\r\n"
+                },
+                {
+                    "date": 1708875690922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n         \"Aaqa\",\r\n         \"Aaracokra\",\r\n         \"aarakocra\",\r\n         \"Aasimar\",\r\n+        \"akaasit\",\r\n         \"akaasit’s\",\r\n         \"Akaasits\",\r\n         \"armblades\",\r\n         \"Auran\",\r\n@@ -21,7 +22,8 @@\n         \"Multiattack\",\r\n         \"Planetar\",\r\n         \"spellcaster\",\r\n         \"spellcasters\",\r\n+        \"truesight\",\r\n         \"vaati\"\r\n     ]\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708958562944,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n         \"Aasimar\",\r\n         \"akaasit\",\r\n         \"akaasit’s\",\r\n         \"Akaasits\",\r\n+        \"Akhluts\",\r\n         \"armblades\",\r\n         \"Auran\",\r\n         \"Autognome\",\r\n         \"Beastmaster's\",\r\n"
+                },
+                {
+                    "date": 1708958568884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n         \"Aasimar\",\r\n         \"akaasit\",\r\n         \"akaasit’s\",\r\n         \"Akaasits\",\r\n+        \"akhlut’s\",\r\n         \"Akhluts\",\r\n         \"armblades\",\r\n         \"Auran\",\r\n         \"Autognome\",\r\n"
                 }
             ],
             "date": 1690828837274,

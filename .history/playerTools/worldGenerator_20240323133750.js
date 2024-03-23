@@ -510,7 +510,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "Dogs",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/dogs.html",
-      image: "../images/dogs.png"
+      image: "../images/dogs.jpg"
     },
     {
       name: "Dragonborn",

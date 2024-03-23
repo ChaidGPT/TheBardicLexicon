@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1696210724715,
@@ -28,6 +28,14 @@
                 {
                     "date": 1708617024958,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,14 +71,14 @@\n \r\n   <button type=\"button\" class=\"btn btn-secondary goBackBtn\" onclick=\"goBack()\">Go Back</button>\r\n \r\n   <div class=\"jumbotron\">\r\n-    <h1 class=\"display-4 monsterName\">Dogs</h1>\r\n+    <h1 class=\"display-4 monsterName text-center\">Dogs</h1>\r\n     <div class=\"horizontal-line\"></div>\r\n     <p>The warmth of a roaring hearth fire, the breathless joy of the hunt, the trackless paths of a long journey. Provided they are close to the ones they call family and pack, dogs can call anywhere home. For much of history, dogs have been stalwart companions, faithful guardians and beloved kin to their two-legged allies. Loyalty, faith, devotion and selflessness have guided the dog through the ages.</p>\r\n     <hr class=\"my-4\">\r\n     <div class=\"monsterImageContainer\">\r\n-      <img class=\"monsterPortrait rounded\" src=\"../../images/dogs.avif\" alt=\"Dogs image\">\r\n+      <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/dogs.avif\" alt=\"Dogs image\">\r\n     </div>\r\n     <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n       <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n         aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Traits</button>\r\n"
+                },
+                {
+                    "date": 1711226295089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,9 +76,9 @@\n     <div class=\"horizontal-line\"></div>\r\n     <p>The warmth of a roaring hearth fire, the breathless joy of the hunt, the trackless paths of a long journey. Provided they are close to the ones they call family and pack, dogs can call anywhere home. For much of history, dogs have been stalwart companions, faithful guardians and beloved kin to their two-legged allies. Loyalty, faith, devotion and selflessness have guided the dog through the ages.</p>\r\n     <hr class=\"my-4\">\r\n     <div class=\"monsterImageContainer\">\r\n-      <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/dogs.avif\" alt=\"Dogs image\">\r\n+      <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/dogs.jpg\" alt=\"Dogs image\">\r\n     </div>\r\n     <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n       <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n         aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Traits</button>\r\n"
+                },
+                {
+                    "date": 1711226610895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,9 +76,9 @@\n     <div class=\"horizontal-line\"></div>\r\n     <p>The warmth of a roaring hearth fire, the breathless joy of the hunt, the trackless paths of a long journey. Provided they are close to the ones they call family and pack, dogs can call anywhere home. For much of history, dogs have been stalwart companions, faithful guardians and beloved kin to their two-legged allies. Loyalty, faith, devotion and selflessness have guided the dog through the ages.</p>\r\n     <hr class=\"my-4\">\r\n     <div class=\"monsterImageContainer\">\r\n-      <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/dogs.jpg\" alt=\"Dogs image\">\r\n+      <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/dogs.png\" alt=\"Dogs image\">\r\n     </div>\r\n     <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n       <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseStats\" role=\"button\"\r\n         aria-expanded=\"false\" aria-controls=\"collapseBasic\" onclick=\"scrollToStats()\">Traits</button>\r\n"
                 }
             ],
             "date": 1696210724715,

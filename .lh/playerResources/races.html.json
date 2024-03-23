@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 86,
+            "activePatchIndex": 89,
             "patches": [
                 {
                     "date": 1694268625502,
@@ -352,6 +352,18 @@
                 {
                     "date": 1711211658505,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -487,9 +487,9 @@\n                         <figcaption class=\"figure-caption text-center\">Triton *</figcaption>\r\n                     </figure>\r\n                 </a>\r\n \r\n-                <a href=\"racePages/yuanti.html\">\r\n+                <a href=\"racePages/vampire.html\">\r\n                     <figure class=\"bestiary-figure\">\r\n                         <img src=\"../images/vampire.png\" class=\"rounded mx-auto d-block beast-thumbnail\"\r\n                             alt=\"Vampire image\">\r\n                         <figcaption class=\"figure-caption text-center\">Vampire</figcaption>\r\n"
+                },
+                {
+                    "date": 1711220625514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -391,8 +391,16 @@\n                         <figcaption class=\"figure-caption text-center\">Minotaur *</figcaption>\r\n                     </figure>\r\n                 </a>\r\n \r\n+                <a href=\"racePages/mousefolk.html\">\r\n+                    <figure class=\"bestiary-figure\">\r\n+                        <img src=\"../images/mousefolk.jpg\" class=\"rounded mx-auto d-block beast-thumbnail\"\r\n+                            alt=\"Mousefolk image\">\r\n+                        <figcaption class=\"figure-caption text-center\">Mousefolk</figcaption>\r\n+                    </figure>\r\n+                </a>\r\n+\r\n                 <a href=\"racePages/orc.html\">\r\n                     <figure class=\"bestiary-figure\">\r\n                         <img src=\"../images/orcRace.webp\" class=\"rounded mx-auto d-block beast-thumbnail\"\r\n                             alt=\"Orc image\">\r\n"
+                },
+                {
+                    "date": 1711226328349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -164,9 +164,9 @@\n                 </a>\r\n \r\n                 <a href=\"racePages/dogs.html\">\r\n                     <figure class=\"bestiary-figure\">\r\n-                        <img src=\"../images/dogs.avif\" class=\"rounded mx-auto d-block beast-thumbnail\" alt=\"dog image\">\r\n+                        <img src=\"../images/dogs.jpg\" class=\"rounded mx-auto d-block beast-thumbnail\" alt=\"dog image\">\r\n                         <figcaption class=\"figure-caption text-center\">Dogs</figcaption>\r\n                     </figure>\r\n                 </a>\r\n \r\n"
+                },
+                {
+                    "date": 1711226611016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -164,9 +164,9 @@\n                 </a>\r\n \r\n                 <a href=\"racePages/dogs.html\">\r\n                     <figure class=\"bestiary-figure\">\r\n-                        <img src=\"../images/dogs.jpg\" class=\"rounded mx-auto d-block beast-thumbnail\" alt=\"dog image\">\r\n+                        <img src=\"../images/dogs.png\" class=\"rounded mx-auto d-block beast-thumbnail\" alt=\"dog image\">\r\n                         <figcaption class=\"figure-caption text-center\">Dogs</figcaption>\r\n                     </figure>\r\n                 </a>\r\n \r\n"
                 }
             ],
             "date": 1694268625502,

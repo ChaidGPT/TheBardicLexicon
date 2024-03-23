@@ -510,7 +510,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "Dogs",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/dogs.html",
-      image: "../images/dogs.png"
+      image: "../images/dogs.avif"
     },
     {
       name: "Dragonborn",
@@ -718,13 +718,8 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "../images/triton.webp"
     },
     {
-      name: "Vampires",
-      link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/triton.html",
-      image: "../images/vampire.png"
-    },
-    {
       name: "Yuan-Ti",
-      link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/wampire.html",
+      link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/yuanti.html",
       image: "../images/yuanti.webp"
     },
   ];

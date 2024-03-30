@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vampire</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <header class="header-top">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand navMonsterName" href="../../index.html">The Bardic Lexicon</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto nav justify-content-end">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarCharacter" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Character Creation
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarCharacter">
+                                <a class="dropdown-item" href="../races.html">Races</a>
+                                <a class="dropdown-item" href="../classes.html">Classes</a>
+                                <a class="dropdown-item" href="../personality.html">Personality & Inspiration</a>
+                                <a class="dropdown-item" href="../background.html">Character Backgrounds</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarResources" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Player Resources
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarResources">
+                                <h6 class="dropdown-header">Items</h6>
+                                <a class="dropdown-item" href="../gear.html">Adventuring Gear *</a>
+                                <a class="dropdown-item" href="../gear.html">Equipment *</a>
+                                <div class="dropdown-divider"></div>
+                                <h6 class="dropdown-header">Magic *</h6>
+                                <a class="dropdown-item" href="../spells.html">Spells *</a>
+                                <div class="dropdown-divider"></div>
+                                <h6 class="dropdown-header">Inhabitants of the Realms</h6>
+                                <a class="dropdown-item" href="../bestiary.html">Bestiary</a>
+                                <a class="dropdown-item" href="../gods.html">Gods & Deities</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Player Tools
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="../../playerTools/worldGenerator.html">Location
+                                    Generator</a>
+                                <a class="dropdown-item" href="../../playerTools/dice.html">Dice Roll Generator</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">More</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">Go Back</button>
+
+    <div class="jumbotron">
+        <h1 class="display-4 monsterName text-center">Vampire</h1>
+        <div class="horizontal-line"></div>
+        <p>Vampires are pale, humanoid beings who are neither dead nor alive. They are Undead, feeding from the life
+            force of living things. They have dark, even reddish eyes and long, sharp fangs that can be retracted at
+            will. They are known for their strength, speed, and charm, which can be a very deadly combination. Apart
+            from their gained undead appearance, they look very similar to whatever they looked like in life.</p>
+        <hr class="my-4">
+        <div class="monsterImageContainer">
+            <img class="monsterPortrait rounded shadow-lg" src="../../images/vampire.png" alt="Vampire image">
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseStats" role="button"
+                aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToStats()">Traits</button>
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseLore" role="button"
+                aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToLore()">Lore</button>
+        </div>
+
+        <!-- Start collapseStats -->
+        <div class="collapse rounded" id="collapseStats">
+            <h4>Traits</h4>
+            <div class="horizontal-line"></div>
+            <p>Vampirism is a curse, however some of the traits that are gained may make one rethink if its really that
+                terrible.</p>
+            <p><span class="bold-text">Ability Score Increase:</span> Your Charisma, Dexterity and Strength scores all
+                increase by 2.</p>
+            <p><span class="bold-text">Age:</span> Vampires are Immortal, and do not age a day from when they were
+                turned.</p>
+            <p><span class="bold-text">Alignment:</span> Becoming a Vampire is either by choice, or accident. A pious
+                man seeking immortality, or an Elf desiring power to rule are some scenarios that can turn one into a
+                Vampire. Or even a Half-Orc being in the wrong place at the wrong time could turn into a night of new
+                found immortality. No matter how one came to be a Vampire, after some time of dwelling in darkness, evil
+                might be the easiest thing to cling to. However, with strong enough will, one could maintain their
+                values and remain the alignment they had in life.</p>
+            <p><span class="bold-text">Size:</span> There is no change in your size once becoming a Vampire.</p>
+            <p><span class="bold-text">Speed:</span> Your base walking speed is 45</p>
+            <p><span class="bold-text">Languages:</span> You know the languages known in life.</p>
+
+            <div class="horizontal-line"></div>
+
+            <p><span class="bold-text">Superior Darkvision:</span> You can see in dim light within 120 feet of you as if
+                it were bright light, and in darkness as if it were dim light. You can discern color in darkness.</p>
+            <p><span class="bold-text">Undead:</span> You are an Undead creature. Necrotic damage does not affect you.
+                You also need 1 ration of blood every 5 days or your body begins to cease functioning. On the 5th day
+                without blood, the Vampire is unable to heal and takes 1d20 of damage every hour and rolls disadvantage
+                on everything. If the Vampire drops to 0 hit points from this, they are paralyzed until force fed blood.
+                Then they regain 1d20 hit points taken from loss of blood and no longer roll disadvantage.</p>
+            <p><span class="bold-text">Compulsion:</span> The Vampire can control the mind of another simply through eye
+                contact. The target must succeed on a DC 17 Wisdom saving throw or be compelled by the Vampire.
+                Compelled beings usually follow the instructions given to them to the best of their ability, and are
+                willing subjects to the Vampire's bite attack. Some species of naturally occurring herbs can prevent
+                compulsion.</p>
+            <p><span class="bold-text">Sunlight Hypersensitivity:</span> Because of the corpse a vampire resides in,
+                sunlight burns any skin it comes into contact with. A Vampire takes 20 radiant damage when it starts its
+                turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.</p>
+            <p><span class="bold-text">Forbiddance:</span> Luckily for every living creature, a Vampire can not enter a
+                residence without an invitation from the owner.</p>
+            <p><span class="bold-text">Stake to the Heart:</span> If a piercing weapon made of wood is driven into the
+                Vampires heart, the Vampire begins to desiccate and is paralyzed until the stake is removed. However, if
+                this happens when a Vampire is at 0 hit points, they spontaneously combust and are destroyed. The soul
+                of the Vampire leaves the burning corpse and seeks its final resting place. It may be captured and used
+                as a component to a spell.</p>
+
+            <div class="horizontal-line"></div>
+
+            <h4>Vampiric Feats</h4>
+            <p>Vampires learn these as they become better acquainted with their new Immortal form. </p>
+
+            <p><span class="bold-text">Bite:</span> At 1st level, you can use your sharp fangs to inflict damage. One
+                willing creature, or a creature that is grappled by the Vampire, incapacitated, or restrained. Hit:
+                2d6+DEX piercing damage plus 2d8 necrotic damage. The amount of bite damage increases as you gain
+                levels. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and
+                the Vampire regains hit points equal to that. The reduction lasts until the target finishes a long rest.
+                You may use your bonus action to drink their blood dealing 1d12 damage. This also satisfies your need
+                for blood. A humanoid slain after being bitten, and then buried in the ground will rise the following
+                night as a Vampire Spawn.</p>
+            <p><span class="bold-text">Healing Blood:</span> Starting at 5th level, your immortal nature is imbedded in
+                your blood, making your Vampire blood able to heal any living creature by 1d20+CON.</p>
+            <p><span class="bold-text">Blood Manipulation:</span> When you reach 7th level, your knowledge of organic
+                processes and experience with your victims life blood grants you the dark magic ability to siphon out
+                your targets blood (if they have an open wound) and mold it into any solid construct. This action deals
+                1d12 damage. The construct becomes liquid if the target dies.</p>
+            <p><span class="bold-text">Creatures of the Night:</span> Beginning at 9th level, your relation to dark
+                creatures gives you power over weaker creatures of the night. As an action you can call 2d4 swarms of
+                Bats or Rats at night time, or 3d6 wolves if outside. The creatures arrive in 1d4 rounds and obey your
+                spoken commands.</p>
+            <p><span class="bold-text">Legendary Resistance (3/day):</span> When you reach 12th level, because you are
+                king of the night, if a you fail a saving throw, you can choose to succeed instead.</p>S <p><span
+                    class="bold-text">Flight:</span> At 19th level, you gain the ability to Fly. No creature is safe
+                anymore. Your Flying speed is 60 feet.</p>
+
+            <table class="table table-responsive table-sm">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Level</th>
+                        <th scope="col">Bite Attack</th>
+                        <th scope="col">Features</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1st</th>
+                        <td>2d6</td>
+                        <td>Bite Attack</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3rd</th>
+                        <td>2d6</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5th</th>
+                        <td>3d6</td>
+                        <td>Healing Blood</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7th</th>
+                        <td>3d6</td>
+                        <td>Blood Manipulation</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9th</th>
+                        <td>4d6</td>
+                        <td>Creatures of the Night</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">12th</th>
+                        <td>4d6</td>
+                        <td>Legendary Resistance</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">15th</th>
+                        <td>5d6</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">19th</th>
+                        <td>6d6</td>
+                        <td>Flight</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <!-- End collapseStats -->
+        <!-- Start collapseLore -->
+        <div class="collapse rounded" id="collapseLore">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Lore
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#1">Unholy Creation</a>
+                    <a class="dropdown-item" href="#2">Forsaken Road</a>
+                </div>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="1">
+                <h5>Unholy Creation</h5>
+                <p>Humanoid creatures are turned when a Vampire bites it, that creature is buried in the ground, and
+                    then rises the next night. The result of this process is a Vampire Spawn, which is not a true
+                    Vampire. Vampire Spawn are pawns of the Vampire that turned it, and are completely under the control
+                    of their sire. But, if a Vampire Spawn drinks the blood of a True Vampire, it will then become a
+                    True Vampire like the one that turned it.</p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="2">
+                <h5>Forsaken Road</h5>
+                <p>Vampires tend to keep to themselves and shy away from others. They choose grand yet defensible
+                    locations for their lairs, such as Castles, Manors, or ruins. They then hide their coffins, which
+                    they use to spend their sleeping hours beneath the ground. Their resting places are usually
+                    well-guarded by traps or other loyal creatures of the night.</p>
+            </div>
+            <div class="horizontal-line"></div>
+            <button type="button" class="btn btn-secondary" onclick="goToTop()">Back to Top</button>
+        </div>
+    </div>
+
+    <!-- End collapseLore -->
+
+    <footer class="page-footer font-small blue fixed-bottom">
+        <p>&copy; Chad Oswald | <a href="mailto:chadloswald@gmail.com">chadloswald@gmail.com</a> |<a
+                href="https://www.linkedin.com/in/chad-oswald-994a8b1b3/" target="_blank" aria-label="LinkedIn Profile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-linkedin icon" viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                </svg>
+            </a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../../scriptMon.js"></script>
+</body>
+
+</html>

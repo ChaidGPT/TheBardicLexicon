@@ -6,7 +6,7 @@
 html {
   border-left: 8px solid #343a40;
   border-right: 8px solid #343a40;
-  height: 100%;
+  min-height: 100%;
 }
 
 .header-top {
@@ -59,13 +59,6 @@ body {
   border: 2px black solid;
 }
 
-.page-content {
-  min-height: 100%;
-  margin-bottom: -50px; 
-  border-left: 8px solid #343a40;
-  border-right: 8px solid #343a40;
-}
-
 /* CSS for footer */
 footer {
   background-color: #343a40;
@@ -76,7 +69,6 @@ footer {
   justify-content: center;
   align-items: center;
   border-left: 5px solid #343a40;
-  height: 50px
 }
 
 .goBackBtn {

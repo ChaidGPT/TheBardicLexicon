@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 77,
+            "activePatchIndex": 78,
             "patches": [
                 {
                     "date": 1695485058458,
@@ -316,6 +316,10 @@
                 {
                     "date": 1711815879508,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,10 +58,8 @@\n                   </a>\r\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n                     <a class=\"dropdown-item\" href=\"../playerTools/worldGenerator.html\">Location Generator</a>\r\n                     <a class=\"dropdown-item\" href=\"../playerTools/dice.html\">Dice Roll Generator</a>\r\n-                    <div class=\"dropdown-divider\"></div>\r\n-                    \r\n                   </div>\r\n                 </li>\r\n               </ul>\r\n             </div>\r\n"
+                },
+                {
+                    "date": 1711830906626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,9 +95,9 @@\n         </div>\r\n \r\n     </div>\r\n \r\n-  <footer class=\"page-footer font-small blue\">\r\n+  <footer class=\"page-footer font-small blue fixed-bottom\">\r\n     <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a> |<a\r\n                 href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" aria-label=\"LinkedIn Profile\">\r\n                 <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"currentColor\"\r\n                     class=\"bi bi-linkedin icon\" viewBox=\"0 0 16 16\">\r\n"
                 }
             ],
             "date": 1695485058458,

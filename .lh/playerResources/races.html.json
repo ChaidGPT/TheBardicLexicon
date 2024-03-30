@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 93,
+            "activePatchIndex": 95,
             "patches": [
                 {
                     "date": 1694268625502,
@@ -380,6 +380,14 @@
                 {
                     "date": 1711815493700,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,13 +42,11 @@\n                             <div class=\"dropdown-menu\" aria-labelledby=\"navbarResources\">\r\n                                 <h6 class=\"dropdown-header\">Items</h6>\r\n                                 <a class=\"dropdown-item\" href=\"gear.html\">Adventuring Gear *</a>\r\n                                 <a class=\"dropdown-item\" href=\"equipment.html\">Equipment *</a>\r\n-                                <div class=\"dropdown-divider\"></div>\r\n-                                <h6 class=\"dropdown-header\">Magic *</h6>\r\n+<h6 class=\"dropdown-header\">Magic *</h6>\r\n                                 <a class=\"dropdown-item\" href=\"spells.html\">Spells *</a>\r\n-                                <div class=\"dropdown-divider\"></div>\r\n-                                <h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n+<h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n                                 <a class=\"dropdown-item\" href=\"bestiary.html\">Bestiary</a>\r\n                                 <a class=\"dropdown-item\" href=\"gods.html\">Gods & Deities</a>\r\n                             </div>\r\n                         </li>\r\n@@ -60,10 +58,9 @@\n                             <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n                                 <a class=\"dropdown-item\" href=\"../playerTools/worldGenerator.html\">Location\r\n                                     Generator</a>\r\n                                 <a class=\"dropdown-item\" href=\"../playerTools/dice.html\">Dice Roll Generator</a>\r\n-                                <div class=\"dropdown-divider\"></div>\r\n-                                \r\n+\r\n                             </div>\r\n                         </li>\r\n                     </ul>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1711831922495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,11 +42,11 @@\n                             <div class=\"dropdown-menu\" aria-labelledby=\"navbarResources\">\r\n                                 <h6 class=\"dropdown-header\">Items</h6>\r\n                                 <a class=\"dropdown-item\" href=\"gear.html\">Adventuring Gear *</a>\r\n                                 <a class=\"dropdown-item\" href=\"equipment.html\">Equipment *</a>\r\n-<h6 class=\"dropdown-header\">Magic *</h6>\r\n+                                <h6 class=\"dropdown-header\">Magic *</h6>\r\n                                 <a class=\"dropdown-item\" href=\"spells.html\">Spells *</a>\r\n-<h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n+                                <h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n                                 <a class=\"dropdown-item\" href=\"bestiary.html\">Bestiary</a>\r\n                                 <a class=\"dropdown-item\" href=\"gods.html\">Gods & Deities</a>\r\n                             </div>\r\n                         </li>\r\n@@ -82,9 +82,8 @@\n         </div>\r\n \r\n         <!-- Player Races Thumbnails -->\r\n \r\n-        <h3 class=\"text-center contentsPageName\">Core Races</h3>\r\n         <div class=\"horizontal-line\"></div>\r\n \r\n         <div class=\"container menuBox rounded-lg shadow-lg\">\r\n             <div class=\"row justify-content-center\">\r\n"
+                },
+                {
+                    "date": 1711831941767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,10 +82,8 @@\n         </div>\r\n \r\n         <!-- Player Races Thumbnails -->\r\n \r\n-        <div class=\"horizontal-line\"></div>\r\n-\r\n         <div class=\"container menuBox rounded-lg shadow-lg\">\r\n             <div class=\"row justify-content-center\">\r\n \r\n                 <a href=\"racePages/aarakocra.html\">\r\n"
                 }
             ],
             "date": 1694268625502,

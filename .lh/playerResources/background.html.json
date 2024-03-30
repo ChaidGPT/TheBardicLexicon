@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 65,
+            "activePatchIndex": 66,
             "patches": [
                 {
                     "date": 1695652267355,
@@ -268,6 +268,10 @@
                 {
                     "date": 1711815322719,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n               <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n                 <a class=\"dropdown-item\" href=\"../playerTools/worldGenerator.html\">Location Generator</a>\r\n                 <a class=\"dropdown-item\" href=\"../playerTools/dice.html\">Dice Roll Generator</a>\r\n                 <div class=\"dropdown-divider\"></div>\r\n-                <a class=\"dropdown-item\" href=\"#\">More</a>\r\n+                \r\n               </div>\r\n             </li>\r\n           </ul>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1711815750321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,8 @@\n               </a>\r\n               <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n                 <a class=\"dropdown-item\" href=\"../playerTools/worldGenerator.html\">Location Generator</a>\r\n                 <a class=\"dropdown-item\" href=\"../playerTools/dice.html\">Dice Roll Generator</a>\r\n-                <div class=\"dropdown-divider\"></div>\r\n                 \r\n               </div>\r\n             </li>\r\n           </ul>\r\n"
                 }
             ],
             "date": 1695652267355,

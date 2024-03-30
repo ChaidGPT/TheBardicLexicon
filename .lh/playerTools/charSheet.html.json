@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 54,
+            "activePatchIndex": 55,
             "patches": [
                 {
                     "date": 1693247240570,
@@ -224,6 +224,10 @@
                 {
                     "date": 1711815320541,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n                     <a class=\"dropdown-item\" href=\"charSheet.html\">Character Sheet</a>\r\n                     <a class=\"dropdown-item\" href=\"dice.html\">Dice Roll Generator</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n-                    <a class=\"dropdown-item\" href=\"#\">More</a>\r\n+                    \r\n                   </div>\r\n                 </li>\r\n               </ul>\r\n             </div>\r\n"
+                },
+                {
+                    "date": 1711815880142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,10 +60,8 @@\n                   </a>\r\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n                     <a class=\"dropdown-item\" href=\"charSheet.html\">Character Sheet</a>\r\n                     <a class=\"dropdown-item\" href=\"dice.html\">Dice Roll Generator</a>\r\n-                    <div class=\"dropdown-divider\"></div>\r\n-                    \r\n                   </div>\r\n                 </li>\r\n               </ul>\r\n             </div>\r\n"
                 }
             ],
             "date": 1693247240570,

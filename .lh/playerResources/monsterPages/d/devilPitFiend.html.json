@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 12,
+            "activePatchIndex": 14,
             "patches": [
                 {
                     "date": 1698454091274,
@@ -56,6 +56,14 @@
                 {
                     "date": 1711847842501,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -143,9 +143,9 @@\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 19 (natural armor)</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 300 (24d10 + 168)</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> 30 ft., fly 60 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 30 ft., fly 60 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Dex +8, Con +13, Wis +10</p>\r\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold; bludgeoning, piercing, and slashing from non\r\n"
+                },
+                {
+                    "date": 1711893684472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -151,9 +151,9 @@\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold; bludgeoning, piercing, and slashing from non\r\n                 magical weapons that aren't silvered</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> fire, poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> poisoned</p>\r\n-            <p><span class=\"bold-text\">Senses:</span> truesight 120ft., passive Perception 14</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> truesight 120ft., passive Perception 14</p>\r\n             <p><span class=\"bold-text\">Languages:</span> Infernal, telepathy 120ft.</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 20 (25,000 XP)</p>\r\n \r\n             <p><span class=\"bold-text\">Fear Aura:</span> Any creature hostile to the pit fiend that starts its\r\n"
+                },
+                {
+                    "date": 1711893855410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -152,9 +152,9 @@\n                 magical weapons that aren't silvered</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> fire, poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> poisoned</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> truesight 120ft., passive Perception 14</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> Infernal, telepathy 120ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> Infernal, telepathy 120ft.</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 20 (25,000 XP)</p>\r\n \r\n             <p><span class=\"bold-text\">Fear Aura:</span> Any creature hostile to the pit fiend that starts its\r\n                 turn within 20 feet of the pit fiend must make a DC 21 Wisdom\r\n"
                 }
             ],
             "date": 1698454091274,

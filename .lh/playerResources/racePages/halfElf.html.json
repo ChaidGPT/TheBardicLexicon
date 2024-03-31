@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 25,
+            "activePatchIndex": 26,
             "patches": [
                 {
                     "date": 1694446297858,
@@ -108,6 +108,10 @@
                 {
                     "date": 1711847843437,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,9 +105,9 @@\n                 for followers. They chafe at rules, resent others’ demands, and sometimes prove unreliable, or at least\r\n                 unpredictable.</p>\r\n             <p><span class=\"bold-text\">Size:</span> Half-elves are about the same size as humans, ranging from 5 to 6\r\n                 feet tall. Your size is Medium.</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> Your base walking speed is 30 feet.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your base walking speed is 30 feet.</p>\r\n             <p><span class=\"bold-text\">Darkvision:</span> Thanks to your elf blood, you have superior vision in dark and\r\n                 dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in\r\n                 darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>\r\n             <p><span class=\"bold-text\">Fey Ancestry:</span> You have advantage on saving throws against being charmed,\r\n"
+                },
+                {
+                    "date": 1711893855775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,9 +112,9 @@\n                 darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>\r\n             <p><span class=\"bold-text\">Fey Ancestry:</span> You have advantage on saving throws against being charmed,\r\n                 and magic can’t put you to sleep.</p>\r\n             <p><span class=\"bold-text\">Skill Versatility:</span> You gain proficiency in two skills of your choice.</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> You can speak, read, and write Common, Elvish, and one extra\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> You can speak, read, and write Common, Elvish, and one extra\r\n                 language of your choice.</p>\r\n         </div>\r\n         <!-- End collapseStats -->\r\n         <!-- Start collapseLore -->\r\n"
                 }
             ],
             "date": 1694446297858,

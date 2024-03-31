@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 24,
+            "activePatchIndex": 25,
             "patches": [
                 {
                     "date": 1711211640341,
@@ -104,6 +104,10 @@
                 {
                     "date": 1711847842795,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,9 +104,9 @@\n                 found immortality. No matter how one came to be a Vampire, after some time of dwelling in darkness, evil\r\n                 might be the easiest thing to cling to. However, with strong enough will, one could maintain their\r\n                 values and remain the alignment they had in life.</p>\r\n             <p><span class=\"bold-text\">Size:</span> There is no change in your size once becoming a Vampire.</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> Your base walking speed is 45</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your base walking speed is 45</p>\r\n             <p><span class=\"bold-text\">Languages:</span> You know the languages known in life.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n \r\n"
+                },
+                {
+                    "date": 1711893855636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,9 +105,9 @@\n                 might be the easiest thing to cling to. However, with strong enough will, one could maintain their\r\n                 values and remain the alignment they had in life.</p>\r\n             <p><span class=\"bold-text\">Size:</span> There is no change in your size once becoming a Vampire.</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your base walking speed is 45</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> You know the languages known in life.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> You know the languages known in life.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n \r\n             <p><span class=\"bold-text\">Superior Darkvision:</span> You can see in dim light within 120 feet of you as if\r\n"
                 }
             ],
             "date": 1711211640341,

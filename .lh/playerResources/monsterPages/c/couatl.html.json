@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 31,
+            "activePatchIndex": 33,
             "patches": [
                 {
                     "date": 1693242915821,
@@ -132,6 +132,14 @@
                 {
                     "date": 1711847842471,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,9 +127,9 @@\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 19 (natural armor)</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 97 (13d8 + 39)</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> 30 ft., fly 90 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 30 ft., fly 90 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Con +5, Wis +7, Cha +6</p>\r\n             <p><span class=\"bold-text\">Damage Resistances:</span> radiant</p>\r\n"
+                },
+                {
+                    "date": 1711893684288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,9 +134,9 @@\n             <p><span class=\"bold-text\">Saving Throws:</span> Con +5, Wis +7, Cha +6</p>\r\n             <p><span class=\"bold-text\">Damage Resistances:</span> radiant</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> psychic; bludgeoning, piercing, and slashing from\r\n                 nonmagical weapons</p>\r\n-            <p><span class=\"bold-text\">Senses:</span> truesight 120 ft., passive Perception 15</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> truesight 120 ft., passive Perception 15</p>\r\n             <p><span class=\"bold-text\">Languages:</span> all, telepathy 120 ft.</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 4 (1,100 XP)</p>\r\n \r\n             <p><span class=\"bold-text\">Innate Spellcasting:</span> The couatl's spellcasting ability is Charisma (spell\r\n"
+                },
+                {
+                    "date": 1711893855242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -135,9 +135,9 @@\n             <p><span class=\"bold-text\">Damage Resistances:</span> radiant</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> psychic; bludgeoning, piercing, and slashing from\r\n                 nonmagical weapons</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> truesight 120 ft., passive Perception 15</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> all, telepathy 120 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> all, telepathy 120 ft.</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 4 (1,100 XP)</p>\r\n \r\n             <p><span class=\"bold-text\">Innate Spellcasting:</span> The couatl's spellcasting ability is Charisma (spell\r\n                 save DC 14). It can innately cast the following spells, requiring only verbal components:</p>\r\n"
                 }
             ],
             "date": 1693242915821,

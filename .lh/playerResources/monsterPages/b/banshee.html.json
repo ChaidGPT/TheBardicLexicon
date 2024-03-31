@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 27,
+            "activePatchIndex": 29,
             "patches": [
                 {
                     "date": 1693242915829,
@@ -116,6 +116,14 @@
                 {
                     "date": 1711847842800,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,9 @@\n          </div>\r\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 12</p>\r\n          <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 58 (13d8)</p>\r\n-         <p><span class=\"bold-text\">Speed:</span> 0 ft., fly 40 ft. (hover)</p>\r\n+         <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 0 ft., fly 40 ft. (hover)</p>\r\n \r\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text\">Saving Throws:</span> Wis +2, Cha +4</p>\r\n          <p><span class=\"bold-text\">Damage Resistances:</span> acid, fire, lightning; bludgeoning, piercing, and\r\n"
+                },
+                {
+                    "date": 1711893684535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -140,9 +140,9 @@\n             slashing from nonmagical weapons</p>\r\n          <p><span class=\"bold-text\">Damage Immunities:</span> cold, necrotic, poison</p>\r\n          <p><span class=\"bold-text\">Condition Immunities:</span> charmed, exhaustion, frightened, grappled, paralyzed,\r\n             petrified, poisoned, prone, restrained</p>\r\n-         <p><span class=\"bold-text\">Senses:</span> darkvision 60 ft., passive Perception 10</p>\r\n+         <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 60 ft., passive Perception 10</p>\r\n          <p><span class=\"bold-text\">Languages:</span> Common, Elvish</p>\r\n          <p><span class=\"bold-text\">Challenge:</span> 4 (1,100 XP)</p>\r\n \r\n          <div class=\"horizontal-line\"></div>\r\n"
+                },
+                {
+                    "date": 1711893855523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -141,9 +141,9 @@\n          <p><span class=\"bold-text\">Damage Immunities:</span> cold, necrotic, poison</p>\r\n          <p><span class=\"bold-text\">Condition Immunities:</span> charmed, exhaustion, frightened, grappled, paralyzed,\r\n             petrified, poisoned, prone, restrained</p>\r\n          <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 60 ft., passive Perception 10</p>\r\n-         <p><span class=\"bold-text\">Languages:</span> Common, Elvish</p>\r\n+         <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> Common, Elvish</p>\r\n          <p><span class=\"bold-text\">Challenge:</span> 4 (1,100 XP)</p>\r\n \r\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text\">Detect Life:</span> The banshee can magically sense the presence of living creatures\r\n"
                 }
             ],
             "date": 1693242915829,

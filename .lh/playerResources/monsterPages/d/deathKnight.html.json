@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 36,
+            "activePatchIndex": 38,
             "patches": [
                 {
                     "date": 1693529819007,
@@ -152,6 +152,14 @@
                 {
                     "date": 1711847842747,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,9 +126,9 @@\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 20 (plate, shield)</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 180 (19d8 + 95)</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> 30 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 30 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Dex +6, Wis +9, Cha +10</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> necrotic, poison</p>\r\n"
+                },
+                {
+                    "date": 1711893684480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,9 +132,9 @@\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Dex +6, Wis +9, Cha +10</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> necrotic, poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> exhaustion, frightened, poisoned</p>\r\n-            <p><span class=\"bold-text\">Senses:</span> darkvision 120ft., passive Perception 13</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 120ft., passive Perception 13</p>\r\n             <p><span class=\"bold-text\">Languages:</span> Abyssal, Common\r\n             <p><span class=\"bold-text\">Challenge:</span> 17 (18,000 XP)</p>\r\n             \r\n             <div class=\"horizontal-line\"></div>\r\n"
+                },
+                {
+                    "date": 1711893855463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -133,9 +133,9 @@\n             <p><span class=\"bold-text\">Saving Throws:</span> Dex +6, Wis +9, Cha +10</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> necrotic, poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> exhaustion, frightened, poisoned</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 120ft., passive Perception 13</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> Abyssal, Common\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> Abyssal, Common\r\n             <p><span class=\"bold-text\">Challenge:</span> 17 (18,000 XP)</p>\r\n             \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Magic Resistance:</span> The death knight has advantage on saving throws again st spells and other magical effects.</p>\r\n"
                 }
             ],
             "date": 1693529819007,

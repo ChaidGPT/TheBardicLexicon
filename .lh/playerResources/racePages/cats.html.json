@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 21,
+            "activePatchIndex": 22,
             "patches": [
                 {
                     "date": 1695862672328,
@@ -92,6 +92,10 @@
                 {
                     "date": 1711847842972,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,9 +105,9 @@\n         This can occasionally seem like callousness or disinterest in the larger world. This is often misleading,\r\n         however.</p>\r\n       <p><span class=\"bold-text\">Size:</span> While there are larger and smaller cats, this variation in size and length\r\n         is much more limited than it is in dogs. As a result, all cats are considered small.</p>\r\n-      <p><span class=\"bold-text\">Speed:</span> A cat's base speed is 30 feet.</p>\r\n+      <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> A cat's base speed is 30 feet.</p>\r\n       <p><span class=\"bold-text\">Darkvision:</span> Cats have darkvision up to 60 ft.</p>\r\n       <p><span class=\"bold-text\">Bite & Scratch:</span> Sharp teeth, and claws which can be quickly unsheathed and used\r\n         to slice through flesh - all cats possess these natural weapons. Cats are proficient with this attack, which\r\n         counts as both a weapon attack and an unarmed attack. The attack does 1d6 damage plus the attacker's STR\r\n"
+                },
+                {
+                    "date": 1711893855864,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,9 +111,9 @@\n       <p><span class=\"bold-text\">Bite & Scratch:</span> Sharp teeth, and claws which can be quickly unsheathed and used\r\n         to slice through flesh - all cats possess these natural weapons. Cats are proficient with this attack, which\r\n         counts as both a weapon attack and an unarmed attack. The attack does 1d6 damage plus the attacker's STR\r\n         modifier bonus.</p>\r\n-      <p><span class=\"bold-text\">Languages:</span> A cat can speak and read Common, Feline, and one other language. Cats\r\n+      <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> A cat can speak and read Common, Feline, and one other language. Cats\r\n         only use language with humans and other races; when with each other, they communicate entirely through gesture,\r\n         small inflections of the face and eyes, and carefully modulated thrusts of the paw or flank. This language is\r\n         called Feline and can only be spoken fluently by other cats.</p>\r\n       <p><span class=\"bold-text\">All so Different:</span> There are many different varieties of cat breed, each with\r\n"
                 }
             ],
             "date": 1695862672328,

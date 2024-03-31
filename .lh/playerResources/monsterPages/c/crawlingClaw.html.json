@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 35,
+            "activePatchIndex": 37,
             "patches": [
                 {
                     "date": 1693443222842,
@@ -148,6 +148,14 @@
                 {
                     "date": 1711847842437,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,9 +127,9 @@\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 12</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 2 (1d4)</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> 20 ft., climb 20 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 20 ft., climb 20 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> poison</p>\r\n             <p><span class=\"bold-text\">Senses:</span> charmed, exhaustion, poisoned</p>\r\n"
+                },
+                {
+                    "date": 1711893684297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,9 @@\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 20 ft., climb 20 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> poison</p>\r\n-            <p><span class=\"bold-text\">Senses:</span> charmed, exhaustion, poisoned</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> charmed, exhaustion, poisoned</p>\r\n             <p><span class=\"bold-text\">Languages:</span> understands Common but can't speak</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 0 (10 XP)</p>\r\n \r\n             <p><span class=\"bold-text\">Turn Immunity:</span> The claw is immune to effects that turn undead.</p>\r\n"
+                },
+                {
+                    "date": 1711893855212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,9 +132,9 @@\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> poison</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> charmed, exhaustion, poisoned</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> understands Common but can't speak</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> understands Common but can't speak</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 0 (10 XP)</p>\r\n \r\n             <p><span class=\"bold-text\">Turn Immunity:</span> The claw is immune to effects that turn undead.</p>\r\n             <div class=\"horizontal-line\"></div>\r\n"
                 }
             ],
             "date": 1693443222842,

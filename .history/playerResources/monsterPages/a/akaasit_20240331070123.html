@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Akaasit</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+
+<body>
+    <header class="header-top">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand navMonsterName" href="../../../index.html">The Bardic Lexicon</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto nav justify-content-end">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarCharacter" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Character Creation
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarCharacter">
+                                <a class="dropdown-item" href="../../races.html">Races</a>
+                                <a class="dropdown-item" href="../../classes.html">Classes</a>
+                                <a class="dropdown-item" href="../../personality.html">Personality & Inspiration</a>
+                                <a class="dropdown-item" href="../../background.html">Character Backgrounds</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarResources" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Player Resources
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarResources">
+                                <h6 class="dropdown-header">Items</h6>
+                                <a class="dropdown-item" href="../../gear.html">Adventuring Gear *</a>
+                                <a class="dropdown-item" href="../../equipment.html">Equipment *</a>
+<h6 class="dropdown-header">Magic *</h6>
+                                <a class="dropdown-item" href="../../spells.html">Spells *</a>
+<h6 class="dropdown-header">Inhabitants of the Realms</h6>
+                                <a class="dropdown-item" href="../../bestiary.html">Bestiary</a>
+                                <a class="dropdown-item" href="../../gods.html">Gods & Deities</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Player Tools
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="../../../playerTools/worldGenerator.html">Location
+                                    Generator</a>
+                                <a class="dropdown-item" href="../../../playerTools/dice.html">Dice Roll Generator</a>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">Go Back</button>
+
+    <div class="jumbotron">
+        <h1 class="display-4 monsterName text-center">Akaasit</h1>
+        <div class="horizontal-line"></div>
+        <p class="lead text-center">Medium construct, unaligned</p>
+        <p>A cloud of unconnected, flat gray triangles in the vague shape of a mantis flickers unpredictably from one
+            position to another, clicking softly as its arm blades swing outward.</p>
+        <p>Akaasits are constructed beings from a plane destroyed by a catastrophic misuse of time magic. They were
+            altered by this catastrophe and now exist in the present and in fractions of a second in the past and
+            future.</p>
+        <hr class="my-4">
+        <div class="monsterImageContainer">
+            <img class="monsterPortrait rounded shadow-lg" src="../../../images/akaasit.jpg" alt="Akaasit image">
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseStats" role="button"
+                aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToStats()">Basic Info</button>
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseLore" role="button"
+                aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToLore()">Lore</button>
+        </div>
+        <!-- Start collapseStats -->
+        <div class="collapse rounded" id="collapseStats">
+            <h4>Basic Character Attributes</h4>
+            <div class="horizontal-line"></div>
+            <div class="tableContainer">
+                <table class="tg">
+                    <thead>
+                        <tr>
+                            <th class="tg-34fe"><span class="bold-text">Attribute</span></th>
+                            <th class="tg-yj5y">STR</th>
+                            <th class="tg-yj5y">DEX</th>
+                            <th class="tg-yj5y">CON</th>
+                            <th class="tg-yj5y">INT</th>
+                            <th class="tg-uqo3">WIS</th>
+                            <th class="tg-uqo3">CHA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tg-34fe"><span class="bold-text">Value</span></td>
+                            <td class="tg-yj5y">13</td>
+                            <td class="tg-yj5y">18</td>
+                            <td class="tg-yj5y">14</td>
+                            <td class="tg-yj5y">3</td>
+                            <td class="tg-uqo3">10</td>
+                            <td class="tg-uqo3">5</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-34fe"><span class="bold-text">Modifier</span></td>
+                            <td class="tg-yj5y">+1</td>
+                            <td class="tg-yj5y">+4</td>
+                            <td class="tg-yj5y">+2</td>
+                            <td class="tg-yj5y">-4</td>
+                            <td class="tg-uqo3">+0</td>
+                            <td class="tg-uqo3">-3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="The measure of how hard it is for an attacker to hit you when rolling to attack">Armor Class:</span> 15 (natural armor)</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed">Hit Points:</span> 91 (14d8 + 28)</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="The distance in feet that the character or monster can move in 1 round">Speed:</span> 30 ft.</p>
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text">Damage Resistances:</span> piercing</p>
+            <p><span class="bold-text">Damage Immunities:</span> poison, psychic</p>
+            <p><span class="bold-text">Condition Immunities:</span> blinded, charmed, exhaustion, frightened, paralyzed,
+                petrified, poisoned</p>
+            <p><span class="bold-text">Languages:</span> -</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats">Senses:</span> truesight 60 ft., passive Perception 10</p>
+            <p><span class="bold-text">Challenge:</span> 6 (2,300 XP)</p>
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text">Immutable Form:</span> The akaasit is immune to any spell or effect that would
+                alter its form.</p>
+            <p><span class="bold-text">Unfixed in Time:</span> To those properly fixed in time, the akaasit flickers in
+                and out of time, its position never fully clear. Attack rolls against the akaasit have disadvantage. If
+                it is hit by an attack, this trait ceases to function until the start of its next turn.</p>
+            <p><span class="bold-text">Magic Resistance:</span> The akaasit has advantage on saving throws against
+                spells and other magical effects.</p>
+            <div class="horizontal-line"></div>
+            <h5>Actions</h5>
+            <p><span class="bold-text">Multiattack:</span> The akaasit makes two arm blade attacks.</p>
+            <p><span class="bold-text">Arm Blade:</span> Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit:
+                13 (2d8 + 4) slashing damage plus 3 (1d6) force damage.</p>
+            <div class="horizontal-line"></div>
+            <h5>Reactions</h5>
+            <p><span class="bold-text">Time-Assisted Counterattack:</span> The akaasit’s awareness of the near future
+                allows it to see attacks before they happen. When a creature the akaasit can see attacks it while within
+                5 feet of it, the akaasit can attack the creature before the creature’s attack hits. The akaasit makes a
+                single arm blade attack against the creature. If the creature is reduced to 0 hp as a result of the
+                akaasit’s attack, the creature’s attack doesn’t hit the akaasit.</p>
+        </div>
+        <!-- End collapseStats -->
+        <!-- Start collapseLore -->
+        <div class="collapse rounded" id="collapseLore">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Lore
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#1">Mindless</a>
+                    <a class="dropdown-item" href="#2">Unknown Origin</a>
+                    <a class="dropdown-item" href="#3">Dispersed Destruction</a>
+                </div>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="1">
+                <h5>Mindless</h5>
+                <p>The akaasit has no mind, at least as understood by denizens of the Material Plane, and its motives
+                    are inscrutable. Each akaasit is always found moving toward some unknown destination. It may attack
+                    other creatures, or it may ignore them. It protects itself if attacked, but rarely does an akaasit
+                    pursue a retreating foe.</p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="2">
+                <h5>Unknown Origin</h5>
+                <p>The home of the akaasit is unknown, but they are often encountered in areas touched or altered by
+                    time magic. Although a few wizards have discovered magical methods of summoning them, none have
+                    found a way to control or communicate with them. Akaasits seem to be drawn to spellcasters with some
+                    mastery of time magic, though it is always a gamble if an individual akaasit will protect or
+                    ruthlessly attack such a spellcaster. An akaasit’s demeanor can change each day, and many time magic
+                    spellcasters have been found slain by the same akaasit that faithfully protected them the day prior.
+                </p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="3">
+                <h5>Dispersed Destruction</h5>
+                <p>If an akaasit is destroyed, it falls apart into a pile of gray triangles. These triangles fade out of
+                    existence over the next ten minutes, leaving only the akaasit’s two armblades.</p>
+            </div>
+            <div class="horizontal-line"></div>
+            <button type="button" class="btn btn-secondary" onclick="goToTop()">Back to Top</button>
+        </div>
+    </div>
+    <!-- End collapseLore -->
+    </div>
+    <footer class="page-footer font-small blue fixed-bottom">
+        <p>&copy; Chad Oswald | <a href="mailto:chadloswald@gmail.com">chadloswald@gmail.com</a></p>
+        <a href="https://www.linkedin.com/in/chad-oswald-994a8b1b3/" target="_blank" aria-label="LinkedIn Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                class="bi bi-linkedin icon" viewBox="0 0 16 16">
+                <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+            </svg>
+            LinkedIn</a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../../../scriptMon.js"></script>
+</body>
+
+</html>

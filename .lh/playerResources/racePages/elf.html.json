@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 34,
+            "activePatchIndex": 35,
             "patches": [
                 {
                     "date": 1694359354405,
@@ -144,6 +144,10 @@
                 {
                     "date": 1711847842935,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -103,9 +103,9 @@\n                 own, and they are more often good than not. The drow are an exception; their exile into the Underdark\r\n                 has made them vicious and dangerous. Drow are more often evil than not.</p>\r\n             <p><span class=\"bold-text\">Size:</span> Elves range from under 5 to over 6 feet tall and have slender\r\n                 builds. Your size is Medium.</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> Your base walking speed is 30 feet.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your base walking speed is 30 feet.</p>\r\n             <p><span class=\"bold-text\">Darkvision:</span> Accustomed to twilit forests and the night sky, you have\r\n                 superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were\r\n                 bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades\r\n                 of gray.</p>\r\n"
+                },
+                {
+                    "date": 1711893855905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -116,9 +116,9 @@\n                 remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While\r\n                 meditating, you can dream after a fashion; such dreams are actually mental exercises that have become\r\n                 reflexive through years of practice. After resting in this way, you gain the same benefit that a human\r\n                 does from 8 hours of sleep.</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> You can speak, read, and write Common and Elvish. Elvish is\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> You can speak, read, and write Common and Elvish. Elvish is\r\n                 fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their\r\n                 songs and poems are famous among other races. Many bards learn their language so they can add Elvish\r\n                 ballads to their repertoires.</p>\r\n             <p><span class=\"bold-text\">Subrace:</span> Ancient divides among the elven people resulted in three main\r\n"
                 }
             ],
             "date": 1694359354405,

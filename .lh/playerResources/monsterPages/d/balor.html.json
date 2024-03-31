@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 23,
+            "activePatchIndex": 25,
             "patches": [
                 {
                     "date": 1693758717851,
@@ -100,6 +100,14 @@
                 {
                     "date": 1711847842742,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,9 +129,9 @@\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 19 (natural armor)</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 262 (21d12 + 126)</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> 40 ft., fly 80 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 40 ft., fly 80 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Str +14, Con +12, Wis +9, Cha +12</p>\r\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold, lightning; bludgeoning, piercing, and slashing\r\n"
+                },
+                {
+                    "date": 1711893684501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,9 +137,9 @@\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold, lightning; bludgeoning, piercing, and slashing\r\n                 from non magical weapons</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> fire, poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> poisoned</p>\r\n-            <p><span class=\"bold-text\">Senses:</span> truesight 120 ft., passive Perception 13</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> truesight 120 ft., passive Perception 13</p>\r\n             <p><span class=\"bold-text\">Languages:</span> Abyssal, telepathy 120 ft.</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 19 (22,000 XP)</p>\r\n \r\n             <p><span class=\"bold-text\">Death Throes:</span> When the balor dies, it explodes, and each creature within\r\n"
+                },
+                {
+                    "date": 1711893855482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -138,9 +138,9 @@\n                 from non magical weapons</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> fire, poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> poisoned</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> truesight 120 ft., passive Perception 13</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> Abyssal, telepathy 120 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> Abyssal, telepathy 120 ft.</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 19 (22,000 XP)</p>\r\n \r\n             <p><span class=\"bold-text\">Death Throes:</span> When the balor dies, it explodes, and each creature within\r\n                 30 feet of it must make a DC 20 Dexterity saving throw, taking 70 (20d6) fire damage on a failed save,\r\n"
                 }
             ],
             "date": 1693758717851,

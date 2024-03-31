@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 11,
+            "activePatchIndex": 13,
             "patches": [
                 {
                     "date": 1698453225832,
@@ -52,6 +52,14 @@
                 {
                     "date": 1711847842483,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -133,9 +133,9 @@\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 7 (natural armor)</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 13 (3d8)</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> 15 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 15 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> fire, poison</p>\r\n"
+                },
+                {
+                    "date": 1711893684306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -139,9 +139,9 @@\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> fire, poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> charmed, frightened, poisoned</p>\r\n-            <p><span class=\"bold-text\">Senses:</span> darkvision 120 ft., passive Perception 10</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 120 ft., passive Perception 10</p>\r\n             <p><span class=\"bold-text\">Languages:</span> understands Infernal but can't speak </p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 0 (10 XP)</p>\r\n \r\n             <p><span class=\"bold-text\">Devil's Sight:</span> Magical darkness doesn't impede the lemure's darkvision.\r\n"
+                },
+                {
+                    "date": 1711893855412,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -140,9 +140,9 @@\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> fire, poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> charmed, frightened, poisoned</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 120 ft., passive Perception 10</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> understands Infernal but can't speak </p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> understands Infernal but can't speak </p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 0 (10 XP)</p>\r\n \r\n             <p><span class=\"bold-text\">Devil's Sight:</span> Magical darkness doesn't impede the lemure's darkvision.\r\n             </p>\r\n"
                 }
             ],
             "date": 1698453225832,

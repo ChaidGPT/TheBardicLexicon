@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 27,
+            "activePatchIndex": 28,
             "patches": [
                 {
                     "date": 1694448764715,
@@ -116,6 +116,10 @@
                 {
                     "date": 1711847842892,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,9 +102,9 @@\n                 very orderly and traditional, leaning heavily on the support of their community and the comfort of their\r\n                 old ways.</p>\r\n             <p><span class=\"bold-text\">Size:</span> Halflings average about 3 feet tall and weigh about 40 pounds. Your\r\n                 size is Small.</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> Your base walking speed is 25 feet.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your base walking speed is 25 feet.</p>\r\n             <p><span class=\"bold-text\">Lucky:</span> When you roll a 1 on an attack roll, ability check, or saving\r\n                 throw, you can reroll the die and must use the new roll.</p>\r\n             <p><span class=\"bold-text\">Brave:</span> You have advantage on saving throws against being frightened.</p>\r\n             <p><span class=\"bold-text\">Halfling Nimbleness:</span> You can move through the space of any creature that\r\n"
+                },
+                {
+                    "date": 1711893855746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -108,9 +108,9 @@\n                 throw, you can reroll the die and must use the new roll.</p>\r\n             <p><span class=\"bold-text\">Brave:</span> You have advantage on saving throws against being frightened.</p>\r\n             <p><span class=\"bold-text\">Halfling Nimbleness:</span> You can move through the space of any creature that\r\n                 is of a size larger than yours.</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> You can speak, read, and write Common and Halfling. The\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> You can speak, read, and write Common and Halfling. The\r\n                 Halfling language isn’t secret, but halflings are loath to share it with others. They write very little,\r\n                 so they don’t have a rich body of literature. Their oral tradition, however, is very strong. Almost all\r\n                 halflings speak Common to converse with the people in whose lands hey dwell or through which they are\r\n                 traveling.</p>\r\n"
                 }
             ],
             "date": 1694448764715,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 21,
+            "activePatchIndex": 23,
             "patches": [
                 {
                     "date": 1693242915831,
@@ -92,6 +92,14 @@
                 {
                     "date": 1711847842375,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,9 +127,9 @@\n \r\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 12 (natural armor)</p>\r\n          <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 33 (5d10)</p>\r\n-         <p><span class=\"bold-text\">Speed:</span> 10 ft.</p>\r\n+         <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 10 ft.</p>\r\n \r\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text\">Damage Immunities:</span> poison, psychic</p>\r\n          <p><span class=\"bold-text\">Condition Immunities:</span> blinded, charmed, deafened, exhaustion, frightened,\r\n"
+                },
+                {
+                    "date": 1711893684551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -133,9 +133,9 @@\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text\">Damage Immunities:</span> poison, psychic</p>\r\n          <p><span class=\"bold-text\">Condition Immunities:</span> blinded, charmed, deafened, exhaustion, frightened,\r\n             paralyzed, petrified, poisoned</p>\r\n-         <p><span class=\"bold-text\">Senses:</span> blindsighted 60ft. (blind beyond radius), passive Perception 6</p>\r\n+         <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> blindsighted 60ft. (blind beyond radius), passive Perception 6</p>\r\n          <p><span class=\"bold-text\">Languages:</span> -</p>\r\n          <p><span class=\"bold-text\">Challenge:</span> 2 (450 XP)</p>\r\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text\">Antimagic Susceptibility:</span> The rug is incapacitated while in the area of an\r\n"
+                },
+                {
+                    "date": 1711893855573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,9 +134,9 @@\n          <p><span class=\"bold-text\">Damage Immunities:</span> poison, psychic</p>\r\n          <p><span class=\"bold-text\">Condition Immunities:</span> blinded, charmed, deafened, exhaustion, frightened,\r\n             paralyzed, petrified, poisoned</p>\r\n          <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> blindsighted 60ft. (blind beyond radius), passive Perception 6</p>\r\n-         <p><span class=\"bold-text\">Languages:</span> -</p>\r\n+         <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> -</p>\r\n          <p><span class=\"bold-text\">Challenge:</span> 2 (450 XP)</p>\r\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text\">Antimagic Susceptibility:</span> The rug is incapacitated while in the area of an\r\n             anti magic field. If targeted by dispel magic, the sword must succeed on a Constitution saving throw against\r\n"
                 }
             ],
             "date": 1693242915831,

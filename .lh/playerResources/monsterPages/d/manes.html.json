@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 18,
+            "activePatchIndex": 20,
             "patches": [
                 {
                     "date": 1693838211463,
@@ -80,6 +80,14 @@
                 {
                     "date": 1711847842685,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 9 (natural armor)</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 9 (2d6 + 2)</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> 20 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 20 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold, fire, lightning</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> poison</p>\r\n"
+                },
+                {
+                    "date": 1711893684346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -136,9 +136,9 @@\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold, fire, lightning</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> charmed, frightened, poisoned</p>\r\n-            <p><span class=\"bold-text\">Senses:</span> darkvision 60 ft., passive Perception 9</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 60 ft., passive Perception 9</p>\r\n             <p><span class=\"bold-text\">Languages:</span> understands Abyssal but can't speak it</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 1/8 (25 XP)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n"
+                },
+                {
+                    "date": 1711893855266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,9 +137,9 @@\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold, fire, lightning</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> charmed, frightened, poisoned</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 60 ft., passive Perception 9</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> understands Abyssal but can't speak it</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> understands Abyssal but can't speak it</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 1/8 (25 XP)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <h5>Actions</h5>\r\n"
                 }
             ],
             "date": 1693838211463,

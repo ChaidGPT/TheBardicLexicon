@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 18,
+            "activePatchIndex": 20,
             "patches": [
                 {
                     "date": 1693837786764,
@@ -80,6 +80,14 @@
                 {
                     "date": 1711847842696,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -128,9 +128,9 @@\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 16 (natural armor)</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 136 (13d10 + 65)</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> 30 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 30 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Str +7, Con +8, Wis +4</p>\r\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold, fire, lightning; bludgeoning, piercing, and\r\n"
+                },
+                {
+                    "date": 1711893684381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -136,9 +136,9 @@\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold, fire, lightning; bludgeoning, piercing, and\r\n                 slashing from non magical weapons</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> poisoned</p>\r\n-            <p><span class=\"bold-text\">Senses:</span> darkvision 120 ft., passive Perception 11</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 120 ft., passive Perception 11</p>\r\n             <p><span class=\"bold-text\">Languages:</span> Abyssal, telepathy 120 ft.</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 8 (3,900 XP)</p>\r\n \r\n             <p><span class=\"bold-text\">Magic Resistance:</span> The hezrou has advantage on saving throws against spells\r\n"
+                },
+                {
+                    "date": 1711893855255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,9 +137,9 @@\n                 slashing from non magical weapons</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> poisoned</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 120 ft., passive Perception 11</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> Abyssal, telepathy 120 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> Abyssal, telepathy 120 ft.</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 8 (3,900 XP)</p>\r\n \r\n             <p><span class=\"bold-text\">Magic Resistance:</span> The hezrou has advantage on saving throws against spells\r\n                 and other magical effects.</p>\r\n"
                 }
             ],
             "date": 1693837786764,

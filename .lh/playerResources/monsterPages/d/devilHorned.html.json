@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 12,
+            "activePatchIndex": 14,
             "patches": [
                 {
                     "date": 1698194469932,
@@ -56,6 +56,14 @@
                 {
                     "date": 1711847842478,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -135,9 +135,9 @@\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 18 (natural armor)</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 178 (17d10 + 55)</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> 20 ft., fly 60 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 20 ft., fly 60 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Str +10, Dex +7, Wis +7, Cha +7</p>\r\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold; bludgeoning, piercing, and slashing\r\n"
+                },
+                {
+                    "date": 1711893684460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -143,9 +143,9 @@\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold; bludgeoning, piercing, and slashing\r\n                 from non magical weapons that aren't silvered</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> fire, poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> poisoned</p>\r\n-            <p><span class=\"bold-text\">Senses:</span> darkvision 120 ft., passive Perception 13</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 120 ft., passive Perception 13</p>\r\n             <p><span class=\"bold-text\">Languages:</span> Infernal, telepathy 120 ft.</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 11 (7,200 XP)</p>\r\n \r\n             <p><span class=\"bold-text\">Devil's Sight:</span> Magical darkness doesn't impede the devil's darkvision.</p>\r\n"
+                },
+                {
+                    "date": 1711893855425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -144,9 +144,9 @@\n                 from non magical weapons that aren't silvered</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> fire, poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> poisoned</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 120 ft., passive Perception 13</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> Infernal, telepathy 120 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> Infernal, telepathy 120 ft.</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 11 (7,200 XP)</p>\r\n \r\n             <p><span class=\"bold-text\">Devil's Sight:</span> Magical darkness doesn't impede the devil's darkvision.</p>\r\n             <p><span class=\"bold-text\">Magic Resistance:</span> The devil has advantage on saving throws against spells\r\n"
                 }
             ],
             "date": 1698194469931,

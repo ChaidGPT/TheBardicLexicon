@@ -3,11 +3,31 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1711812465027,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1711847200545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,9 +132,9 @@\n                     </tbody>\r\n                 </table>\r\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n-            <p><span class=\"bold-text\">Armor Class:</span> 19 (natural armor)</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 19 (natural armor)</p>\r\n             <p><span class=\"bold-text\">Hit Points:</span> 187 (25d10 + 50)</p>\r\n             <p><span class=\"bold-text\">Speed:</span> 0 ft., 20 ft. (hover)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n"
+                },
+                {
+                    "date": 1711847366817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -133,9 +133,9 @@\n                 </table>\r\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 19 (natural armor)</p>\r\n-            <p><span class=\"bold-text\">Hit Points:</span> 187 (25d10 + 50)</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 187 (25d10 + 50)</p>\r\n             <p><span class=\"bold-text\">Speed:</span> 0 ft., 20 ft. (hover)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Str +5, Con +7, Int +9, Wis +7, Cha +9</p>\r\n"
+                },
+                {
+                    "date": 1711847844516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,9 +134,9 @@\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 19 (natural armor)</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 187 (25d10 + 50)</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> 0 ft., 20 ft. (hover)</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 0 ft., 20 ft. (hover)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Str +5, Con +7, Int +9, Wis +7, Cha +9</p>\r\n             <p><span class=\"bold-text\">Skills:</span> Perception +12</p>\r\n"
+                },
+                {
+                    "date": 1711848038539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -138,9 +138,9 @@\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 0 ft., 20 ft. (hover)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Str +5, Con +7, Int +9, Wis +7, Cha +9</p>\r\n-            <p><span class=\"bold-text\">Skills:</span> Perception +12</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A character's ability to perform different tasks\"> Perception +12</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> charmed, exhaustion, paralyzed, petrified, poisoned,\r\n                 prone</p>\r\n             <p><span class=\"bold-text\">Languages:</span> Deep Speech, Undercommon</p>\r\n"
+                },
+                {
+                    "date": 1711849071463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,9 +142,9 @@\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A character's ability to perform different tasks\"> Perception +12</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> charmed, exhaustion, paralyzed, petrified, poisoned,\r\n                 prone</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> Deep Speech, Undercommon</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The different tongues a character can speak, read, and understand, ranging from common languages to exotic dialects\">Languages:</span> Deep Speech, Undercommon</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 14 (11,500 XP)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Negative Energy Cone:</span> The death tyrant's central eye emits an invisible,\r\n"
                 }
             ],
             "date": 1711812465027,

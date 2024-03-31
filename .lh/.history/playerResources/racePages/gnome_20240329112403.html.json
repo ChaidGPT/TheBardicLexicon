@@ -3,11 +3,19 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1711812464591,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1711847843044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,9 +102,9 @@\n                 minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters\r\n                 among them are more playful than vicious.</p>\r\n             <p><span class=\"bold-text\">Size:</span> Gnomes are between 3 and 4 feet tall and average about 40 pounds.\r\n                 Your size is Small.</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> Your base walking speed is 25 feet.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your base walking speed is 25 feet.</p>\r\n             <p><span class=\"bold-text\">Darkvision:</span> Accustomed to life underground, you have superior vision in\r\n                 dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and\r\n                 in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>\r\n             <p><span class=\"bold-text\">Gnome Cunning:</span> You have advantage on all Intelligence, Wisdom, and\r\n"
+                },
+                {
+                    "date": 1711849069847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -108,9 +108,9 @@\n                 dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and\r\n                 in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>\r\n             <p><span class=\"bold-text\">Gnome Cunning:</span> You have advantage on all Intelligence, Wisdom, and\r\n                 Charisma saving throws against magic.</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> You can speak, read, and write Common and Gnomish. The Gnomish\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The different tongues a character can speak, read, and understand, ranging from common languages to exotic dialects\">Languages:</span> You can speak, read, and write Common and Gnomish. The Gnomish\r\n                 language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of\r\n                 knowledge about the natural world.</p>\r\n             <p><span class=\"bold-text\">Subrace:</span> Two subraces of gnomes are found among the worlds of D&D: forest\r\n                 gnomes and rock gnomes. Choose one of these subraces.</p>\r\n"
                 }
             ],
             "date": 1711812464591,

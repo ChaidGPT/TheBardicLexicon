@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1711216040578,
@@ -16,6 +16,14 @@
                 {
                     "date": 1711812466813,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n                     <h6 class=\"dropdown-header\">Items</h6>\r\n                     <a class=\"dropdown-item\" href=\"../gear.html\">Adventuring Gear</a>\r\n                     <a class=\"dropdown-item\" href=\"../gear.html\">Equipment *</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n-                    <h6 class=\"dropdown-header\">Magic</h6>\r\n+                    <h6 class=\"dropdown-header\">Magic *</h6>\r\n                     <a class=\"dropdown-item\" href=\"../spells.html\">Spells</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n                     <h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n                     <a class=\"dropdown-item\" href=\"../bestiary.html\">Bestiary</a>\r\n"
+                },
+                {
+                    "date": 1711847843014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n                 well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that\r\n                 everyone deserves to share in the benefits of a just order.</p>\r\n             <p><span class=\"bold-text\">Size:</span> Dwarves stand between 4 and 5 feet tall and average about 150\r\n                 pounds. Your size is Medium.</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> Your base walking speed is 25 feet. Your speed is not reduced by\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your base walking speed is 25 feet. Your speed is not reduced by\r\n                 wearing heavy armor.</p>\r\n             <p><span class=\"bold-text\">Darkvision:</span> Accustomed to life underground, you have superior vision in\r\n                 dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and\r\n                 in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>\r\n"
+                },
+                {
+                    "date": 1711849070103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -114,9 +114,9 @@\n                 choice: smith’s tools, brewers' supplies, or mason’s tools.</p>\r\n             <p><span class=\"bold-text\">Stonecunning:</span> Whenever you make an Intelligence (History) check related to\r\n                 the origin of stonework, you are considered proficient in the History skill and add double your\r\n                 proficiency bonus to the check, instead of your normal proficiency bonus.</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> You can speak, read, and write Common and Dwarvish. Dwarvish is\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The different tongues a character can speak, read, and understand, ranging from common languages to exotic dialects\">Languages:</span> You can speak, read, and write Common and Dwarvish. Dwarvish is\r\n                 full of hard consonants and guttural sounds, and those characteristics spill over into whatever other\r\n                 language a dwarf might speak.</p>\r\n             <p><span class=\"bold-text\">Subrace:</span> Two main subraces of dwarves populate the worlds of D&D: hill\r\n                 dwarves and mountain dwarves.</p>\r\n"
                 }
             ],
             "date": 1711216040578,

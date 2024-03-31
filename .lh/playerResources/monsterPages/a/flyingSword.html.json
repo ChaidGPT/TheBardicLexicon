@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 18,
+            "activePatchIndex": 21,
             "patches": [
                 {
                     "date": 1693242915830,
@@ -80,6 +80,18 @@
                 {
                     "date": 1711815321738,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n                 <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n                   <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                   <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n                   <div class=\"dropdown-divider\"></div>\r\n-                  <a class=\"dropdown-item\" href=\"#\">More</a>\r\n+                  \r\n                 </div>\r\n               </li>\r\n             </ul>\r\n           </div>\r\n"
+                },
+                {
+                    "date": 1711847200088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n             </table>\r\n          </div>\r\n \r\n          <div class=\"horizontal-line\"></div>\r\n-         <p><span class=\"bold-text\">Armor Class:</span> 17 (natural armor)</p>\r\n+         <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 17 (natural armor)</p>\r\n          <p><span class=\"bold-text\">Hit Points:</span> 17 (5d6)</p>\r\n          <p><span class=\"bold-text\">Speed:</span> 0 ft., fly 50 ft.</p>\r\n \r\n          <div class=\"horizontal-line\"></div>\r\n"
+                },
+                {
+                    "date": 1711847460387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,9 +126,9 @@\n          </div>\r\n \r\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 17 (natural armor)</p>\r\n-         <p><span class=\"bold-text\">Hit Points:</span> 17 (5d6)</p>\r\n+         <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 17 (5d6)</p>\r\n          <p><span class=\"bold-text\">Speed:</span> 0 ft., fly 50 ft.</p>\r\n \r\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text\">Saving Throws:</span> Dex +4</p>\r\n"
+                },
+                {
+                    "date": 1711847842359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,9 +127,9 @@\n \r\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 17 (natural armor)</p>\r\n          <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 17 (5d6)</p>\r\n-         <p><span class=\"bold-text\">Speed:</span> 0 ft., fly 50 ft.</p>\r\n+         <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 0 ft., fly 50 ft.</p>\r\n \r\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text\">Saving Throws:</span> Dex +4</p>\r\n          <p><span class=\"bold-text\">Damage Immunities:</span> poison, psychic</p>\r\n"
                 }
             ],
             "date": 1693242915830,

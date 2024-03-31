@@ -3,11 +3,19 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1711812464583,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1711847843022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,9 +104,9 @@\n                 side or the other in the cosmic war between good and evil (represented by Bahamut and Tiamat,\r\n                 respectively). Most dragonborn are good, but those who side with Tiamat can be terrible villains.</p>\r\n             <p><span class=\"bold-text\">Size:</span> Dragonborn are taller and heavier than humans, standing well over 6\r\n                 feet tall and averaging almost 250 pounds. Your size is Medium.</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> Your base walking speed is 30 feet.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your base walking speed is 30 feet.</p>\r\n \r\n             <p><span class=\"bold-text\">Draconic Ancestry:</span> You have draconic ancestry. Choose one type of dragon\r\n                 from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon\r\n                 type, as shown in the table.</p>\r\n"
+                },
+                {
+                    "date": 1711849070158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n                 determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier\r\n                 + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a\r\n                 successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p>\r\n             <p>After you use your breath weapon, you can’t use it again until you complete a short or long rest.</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> You have resistance to the damage type associated with your\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The different tongues a character can speak, read, and understand, ranging from common languages to exotic dialects\">Languages:</span> You have resistance to the damage type associated with your\r\n                 draconic ancestry.</p>\r\n             <p><span class=\"bold-text\">Damage Resistance:</span> You can speak, read, and write Common and Draconic.\r\n                 Draconic is thought to be one of the oldest languages and is often used in the study of magic. The\r\n                 language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.</p>\r\n"
                 }
             ],
             "date": 1711812464583,

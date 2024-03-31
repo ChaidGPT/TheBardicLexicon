@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 8,
+            "activePatchIndex": 11,
             "patches": [
                 {
                     "date": 1708799691591,
@@ -40,6 +40,18 @@
                 {
                     "date": 1711815750040,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,8 @@\n               </a>\r\n               <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n                 <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                 <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n-                <div class=\"dropdown-divider\"></div>\r\n                 \r\n               </div>\r\n             </li>\r\n           </ul>\r\n"
+                },
+                {
+                    "date": 1711847200139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -123,9 +123,9 @@\n         </table>\r\n       </div>\r\n \r\n       <div class=\"horizontal-line\"></div>\r\n-      <p><span class=\"bold-text\">Armor Class:</span> 13 (clockwork armor)</p>\r\n+      <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 13 (clockwork armor)</p>\r\n       <p><span class=\"bold-text\">Hit Points:</span> 26 (4d8 + 8)</p>\r\n       <p><span class=\"bold-text\">Speed:</span> 30 ft., fly 30 ft. (hover), swim 30 ft.</p>\r\n       <div class=\"horizontal-line\"></div>\r\n       <p><span class=\"bold-text\">Skills:</span> Perception +2</p>\r\n"
+                },
+                {
+                    "date": 1711847460422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,9 +124,9 @@\n       </div>\r\n \r\n       <div class=\"horizontal-line\"></div>\r\n       <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 13 (clockwork armor)</p>\r\n-      <p><span class=\"bold-text\">Hit Points:</span> 26 (4d8 + 8)</p>\r\n+      <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 26 (4d8 + 8)</p>\r\n       <p><span class=\"bold-text\">Speed:</span> 30 ft., fly 30 ft. (hover), swim 30 ft.</p>\r\n       <div class=\"horizontal-line\"></div>\r\n       <p><span class=\"bold-text\">Skills:</span> Perception +2</p>\r\n       <p><span class=\"bold-text\">Damage Immunities:</span> poison, psychic</p>\r\n"
+                },
+                {
+                    "date": 1711847842402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n \r\n       <div class=\"horizontal-line\"></div>\r\n       <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 13 (clockwork armor)</p>\r\n       <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 26 (4d8 + 8)</p>\r\n-      <p><span class=\"bold-text\">Speed:</span> 30 ft., fly 30 ft. (hover), swim 30 ft.</p>\r\n+      <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 30 ft., fly 30 ft. (hover), swim 30 ft.</p>\r\n       <div class=\"horizontal-line\"></div>\r\n       <p><span class=\"bold-text\">Skills:</span> Perception +2</p>\r\n       <p><span class=\"bold-text\">Damage Immunities:</span> poison, psychic</p>\r\n       <p><span class=\"bold-text\">Condition Immunities:</span> charmed, exhaustion, frightened, paralyzed, petrified,\r\n"
                 }
             ],
             "date": 1708799691591,

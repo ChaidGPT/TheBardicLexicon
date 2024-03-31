@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 26,
+            "activePatchIndex": 29,
             "patches": [
                 {
                     "date": 1693242915834,
@@ -112,6 +112,18 @@
                 {
                     "date": 1711830908774,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -280,9 +280,9 @@\n     </div>\r\n \r\n     <!-- End collapseLore -->\r\n \r\n-  <footer class=\"page-footer font-small blue\">\r\n+  <footer class=\"page-footer font-small blue fixed-bottom\">\r\n     <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a> |<a\r\n                 href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" aria-label=\"LinkedIn Profile\">\r\n                 <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"currentColor\"\r\n                     class=\"bi bi-linkedin icon\" viewBox=\"0 0 16 16\">\r\n"
+                },
+                {
+                    "date": 1711847200366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n                     </tbody>\r\n                 </table>\r\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n-            <p><span class=\"bold-text\">Armor Class:</span> 19 (natural armor)</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 19 (natural armor)</p>\r\n             <p><span class=\"bold-text\">Hit Points:</span> 187 (25d10 + 50)</p>\r\n             <p><span class=\"bold-text\">Speed:</span> 0 ft., 20 ft. (hover)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n"
+                },
+                {
+                    "date": 1711847460438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,9 @@\n                 </table>\r\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 19 (natural armor)</p>\r\n-            <p><span class=\"bold-text\">Hit Points:</span> 187 (25d10 + 50)</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 187 (25d10 + 50)</p>\r\n             <p><span class=\"bold-text\">Speed:</span> 0 ft., 20 ft. (hover)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Str +5, Con +7, Int +9, Wis +7, Cha +9</p>\r\n"
+                },
+                {
+                    "date": 1711847842768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,9 +132,9 @@\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 19 (natural armor)</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 187 (25d10 + 50)</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> 0 ft., 20 ft. (hover)</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 0 ft., 20 ft. (hover)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Str +5, Con +7, Int +9, Wis +7, Cha +9</p>\r\n             <p><span class=\"bold-text\">Skills:</span> Perception +12</p>\r\n"
                 }
             ],
             "date": 1693242915834,

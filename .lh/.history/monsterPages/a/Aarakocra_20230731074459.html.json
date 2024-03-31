@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1695663699584,
@@ -12,6 +12,18 @@
                 {
                     "date": 1708617027261,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,13 +24,13 @@\n   </header>\r\n   <body>\r\n     <div class=\"jumbotron\">\r\n         <h1 class=\"display-4\">Aarakocra</h1>\r\n-        <p class=\"lead\">Medium humanoid (aarakocra), neutral good</p>\r\n+        <p class=\"lead text-center\">Medium humanoid (aarakocra), neutral good</p>\r\n         <hr class=\"my-4\">\r\n \r\n         <div class=\"monsterImageContainer\">\r\n-          <img class=\"monsterPortrait rounded\" src=\"../../images/aarakocra.jpg\" alt=\"Aarakocra image\">\r\n+          <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/aarakocra.jpg\" alt=\"Aarakocra image\">\r\n         </div>\r\n \r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" data-target=\"#collapseA\" aria-expanded=\"false\" aria-controls=\"collapseA\">Basic Info</button>\r\n"
+                },
+                {
+                    "date": 1711848037222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,9 +76,9 @@\n       \r\n         <div class=\"collapse\" id=\"collapseA\">\r\n             <div class=\"horizontal-line\"></div>\r\n             <h3>Basic Character Attributes</h3>\r\n-            <p><span class=\"bold-text\">Skills:</span> Perception +5</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A character's ability to perform different tasks\"> Perception +5</p>\r\n             <p><span class=\"bold-text\">Senses:</span> passive Perception 15</p>\r\n             <p><span class=\"bold-text\">Languages:</span> Auran, Aarakocra</p>\r\n         </div>\r\n \r\n"
+                },
+                {
+                    "date": 1711848585313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,9 +77,9 @@\n         <div class=\"collapse\" id=\"collapseA\">\r\n             <div class=\"horizontal-line\"></div>\r\n             <h3>Basic Character Attributes</h3>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A character's ability to perform different tasks\"> Perception +5</p>\r\n-            <p><span class=\"bold-text\">Senses:</span> passive Perception 15</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A character's fundamental abilities of sight, hearing, smell, touch, along with additional senses such as darkvision or tremorsense, essential for navigating dungeons and detecting hidden threats\">Senses:</span> passive Perception 15</p>\r\n             <p><span class=\"bold-text\">Languages:</span> Auran, Aarakocra</p>\r\n         </div>\r\n \r\n         <div class=\"collapse\" id=\"collapseB\">\r\n"
+                },
+                {
+                    "date": 1711849072242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -78,9 +78,9 @@\n             <div class=\"horizontal-line\"></div>\r\n             <h3>Basic Character Attributes</h3>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A character's ability to perform different tasks\"> Perception +5</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A character's fundamental abilities of sight, hearing, smell, touch, along with additional senses such as darkvision or tremorsense, essential for navigating dungeons and detecting hidden threats\">Senses:</span> passive Perception 15</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> Auran, Aarakocra</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The different tongues a character can speak, read, and understand, ranging from common languages to exotic dialects\">Languages:</span> Auran, Aarakocra</p>\r\n         </div>\r\n \r\n         <div class=\"collapse\" id=\"collapseB\">\r\n             <div class=\"horizontal-line\"></div>\r\n"
                 }
             ],
             "date": 1695663699584,

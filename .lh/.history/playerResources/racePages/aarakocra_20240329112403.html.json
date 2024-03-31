@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1711812464577,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1711847843007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n             <div class=\"horizontal-line\"></div>\r\n             <p>As an Aarakocra you have the following racial traits.</p>\r\n             <p><span class=\"bold-text\">Creature Type:</span> You are a Humanoid.</p>\r\n             <p><span class=\"bold-text\">Size:</span> Your size is medium.</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> Your walking speed is 30 feet.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your walking speed is 30 feet.</p>\r\n             <p><span class=\"bold-text\">Flight:</span> Because of your wings, you have a flying speed equal to your walking speed. You can’t use this flying speed if you’re wearing medium or heavy armor.</p>\r\n             <p><span class=\"bold-text\">Talons:</span> You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.</p>\r\n             <p><span class=\"bold-text\">Wind Caller:</span> Starting at 3rd level, you can cast the Gust of Wind spell with this trait, without requiring a material component. Once you cast the spell with this trait, you can’t do so again until you finish a long rest. You can also cast the spell using any spell slots you have of 2nd level or higher.</p>\r\n             <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for it when you cast Gust of Wind with this trait (choose when you select this race).</p>\r\n"
                 }
             ],
             "date": 1711812464577,

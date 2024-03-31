@@ -3,11 +3,19 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1711812464967,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1711847843051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,9 +105,9 @@\n                 parents and are not strongly inclined toward good. Half-orcs raised among ores and willing to live out\r\n                 their lives among them are usually evil.</p>\r\n             <p><span class=\"bold-text\">Size:</span> Half-orcs are somewhat larger and bulkier than humans, and they\r\n                 range from 5 to well over 6 feet tall. Your size is Medium.</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> Your base walking speed is 30 feet.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your base walking speed is 30 feet.</p>\r\n             <p><span class=\"bold-text\">Darkvision:</span> Thanks to your orc blood, you have superior vision in dark and\r\n                 dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in\r\n                 darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>\r\n             <p><span class=\"bold-text\">Menacing:</span> You gain proficiency in the Intimidation skill.</p>\r\n"
+                },
+                {
+                    "date": 1711849069719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -116,9 +116,9 @@\n                 rest.</p>\r\n             <p><span class=\"bold-text\">Savage Attacks:</span> When you score a critical hit with a melee weapon attack,\r\n                 you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the\r\n                 critical hit.</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> You can speak, read, and write Common and Orc. Orc is a harsh,\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The different tongues a character can speak, read, and understand, ranging from common languages to exotic dialects\">Languages:</span> You can speak, read, and write Common and Orc. Orc is a harsh,\r\n                 grating language with hard consonants. It has no script of its own but is written in the Dwarvish\r\n                 script.</p>\r\n         </div>\r\n         <!-- End collapseStats -->\r\n"
                 }
             ],
             "date": 1711812464967,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 7,
+            "activePatchIndex": 12,
             "patches": [
                 {
                     "date": 1695663700236,
@@ -36,6 +36,26 @@
                 {
                     "date": 1711736655912,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n     </div>\r\n \r\n     <!-- End collapseLore -->\r\n \r\n-    <footer class=\"page-footer font-small blue fixed-bottom\">\r\n+  <footer class=\"page-footer font-small blue\">\r\n     <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a> |<a\r\n                 href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" aria-label=\"LinkedIn Profile\">\r\n                 <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"currentColor\"\r\n                     class=\"bi bi-linkedin icon\" viewBox=\"0 0 16 16\">\r\n"
+                },
+                {
+                    "date": 1711847200954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n                     </tbody>\r\n                 </table>\r\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n-            <p><span class=\"bold-text\">Armor Class:</span> 17 (natural armor)</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 17 (natural armor)</p>\r\n             <p><span class=\"bold-text\">Hit Points:</span> 39 (6d8 + 12)</p>\r\n             <p><span class=\"bold-text\">Speed:</span> 30 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n"
+                },
+                {
+                    "date": 1711847365729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,9 +94,9 @@\n                 </table>\r\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 17 (natural armor)</p>\r\n-            <p><span class=\"bold-text\">Hit Points:</span> 39 (6d8 + 12)</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 39 (6d8 + 12)</p>\r\n             <p><span class=\"bold-text\">Speed:</span> 30 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Con +4</p>\r\n"
+                },
+                {
+                    "date": 1711847845437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,9 +95,9 @@\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 17 (natural armor)</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 39 (6d8 + 12)</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> 30 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 30 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Con +4</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> fire, poison</p>\r\n"
+                },
+                {
+                    "date": 1711848585790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -101,9 +101,9 @@\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Con +4</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> fire, poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> poisoned</p>\r\n-            <p><span class=\"bold-text\">Senses:</span> passive Perception 11</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A character's fundamental abilities of sight, hearing, smell, touch, along with additional senses such as darkvision or tremorsense, essential for navigating dungeons and detecting hidden threats\">Senses:</span> passive Perception 11</p>\r\n             <p><span class=\"bold-text\">Languages:</span> Ignan</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 2 (450 XP)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n"
+                },
+                {
+                    "date": 1711849072129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,9 +102,9 @@\n             <p><span class=\"bold-text\">Saving Throws:</span> Con +4</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> fire, poison</p>\r\n             <p><span class=\"bold-text\">Condition Immunities:</span> poisoned</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A character's fundamental abilities of sight, hearing, smell, touch, along with additional senses such as darkvision or tremorsense, essential for navigating dungeons and detecting hidden threats\">Senses:</span> passive Perception 11</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> Ignan</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The different tongues a character can speak, read, and understand, ranging from common languages to exotic dialects\">Languages:</span> Ignan</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 2 (450 XP)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Heated Body:</span> A creature that touches the azer or hits it with a melee\r\n"
                 }
             ],
             "date": 1695663700236,

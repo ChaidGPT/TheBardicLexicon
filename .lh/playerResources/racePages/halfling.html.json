@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 26,
+            "activePatchIndex": 27,
             "patches": [
                 {
                     "date": 1694448764715,
@@ -112,6 +112,10 @@
                 {
                     "date": 1711830907240,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -227,9 +227,9 @@\n     </div>\r\n \r\n     <!-- End collapseLore -->\r\n \r\n-  <footer class=\"page-footer font-small blue\">\r\n+  <footer class=\"page-footer font-small blue fixed-bottom\">\r\n     <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a> |<a\r\n                 href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" aria-label=\"LinkedIn Profile\">\r\n                 <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"currentColor\"\r\n                     class=\"bi bi-linkedin icon\" viewBox=\"0 0 16 16\">\r\n"
+                },
+                {
+                    "date": 1711847842892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,9 +102,9 @@\n                 very orderly and traditional, leaning heavily on the support of their community and the comfort of their\r\n                 old ways.</p>\r\n             <p><span class=\"bold-text\">Size:</span> Halflings average about 3 feet tall and weigh about 40 pounds. Your\r\n                 size is Small.</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> Your base walking speed is 25 feet.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your base walking speed is 25 feet.</p>\r\n             <p><span class=\"bold-text\">Lucky:</span> When you roll a 1 on an attack roll, ability check, or saving\r\n                 throw, you can reroll the die and must use the new roll.</p>\r\n             <p><span class=\"bold-text\">Brave:</span> You have advantage on saving throws against being frightened.</p>\r\n             <p><span class=\"bold-text\">Halfling Nimbleness:</span> You can move through the space of any creature that\r\n"
                 }
             ],
             "date": 1694448764715,

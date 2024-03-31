@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 11,
+            "activePatchIndex": 12,
             "patches": [
                 {
                     "date": 1696210724715,
@@ -52,6 +52,10 @@
                 {
                     "date": 1711815750043,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,8 @@\n               </a>\r\n               <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n                 <a class=\"dropdown-item\" href=\"../../playerTools/charSheet.html\">Character Sheet</a>\r\n                 <a class=\"dropdown-item\" href=\"../../playerTools/dice.html\">Dice Roll Generator</a>\r\n-                <div class=\"dropdown-divider\"></div>\r\n                 \r\n               </div>\r\n             </li>\r\n           </ul>\r\n"
+                },
+                {
+                    "date": 1711847842959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n       <p><span class=\"bold-text\">Ability Score Increase:</span> Your Charisma score increases by 1.</p>\r\n       <p><span class=\"bold-text\">Age:</span> Dogs reach maturity around 18 months and usually live between 10 and 15 years.</p>\r\n       <p><span class=\"bold-text\">Alignment:</span> Dogs tend towards good alignments due to their natural urge to be helpful, but there are exceptions.</p>\r\n       <p><span class=\"bold-text\">Size:</span> Dogs vary in height and length enormously. Your size is dependent on your subrace.</p>\r\n-      <p><span class=\"bold-text\">Speed:</span> Your base walking speed is 30 feet.</p>\r\n+      <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your base walking speed is 30 feet.</p>\r\n       <p><span class=\"bold-text\">Languages:</span> You can 'speak' and read Common and two extra languages of your choice. Note that dogs do not necessarily use speech; whilst they can understand their chosen languages, the specifics of how they communicate are left to the players. Some possibilities include having the full ability of speech, being uncannily effective at conveying meaning through gesture and sounds (\"I think she is saying the kids are down in the well\") or having another character who can understand and interpret for the dog. Regardless of how the dog expresses itself, it is assumed that it is communicating with its allies with sufficient fluency as to avoid any penalties to rolls.</p>\r\n       <p><span class=\"bold-text\">Keen Senses:</span> Dogs have advantage on Perception checks based on smell or hearing and disadvantage on Perception checks depending on color recognition.</p>\r\n       <p><span class=\"bold-text\">Best Friend:</span> Dogs may cast the Charm Person spell using Charisma as the spellcasting ability once per long rest. Not spell components are necessary. The DC for this ability us 8 + your Charisma modifier.</p>\r\n       <p><span class=\"bold-text\">Worse than the Bark:</span> You have a natural bite attack. You are proficient with this attack and it counts as both a weapon attack and an unarmed attack. This attack does 1d4 + your Strength modifier damage. This increases to 1d6 + your Strength modifier at level 5 and 1d8 + your Strength modifier at level 10.</p>\r\n"
                 }
             ],
             "date": 1696210724715,

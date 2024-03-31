@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1695663699586,
@@ -12,6 +12,18 @@
                 {
                     "date": 1708617027272,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,13 +24,13 @@\n   </header>\r\n   <body>\r\n     <div class=\"jumbotron\">\r\n         <h1 class=\"display-4\">Aarakocra</h1>\r\n-        <p class=\"lead\">Medium humanoid (aarakocra), neutral good</p>\r\n+        <p class=\"lead text-center\">Medium humanoid (aarakocra), neutral good</p>\r\n         <hr class=\"my-4\">\r\n \r\n         <div class=\"monsterImageContainer\">\r\n-          <img class=\"monsterPortrait rounded\" src=\"../../images/aarakocra.jpg\" alt=\"Aarakocra image\">\r\n+          <img class=\"monsterPortrait rounded shadow-lg\" src=\"../../images/aarakocra.jpg\" alt=\"Aarakocra image\">\r\n         </div>\r\n \r\n         <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n             <button type=\"button\" class=\"btn btn-secondary\" data-toggle=\"collapse\" href=\"#collapseA\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapseBasic\">Basic Info</button>\r\n"
+                },
+                {
+                    "date": 1711848037154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -78,9 +78,9 @@\n             </table>\r\n       </div>   \r\n \r\n       <div class=\"horizontal-line\"></div>\r\n-        <p><span class=\"bold-text\">Skills:</span> Perception +5</p>\r\n+        <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A character's ability to perform different tasks\"> Perception +5</p>\r\n         <p><span class=\"bold-text\">Senses:</span> passive Perception 15</p>\r\n         <p><span class=\"bold-text\">Languages:</span> Auran, Aarakocra</p>\r\n \r\n       <div class=\"horizontal-line\"></div>\r\n"
+                },
+                {
+                    "date": 1711848585416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,9 +79,9 @@\n       </div>   \r\n \r\n       <div class=\"horizontal-line\"></div>\r\n         <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A character's ability to perform different tasks\"> Perception +5</p>\r\n-        <p><span class=\"bold-text\">Senses:</span> passive Perception 15</p>\r\n+        <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A character's fundamental abilities of sight, hearing, smell, touch, along with additional senses such as darkvision or tremorsense, essential for navigating dungeons and detecting hidden threats\">Senses:</span> passive Perception 15</p>\r\n         <p><span class=\"bold-text\">Languages:</span> Auran, Aarakocra</p>\r\n \r\n       <div class=\"horizontal-line\"></div>\r\n       <p><span class=\"bold-text\">Dive Attack:</span> If the aarakocra is flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 3 (1d6) damage to the target.</p>\r\n"
+                },
+                {
+                    "date": 1711849072233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,9 @@\n \r\n       <div class=\"horizontal-line\"></div>\r\n         <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A character's ability to perform different tasks\"> Perception +5</p>\r\n         <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A character's fundamental abilities of sight, hearing, smell, touch, along with additional senses such as darkvision or tremorsense, essential for navigating dungeons and detecting hidden threats\">Senses:</span> passive Perception 15</p>\r\n-        <p><span class=\"bold-text\">Languages:</span> Auran, Aarakocra</p>\r\n+        <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The different tongues a character can speak, read, and understand, ranging from common languages to exotic dialects\">Languages:</span> Auran, Aarakocra</p>\r\n \r\n       <div class=\"horizontal-line\"></div>\r\n       <p><span class=\"bold-text\">Dive Attack:</span> If the aarakocra is flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 3 (1d6) damage to the target.</p>\r\n \r\n"
                 }
             ],
             "date": 1695663699586,

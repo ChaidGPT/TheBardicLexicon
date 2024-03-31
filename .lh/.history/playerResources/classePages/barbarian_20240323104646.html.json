@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1711736654273,
@@ -12,6 +12,10 @@
                 {
                     "date": 1711812467057,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n                     <h6 class=\"dropdown-header\">Items</h6>\r\n                     <a class=\"dropdown-item\" href=\"../gear.html\">Adventuring Gear</a>\r\n                     <a class=\"dropdown-item\" href=\"../equipment.html\">Equipment *</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n-                    <h6 class=\"dropdown-header\">Magic</h6>\r\n+                    <h6 class=\"dropdown-header\">Magic *</h6>\r\n                     <a class=\"dropdown-item\" href=\"../spells.html\">Spells</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n                     <h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n                     <a class=\"dropdown-item\" href=\"../bestiary.html\">Bestiary</a>\r\n"
+                },
+                {
+                    "date": 1711848038219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,9 +102,9 @@\n             <p><span class=\"bold-text\">Armor:</span> Light armor, medium armor, shields</p>\r\n             <p><span class=\"bold-text\">Weapons:</span> Simple weapons, martial weapons</p>\r\n             <p><span class=\"bold-text\">Tools:</span> None</p>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Strength, Constitution</p>\r\n-            <p><span class=\"bold-text\">Skills:</span> Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A character's ability to perform different tasks\"> Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <h6>Equipment</h6>\r\n             <p>You start with the following equipment, in addition to the equipment granted by your background:</p>\r\n"
                 }
             ],
             "date": 1711736654273,

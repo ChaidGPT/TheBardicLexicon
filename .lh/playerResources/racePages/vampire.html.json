@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 23,
+            "activePatchIndex": 24,
             "patches": [
                 {
                     "date": 1711211640341,
@@ -100,6 +100,10 @@
                 {
                     "date": 1711815493638,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,13 +42,11 @@\n                             <div class=\"dropdown-menu\" aria-labelledby=\"navbarResources\">\r\n                                 <h6 class=\"dropdown-header\">Items</h6>\r\n                                 <a class=\"dropdown-item\" href=\"../gear.html\">Adventuring Gear *</a>\r\n                                 <a class=\"dropdown-item\" href=\"../gear.html\">Equipment *</a>\r\n-                                <div class=\"dropdown-divider\"></div>\r\n-                                <h6 class=\"dropdown-header\">Magic *</h6>\r\n+<h6 class=\"dropdown-header\">Magic *</h6>\r\n                                 <a class=\"dropdown-item\" href=\"../spells.html\">Spells *</a>\r\n-                                <div class=\"dropdown-divider\"></div>\r\n-                                <h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n+<h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n                                 <a class=\"dropdown-item\" href=\"../bestiary.html\">Bestiary</a>\r\n                                 <a class=\"dropdown-item\" href=\"../gods.html\">Gods & Deities</a>\r\n                             </div>\r\n                         </li>\r\n@@ -60,10 +58,9 @@\n                             <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n                                 <a class=\"dropdown-item\" href=\"../../playerTools/worldGenerator.html\">Location\r\n                                     Generator</a>\r\n                                 <a class=\"dropdown-item\" href=\"../../playerTools/dice.html\">Dice Roll Generator</a>\r\n-                                <div class=\"dropdown-divider\"></div>\r\n-                                \r\n+\r\n                             </div>\r\n                         </li>\r\n                     </ul>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1711847842795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,9 +104,9 @@\n                 found immortality. No matter how one came to be a Vampire, after some time of dwelling in darkness, evil\r\n                 might be the easiest thing to cling to. However, with strong enough will, one could maintain their\r\n                 values and remain the alignment they had in life.</p>\r\n             <p><span class=\"bold-text\">Size:</span> There is no change in your size once becoming a Vampire.</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> Your base walking speed is 45</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your base walking speed is 45</p>\r\n             <p><span class=\"bold-text\">Languages:</span> You know the languages known in life.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n \r\n"
                 }
             ],
             "date": 1711211640341,

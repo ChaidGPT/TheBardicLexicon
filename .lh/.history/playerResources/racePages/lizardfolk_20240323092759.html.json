@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1711216040625,
@@ -16,6 +16,14 @@
                 {
                     "date": 1711812466830,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n                     <h6 class=\"dropdown-header\">Items</h6>\r\n                     <a class=\"dropdown-item\" href=\"../gear.html\">Adventuring Gear</a>\r\n                     <a class=\"dropdown-item\" href=\"../gear.html\">Equipment *</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n-                    <h6 class=\"dropdown-header\">Magic</h6>\r\n+                    <h6 class=\"dropdown-header\">Magic *</h6>\r\n                     <a class=\"dropdown-item\" href=\"../spells.html\">Spells</a>\r\n                     <div class=\"dropdown-divider\"></div>\r\n                     <h6 class=\"dropdown-header\">Inhabitants of the Realms</h6>\r\n                     <a class=\"dropdown-item\" href=\"../bestiary.html\">Bestiary</a>\r\n"
+                },
+                {
+                    "date": 1711847843057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,9 +94,9 @@\n             <p><span class=\"bold-text\">Ability Score Increase:</span> </p>\r\n             <p><span class=\"bold-text\">Age:</span> </p>\r\n             <p><span class=\"bold-text\">Alignment:</span> </p>\r\n             <p><span class=\"bold-text\">Size:</span> </p>\r\n-            <p><span class=\"bold-text\">Speed:</span> </p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> </p>\r\n             <p><span class=\"bold-text\">Darkvision:</span> </p>\r\n             <p><span class=\"bold-text\">Dwarven Resilience:</span> </p>\r\n             <p><span class=\"bold-text\">Dwarven Combat Training:</span> </p>\r\n             <p><span class=\"bold-text\">Tools Proficiency:</span> </p>\r\n"
+                },
+                {
+                    "date": 1711849069669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n             <p><span class=\"bold-text\">Dwarven Resilience:</span> </p>\r\n             <p><span class=\"bold-text\">Dwarven Combat Training:</span> </p>\r\n             <p><span class=\"bold-text\">Tools Proficiency:</span> </p>\r\n             <p><span class=\"bold-text\">Stonecunning:</span> </p>\r\n-            <p><span class=\"bold-text\">Languages:</span> </p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The different tongues a character can speak, read, and understand, ranging from common languages to exotic dialects\">Languages:</span> </p>\r\n             <p><span class=\"bold-text\">Subrace:</span> </p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <h6>Subrace</h6>\r\n"
                 }
             ],
             "date": 1711216040625,

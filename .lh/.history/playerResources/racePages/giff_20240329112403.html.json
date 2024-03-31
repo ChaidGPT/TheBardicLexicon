@@ -3,11 +3,19 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1711812464589,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1711847843448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,9 +94,9 @@\n             <p><span class=\"bold-text\">Ability Score Increase:</span> </p>\r\n             <p><span class=\"bold-text\">Age:</span> </p>\r\n             <p><span class=\"bold-text\">Alignment:</span> </p>\r\n             <p><span class=\"bold-text\">Size:</span> </p>\r\n-            <p><span class=\"bold-text\">Speed:</span> </p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> </p>\r\n             <p><span class=\"bold-text\">Darkvision:</span> </p>\r\n             <p><span class=\"bold-text\">Dwarven Resilience:</span> </p>\r\n             <p><span class=\"bold-text\">Dwarven Combat Training:</span> </p>\r\n             <p><span class=\"bold-text\">Tools Proficiency:</span> </p>\r\n"
+                },
+                {
+                    "date": 1711849069906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n             <p><span class=\"bold-text\">Dwarven Resilience:</span> </p>\r\n             <p><span class=\"bold-text\">Dwarven Combat Training:</span> </p>\r\n             <p><span class=\"bold-text\">Tools Proficiency:</span> </p>\r\n             <p><span class=\"bold-text\">Stonecunning:</span> </p>\r\n-            <p><span class=\"bold-text\">Languages:</span> </p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The different tongues a character can speak, read, and understand, ranging from common languages to exotic dialects\">Languages:</span> </p>\r\n             <p><span class=\"bold-text\">Subrace:</span> </p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <h6>Subrace</h6>\r\n"
                 }
             ],
             "date": 1711812464589,

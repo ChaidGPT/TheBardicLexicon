@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 17,
+            "activePatchIndex": 20,
             "patches": [
                 {
                     "date": 1694059866114,
@@ -76,6 +76,18 @@
                 {
                     "date": 1711815879545,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,10 +58,8 @@\n                   </a>\r\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n                     <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                     <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n-                    <div class=\"dropdown-divider\"></div>\r\n-                    \r\n                   </div>\r\n                 </li>\r\n               </ul>\r\n             </div>\r\n"
+                },
+                {
+                    "date": 1711847200162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n                     </tbody>\r\n                 </table>\r\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n-            <p><span class=\"bold-text\">Armor Class:</span> 15 (natural armor)</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 15 (natural armor)</p>\r\n             <p><span class=\"bold-text\">Hit Points:</span> 136 (16d8 + 64)</p>\r\n             <p><span class=\"bold-text\">Speed:</span> 30 ft., climb 30 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n"
+                },
+                {
+                    "date": 1711847459773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,9 @@\n                 </table>\r\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 15 (natural armor)</p>\r\n-            <p><span class=\"bold-text\">Hit Points:</span> 136 (16d8 + 64)</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 136 (16d8 + 64)</p>\r\n             <p><span class=\"bold-text\">Speed:</span> 30 ft., climb 30 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Dex +6, Int +5, Wis +6, Cha +6</p>\r\n"
+                },
+                {
+                    "date": 1711847842718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,9 +132,9 @@\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 15 (natural armor)</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 136 (16d8 + 64)</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> 30 ft., climb 30 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 30 ft., climb 30 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Saving Throws:</span> Dex +6, Int +5, Wis +6, Cha +6</p>\r\n             <p><span class=\"bold-text\">Skills:</span> Deception +10, Insight +6</p>\r\n"
                 }
             ],
             "date": 1694059866114,

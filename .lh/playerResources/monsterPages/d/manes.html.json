@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 15,
+            "activePatchIndex": 18,
             "patches": [
                 {
                     "date": 1693838211463,
@@ -68,6 +68,18 @@
                 {
                     "date": 1711815879481,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,10 +58,8 @@\n                   </a>\r\n                   <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\r\n                     <a class=\"dropdown-item\" href=\"../../../playerTools/worldGenerator.html\">Location Generator</a>\r\n                     <a class=\"dropdown-item\" href=\"../../../playerTools/dice.html\">Dice Roll Generator</a>\r\n-                    <div class=\"dropdown-divider\"></div>\r\n-                    \r\n                   </div>\r\n                 </li>\r\n               </ul>\r\n             </div>\r\n"
+                },
+                {
+                    "date": 1711847200172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -128,9 +128,9 @@\n                     </tbody>\r\n                 </table>\r\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n-            <p><span class=\"bold-text\">Armor Class:</span> 9 (natural armor)</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 9 (natural armor)</p>\r\n             <p><span class=\"bold-text\">Hit Points:</span> 9 (2d6 + 2)</p>\r\n             <p><span class=\"bold-text\">Speed:</span> 20 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n"
+                },
+                {
+                    "date": 1711847459788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,9 +129,9 @@\n                 </table>\r\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 9 (natural armor)</p>\r\n-            <p><span class=\"bold-text\">Hit Points:</span> 9 (2d6 + 2)</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 9 (2d6 + 2)</p>\r\n             <p><span class=\"bold-text\">Speed:</span> 20 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold, fire, lightning</p>\r\n"
+                },
+                {
+                    "date": 1711847842685,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n             </div>\r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The measure of how hard it is for an attacker to hit you when rolling to attack\">Armor Class:</span> 9 (natural armor)</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed\">Hit Points:</span> 9 (2d6 + 2)</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> 20 ft.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 20 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Damage Resistances:</span> cold, fire, lightning</p>\r\n             <p><span class=\"bold-text\">Damage Immunities:</span> poison</p>\r\n"
                 }
             ],
             "date": 1693838211463,

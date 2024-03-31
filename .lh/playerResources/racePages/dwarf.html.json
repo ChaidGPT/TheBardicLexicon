@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 32,
+            "activePatchIndex": 33,
             "patches": [
                 {
                     "date": 1694353816823,
@@ -136,6 +136,10 @@
                 {
                     "date": 1711830907730,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -234,9 +234,9 @@\n     </div>\r\n \r\n     <!-- End collapseLore -->\r\n \r\n-  <footer class=\"page-footer font-small blue\">\r\n+  <footer class=\"page-footer font-small blue fixed-bottom\">\r\n     <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a> |<a\r\n                 href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" aria-label=\"LinkedIn Profile\">\r\n                 <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"currentColor\"\r\n                     class=\"bi bi-linkedin icon\" viewBox=\"0 0 16 16\">\r\n"
+                },
+                {
+                    "date": 1711847842953,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n                 well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that\r\n                 everyone deserves to share in the benefits of a just order.</p>\r\n             <p><span class=\"bold-text\">Size:</span> Dwarves stand between 4 and 5 feet tall and average about 150\r\n                 pounds. Your size is Medium.</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> Your base walking speed is 25 feet. Your speed is not reduced by\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your base walking speed is 25 feet. Your speed is not reduced by\r\n                 wearing heavy armor.</p>\r\n             <p><span class=\"bold-text\">Darkvision:</span> Accustomed to life underground, you have superior vision in\r\n                 dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and\r\n                 in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>\r\n"
                 }
             ],
             "date": 1694353816823,

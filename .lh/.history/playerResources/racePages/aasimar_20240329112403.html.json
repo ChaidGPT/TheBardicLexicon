@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1711812464973,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1711847843479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n             <div class=\"horizontal-line\"></div>\r\n             <p>As an aasimar, you have the following racial traits.</p>\r\n             <p><span class=\"bold-text\">Creature Type:</span> You are a Humanoid.</p>\r\n             <p><span class=\"bold-text\">Size:</span> </p>\r\n-            <p><span class=\"bold-text\">Speed:</span> </p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> </p>\r\n             <p><span class=\"bold-text\">Celestial Resistance:</span> </p>\r\n             <p><span class=\"bold-text\">Darkvision:</span> </p>\r\n             <p><span class=\"bold-text\">Healing Hands:</span> </p>\r\n             <p><span class=\"bold-text\">Light Bearer:</span> </p>\r\n"
                 }
             ],
             "date": 1711812464973,

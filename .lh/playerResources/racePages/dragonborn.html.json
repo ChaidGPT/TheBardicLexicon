@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 40,
+            "activePatchIndex": 41,
             "patches": [
                 {
                     "date": 1694386511503,
@@ -168,6 +168,10 @@
                 {
                     "date": 1711830907636,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -258,9 +258,9 @@\n     </div>\r\n \r\n     <!-- End collapseLore -->\r\n \r\n-  <footer class=\"page-footer font-small blue\">\r\n+  <footer class=\"page-footer font-small blue fixed-bottom\">\r\n     <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a> |<a\r\n                 href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" aria-label=\"LinkedIn Profile\">\r\n                 <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"currentColor\"\r\n                     class=\"bi bi-linkedin icon\" viewBox=\"0 0 16 16\">\r\n"
+                },
+                {
+                    "date": 1711847843032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,9 +102,9 @@\n                 side or the other in the cosmic war between good and evil (represented by Bahamut and Tiamat,\r\n                 respectively). Most dragonborn are good, but those who side with Tiamat can be terrible villains.</p>\r\n             <p><span class=\"bold-text\">Size:</span> Dragonborn are taller and heavier than humans, standing well over 6\r\n                 feet tall and averaging almost 250 pounds. Your size is Medium.</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> Your base walking speed is 30 feet.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your base walking speed is 30 feet.</p>\r\n \r\n             <p><span class=\"bold-text\">Draconic Ancestry:</span> You have draconic ancestry. Choose one type of dragon\r\n                 from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon\r\n                 type, as shown in the table.</p>\r\n"
                 }
             ],
             "date": 1694386511503,

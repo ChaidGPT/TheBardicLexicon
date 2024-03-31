@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 24,
+            "activePatchIndex": 25,
             "patches": [
                 {
                     "date": 1694462947638,
@@ -104,6 +104,10 @@
                 {
                     "date": 1711830906868,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -138,9 +138,9 @@\n     </div>\r\n \r\n     <!-- End collapseLore -->\r\n \r\n-  <footer class=\"page-footer font-small blue\">\r\n+  <footer class=\"page-footer font-small blue fixed-bottom\">\r\n     <p>&copy; Chad Oswald | <a href=\"mailto:chadloswald@gmail.com\">chadloswald@gmail.com</a> |<a\r\n                 href=\"https://www.linkedin.com/in/chad-oswald-994a8b1b3/\" target=\"_blank\" aria-label=\"LinkedIn Profile\">\r\n                 <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"currentColor\"\r\n                     class=\"bi bi-linkedin icon\" viewBox=\"0 0 16 16\">\r\n"
+                },
+                {
+                    "date": 1711847842819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,9 @@\n             <p><span class=\"bold-text\">Ability Score Increase:</span> Your Intelligence score increases by 1, and your Charisma score increases by 2.</p>\r\n             <p><span class=\"bold-text\">Age:</span> Tieflings mature at the sam e rate as humans but live a few years longer.</p>\r\n             <p><span class=\"bold-text\">Alignment:</span> Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.</p>\r\n             <p><span class=\"bold-text\">Size:</span> Tieflings are about the same size and build as humans. Your size is Medium.</p>\r\n-            <p><span class=\"bold-text\">Speed:</span> Your base walking speed is 30 feet.</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> Your base walking speed is 30 feet.</p>\r\n             <p><span class=\"bold-text\">Darkvision:</span> Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>\r\n             <p><span class=\"bold-text\">Hellish Resilience:</span> You have resistance to fire damage.</p>\r\n             <p><span class=\"bold-text\">Infernal Legacy:</span> You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell once per day as a 2nd-level spell. Once you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.</p>\r\n             <p><span class=\"bold-text\">Languages:</span> You can speak, read, and write Common and Infernal.</p>\r\n"
                 }
             ],
             "date": 1694462947638,

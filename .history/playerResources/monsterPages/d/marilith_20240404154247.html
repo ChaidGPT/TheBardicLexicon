@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marilith</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+
+<body>
+    <header class="header-top">
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container">
+            <a class="navbar-brand navMonsterName" href="../../../index.html">The Bardic Lexicon</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto nav justify-content-end">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarCharacter" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Character Creation
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarCharacter">
+                    <a class="dropdown-item" href="../../races.html">Races</a>
+                    <a class="dropdown-item" href="../../classes.html">Classes</a>
+                    <a class="dropdown-item" href="../../personality.html">Personality & Inspiration</a>
+                    <a class="dropdown-item" href="../../background.html">Character Backgrounds</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarResources" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Player Resources
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarResources">
+                    <h6 class="dropdown-header">Items</h6>
+                    <a class="dropdown-item" href="../../gear.html">Adventuring Gear *</a>
+                    <a class="dropdown-item" href="../../equipment.html">Equipment *</a>
+                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">Magic *</h6>
+                    <a class="dropdown-item" href="../../spells.html">Spells *</a>
+                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">Inhabitants of the Realms</h6>
+                  <a class="dropdown-item" href="../../bestiary.html">Bestiary</a>
+                  <a class="dropdown-item" href="../../gods.html">Gods & Deities</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Player Tools
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../../../playerTools/worldGenerator.html">Location Generator</a>
+                    <a class="dropdown-item" href="../../../playerTools/dice.html">Dice Roll Generator</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+    <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">Go Back</button>
+
+    <div class="jumbotron">
+        <h1 class="display-4 monsterName text-center">Marilith</h1>
+        <div class="horizontal-line"></div>
+        <p class="lead text-center">Large fiend (demon), chaotic evil</p>
+        <p>Terrible to behold, a marilith has the lower body of a great serpent and the upper torso of a humanoid female
+            with six arms.</p>
+        <p>Wielding a wicked blade in each of its six hands, a marilith is a devastating foe that few can match in
+            battle. These demons possess keen minds and a finely honed sense of tactics, and they are able to lead and
+            unite other demons in common cause. Mariliths are often encountered as captains at the head of a demonic
+            horde, where they embrace any opportunity to rush headlong into battle.</p>
+        <p>For basic lore see <a href="demons.html">Demons</a></p>
+        <hr class="my-4">
+        <div class="monsterImageContainer">
+            <img class="monsterPortrait rounded shadow-lg" src="../../../images/marilith.png" alt="Marilith image">
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseStats" role="button"
+                aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToStats()">Basic Info</button>
+        </div>
+
+        <!-- Start collapseStats -->
+        <div class="collapse rounded" id="collapseStats">
+            <h4>Basic Character Attributes</h4>
+            <div class="horizontal-line"></div>
+            <div class="tableContainer">
+                <table class="tg">
+                    <thead>
+                        <tr>
+                            <th class="tg-34fe"><span class="bold-text">Attribute</span></th>
+                            <th class="tg-yj5y">STR</th>
+                            <th class="tg-yj5y">DEX</th>
+                            <th class="tg-yj5y">CON</th>
+                            <th class="tg-yj5y">INT</th>
+                            <th class="tg-uqo3">WIS</th>
+                            <th class="tg-uqo3">CHA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tg-34fe"><span class="bold-text">Value</span></td>
+                            <td class="tg-yj5y">18</td>
+                            <td class="tg-yj5y">20</td>
+                            <td class="tg-yj5y">20</td>
+                            <td class="tg-yj5y">18</td>
+                            <td class="tg-uqo3">16</td>
+                            <td class="tg-uqo3">20</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-34fe"><span class="bold-text">Modifier</span></td>
+                            <td class="tg-yj5y">+4</td>
+                            <td class="tg-yj5y">+5</td>
+                            <td class="tg-yj5y">+5</td>
+                            <td class="tg-yj5y">+4</td>
+                            <td class="tg-uqo3">+3</td>
+                            <td class="tg-uqo3">+5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="The measure of how hard it is for an attacker to hit you when rolling to attack">Armor Class:</span> 18 (natural armor)</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed">Hit Points:</span> 189 (18d10 + 90)</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="The distance in feet that the character or monster can move in 1 round">Speed:</span> 40 ft.</p>
+
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="Represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat">Saving Throws:</span> Str +9, Con +10, Wis +8, Cha +10</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="Reduces the damage they take from specific types of attacks">Damage Resistances:</span> cold, lightning; bludgeoning, piercing, and slashing
+                from non magical weapons</p>
+            <p><span class="bold-text">Damage Immunities:</span> poison</p>
+            <p><span class="bold-text">Condition Immunities:</span> poisoned</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats">Senses:</span> truesight 120 ft., passive Perception 13</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world">Languages:</span> Abyssal, telepathy 120 ft.</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="A loose approximation of the difficulty of a particular monster compared to the level of the characters">Challenge:</span> 16 (15,000 XP)</p>
+
+            <p><span class="bold-text">Magic Resistance:</span> The marilith has advantage on saving throws against
+                spells and other magical effects.</p>
+            <p><span class="bold-text">Magic Weapons:</span> The marilith's weapon attacks are magical.</p>
+            <p><span class="bold-text">Reactive:</span> The marilith can take one reaction on every turn in a combat.
+            </p>
+
+            <div class="horizontal-line"></div>
+            <h5>Actions</h5>
+            <p><span class="bold-text">Multiattack:</span> The marilith makes seven attacks: six with its longswords and
+                one with its tail.</p>
+            <p><span class="bold-text">Longsword:</span> Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit:
+                13 (2d8 + 4) slashing damage.</p>
+            <p><span class="bold-text">Tail:</span> Melee Weapon Attack: +9 to hit, reach 10ft., one creature. Hit: 15
+                (2d10 + 4) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 19). Until
+                this grapple ends, the target is restrained, the marilith can automatically hit the target with its
+                tail, and the marilith can 't make tail attacks against other targets.</p>
+            <p><span class="bold-text">Teleport:</span> The marilith magically teleports, along with any equipment it is
+                wearing or carrying, up to 120 feet to an unoccupied space it can see.</p>
+
+            <div class="horizontal-line"></div>
+            <h5>Reactions</h5>
+            <p><span class="bold-text">Parry:</span> The marilith adds 5 to its AC against one melee attack that would
+                hit it. To do so, the marilith must see the attacker and be wielding a melee weapon.</p>
+
+        </div>
+        <!-- End collapseStats -->
+
+        <footer class="page-footer font-small blue fixed-bottom">
+            <p>&copy; Chad Oswald | <a href="mailto:chadloswald@gmail.com">chadloswald@gmail.com</a></p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="../../../scriptMon.js"></script>
+</body>
+
+</html>

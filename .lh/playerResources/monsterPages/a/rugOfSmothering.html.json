@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 23,
+            "activePatchIndex": 26,
             "patches": [
                 {
                     "date": 1693242915831,
@@ -100,6 +100,18 @@
                 {
                     "date": 1711893855573,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,9 +134,9 @@\n          <p><span class=\"bold-text\">Damage Immunities:</span> poison, psychic</p>\r\n          <p><span class=\"bold-text\">Condition Immunities:</span> blinded, charmed, deafened, exhaustion, frightened,\r\n             paralyzed, petrified, poisoned</p>\r\n          <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> blindsighted 60ft. (blind beyond radius), passive Perception 6</p>\r\n-         <p><span class=\"bold-text\">Languages:</span> -</p>\r\n+         <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> -</p>\r\n          <p><span class=\"bold-text\">Challenge:</span> 2 (450 XP)</p>\r\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text\">Antimagic Susceptibility:</span> The rug is incapacitated while in the area of an\r\n             anti magic field. If targeted by dispel magic, the sword must succeed on a Constitution saving throw against\r\n"
+                },
+                {
+                    "date": 1712270570201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -135,9 +135,9 @@\n          <p><span class=\"bold-text\">Condition Immunities:</span> blinded, charmed, deafened, exhaustion, frightened,\r\n             paralyzed, petrified, poisoned</p>\r\n          <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> blindsighted 60ft. (blind beyond radius), passive Perception 6</p>\r\n          <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> -</p>\r\n-         <p><span class=\"bold-text\">Challenge:</span> 2 (450 XP)</p>\r\n+         <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A loose approximation of the difficulty of a particular monster compared to the level of the characters\">Challenge:</span> 2 (450 XP)</p>\r\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text\">Antimagic Susceptibility:</span> The rug is incapacitated while in the area of an\r\n             anti magic field. If targeted by dispel magic, the sword must succeed on a Constitution saving throw against\r\n             the caster's spell save DC or fall unconscious for 1 minute.</p>\r\n"
+                },
+                {
+                    "date": 1712271464154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n             <table class=\"tg\">\r\n                <thead>\r\n                   <tr>\r\n                      <th class=\"tg-34fe\"><span class=\"bold-text\">Attribute</span></th>\r\n-                     <th class=\"tg-yj5y\">STR</th>\r\n+                     <th class=\"tg-yj5y\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"S simple measure of a character's physical prowess\">STR</th>\r\n                      <th class=\"tg-yj5y\">DEX</th>\r\n                      <th class=\"tg-yj5y\">CON</th>\r\n                      <th class=\"tg-yj5y\">INT</th>\r\n                      <th class=\"tg-uqo3\">WIS</th>\r\n"
+                },
+                {
+                    "date": 1712271533954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n             <table class=\"tg\">\r\n                <thead>\r\n                   <tr>\r\n                      <th class=\"tg-34fe\"><span class=\"bold-text\">Attribute</span></th>\r\n-                     <th class=\"tg-yj5y\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"S simple measure of a character's physical prowess\">STR</th>\r\n+                     <th class=\"tg-yj5y\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A simple measure of a character's physical prowess\">STR</th>\r\n                      <th class=\"tg-yj5y\">DEX</th>\r\n                      <th class=\"tg-yj5y\">CON</th>\r\n                      <th class=\"tg-yj5y\">INT</th>\r\n                      <th class=\"tg-uqo3\">WIS</th>\r\n"
                 }
             ],
             "date": 1693242915831,

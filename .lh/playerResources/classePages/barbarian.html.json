@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 40,
+            "activePatchIndex": 41,
             "patches": [
                 {
                     "date": 1694484672847,
@@ -168,6 +168,10 @@
                 {
                     "date": 1711893346914,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,9 +105,9 @@\n       <p><span class=\"bold-text\">Armor:</span> Light armor, medium armor, shields</p>\r\n       <p><span class=\"bold-text\">Weapons:</span> Simple weapons, martial weapons</p>\r\n       <p><span class=\"bold-text\">Tools:</span> None</p>\r\n       <p><span class=\"bold-text\">Saving Throws:</span> Strength, Constitution</p>\r\n-      <p><span class=\"bold-text\">Skills:</span> Choose two from Animal Handling, Athletics, Intimidation, Nature,\r\n+      <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Skills represent a specific aspect of the 6 ability scores. Each skill measures a character’s ability to perform different tasks\">Skills:</span> Choose two from Animal Handling, Athletics, Intimidation, Nature,\r\n         Perception, and Survival</p>\r\n \r\n       <div class=\"horizontal-line\"></div>\r\n       <h6>Equipment</h6>\r\n"
+                },
+                {
+                    "date": 1712269891520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,9 +104,9 @@\n       <h6>Proficiencies</h6>\r\n       <p><span class=\"bold-text\">Armor:</span> Light armor, medium armor, shields</p>\r\n       <p><span class=\"bold-text\">Weapons:</span> Simple weapons, martial weapons</p>\r\n       <p><span class=\"bold-text\">Tools:</span> None</p>\r\n-      <p><span class=\"bold-text\">Saving Throws:</span> Strength, Constitution</p>\r\n+      <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat\">Saving Throws:</span> Strength, Constitution</p>\r\n       <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Skills represent a specific aspect of the 6 ability scores. Each skill measures a character’s ability to perform different tasks\">Skills:</span> Choose two from Animal Handling, Athletics, Intimidation, Nature,\r\n         Perception, and Survival</p>\r\n \r\n       <div class=\"horizontal-line\"></div>\r\n"
                 }
             ],
             "date": 1694484672847,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 30,
+            "activePatchIndex": 32,
             "patches": [
                 {
                     "date": 1693242915833,
@@ -128,6 +128,14 @@
                 {
                     "date": 1711893855660,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -136,9 +136,9 @@\n \r\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Skills represent a specific aspect of the 6 ability scores. Each skill measures a character’s ability to perform different tasks\">Skills:</span> Perception +5</p>\r\n          <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> passive Perception 15</p>\r\n-         <p><span class=\"bold-text\">Languages:</span> Auran, Aarakocra</p>\r\n+         <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> Auran, Aarakocra</p>\r\n \r\n          <div class=\"horizontal-line\"></div>\r\n          <p><span class=\"bold-text\">Dive Attack:</span> If the aarakocra is flying and dives at least 30 feet straight\r\n             toward a target and then hits it with a melee weapon attack, the attack deals an extra 3 (1d6) damage to the\r\n"
+                },
+                {
+                    "date": 1712271464104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n             <table class=\"tg\">\r\n                <thead>\r\n                   <tr>\r\n                      <th class=\"tg-34fe\"><span class=\"bold-text\">Attribute</span></th>\r\n-                     <th class=\"tg-yj5y\">STR</th>\r\n+                     <th class=\"tg-yj5y\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"S simple measure of a character's physical prowess\">STR</th>\r\n                      <th class=\"tg-yj5y\">DEX</th>\r\n                      <th class=\"tg-yj5y\">CON</th>\r\n                      <th class=\"tg-yj5y\">INT</th>\r\n                      <th class=\"tg-uqo3\">WIS</th>\r\n"
+                },
+                {
+                    "date": 1712271533995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n             <table class=\"tg\">\r\n                <thead>\r\n                   <tr>\r\n                      <th class=\"tg-34fe\"><span class=\"bold-text\">Attribute</span></th>\r\n-                     <th class=\"tg-yj5y\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"S simple measure of a character's physical prowess\">STR</th>\r\n+                     <th class=\"tg-yj5y\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A simple measure of a character's physical prowess\">STR</th>\r\n                      <th class=\"tg-yj5y\">DEX</th>\r\n                      <th class=\"tg-yj5y\">CON</th>\r\n                      <th class=\"tg-yj5y\">INT</th>\r\n                      <th class=\"tg-uqo3\">WIS</th>\r\n"
                 }
             ],
             "date": 1693242915833,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 12,
+            "activePatchIndex": 15,
             "patches": [
                 {
                     "date": 1698972565554,
@@ -56,6 +56,18 @@
                 {
                     "date": 1711893855385,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -136,9 +136,9 @@\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Skills represent a specific aspect of the 6 ability scores. Each skill measures a character’s ability to perform different tasks\">Skills:</span> Perception +4</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> passive Perception 14</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> -</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> -</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 8 (3,900 XP)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <h5>Actions</h5>\r\n"
+                },
+                {
+                    "date": 1712270570794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,9 +137,9 @@\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Skills represent a specific aspect of the 6 ability scores. Each skill measures a character’s ability to perform different tasks\">Skills:</span> Perception +4</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> passive Perception 14</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> -</p>\r\n-            <p><span class=\"bold-text\">Challenge:</span> 8 (3,900 XP)</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A loose approximation of the difficulty of a particular monster compared to the level of the characters\">Challenge:</span> 8 (3,900 XP)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <h5>Actions</h5>\r\n             <p><span class=\"bold-text\">Multiattack:</span> The tyrannosaurus makes two attacks: one with its bite and\r\n"
+                },
+                {
+                    "date": 1712271464256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n                 <table class=\"tg\">\r\n                     <thead>\r\n                         <tr>\r\n                             <th class=\"tg-34fe\"><span class=\"bold-text\">Attribute</span></th>\r\n-                            <th class=\"tg-yj5y\">STR</th>\r\n+                            <th class=\"tg-yj5y\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"S simple measure of a character's physical prowess\">STR</th>\r\n                             <th class=\"tg-yj5y\">DEX</th>\r\n                             <th class=\"tg-yj5y\">CON</th>\r\n                             <th class=\"tg-yj5y\">INT</th>\r\n                             <th class=\"tg-uqo3\">WIS</th>\r\n"
+                },
+                {
+                    "date": 1712271534054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n                 <table class=\"tg\">\r\n                     <thead>\r\n                         <tr>\r\n                             <th class=\"tg-34fe\"><span class=\"bold-text\">Attribute</span></th>\r\n-                            <th class=\"tg-yj5y\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"S simple measure of a character's physical prowess\">STR</th>\r\n+                            <th class=\"tg-yj5y\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A simple measure of a character's physical prowess\">STR</th>\r\n                             <th class=\"tg-yj5y\">DEX</th>\r\n                             <th class=\"tg-yj5y\">CON</th>\r\n                             <th class=\"tg-yj5y\">INT</th>\r\n                             <th class=\"tg-uqo3\">WIS</th>\r\n"
                 }
             ],
             "date": 1698972565554,

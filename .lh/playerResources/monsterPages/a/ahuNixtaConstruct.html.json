@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 16,
+            "activePatchIndex": 19,
             "patches": [
                 {
                     "date": 1708798372550,
@@ -72,6 +72,18 @@
                 {
                     "date": 1711893855546,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,9 +132,9 @@\n       <p><span class=\"bold-text\">Damage Immunities:</span> poison, psychic</p>\r\n       <p><span class=\"bold-text\">Condition Immunities:</span> charmed, exhaustion, frightened, paralyzed, petrified,\r\n         poisoned, prone</p>\r\n       <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 60 ft., passive Perception 13</p>\r\n-      <p><span class=\"bold-text\">Languages:</span> Deep Speech, Void Speech</p>\r\n+      <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> Deep Speech, Void Speech</p>\r\n       <p><span class=\"bold-text\">Challenge:</span> 3 (700 XP)</p>\r\n       <div class=\"horizontal-line\"></div>\r\n       <p><span class=\"bold-text\">Clockwork Encasement:</span> The creature within the machine is a somewhat shapeless\r\n         mass, both protected and given concrete manipulators by its armor. The clockwork armor has a variety of\r\n"
+                },
+                {
+                    "date": 1712270570470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -133,9 +133,9 @@\n       <p><span class=\"bold-text\">Condition Immunities:</span> charmed, exhaustion, frightened, paralyzed, petrified,\r\n         poisoned, prone</p>\r\n       <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 60 ft., passive Perception 13</p>\r\n       <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> Deep Speech, Void Speech</p>\r\n-      <p><span class=\"bold-text\">Challenge:</span> 3 (700 XP)</p>\r\n+      <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A loose approximation of the difficulty of a particular monster compared to the level of the characters\">Challenge:</span> 3 (700 XP)</p>\r\n       <div class=\"horizontal-line\"></div>\r\n       <p><span class=\"bold-text\">Clockwork Encasement:</span> The creature within the machine is a somewhat shapeless\r\n         mass, both protected and given concrete manipulators by its armor. The clockwork armor has a variety of\r\n         manipulators that the ahu-nixta can use to attack or to interact with objects outside of the armor. When the\r\n"
+                },
+                {
+                    "date": 1712271464133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n         <table class=\"tg\">\r\n           <thead>\r\n             <tr>\r\n               <th class=\"tg-34fe\"><span class=\"bold-text\">Attribute</span></th>\r\n-              <th class=\"tg-yj5y\">STR</th>\r\n+              <th class=\"tg-yj5y\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"S simple measure of a character's physical prowess\">STR</th>\r\n               <th class=\"tg-yj5y\">DEX</th>\r\n               <th class=\"tg-yj5y\">CON</th>\r\n               <th class=\"tg-yj5y\">INT</th>\r\n               <th class=\"tg-uqo3\">WIS</th>\r\n"
+                },
+                {
+                    "date": 1712271533999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n         <table class=\"tg\">\r\n           <thead>\r\n             <tr>\r\n               <th class=\"tg-34fe\"><span class=\"bold-text\">Attribute</span></th>\r\n-              <th class=\"tg-yj5y\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"S simple measure of a character's physical prowess\">STR</th>\r\n+              <th class=\"tg-yj5y\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A simple measure of a character's physical prowess\">STR</th>\r\n               <th class=\"tg-yj5y\">DEX</th>\r\n               <th class=\"tg-yj5y\">CON</th>\r\n               <th class=\"tg-yj5y\">INT</th>\r\n               <th class=\"tg-uqo3\">WIS</th>\r\n"
                 }
             ],
             "date": 1708798372550,

@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bone Devil</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+
+<body>
+    <header class="header-top">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand navMonsterName" href="../../../index.html">The Bardic Lexicon</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto nav justify-content-end">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarCharacter" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Character Creation
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarCharacter">
+                                <a class="dropdown-item" href="../../races.html">Races</a>
+                                <a class="dropdown-item" href="../../classes.html">Classes</a>
+                                <a class="dropdown-item" href="../../personality.html">Personality & Inspiration</a>
+                                <a class="dropdown-item" href="../../background.html">Character Backgrounds</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarResources" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Player Resources
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarResources">
+                                <h6 class="dropdown-header">Items</h6>
+                                <a class="dropdown-item" href="../../gear.html">Adventuring Gear *</a>
+                                <a class="dropdown-item" href="../../equipment.html">Equipment *</a>
+<h6 class="dropdown-header">Magic *</h6>
+                                <a class="dropdown-item" href="../../spells.html">Spells *</a>
+<h6 class="dropdown-header">Inhabitants of the Realms</h6>
+                                <a class="dropdown-item" href="../../bestiary.html">Bestiary</a>
+                                <a class="dropdown-item" href="../../gods.html">Gods & Deities</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Player Tools
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="../../../playerTools/worldGenerator.html">Location Generator</a>
+                                <a class="dropdown-item" href="../../../playerTools/dice.html">Dice Roll Generator</a>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">Go Back</button>
+
+    <div class="jumbotron">
+        <h1 class="display-4 monsterName text-center">Bone Devil</h1>
+        <div class="horizontal-line"></div>
+        <p class="lead text-center">Large fiend (demon), lawful evil</p>
+        <p>Driven by hate, lust, and envy, bone devils act as the
+            cruel taskmasters of the Nine Hells. They set weaker
+            devils to work, taking special delight in seeing fiends
+            that defy them demoted. At the same time, they long for
+            promotion and are bitterly envious of their superiors,
+            attempting to curry favor though it irks them to do so.</p>
+        <p>A bone devil appears as a humanoid husk, with dried
+            skin stretched tight across its skeletal frame. It bears a
+            fearsome skull-like head and the tail of a scorpion, and
+            a foul odor of decay hangs in the air around it. Though
+            they are devastating in combat with their claws, bone
+            devils also wield hooked polearms made of bone, which
+            they use to subdue enemies before striking with their
+            venomous tails.</p>
+        <p>For basic lore see <a href="devils.html">Devils</a></p>
+        <hr class="my-4">
+        <div class="monsterImageContainer">
+            <img class="monsterPortrait rounded shadow-lg" src="../../../images/devilBone.png" alt="Bone Devil image">
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseStats" role="button"
+                aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToStats()">Basic Info</button>
+        </div>
+
+        <!-- Start collapseStats -->
+        <div class="collapse rounded" id="collapseStats">
+            <h4>Basic Character Attributes</h4>
+            <div class="horizontal-line"></div>
+            <div class="tableContainer">
+                <table class="tg">
+                    <thead>
+                        <tr>
+                            <th class="tg-34fe"><span class="bold-text">Attribute</span></th>
+                            <th class="tg-yj5y">STR</th>
+                            <th class="tg-yj5y">DEX</th>
+                            <th class="tg-yj5y">CON</th>
+                            <th class="tg-yj5y">INT</th>
+                            <th class="tg-uqo3">WIS</th>
+                            <th class="tg-uqo3">CHA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tg-34fe"><span class="bold-text">Value</span></td>
+                            <td class="tg-yj5y">18</td>
+                            <td class="tg-yj5y">16</td>
+                            <td class="tg-yj5y">18</td>
+                            <td class="tg-yj5y">13</td>
+                            <td class="tg-uqo3">14</td>
+                            <td class="tg-uqo3">16</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-34fe"><span class="bold-text">Modifier</span></td>
+                            <td class="tg-yj5y">+4</td>
+                            <td class="tg-yj5y">+3</td>
+                            <td class="tg-yj5y">+4</td>
+                            <td class="tg-yj5y">+1</td>
+                            <td class="tg-uqo3">+2</td>
+                            <td class="tg-uqo3">+3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="The measure of how hard it is for an attacker to hit you when rolling to attack">Armor Class:</span> 19 (natural armor)</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed">Hit Points:</span> 142 (15d10 + 60)</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="The distance in feet that the character or monster can move in 1 round">Speed:</span> 40 ft., fly 40 ft.</p>
+
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="Represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat">Saving Throws:</span> Int +5, Wis +5, Con +7</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="Skills represent a specific aspect of the 6 ability scores. Each skill measures a character’s ability to perform different tasks">Skills:</span> Deception +7, Insight +6</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="Reduces the damage they take from specific types of attacks">Damage Resistances:</span> cold; bludgeoning, piercing, and slashing
+                from non magical weapons that aren't silvered</p>
+            <p><span class="bold-text">Damage Immunities:</span> fire, poison</p>
+            <p><span class="bold-text">Condition Immunities:</span> poisoned</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats">Senses:</span> darkvision 120 ft., passive Perception 12</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world">Languages:</span> Infernal, telepathy 120 ft.</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="A loose approximation of the difficulty of a particular monster compared to the level of the characters">Challenge:</span> 9 (5,000 XP)</p>
+
+            <p><span class="bold-text">Devil's Sight:</span> Magical darkness doesn't impede the devil's darkvision.</p>
+            <p><span class="bold-text">Magic Resistance:</span> The devil has advantage on saving throws against spells
+                and other magical effects.</p>
+
+            <div class="horizontal-line"></div>
+            <h5>Actions</h5>
+            <p><span class="bold-text">Multiattack:</span> The devil makes th ree attacks: two with its claws and one
+                with its sting.</p>
+            <p><span class="bold-text">Claw:</span> Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8
+                (1d8 + 4) slashing damage.</p>
+            <p><span class="bold-text">Sting:</span> Melee Weapon Attack: +8 to hit, reach 10ft., one target.
+                Hit: 13 (2d8 + 4) piercing damage plus 17 (5d6) poison
+                damage, and the target must succeed on a DC 14 Constitution
+                saving throw or become poisoned for 1 minute. The target can
+                repeat the saving throw at the end of each of its turns, ending
+                the effect on itself on a success.</p>
+            <div class="horizontal-line"></div>
+            <h5>Variant: Bone Devil Polearm</h5>
+            <p>Some bone devils have the following action options.</p>
+            <p><span class="bold-text">Multiattack:</span> The devil makes three attacks: two with its hooked polearm
+                and one with its sting.</p>
+            <p><span class="bold-text">Hooked Polearm:</span> Melee Weapon Attack: +8 to hit, reach
+                10ft., one target. Hit: 17 (2d1 2 + 4) piercing damage. If the
+                target is a Huge or smaller creature, it is grappled (escape
+                DC 14). Until this grapple ends, the devil can't use its polearm on another target.</p>
+        </div>
+        <!-- End collapseStats -->
+
+        <footer class="page-footer font-small blue fixed-bottom">
+            <p>&copy; Chad Oswald | <a href="mailto:chadloswald@gmail.com">chadloswald@gmail.com</a></p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="../../../scriptMon.js"></script>
+</body>
+
+</html>

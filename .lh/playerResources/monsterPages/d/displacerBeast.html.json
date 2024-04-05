@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 17,
+            "activePatchIndex": 20,
             "patches": [
                 {
                     "date": 1698973634976,
@@ -76,6 +76,18 @@
                 {
                     "date": 1711893855370,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -147,9 +147,9 @@\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The distance in feet that the character or monster can move in 1 round\">Speed:</span> 40 ft.</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 60ft., passive Perception 11</p>\r\n-            <p><span class=\"bold-text\">Languages:</span> -</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> -</p>\r\n             <p><span class=\"bold-text\">Challenge:</span> 3 (700 XP)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Avoidance:</span> If the displacer beast is subjected to an effect that\r\n"
+                },
+                {
+                    "date": 1712270570818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,9 +148,9 @@\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats\">Senses:</span> darkvision 60ft., passive Perception 11</p>\r\n             <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world\">Languages:</span> -</p>\r\n-            <p><span class=\"bold-text\">Challenge:</span> 3 (700 XP)</p>\r\n+            <p><span class=\"bold-text tip\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A loose approximation of the difficulty of a particular monster compared to the level of the characters\">Challenge:</span> 3 (700 XP)</p>\r\n \r\n             <div class=\"horizontal-line\"></div>\r\n             <p><span class=\"bold-text\">Avoidance:</span> If the displacer beast is subjected to an effect that\r\n                 allows it to make a saving throw to take only half damage, it\r\n"
+                },
+                {
+                    "date": 1712271464261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,9 +110,9 @@\n                         <tr>\r\n                             <th class=\"tg-34fe\">\r\n                                 <span class=\"bold-text\">Attribute</span>\r\n                             </th>\r\n-                            <th class=\"tg-yj5y\">STR</th>\r\n+                            <th class=\"tg-yj5y\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"S simple measure of a character's physical prowess\">STR</th>\r\n                             <th class=\"tg-yj5y\">DEX</th>\r\n                             <th class=\"tg-yj5y\">CON</th>\r\n                             <th class=\"tg-yj5y\">INT</th>\r\n                             <th class=\"tg-uqo3\">WIS</th>\r\n"
+                },
+                {
+                    "date": 1712271534100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,9 +110,9 @@\n                         <tr>\r\n                             <th class=\"tg-34fe\">\r\n                                 <span class=\"bold-text\">Attribute</span>\r\n                             </th>\r\n-                            <th class=\"tg-yj5y\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"S simple measure of a character's physical prowess\">STR</th>\r\n+                            <th class=\"tg-yj5y\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"A simple measure of a character's physical prowess\">STR</th>\r\n                             <th class=\"tg-yj5y\">DEX</th>\r\n                             <th class=\"tg-yj5y\">CON</th>\r\n                             <th class=\"tg-yj5y\">INT</th>\r\n                             <th class=\"tg-uqo3\">WIS</th>\r\n"
                 }
             ],
             "date": 1698973634976,

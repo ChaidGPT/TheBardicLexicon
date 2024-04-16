@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Displacer Beast</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../../style.css" />
+</head>
+
+<body>
+    <header class="header-top">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand navMonsterName" href="../../../index.html">The Bardic Lexicon</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto nav justify-content-end">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarCharacter" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Character Creation
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarCharacter">
+                                <a class="dropdown-item" href="../../races.html">Races</a>
+                                <a class="dropdown-item" href="../../classes.html">Classes</a>
+                                <a class="dropdown-item" href="../../personality.html">Personality & Inspiration</a>
+                                <a class="dropdown-item" href="../../background.html">Character Backgrounds</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarResources" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Player Resources
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarResources">
+                                <h6 class="dropdown-header">Items</h6>
+                                <a class="dropdown-item" href="../../gear.html">Adventuring Gear *</a>
+                                <a class="dropdown-item" href="../../equipment.html">Equipment *</a>
+<h6 class="dropdown-header">Magic *</h6>
+                                <a class="dropdown-item" href="../../spells.html">Spells *</a>
+<h6 class="dropdown-header">Inhabitants of the Realms</h6>
+                                <a class="dropdown-item" href="../../bestiary.html">Bestiary</a>
+                                <a class="dropdown-item" href="../../gods.html">Gods & Deities</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Player Tools
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="../../../playerTools/worldGenerator.html">World
+                                    Generator</a>
+                                <a class="dropdown-item" href="../../../playerTools/dice.html">Dice Roll Generator</a>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <button type="button" class="btn btn-secondary goBackBtn" onclick="goBack()">
+        Go Back
+    </button>
+
+    <div class="jumbotron">
+        <h1 class="display-4 monsterName text-center">Displacer Beast</h1>
+        <div class="horizontal-line"></div>
+        <p class="lead text-center">Large monstrosity, lawful evil</p>
+        <p>
+            This monstrous predator takes its name from its ability to displace
+            light so that it appears to be several feet away from its actual
+            location. A dis placer beast resembles a sleek great cat covered in
+            blue-black fur. However, its otherworldly origins are clear in its six
+            legs and the two tentacles sprouting from its shoulders, both ending in
+            pads tipped with spiky protrusions. A dis placer beast's eyes glow with
+            an awful' malevolence that persists even in death.
+        </p>
+        <hr class="my-4" />
+        <div class="monsterImageContainer">
+            <img class="monsterPortrait rounded shadow-lg" src="../../../images/displacerBeast.png" alt="Displacer Beast image" />
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseStats" role="button"
+                aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToStats()">
+                Basic Info
+            </button>
+            <button type="button" class="btn btn-secondary" data-toggle="collapse" href="#collapseLore" role="button"
+                aria-expanded="false" aria-controls="collapseBasic" onclick="scrollToLore()">
+                Lore
+            </button>
+        </div>
+
+        <!-- Start collapseStats -->
+        <div class="collapse rounded" id="collapseStats">
+            <h4>Basic Character Attributes</h4>
+            <div class="horizontal-line"></div>
+            <div class="tableContainer">
+                <table class="tg">
+                    <thead>
+                        <tr>
+                            <th class="tg-34fe">
+                                <span class="bold-text">Attribute</span>
+                            </th>
+                            <th class="tg-yj5y" data-toggle="tooltip" data-placement="top" title="A simple measure of a character's physical prowess">STR</th>
+                            <th class="tg-yj5y" data-toggle="tooltip" data-placement="top" title="Gauges a character's hand-eye coordination, agility, reflexes, and balance">DEX</th>
+                            <th class="tg-yj5y" data-toggle="tooltip" data-placement="top" title="Encompasses the character's physique, toughness, health and resistance to disease and poison">CON</th>
+                            <th class="tg-yj5y" data-toggle="tooltip" data-placement="top" title="Represents a character's memory, reasoning capabilities, and analytical thinking">INT</th>
+                            <th class="tg-uqo3">WIS</th>
+                            <th class="tg-uqo3">CHA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tg-34fe"><span class="bold-text">Value</span></td>
+                            <td class="tg-yj5y">18</td>
+                            <td class="tg-yj5y">15</td>
+                            <td class="tg-yj5y">16</td>
+                            <td class="tg-yj5y">6</td>
+                            <td class="tg-uqo3">12</td>
+                            <td class="tg-uqo3">8</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-34fe"><span class="bold-text">Modifier</span></td>
+                            <td class="tg-yj5y">+4</td>
+                            <td class="tg-yj5y">+2</td>
+                            <td class="tg-yj5y">+3</td>
+                            <td class="tg-yj5y">-2</td>
+                            <td class="tg-uqo3">+1</td>
+                            <td class="tg-uqo3">-1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="The measure of how hard it is for an attacker to hit you when rolling to attack">Armor Class:</span> 13 (natural armor)</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="A number measuring the amount of damage a creature, character, or object can take before being killed, disabled or destroyed">Hit Points:</span> 85 (10d10 + 30)</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="The distance in feet that the character or monster can move in 1 round">Speed:</span> 40 ft.</p>
+
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="Senses encompass fundamental abilities like sight, hearing, smell, and touch, alongside specialized senses such as darkvision or tremorsense, crucial for exploration and detecting hidden threats">Senses:</span> darkvision 60ft., passive Perception 11</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="The ability of a character to understand, speak, and read different languages, facilitating communication and interaction with various cultures and creatures in the game world">Languages:</span> -</p>
+            <p><span class="bold-text tip" data-toggle="tooltip" data-placement="top" title="A loose approximation of the difficulty of a particular monster compared to the level of the characters">Challenge:</span> 3 (700 XP)</p>
+
+            <div class="horizontal-line"></div>
+            <p><span class="bold-text">Avoidance:</span> If the displacer beast is subjected to an effect that
+                allows it to make a saving throw to take only half damage, it
+                instead takes no damage if it succeeds on the saving throw,
+                and only half damage if it fails.</p>
+            <p><span class="bold-text">Displacement:</span> The displacer beast projects a magical illusion
+                that makes it appear to be standing near its actual location,
+                causing attack rolls against it to have disadvantage. If it is hit
+                by an attack, this trait is disrupted until the end of its next
+                turn. This trait is also disrupted while the displacer beast is
+                incapacitated or has a speed of 0.</p>
+
+            <div class="horizontal-line"></div>
+            <h5>Actions</h5>
+            <p><span class="bold-text">Multiattack:</span> The displacer beast makes two attacks with its tentacles.</p>
+            <p><span class="bold-text">Tentacle:</span> Melee Weapon Attack: +6 to hit, reach 10ft., one target. Hit: 7
+                (ld6 + 4) bludgeoning damage plus 3 (1d6) piercing damage.</p>
+        </div>
+        <!-- End collapseStats -->
+        <!-- Start collapseLore -->
+        <div class="collapse rounded" id="collapseLore">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Lore
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#1">Unseelie Origins</a>
+                    <a class="dropdown-item" href="#2">Love of the Kill</a>
+                    <a class="dropdown-item" href="#3">Prized Guards and Pets</a>
+                </div>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="1">
+                <h5>Unseelie Origins</h5>
+                <p>
+                    Displacer beasts roamed the twilight lands of the Feywild for ages,
+                    until they were captured and trained by the Unseelie Court. The
+                    warriors of the court selectively bred the beasts to reinforce their
+                    ferocious and predatory nature, using them to hunt unicorns, pegasi,
+                    and other wondrous prey. However, it didn't take long for the
+                    displacer beasts to use their malevolent intelligence to escape
+                    their masters.
+                </p>
+                <p>
+                    Running and breeding freely in the Feywild, the displacer beasts
+                    soon came to the attention of the Seelie Court. With blink dog
+                    companions at their side, fey hunters drove these predators to the
+                    fringes of the Feywild, where many crossed over to the Material
+                    Plane. To this day, displacer beasts and blink dogs attack each
+                    other on sight.
+                </p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="2">
+                <h5>Love of the Kill</h5>
+                <p>
+                    Displacer beasts kill not just for food but also for sport. They
+                    target prey even when not hungry, often toying with their victims to
+                    entertain themselves until they are ready to eat. After killing its
+                    prey using its tentacles, a displacer beast drags the corpse to a
+                    quiet place where it can feed without distraction.
+                </p>
+                <p>
+                    Displacer beasts hunt alone or in small prides that demonstrate
+                    skill at setting ambushes. A single beast will strike and withdraw,
+                    luring prey into a densely wooded area where its packmates wait.
+                    Packs of displacer beasts hunting near trade roads recall the
+                    frequency and schedule of regular caravans, laying down ambushes to
+                    pick off those caravans.
+                </p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="3">
+                <h5>Prized Guards and Pets</h5>
+                <p>
+                    Intelligent evil creatures favor dis placer beasts as pets, but a
+                    dis placer beast enters such an alliance only if it appears
+                    beneficial. A displacer beast might guard a vault or act as a
+                    bodyguard for a prominent individual.
+                </p>
+            </div>
+            <div class="horizontal-line"></div>
+            <button type="button" class="btn btn-secondary" onclick="goToTop()">
+                Back to Top
+            </button>
+        </div>
+    </div>
+
+    <!-- End collapseLore -->
+
+    <footer class="page-footer font-small blue fixed-bottom">
+        <p>
+            &copy; Chad Oswald |
+            <a href="mailto:chadloswald@gmail.com">chadloswald@gmail.com</a>
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../../../scriptMon.js"></script>
+</body>
+
+</html>

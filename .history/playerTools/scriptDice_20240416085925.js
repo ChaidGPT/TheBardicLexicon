@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function () {
               }
           }
 
-          finalMessage += ` = Total: <span style="font-size: 24px;">[${totalRoll}]</span>`;
+          finalMessage += ` - Total: <span style="font-size: 24px;">[${totalRoll}]</span>`;
 
           rollResultParagraph.innerHTML = finalMessage;
 

@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
       let currentDelay = 500;
       rolls.forEach((roll, index) => {
           setTimeout(() => {
-              const currentRolls = rolls.slice(0, index + 1).join(" + ");
+              const currentRolls = rolls.slice(0, index + 1).join(", ");
               rollResultParagraph.innerHTML = `${message} for individual rolls: ${currentRolls}`;
               if (shouldPlaySound()) {
                   diceSound.play(); // Play sound effect with each roll
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Display the final total roll after all individual rolls
       setTimeout(() => {
-          let finalMessage = `${message} for individual rolls: ${rolls.join(" + ")}`;
+          let finalMessage = `${message} for individual rolls: ${rolls.join(", ")}`;
 
           if (numDice === 1 && dieType === 20) {
               if (rolls[0] === 1) {
@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function () {
               }
           }
 
-          finalMessage += ` = Total: <span style="font-size: 24px;">[${totalRoll}]</span>`;
+          finalMessage += ` (Total: <span style="font-size: larger;">${totalRoll}</span>)`;
 
           rollResultParagraph.innerHTML = finalMessage;
 

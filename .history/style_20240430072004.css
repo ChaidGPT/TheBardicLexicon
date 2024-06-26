@@ -64,7 +64,7 @@ footer {
   background-color: #343a40;
   color: #fff;
   padding: 10px;
-  margin: 100px 0 0 0;
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -378,4 +378,6 @@ table {
   padding-left: 15px;
 }
 
-
+.tip:hover {
+  text-decoration: underline;
+}

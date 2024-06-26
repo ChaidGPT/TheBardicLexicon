@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 411,
+            "activePatchIndex": 413,
             "patches": [
                 {
                     "date": 1690811923410,
@@ -1652,6 +1652,14 @@
                 {
                     "date": 1711846775187,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -377,5 +377,7 @@\n .icon {\r\n   padding-left: 15px;\r\n }\r\n \r\n-\r\n+.tip:hover {\r\n+  text-decoration: underline;\r\n+}\r\n"
+                },
+                {
+                    "date": 1714486731498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -380,4 +380,27 @@\n \r\n .tip:hover {\r\n   text-decoration: underline;\r\n }\r\n+\r\n+\r\n+.dice-container {\r\n+  display: flex;\r\n+  justify-content: center;\r\n+  align-items: center;\r\n+  height: 200px; /* Adjust height as needed */\r\n+}\r\n+\r\n+.dice-box {\r\n+  width: 50px; /* Adjust width as needed */\r\n+  height: 50px; /* Adjust height as needed */\r\n+  border: 1px solid black;\r\n+  display: flex;\r\n+  justify-content: center;\r\n+  align-items: center;\r\n+  margin: 0 5px; /* Adjust margin as needed */\r\n+  font-size: 24px;\r\n+}\r\n+\r\n+.final-roll {\r\n+  background-color: yellow; /* Adjust color as needed */\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714486804095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -379,28 +379,5 @@\n }\r\n \r\n .tip:hover {\r\n   text-decoration: underline;\r\n-}\r\n-\r\n-\r\n-.dice-container {\r\n-  display: flex;\r\n-  justify-content: center;\r\n-  align-items: center;\r\n-  height: 200px; /* Adjust height as needed */\r\n-}\r\n-\r\n-.dice-box {\r\n-  width: 50px; /* Adjust width as needed */\r\n-  height: 50px; /* Adjust height as needed */\r\n-  border: 1px solid black;\r\n-  display: flex;\r\n-  justify-content: center;\r\n-  align-items: center;\r\n-  margin: 0 5px; /* Adjust margin as needed */\r\n-  font-size: 24px;\r\n-}\r\n-\r\n-.final-roll {\r\n-  background-color: yellow; /* Adjust color as needed */\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1690811923410,

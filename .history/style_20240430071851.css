@@ -63,8 +63,8 @@ body {
 footer {
   background-color: #343a40;
   color: #fff;
-  /* padding: 10px; */
-  margin: 100px 0 0 0;
+  padding: 10px;
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -378,4 +378,29 @@ table {
   padding-left: 15px;
 }
 
+.tip:hover {
+  text-decoration: underline;
+}
 
+
+.dice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Adjust height as needed */
+}
+
+.dice-box {
+  width: 50px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px; /* Adjust margin as needed */
+  font-size: 24px;
+}
+
+.final-roll {
+  background-color: yellow; /* Adjust color as needed */
+}

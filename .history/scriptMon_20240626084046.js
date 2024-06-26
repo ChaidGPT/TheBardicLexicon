@@ -83,4 +83,4 @@ function scaleImageOnHover() {
   });
 }
 
-scaleImageOnHover();
+//scaleImageOnHover();

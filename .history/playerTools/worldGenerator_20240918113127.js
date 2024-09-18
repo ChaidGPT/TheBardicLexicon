@@ -922,6 +922,10 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "an Interesting Offer",
       description: "A person approaches and tells you there is something of value in one of the Points of Interest here. They will split it with you if you can get it."
     },
+    {
+      name: "A Dragon Appears",
+      description: "Fire starts raining down. A dragon appears above you!"
+    },
   ];  
   
   //   End Settlement Arrays

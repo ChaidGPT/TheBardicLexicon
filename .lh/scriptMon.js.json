@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 17,
+            "activePatchIndex": 18,
             "patches": [
                 {
                     "date": 1693231223884,
@@ -76,6 +76,10 @@
                 {
                     "date": 1719409246544,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,5 +82,5 @@\n     footer.style.zIndex = \"unset\";\r\n   });\r\n }\r\n \r\n-scaleImageOnHover();\n\\ No newline at end of file\n+//scaleImageOnHover();\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726496960537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,5 +82,8 @@\n     footer.style.zIndex = \"unset\";\r\n   });\r\n }\r\n \r\n+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle=\"popover\"]')\r\n+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))\r\n+\r\n //scaleImageOnHover();\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1693231223884,

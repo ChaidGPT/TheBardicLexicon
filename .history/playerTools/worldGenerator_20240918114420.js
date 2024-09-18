@@ -510,7 +510,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "Dogs",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/dogs.html",
-      image: "../images/dogs.jpg"
+      image: "../images/dogs.png"
     },
     {
       name: "Dragonborn",
@@ -921,6 +921,30 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "an Interesting Offer",
       description: "A person approaches and tells you there is something of value in one of the Points of Interest here. They will split it with you if you can get it."
+    },
+    {
+      name: "A Dragon Appears",
+      description: "Fire starts raining down from the sky. A dragon appears above you!"
+    },
+    {
+      name: "A Sudden Storm",
+      description: "A magical storm brews overhead, bringing rain or snow mixed with strange elements like fire or arcane energy, and changing the terrain around you."
+    },
+    {
+      name: "A Fading Bridge",
+      description: "You come across an old stone bridge that begins to vanish as you approach. You'll need quick thinking to cross before it's too late."
+    },
+    {
+      name: "A Mirror Image",
+      description: "You encounter a perfect duplicate of yourself walking along the road. They are friendly and invite you to share your stories—but something is off."
+    },
+    {
+      name: "A Trail of Flowers",
+      description: "A trail of exotic flowers leads off the main path. Following it might lead you to a hidden grove, an enchanted garden, or a trap."
+    },
+    {
+      name: "A Battle in the Sky",
+      description: "High above, two powerful entities—dragons, airships, or magical beings—engage in a titanic battle, and the fallout threatens to reach you."
     },
   ];  
   

@@ -510,7 +510,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "Dogs",
       link: "https://chaidgpt.github.io/TheBardicLexicon/playerResources/racePages/dogs.html",
-      image: "../images/dogs.avif"
+      image: "../images/dogs.png"
     },
     {
       name: "Dragonborn",
@@ -921,6 +921,66 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "an Interesting Offer",
       description: "A person approaches and tells you there is something of value in one of the Points of Interest here. They will split it with you if you can get it."
+    },
+    {
+      name: "A Dragon Appears",
+      description: "Fire starts raining down from the sky. A dragon appears above you!"
+    },
+    {
+      name: "A Sudden Storm",
+      description: "A magical storm brews overhead, bringing rain or snow mixed with strange elements like fire or arcane energy, and changing the terrain around you."
+    },
+    {
+      name: "A Fading Bridge",
+      description: "You come across an old stone bridge that begins to vanish as you approach. You'll need quick thinking to cross before it's too late."
+    },
+    {
+      name: "A Mirror Image",
+      description: "You encounter a perfect duplicate of yourself walking along the road. They are friendly and invite you to share your stories—but something is off."
+    },
+    {
+      name: "A Trail of Flowers",
+      description: "A trail of exotic flowers leads off the main path. Following it might lead you to a hidden grove, an enchanted garden, or a trap."
+    },
+    {
+      name: "A Battle in the Sky",
+      description: "High above, two powerful entities—dragons, airships, or magical beings—engage in a titanic battle, and the fallout threatens to reach you."
+    },
+    {
+      name: "A Caravan in Distress",
+      description: "A group of merchants is stranded with broken wagons, seeking help or protection."
+    },
+    {
+      name: "An Abandoned Boat",
+      description: "On the edge of a river or lake, you find an empty boat gently drifting in the water, waiting for someone to board."
+    },
+    {
+      name: "A Rune-Covered Stone",
+      description: "You find a large stone covered in ancient runes. Touching it sends a ripple of energy through the ground."
+    },
+    {
+      name: "A Bleeding Tree",
+      description: "A tree appears to be leaking thick red sap that smells like blood. The bark around the sap is unusually warm."
+    },
+    {
+      name: "A Growing Shadow",
+      description: "Your shadow grows larger and begins moving independently, trying to lead you toward a nearby cave."
+    },
+    {
+      name: "A Phantom Ship",
+      description: "A ghostly ship sails through the air, crewed by spectral sailors. It hovers for a moment before fading away."
+    },
+    {
+      name: "A Crumbling Tower",
+      description: "An old, dilapidated tower looms on the horizon. Despite its condition, a faint light flickers from the top window."
+    },
+    {
+      name: "",
+      description: ""
+    },
+    {
+      name: "",
+      description: ""
     },
   ];  
   

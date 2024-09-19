@@ -1,0 +1,71 @@
+{
+    "sourceFile": "games/snake/snake.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1701570897717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1701573428144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,26 @@\n-<h1>Test</h1>\n\\ No newline at end of file\n+<!DOCTYPE html>\r\n+<html lang=\"en\" dir=\"ltr\">\r\n+  <head>\r\n+    <meta charset=\"utf-8\">\r\n+    <title>Snake Game</title>\r\n+    <link rel=\"stylesheet\" href=\"style.css\">\r\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css\">\r\n+    <script src=\"snake.js\" defer></script>\r\n+  </head>\r\n+  <body>\r\n+    <div class=\"wrapper\">\r\n+      <div class=\"game-details\">\r\n+        <span class=\"score\">Score: 0</span>\r\n+        <span class=\"high-score\">High Score: 0</span>\r\n+      </div>\r\n+      <div class=\"play-board\"></div>\r\n+      <div class=\"controls\">\r\n+        <i data-key=\"ArrowLeft\" class=\"fa-solid fa-arrow-left-long\"></i>\r\n+        <i data-key=\"ArrowUp\" class=\"fa-solid fa-arrow-up-long\"></i>\r\n+        <i data-key=\"ArrowRight\" class=\"fa-solid fa-arrow-right-long\"></i>\r\n+        <i data-key=\"ArrowDown\" class=\"fa-solid fa-arrow-down-long\"></i>\r\n+      </div>\r\n+    </div>\r\n+  </body><!-- JavaScript to load navbar -->
+  <script>
+    fetch('nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar').innerHTML = data;
+      });
+  </script></body>\r\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701573545512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n <html lang=\"en\" dir=\"ltr\">\r\n   <head>\r\n     <meta charset=\"utf-8\">\r\n     <title>Snake Game</title>\r\n-    <link rel=\"stylesheet\" href=\"style.css\">\r\n+    <link rel=\"stylesheet\" href=\"snake.css\">\r\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css\">\r\n     <script src=\"snake.js\" defer></script>\r\n   </head>\r\n"
+                },
+                {
+                    "date": 1701643787601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,11 @@\n     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css\">\r\n     <script src=\"snake.js\" defer></script>\r\n   </head>\r\n   <body>\r\n+\r\n+    <audio id=\"gameOverSound\" src=\"splat.wav\"></audio>\r\n+    \r\n     <div class=\"wrapper\">\r\n       <div class=\"game-details\">\r\n         <span class=\"score\">Score: 0</span>\r\n         <span class=\"high-score\">High Score: 0</span>\r\n"
+                },
+                {
+                    "date": 1701644048098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n     <script src=\"snake.js\" defer></script>\r\n   </head>\r\n   <body>\r\n \r\n-    <audio id=\"gameOverSound\" src=\"splat.wav\"></audio>\r\n-    \r\n+    <audio id=\"gameOverSound\" src=\"fail.wav\"></audio>\r\n+\r\n     <div class=\"wrapper\">\r\n       <div class=\"game-details\">\r\n         <span class=\"score\">Score: 0</span>\r\n         <span class=\"high-score\">High Score: 0</span>\r\n"
+                },
+                {
+                    "date": 1701644656692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,6 +24,27 @@\n         <i data-key=\"ArrowRight\" class=\"fa-solid fa-arrow-right-long\"></i>\r\n         <i data-key=\"ArrowDown\" class=\"fa-solid fa-arrow-down-long\"></i>\r\n       </div>\r\n     </div>\r\n+\r\n+    <!-- Bootstrap Modal for Game Over -->\r\n+<div class=\"modal fade\" id=\"gameOverModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"gameOverModalLabel\" aria-hidden=\"true\">\r\n+  <div class=\"modal-dialog\" role=\"document\">\r\n+    <div class=\"modal-content\">\r\n+      <div class=\"modal-header\">\r\n+        <h5 class=\"modal-title\" id=\"gameOverModalLabel\">Game Over</h5>\r\n+        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\r\n+          <span aria-hidden=\"true\">&times;</span>\r\n+        </button>\r\n+      </div>\r\n+      <div class=\"modal-body\">\r\n+        <p>Press OK to replay...</p>\r\n+      </div>\r\n+      <div class=\"modal-footer\">\r\n+        <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\">OK</button>\r\n+      </div>\r\n+    </div>\r\n+  </div>\r\n+</div>\r\n+\r\n   </body><!-- JavaScript to load navbar -->
+  <script>
+    fetch('nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar').innerHTML = data;
+      });
+  </script></body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701644996208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,12 @@\n     <title>Snake Game</title>\r\n     <link rel=\"stylesheet\" href=\"snake.css\">\r\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css\">\r\n+    <!-- Include jQuery -->\r\n+    <script src=\"https://code.jquery.com/jquery-3.6.4.min.js\" integrity=\"sha256-oP6HI/tTQaOd8oFi8b8tOCfUzhMl0+2KXQ8K4Zb8szE=\" crossorigin=\"anonymous\"></script>\r\n+    <!-- Include Bootstrap JavaScript -->\r\n+    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js\"></script>\r\n     <script src=\"snake.js\" defer></script>\r\n   </head>\r\n   <body>\r\n \r\n"
+                },
+                {
+                    "date": 1701645161561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,10 @@\n     <script src=\"https://code.jquery.com/jquery-3.6.4.min.js\" integrity=\"sha256-oP6HI/tTQaOd8oFi8b8tOCfUzhMl0+2KXQ8K4Zb8szE=\" crossorigin=\"anonymous\"></script>\r\n     <!-- Include Bootstrap JavaScript -->\r\n     <script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js\"></script>\r\n     <script src=\"snake.js\" defer></script>\r\n-  </head>\r\n+</head>\r\n+\r\n   <body>\r\n \r\n     <audio id=\"gameOverSound\" src=\"fail.wav\"></audio>\r\n \r\n"
+                },
+                {
+                    "date": 1701645256915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,14 +30,14 @@\n         <i data-key=\"ArrowDown\" class=\"fa-solid fa-arrow-down-long\"></i>\r\n       </div>\r\n     </div>\r\n \r\n-    <!-- Bootstrap Modal for Game Over -->\r\n+<!-- Add this modal to your HTML body -->\r\n <div class=\"modal fade\" id=\"gameOverModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"gameOverModalLabel\" aria-hidden=\"true\">\r\n   <div class=\"modal-dialog\" role=\"document\">\r\n     <div class=\"modal-content\">\r\n       <div class=\"modal-header\">\r\n-        <h5 class=\"modal-title\" id=\"gameOverModalLabel\">Game Over</h5>\r\n+        <h5 class=\"modal-title\" id=\"gameOverModalLabel\">Game Over!</h5>\r\n         <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\r\n           <span aria-hidden=\"true\">&times;</span>\r\n         </button>\r\n       </div>\r\n@@ -50,6 +50,7 @@\n     </div>\r\n   </div>\r\n </div>\r\n \r\n+\r\n   </body><!-- JavaScript to load navbar -->
+  <script>
+    fetch('nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar').innerHTML = data;
+      });
+  </script></body>\r\n </html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1701570897717,
+            "name": "Commit-0",
+            "content": "<h1>Test</h1>"
+        }
+    ]
+}

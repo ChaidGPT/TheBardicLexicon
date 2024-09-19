@@ -448,11 +448,14 @@
    <script src="../../../scriptMon.js"></script>
 <!-- JavaScript to load navbar -->
   <script>
-    fetch('nav.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('navbar').innerHTML = data;
-      });
+    document.addEventListener('DOMContentLoaded', function() {
+      fetch('/nav.html') // Absolute path to nav.html in root directory
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('navbar').innerHTML = data;
+        })
+        .catch(error => console.error('Error loading navigation:', error));
+    });
   </script></body>
 
 </html>
